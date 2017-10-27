@@ -1,4 +1,4 @@
-#Uso di github
+# Uso di github
 1 - Scaricate il client di github dal sito, registratevi e datemi la mail cosi posso aggiungervi come contributor e potete caricare le modifiche del progetto
 2 - Create una cartella da qualche parte. Conterrà i file che sono nel repository
 3 - Aprite Github shell e arrivate con "cd" nella cartella che avete creato
