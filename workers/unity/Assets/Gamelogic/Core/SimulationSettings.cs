@@ -4,9 +4,26 @@ namespace Assets.Gamelogic.Core
 {
     public static class SimulationSettings
     {
+        public static readonly float PlayerSpawnHeight = 0;
+        public static readonly float PlayerAcceleration = 15;
+
         public static readonly string PlayerPrefabName = "Player";
         public static readonly string PlayerCreatorPrefabName = "PlayerCreator";
         public static readonly string CubePrefabName = "Cube";
+
+
+        //Camera
+        public static readonly Quaternion InitialThirdPersonCameraRotation = Quaternion.Euler(40, 0, 0);
+        public static readonly float InitialThirdPersonCameraDistance = 15;
+        public static readonly string MouseScrollWheel = "Mouse ScrollWheel";
+        public static readonly float ThirdPersonZoomSensitivity = 3f;
+        public static readonly float ThirdPersonCameraMinDistance = 4f;
+        public static readonly float ThirdPersonCameraMaxDistance = 20f;
+        public static readonly int RotateCameraMouseButton = 1;
+        public static readonly float ThirdPersonCameraSensitivity = 2f;
+        public static readonly float ThirdPersonCameraMinPitch = 5f;
+        public static readonly float ThirdPersonCameraMaxPitch = 70f;
+
 
         public static readonly float HeartbeatCheckIntervalSecs = 3;
         public static readonly uint TotalHeartbeatsBeforeTimeout = 3;
