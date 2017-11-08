@@ -13,7 +13,7 @@ namespace Assets.Gamelogic.Core
 
 
         //Camera
-        public static readonly Quaternion InitialThirdPersonCameraRotation = Quaternion.Euler(40, 0, 0);
+        public static readonly Quaternion InitialThirdPersonCameraRotation = Quaternion.Euler(30, 0, 0);
         public static readonly float InitialThirdPersonCameraDistance = 15;
         public static readonly string MouseScrollWheel = "Mouse ScrollWheel";
         public static readonly float ThirdPersonZoomSensitivity = 3f;
