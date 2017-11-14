@@ -43,7 +43,7 @@ namespace Assets.Gamelogic.EntityTemplates
             return playerTemplate;
         }
 
-        public static Entity CreateCubeTemplate()
+       /* public static Entity CreateCubeTemplate()
         {
             var cubeTemplate = EntityBuilder.Begin()
                 .AddPositionComponent(Improbable.Coordinates.ZERO.ToUnityVector(), CommonRequirementSets.PhysicsOnly)
@@ -54,6 +54,6 @@ namespace Assets.Gamelogic.EntityTemplates
                 .Build();
 
             return cubeTemplate;
-        }
+        }*/
     }
 }
