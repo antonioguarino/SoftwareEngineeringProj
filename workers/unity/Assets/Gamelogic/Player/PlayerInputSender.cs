@@ -17,5 +17,8 @@ public class PlayerInputSender : MonoBehaviour
         var update = new PlayerInput.Update();
         update.SetJoystick(new Joystick(xAxis, yAxis));
         PlayerInputWriter.Send(update);
+		if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)){
+			PlayerInputWriter.Send (new PlayerInput.Update ().AddFire (new Fire ()));
+		}
     }
 }

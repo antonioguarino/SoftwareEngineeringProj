@@ -16,7 +16,7 @@ public class PlayerMover : MonoBehaviour
     [Require] private Rotation.Writer RotationWriter;
     [Require] private PlayerInput.Reader PlayerInputReader;
     //[Require] private PlayerRotation.Writer PlayerRotationWriter;
-    private float speed = 6f;
+	public float speed;
     private Rigidbody rigidbody;
 
     void OnEnable()

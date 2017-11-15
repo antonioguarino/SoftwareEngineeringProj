@@ -5,7 +5,11 @@ type Joystick {
     float y_axis = 2;
 }
 
+type Fire {}
+
 component PlayerInput {
     id = 1004;
     Joystick joystick = 1;
+    // The component event for triggering firing.
+  	event Fire fire;
 }
