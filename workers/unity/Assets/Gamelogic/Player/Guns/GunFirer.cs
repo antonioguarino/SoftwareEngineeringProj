@@ -11,12 +11,13 @@ namespace Assets.Gamelogic.Player.Guns
 	public class GunFirer : MonoBehaviour
 	{
 		[Require] private PlayerInput.Reader PlayerInputReader;
-		private Gun gun;
+		private RaycastShoot gun;
 
 		private void Start()
 		{
 			// Cache entity's Gun gameobject
-			gun = gameObject.GetComponent<Gun>();
+			gun = gameObject.GetComponent<RaycastShoot>();
+
 		}
 
 		private void OnEnable()
@@ -34,10 +35,13 @@ namespace Assets.Gamelogic.Player.Guns
 		{
 			// Respond to Fire event
 			var joystick = PlayerInputReader.Data.joystick;
-			Vector3 direction = new Vector3(joystick.xAxis, 2 , joystick.yAxis);
+			Vector3 direction = new Vector3(joystick.xAxis,0 , joystick.yAxis);
 			if (gun != null)
 			{
-				gun.Fire(direction);
+				gun.setDir (direction);
+				gun.setFire (true);
+
+				//gun.Fire(direction);
 			}
 
 		}

@@ -1,0 +1,1539 @@
+2017-11-17 13:06:15,058 INFO  [i.deployment.InternalGameLauncher] [] [] [] : Parsed 362 internal flags at startup
+2017-11-17 13:06:20,449 INFO  [i.deployment.InternalGameLauncher] [] [] [] : SpatialOS runtime version: 11-20171114T103507Z-cc9d195
+2017-11-17 13:06:20,845 INFO  [i.c.c.f.FlagzFieldRegistryUpdater] [] [] [] : Initialized Fabric flagz registry with 11 set fields.
+2017-11-17 13:06:21,134 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.StatusDiscoveryInternalService) on 127.0.0.1:5301.
+2017-11-17 13:06:21,135 INFO  [i.c.discovery.ServiceDiscoveryImpl] [] [] [] : Status discovery address: host: "127.0.0.1"
+port: 5301
+
+2017-11-17 13:06:21,141 INFO  [improbable.module.ModuleNode] [] [] [] : Starting Fabric node as master (IP: 127.0.0.1).
+2017-11-17 13:06:21,143 INFO  [i.c.d.client.CheckpointDiscoveryImpl] [] [] [] : Reached a checkpoint: ALL_NODES_STARTED
+2017-11-17 13:06:21,144 INFO  [improbable.module.ModuleNode] [] [] [] : Node master has started, waiting for other nodes to reach the same checkpoint.
+2017-11-17 13:06:21,144 INFO  [improbable.module.ModuleNode] [] [] [] : All nodes have been started.
+2017-11-17 13:06:21,155 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Registered Service(improbable.platform.runtime.ModuleService) on 127.0.0.1:9000.
+2017-11-17 13:06:21,172 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Registered Service(improbable.platform.runtime.HealthCheckService) on 127.0.0.1:9001.
+2017-11-17 13:06:21,183 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.PerfInternalService) on 127.0.0.1:9002.
+2017-11-17 13:06:21,194 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.ContentionInternalService) on 127.0.0.1:9003.
+2017-11-17 13:06:21,222 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Registered Service(improbable.platform.runtime.FeatureService) on 127.0.0.1:9004.
+2017-11-17 13:06:21,257 INFO  [i.c.config.flagz.WorkerFlagzUpdater] [] [] [] : Initialized worker flagz registry with 0 set fields.
+2017-11-17 13:06:21,258 INFO  [improbable.module.ModuleNode] [] [] [] : Using master node configuration loader.
+2017-11-17 13:06:21,274 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.NodeConfigurationInternalService) on 127.0.0.1:9005.
+2017-11-17 13:06:21,303 INFO  [i.c.c.n.MasterNodeConfigurationLoader] [] [] [] : Using roles [MASTER, GSIM, BRIDGE, WORKER_RUNNER, INSPECTION] for node node_id {
+  deployment_id {
+    project_id {
+      name: "your_project_name_here"
+    }
+    name: "local"
+  }
+  name: "master"
+}
+private_ip: "127.0.0.1"
+roles: MASTER
+roles: GSIM
+roles: BRIDGE
+roles: WORKER_RUNNER
+roles: INSPECTION
+
+2017-11-17 13:06:21,351 INFO  [improbable.core.config.node.GsimGrid] [] [] [] : Created gsim grid configuration of size (1500, 1500) with 1 columns and 1 rows, using gsims of (30, 30) chunks.
+2017-11-17 13:06:21,386 INFO  [i.c.c.n.MasterNodeConfigurationLoader] [] [] [] : Original deployment module configuration (before parsing): {deployment_id {
+  project_id {
+    name: "your_project_name_here"
+  }
+  name: "local"
+}
+name: "master"
+=[ProfilingModule, BridgeModuleOracleModule, BridgeOracleModule, PersistenceModule, ReceptionistModule, RouterModule, GSimModule, BridgeModule, EngineStartupModule, InspectionRestModule]}
+2017-11-17 13:06:21,416 INFO  [i.c.c.n.MasterNodeConfigurationLoader] [] [] [] : Master successfully loaded configurations for 1 node(s).
+2017-11-17 13:06:21,426 INFO  [improbable.module.ModuleNode] [] [] [] : Loaded node configuration: node_id {
+  deployment_id {
+    project_id {
+      name: "your_project_name_here"
+    }
+    name: "local"
+  }
+  name: "master"
+}
+gsim_configurations {
+  extent {
+    bottom_left {
+      x_in_chunks: -15
+      z_in_chunks: -15
+    }
+    top_right {
+      x_in_chunks: 15
+      z_in_chunks: 15
+    }
+  }
+}
+start_router: true
+start_bridge_oracle: true
+start_bridge_module_oracle: true
+start_engine_startup_module: true
+start_receptionist_service: true
+start_inspection_rest_module: true
+start_snapshot_service: true
+start_profiling_module: true
+bridge_modules: "BridgeModule"
+gsim_modules: "GSimModule"
+
+2017-11-17 13:06:21,427 INFO  [improbable.module.ModuleNode] [] [] [] : Using master world extents provider.
+2017-11-17 13:06:21,454 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.WorldExtentsInternalService) on 127.0.0.1:9006.
+2017-11-17 13:06:21,458 INFO  [i.c.world.MasterWorldExtentsProvider] [] [] [] : Successfully initialized world extents with 1 rectangle(s).
+2017-11-17 13:06:21,466 INFO  [improbable.module.ModuleNode] [] [] [] : Loaded world extents: WorldExtents{proto=rectangles {
+  bottom_left {
+    x: -750.0
+    z: -750.0
+  }
+  top_right {
+    x: 750.0
+    z: 750.0
+  }
+  is_fully_simulated: true
+  responsible_gsim_id {
+  }
+}
+bounding_rectangle {
+  bottom_left {
+    x: -750.0
+    z: -750.0
+  }
+  top_right {
+    x: 750.0
+    z: 750.0
+  }
+  is_fully_simulated: true
+}
+}
+2017-11-17 13:06:21,638 INFO  [i.e.schema.ParsedFileDescriptorSet] [] [] [] : Parsed file descriptors of 13 proto files.
+2017-11-17 13:06:21,709 INFO  [i.entity.schema.SchemaFactory] [] [] [] : Found components: [improbable.core.PlayerCreation, improbable.player.Health, improbable.player.ClientConnection, improbable.player.PlayerInput, improbable.core.ClientAuthorityCheck, improbable.core.Rotation, improbable.EntityAcl, improbable.Metadata, improbable.Position, improbable.Persistence, improbable.player.PlayerRotation]
+2017-11-17 13:06:21,724 INFO  [i.entity.schema.SchemaFactory] [] [] [] : Found components: [improbable.EntityAcl, improbable.Metadata, improbable.Position, improbable.Persistence, improbable.internal.EntityAuthority, improbable.player.ClientConnection, improbable.player.PlayerInput, improbable.core.PlayerCreation, improbable.core.ClientAuthorityCheck, improbable.core.Rotation, improbable.player.Health, improbable.player.PlayerRotation]
+2017-11-17 13:06:21,725 INFO  [improbable.module.ModuleNode] [] [] [] : Successfully loaded schema for entities
+2017-11-17 13:06:21,727 INFO  [improbable.module.ModuleNode] [] [] [] : Validating snapshot at startup and determining max entity id
+2017-11-17 13:06:21,737 INFO  [i.p.s.storage.LegacySnapshotStorage] [] [] [] : Requesting download URL for Snapshot(local@latest) matching []
+2017-11-17 13:06:21,768 INFO  [i.p.s.storage.LegacySnapshotStorage] [] [] [] : Downloading snapshot from http://127.0.0.1:21000/snapshots/20171117130548077
+2017-11-17 13:06:21,823 INFO  [improbable.module.ModuleNode] [] [] [] : Determined the first entity id for the id assigner as 2
+2017-11-17 13:06:21,830 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.EntityIdInternalService) on 127.0.0.1:9007.
+2017-11-17 13:06:21,870 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.WorkerPrestartRegistryInternalService) on 127.0.0.1:9008.
+2017-11-17 13:06:21,885 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.RouterLookupInternalService) on 127.0.0.1:9009.
+2017-11-17 13:06:21,887 INFO  [i.module.router.ActorSystemFactory$] [] [] [] : Attempting to create ActorSystem akkaFabric with configRecord akkaFabric
+2017-11-17 13:06:22,577 INFO  [akka.event.slf4j.Slf4jLogger] [] [] [] : Slf4jLogger started
+2017-11-17 13:06:22,987 INFO  [i.c.d.g.GlobalCheckpointDiscoveryImpl] [] [] [] : Global checkpoint discovery refreshed checkpoints.
+2017-11-17 13:06:22,987 INFO  [i.c.d.g.GlobalServiceDiscoveryImpl] [] [] [] : Global service discovery refreshed 11 server(s) (previously: 0)
+2017-11-17 13:06:24,596 INFO  [i.l.params.LoadbalancerParamsFactory] [] [] [] : Parsed 1 worker loadbalancing configuration(s)
+2017-11-17 13:06:24,602 INFO  [i.l.params.LoadbalancerParamsFactory] [] [] [] : Successfully loaded loadbalancing configurations: {UnityWorker=improbable.loadbalancing.params.AutoHexGridLoadbalancerParams@2eace5bc}
+2017-11-17 13:06:24,709 INFO  [i.w.a.WorkerAssemblyProviderFactory] [] [] [] : Loaded worker assemblies for these workers types: UnityClient, UnityWorker.
+2017-11-17 13:06:24,713 INFO  [improbable.module.ModuleNode] [] [] [] : Loaded worker assemblies: [worker_assembly_id {
+  assembly_id {
+    project_id {
+      name: "your_project_name_here"
+    }
+    name: "local_assembly"
+  }
+  name {
+    name: "UnityClient"
+  }
+}
+bridge_configuration {
+  worker_attribute_set {
+    attribute {
+      name: "visual"
+    }
+  }
+  entity_interest {
+    range_entity_interest {
+      radius: 200.0
+    }
+  }
+  component_delivery {
+    checkout_all_initially: true
+  }
+}
+, worker_assembly_id {
+  assembly_id {
+    project_id {
+      name: "your_project_name_here"
+    }
+    name: "local_assembly"
+  }
+  name {
+    name: "UnityWorker"
+  }
+}
+worker_launch_configuration {
+  platform: WINDOWS
+  worker_zip {
+    command: "UnityWorker@Windows.exe"
+    argument: "+projectName"
+    argument: "${IMPROBABLE_PROJECT_NAME}"
+    argument: "+receptionistIp"
+    argument: "${IMPROBABLE_RECEPTIONIST_HOST}"
+    argument: "+receptionistPort"
+    argument: "${IMPROBABLE_RECEPTIONIST_PORT}"
+    argument: "+workerType"
+    argument: "${IMPROBABLE_WORKER_NAME}"
+    argument: "+workerId"
+    argument: "${IMPROBABLE_WORKER_ID}"
+    argument: "+useInternalIpForBridge"
+    argument: "true"
+    argument: "+infraServicesUrl"
+    argument: "${IMPROBABLE_API_URL}"
+    argument: "+assemblyName"
+    argument: "${IMPROBABLE_ASSEMBLY_NAME}"
+    argument: "+linkProtocol"
+    argument: "RakNet"
+    argument: "-logfile"
+    argument: "${IMPROBABLE_LOG_FILE}"
+    argument: "-batchmode"
+    argument: "-nographics"
+    worker_location {
+      filename: "UnityWorker@Windows.zip"
+    }
+  }
+}
+worker_launch_configuration {
+  platform: MACOS
+  worker_zip {
+    command: "UnityWorker@Mac.app/Contents/MacOS/UnityWorker@Mac"
+    argument: "+projectName"
+    argument: "${IMPROBABLE_PROJECT_NAME}"
+    argument: "+receptionistIp"
+    argument: "${IMPROBABLE_RECEPTIONIST_HOST}"
+    argument: "+receptionistPort"
+    argument: "${IMPROBABLE_RECEPTIONIST_PORT}"
+    argument: "+workerType"
+    argument: "${IMPROBABLE_WORKER_NAME}"
+    argument: "+workerId"
+    argument: "${IMPROBABLE_WORKER_ID}"
+    argument: "+useInternalIpForBridge"
+    argument: "true"
+    argument: "+infraServicesUrl"
+    argument: "${IMPROBABLE_API_URL}"
+    argument: "+assemblyName"
+    argument: "${IMPROBABLE_ASSEMBLY_NAME}"
+    argument: "+linkProtocol"
+    argument: "RakNet"
+    argument: "-logfile"
+    argument: "${IMPROBABLE_LOG_FILE}"
+    argument: "-batchmode"
+    argument: "-nographics"
+    worker_location {
+      filename: "UnityWorker@Mac.zip"
+    }
+  }
+}
+worker_launch_configuration {
+  platform: LINUX
+  worker_zip {
+    command: "UnityWorker@Linux"
+    argument: "+projectName"
+    argument: "${IMPROBABLE_PROJECT_NAME}"
+    argument: "+receptionistIp"
+    argument: "${IMPROBABLE_RECEPTIONIST_HOST}"
+    argument: "+receptionistPort"
+    argument: "${IMPROBABLE_RECEPTIONIST_PORT}"
+    argument: "+workerType"
+    argument: "${IMPROBABLE_WORKER_NAME}"
+    argument: "+workerId"
+    argument: "${IMPROBABLE_WORKER_ID}"
+    argument: "+useInternalIpForBridge"
+    argument: "true"
+    argument: "+infraServicesUrl"
+    argument: "${IMPROBABLE_API_URL}"
+    argument: "+assemblyName"
+    argument: "${IMPROBABLE_ASSEMBLY_NAME}"
+    argument: "+linkProtocol"
+    argument: "RakNet"
+    argument: "-logfile"
+    argument: "${IMPROBABLE_LOG_FILE}"
+    argument: "-batchmode"
+    argument: "-nographics"
+    worker_location {
+      filename: "UnityWorker@Linux.zip"
+    }
+  }
+}
+bridge_configuration {
+  worker_attribute_set {
+    attribute {
+      name: "physics"
+    }
+  }
+  entity_interest {
+    range_entity_interest {
+      radius: 200.0
+    }
+  }
+  component_delivery {
+    checkout_all_initially: true
+  }
+}
+]
+2017-11-17 13:06:24,719 INFO  [i.w.assembly.WorkerAssemblyProvider] [] [] [] : Worker configuration for 'UnityClient' does not contain a launch configuration for the current platform 'MACOS', so Fabric will not start any managed workers of this type
+2017-11-17 13:06:24,721 INFO  [i.w.assembly.WorkerAssemblyProvider] [] [] [] : The following worker configurations do not contain valid managed launch configurations for the current platform MACOS, and the runtime will be unable to launch managed workers of this type: [UnityClient]. This is expected for worker types you intend to only connect manually.
+2017-11-17 13:06:24,741 INFO  [i.w.permissions.PermissionsFactory] [] [] [] : Created permissions manager with permissions: {UnityWorker=Permissions{{/sys/CreateEntity=, /sys/DeleteEntity=, /sys/EntityQuery={"component":["*"]}}}, UnityClient=Permissions{{/sys/EntityQuery={"component":[]}}}}
+2017-11-17 13:06:26,732 INFO  [improbable.module.ModuleNode] [] [] [] : Starting router on master
+2017-11-17 13:06:26,741 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.RouterInternalService) on 127.0.0.1:9010.
+2017-11-17 13:06:26,741 INFO  [i.c.m.r.RouterInternalServiceImpl] [] [] [] : Attempting to register RouterInternalServiceImpl with RouterLookupInternalService.
+2017-11-17 13:06:26,753 INFO  [i.c.m.r.l.RouterLookupInternalServiceImpl] [] [] [] : 1/1 router modules started
+2017-11-17 13:06:26,754 INFO  [i.c.m.r.RouterInternalServiceImpl] [] [] [] : Registered RouterInternalServiceImpl with RouterLookupInternalService.
+2017-11-17 13:06:26,758 INFO  [improbable.module.ModuleNode] [] [] [] : Attempting to get addresses of all RouterModules from master node
+2017-11-17 13:06:26,770 INFO  [improbable.module.ModuleNode] [] [] [] : Got all RouterModules from master node
+2017-11-17 13:06:26,791 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.RemoteMessageInternalService) on 127.0.0.1:9011.
+2017-11-17 13:06:26,806 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.LocalBrokerInternalService) on 127.0.0.1:9012.
+2017-11-17 13:06:26,811 INFO  [improbable.module.ModuleNode] [] [] [] : Waiting for all router modules in the deployment to have started
+2017-11-17 13:06:26,815 INFO  [improbable.module.ModuleNode] [] [] [] : All router modules in the deployment started
+2017-11-17 13:06:26,892 INFO  [org.eclipse.jetty.server.Server] [] [] [] : jetty-8.y.z-SNAPSHOT
+2017-11-17 13:06:26,922 INFO  [o.e.jetty.server.AbstractConnector] [] [] [] : Started SelectChannelConnector@0.0.0.0:5006
+2017-11-17 13:06:26,923 INFO  [improbable.http.ServletContainer$] [] [] [] : Servlet container started
+2017-11-17 13:06:26,925 INFO  [improbable.module.ModuleNode] [] [] [] : Starting BridgeOracle on master
+2017-11-17 13:06:26,935 INFO  [improbable.module.ModuleNode] [] [] [] : Waiting for the BridgeOracle to have started
+2017-11-17 13:06:26,979 INFO  [i.c.d.g.GlobalServiceDiscoveryImpl] [] [] [] : Global service discovery refreshed 14 server(s) (previously: 11)
+2017-11-17 13:06:27,148 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.BridgeOracleInternalService) on 127.0.0.1:9013.
+2017-11-17 13:06:27,963 INFO  [improbable.module.ModuleNode] [] [] [] : Received BridgeOracle started
+2017-11-17 13:06:27,963 INFO  [i.c.d.g.GlobalServiceDiscoveryImpl] [] [] [] : Global service discovery refreshed 15 server(s) (previously: 14)
+2017-11-17 13:06:27,971 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.GlobalBrokerInternalService) on 127.0.0.1:9014.
+2017-11-17 13:06:27,972 INFO  [improbable.module.ModuleNode] [] [] [] : Waiting for the BridgeModuleOracle to have started
+2017-11-17 13:06:27,975 INFO  [i.c.a.e.ExtensibleActorReporter] [] [] [] : Started BridgeModuleOracleActor(Actor[akka://akkaFabric/user/BridgeModuleOracleModule#756163372]).
+2017-11-17 13:06:27,987 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.BridgeServiceOracleInternalService) on 127.0.0.1:9015.
+2017-11-17 13:06:28,966 INFO  [i.c.d.g.GlobalServiceDiscoveryImpl] [] [] [] : Global service discovery refreshed 17 server(s) (previously: 15)
+2017-11-17 13:06:28,966 INFO  [improbable.module.ModuleNode] [] [] [] : Received BridgeModuleOracle started
+2017-11-17 13:06:28,993 INFO  [improbable.module.ModuleNode] [] [] [] : Starting gsim GSimModule
+2017-11-17 13:06:29,000 INFO  [improbable.module.ModuleNode] [] [] [] : Waiting for 1 entity query service(s) to start.
+2017-11-17 13:06:29,024 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.LocalSnapshotInternalService) on 127.0.0.1:9016.
+2017-11-17 13:06:29,059 INFO  [i.p.gsim.GSimPersistenceWriter] [] [] [] : Transitioning GSimPersistenceActor(0) from State [Idle] to [Idle].  Time Elapsed: 3 milliseconds
+2017-11-17 13:06:29,071 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Registered Service(improbable.fabric.internal.service.ScalingStatsInternalService) on 127.0.0.1:9017.
+2017-11-17 13:06:29,107 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.EntityQueryInternalService) on 127.0.0.1:9018.
+2017-11-17 13:06:29,135 INFO  [i.bridge.oracle.scaling.WorkerScaler] [] [] [] : Skipping reconciliation because no WorkerRunner service is available. This message is expected at startup but should not persist through the deployment
+2017-11-17 13:06:29,965 INFO  [i.c.d.g.GlobalServiceDiscoveryImpl] [] [] [] : Global service discovery refreshed 20 server(s) (previously: 17)
+2017-11-17 13:06:29,965 INFO  [improbable.module.ModuleNode] [] [] [] : All 1 entity query service(s) have started.
+2017-11-17 13:06:29,966 INFO  [improbable.module.ModuleNode] [] [] [] : Creating entity query client.
+2017-11-17 13:06:29,984 INFO  [improbable.module.ModuleNode] [] [] [] : Entity query client created with directory: EntityQueryServiceDirectory{allServices=[EntityQueryInternalServiceInfo{address=host: "127.0.0.1"
+port: 9018
+, extent=Rectangle{minX=-750.0, minZ=-750.0, maxX=750.0, maxZ=750.0}, isLocal=true}], localServices=[EntityQueryInternalServiceInfo{address=host: "127.0.0.1"
+port: 9018
+, extent=Rectangle{minX=-750.0, minZ=-750.0, maxX=750.0, maxZ=750.0}, isLocal=true}], remoteServices=[]}
+2017-11-17 13:06:29,992 INFO  [improbable.module.ModuleNode] [] [] [] : Waiting for 1 bridge service(s) to start.
+2017-11-17 13:06:30,019 INFO  [i.c.a.e.ExtensibleActorReporter] [] [] [] : Started BridgeModuleActor(Actor[akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3#-2124054185]).
+2017-11-17 13:06:30,040 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.BridgeInternalService) on 127.0.0.1:9019.
+2017-11-17 13:06:30,041 INFO  [i.module.bridge.BridgeModuleActor] [] [] [] : Waiting for BridgeModuleOracle service to be available
+2017-11-17 13:06:30,055 INFO  [i.module.bridge.BridgeModuleActor] [] [] [] : Registered(BridgeModuleEndpoint(8b9d51f6-9f7d-48f9-b151-e195231124c3)) on BridgeModuleOracleService
+2017-11-17 13:06:30,967 INFO  [improbable.module.ModuleNode] [] [] [] : All 1 bridge service(s) have started.
+2017-11-17 13:06:30,967 INFO  [i.c.d.g.GlobalServiceDiscoveryImpl] [] [] [] : Global service discovery refreshed 21 server(s) (previously: 20)
+2017-11-17 13:06:30,967 INFO  [improbable.module.ModuleNode] [] [] [] : Starting WorkerRunner service (EngineStartupModule)
+2017-11-17 13:06:30,973 INFO  [improbable.worker.exec.WorkerStats] [] [] [] : Cannot read /proc/self/stat; worker stats reporting will not work.
+2017-11-17 13:06:30,984 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Registered Service(improbable.platform.inner.worker.WorkerRunner) on 127.0.0.1:9020.
+2017-11-17 13:06:30,994 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.ReceptionistInternalService) on 127.0.0.1:9021.
+2017-11-17 13:06:31,003 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Registered Service(improbable.platform.runtime.ReceptionistService) on 127.0.0.1:7777.
+2017-11-17 13:06:31,004 INFO  [improbable.module.ModuleNode] [] [] [] : Starting InspectionRestModule
+2017-11-17 13:06:31,005 INFO  [improbable.module.ModuleNode] [] [] [] : Starting ProfilingModule
+2017-11-17 13:06:31,007 INFO  [i.c.d.client.CheckpointDiscoveryImpl] [] [] [] : Reached a checkpoint: ALL_MODULES_STARTED
+2017-11-17 13:06:31,008 INFO  [improbable.module.ModuleNode] [] [] [] : All modules on this node started, waiting for other nodes to reach the same checkpoint.
+2017-11-17 13:06:31,014 INFO  [i.c.a.e.ExtensibleActorReporter] [] [] [] : Started ProfilingModuleActor(Actor[akka://akkaFabric/user/ProfilingModule#20480937]).
+2017-11-17 13:06:31,022 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.debug.HeatmapCellCacheInternalService) on 127.0.0.1:9022.
+2017-11-17 13:06:31,092 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Registered Service(improbable.platform.runtime.InspectionService) on 127.0.0.1:9023.
+2017-11-17 13:06:31,136 INFO  [i.bridge.oracle.scaling.WorkerScaler] [] [] [] : Skipping reconciliation because no WorkerRunner service is available. This message is expected at startup but should not persist through the deployment
+2017-11-17 13:06:31,160 INFO  [i.c.a.e.ExtensibleActorReporter] [] [] [] : Started InspectionRestModuleActor(Actor[akka://akkaFabric/user/InspectionRestModule#205744999]).
+2017-11-17 13:06:31,719 INFO  [spray.can.server.HttpListener] [akka://akkaFabric/user/IO-HTTP/listener-0] [akkaFabric-akka.actor.default-dispatcher-26] [] : Bound to /0.0.0.0:5005
+2017-11-17 13:06:31,965 INFO  [i.c.d.g.GlobalCheckpointDiscoveryImpl] [] [] [] : Global checkpoint discovery refreshed checkpoints.
+2017-11-17 13:06:31,965 INFO  [improbable.module.ModuleNode] [] [] [] : All modules on all nodes have been started.
+2017-11-17 13:06:31,966 INFO  [improbable.module.ModuleNode] [] [] [] : Loading a snapshot.
+2017-11-17 13:06:31,966 INFO  [i.c.d.g.GlobalServiceDiscoveryImpl] [] [] [] : Global service discovery refreshed 26 server(s) (previously: 21)
+2017-11-17 13:06:31,982 INFO  [i.p.g.GSimPersistenceLoadOrchestrator] [] [] [] : Loading snapshot on GSim(0).
+2017-11-17 13:06:31,982 INFO  [i.p.s.storage.LegacySnapshotStorage] [] [] [] : Requesting download URL for Snapshot(local@latest) matching []
+2017-11-17 13:06:31,991 INFO  [i.p.s.storage.LegacySnapshotStorage] [] [] [] : Downloading snapshot from http://127.0.0.1:21000/snapshots/20171117130548077
+2017-11-17 13:06:31,994 INFO  [i.p.gsim.GSimPersistenceLoader] [] [] [] : Loading snapshot
+2017-11-17 13:06:32,008 INFO  [i.p.g.GSimPersistenceLoadOrchestrator] [] [] [] : Loaded 1 entities on GSim(0).
+2017-11-17 13:06:32,011 INFO  [i.p.c.PersistenceLoaderCoordinatorActor] [] [] [] : All Snapshots loaded.
+2017-11-17 13:06:32,011 INFO  [improbable.module.ModuleNode] [] [] [] : Snapshot has been loaded.
+2017-11-17 13:06:32,012 INFO  [improbable.module.ModuleNode] [] [] [] : Starting SnapshotService.
+2017-11-17 13:06:32,026 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Registered Service(improbable.platform.runtime.SnapshotService) on 127.0.0.1:9024.
+2017-11-17 13:06:32,026 INFO  [i.c.d.client.CheckpointDiscoveryImpl] [] [] [] : Reached a checkpoint: LOAD_SNAPSHOT_FINISHED
+2017-11-17 13:06:32,027 INFO  [improbable.module.ModuleNode] [] [] [] : SpatialOS runtime startup complete.
+2017-11-17 13:06:32,088 INFO  [i.l.params.LoadbalancerParamsFactory] [] [] [] : LoadbalancerParams for worker type [UnityWorker]: [AutoHexGridLoadbalancerParams{energyLimitingEnabled=true, energyLimit=1.0E9, minWorkerRange=1500.0, maxWorkerRange=1500.0, maxWorkerStepSize=0.0, workerExpansionTimeMs=60000, workerGridSize=0, loadbalancerEnabled=false, hexGridMode=AUTO, scalerAdvisorType=CONSTANT, maxWorkers=1, initialWorkers=1, numEntitiesPerWorker=9223372036854775807, statusReportPeriodMs=30000, pointsOfInterestEnabled=false, hexGridSolution=AutoValue_HexGridSolution{workersUsed=1, hexagonEdgeLength=1500.0, hexagonOrientation=POINTY_TOP, bounds=Rectangle{minX=-750.0, minZ=-750.0, maxX=750.0, maxZ=750.0}}, pointsOfInterestSolution=Empty}]
+2017-11-17 13:06:32,969 INFO  [i.c.d.g.GlobalServiceDiscoveryImpl] [] [] [] : Global service discovery refreshed 27 server(s) (previously: 26)
+2017-11-17 13:06:32,969 INFO  [i.c.d.g.GlobalCheckpointDiscoveryImpl] [] [] [] : Global checkpoint discovery refreshed checkpoints.
+2017-11-17 13:06:33,968 INFO  [i.b.o.m.BridgeOracleWorkerManager] [] [] [] : Trying to start managed worker UnityWorker0
+2017-11-17 13:06:33,991 INFO  [i.bridge.oracle.scaling.WorkerScaler] [] [] [] : Starting 1 new managed workers for attribute_set {
+  attribute: "physics"
+}
+ (required: 1, existing: 0)
+2017-11-17 13:06:33,991 INFO  [i.worker.exec.WorkerStartupExecutor] [] [] [] : Awaiting internal receptionist service to register with service discovery
+2017-11-17 13:06:33,995 INFO  [i.worker.exec.WorkerStartupExecutor] [] [] [] : Successfully found the internal receptionist service in service discovery
+2017-11-17 13:06:34,000 INFO  [i.worker.exec.WorkerStartupExecutor] [] [] [] : Awaiting public receptionist service to register with service discovery
+2017-11-17 13:06:34,000 INFO  [i.worker.exec.WorkerStartupExecutor] [] [] [] : Successfully found the public receptionist service in service discovery
+2017-11-17 13:06:36,026 WARN  [i.worker.exec.WorkerStartupExecutor] [] [] [] : Error while setting permissions of the worker directory.
+java.nio.file.FileSystemException: /var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T: Operation not permitted
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:91) ~[na:1.8.0_162-ea]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102) ~[na:1.8.0_162-ea]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107) ~[na:1.8.0_162-ea]
+	at sun.nio.fs.UnixFileAttributeViews$Posix.setMode(UnixFileAttributeViews.java:238) ~[na:1.8.0_162-ea]
+	at sun.nio.fs.UnixFileAttributeViews$Posix.setPermissions(UnixFileAttributeViews.java:260) ~[na:1.8.0_162-ea]
+	at java.nio.file.Files.setPosixFilePermissions(Files.java:2045) ~[na:1.8.0_162-ea]
+	at improbable.worker.exec.WorkerStartupExecutor.setWorkerFilePermissions(WorkerStartupExecutor.java:380) [fabric__runtime_deploy.jar:na]
+	at improbable.worker.exec.WorkerStartupExecutor.setPermissionsForDirectoryParents(WorkerStartupExecutor.java:350) [fabric__runtime_deploy.jar:na]
+	at improbable.worker.exec.WorkerStartupExecutor.setWorkerDirectoryPermissions(WorkerStartupExecutor.java:341) [fabric__runtime_deploy.jar:na]
+	at improbable.worker.exec.WorkerStartupExecutor.executeInternal(WorkerStartupExecutor.java:192) [fabric__runtime_deploy.jar:na]
+	at improbable.worker.exec.WorkerStartupExecutor.execute(WorkerStartupExecutor.java:117) [fabric__runtime_deploy.jar:na]
+	at improbable.worker.exec.WorkerRunnerImpl.startWorker(WorkerRunnerImpl.java:132) [fabric__runtime_deploy.jar:na]
+	at improbable.worker.exec.WorkerRunnerImpl.start(WorkerRunnerImpl.java:79) [fabric__runtime_deploy.jar:na]
+	at improbable.platform.inner.worker.WorkerRunnerGrpc$MethodHandlers.invoke(WorkerRunnerGrpc.java:326) [fabric__runtime_deploy.jar:na]
+	at io.grpc.stub.ServerCalls$1$1.onHalfClose(ServerCalls.java:148) [fabric__runtime_deploy.jar:na]
+	at io.grpc.PartialForwardingServerCallListener.onHalfClose(PartialForwardingServerCallListener.java:48) [fabric__runtime_deploy.jar:na]
+	at io.grpc.ForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:38) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:267) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$2.runInContext(ServerImpl.java:573) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:52) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:117) [fabric__runtime_deploy.jar:na]
+	at improbable.common.async.FabricListeningExecutorService.lambda$instrumentRunnable$0(FabricListeningExecutorService.java:133) [fabric__runtime_deploy.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_162-ea]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_162-ea]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_162-ea]
+2017-11-17 13:06:36,028 INFO  [i.worker.exec.WorkerStartupExecutor] [] [] [] : Created log file for worker UnityWorker0, type (UnityWorker): [/Users/dp.alex/Documents/ProgettoIS/logs/2017-11-17_13-05-49_0/workers/UnityWorker/UnityWorker0-3547887521904195421.log]
+2017-11-17 13:06:36,029 INFO  [i.worker.exec.CommandLineExecutor] [] [] [] : Running command: /var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T/zip-downloader1806182692338184286/c667a3f827f4dc5ff788cff8d665ccc7/UnityWorker@Mac.app/Contents/MacOS/UnityWorker@Mac +projectName your_project_name_here +receptionistIp 127.0.0.1 +receptionistPort 7777 +workerType UnityWorker +workerId UnityWorker0 +useInternalIpForBridge true +infraServicesUrl http://127.0.0.1:21000 +assemblyName local_assembly +linkProtocol RakNet -logfile /Users/dp.alex/Documents/ProgettoIS/logs/2017-11-17_13-05-49_0/workers/UnityWorker/UnityWorker0-3547887521904195421.log -batchmode -nographics
+2017-11-17 13:06:36,917 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Attempting to get positionHint for UnityWorker0 via rpc
+2017-11-17 13:06:36,923 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Selected legacy_guid: "8b9d51f6-9f7d-48f9-b151-e195231124c3"
+address {
+  host: "127.0.0.1"
+  port: 9019
+}
+ with position  which is the nearest bridge service to position (0.0, 0.0, 0.0)
+2017-11-17 13:06:36,932 INFO  [i.m.b.o.m.BridgeModuleOracleActor] [] [] [] : BridgeServicePicker returned module Optional[legacy_guid: "8b9d51f6-9f7d-48f9-b151-e195231124c3"
+address {
+  host: "127.0.0.1"
+  port: 9019
+}
+] with load Optional[BridgeModuleLoadBalanceInfo((0.0, 0.0, 0.0),0)].get().toString() for Engine(UnityWorker0)
+2017-11-17 13:06:37,235 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityWorker0"
+ registered with bridge internal service
+2017-11-17 13:06:37,244 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Got bridge started rpc from bridge: worker_id: "UnityWorker0"
+
+2017-11-17 13:06:37,245 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : The worker UnityWorker0 registered with SpatialOS successfully.
+2017-11-17 13:06:37,245 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge started to self for bridge endpoint BridgeOracleEndpoint
+2017-11-17 13:06:37,248 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityWorker0) started.
+2017-11-17 13:06:37,254 INFO  [i.b.o.m.BridgeOracleWorkerManager] [] [] [] : Worker UnityWorker0 registered with the BridgeOracleWorker manager
+2017-11-17 13:06:37,369 INFO  [i.b.n.raknet.GuardedRakPeerInterface] [] [] [] : New RakNet connection established with 127.0.0.1
+2017-11-17 13:06:42,924 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Attempting to get positionHint for UnityClient07441fac-93b1-4172-bceb-04babcfe4f49 via rpc
+2017-11-17 13:06:42,925 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Starting UnityClient07441fac-93b1-4172-bceb-04babcfe4f49 without a position hint, so using a random bridge service
+2017-11-17 13:06:42,927 INFO  [i.m.b.o.m.BridgeModuleOracleActor] [] [] [] : BridgeServicePicker returned module Optional[legacy_guid: "8b9d51f6-9f7d-48f9-b151-e195231124c3"
+address {
+  host: "127.0.0.1"
+  port: 9019
+}
+] with load Optional[BridgeModuleLoadBalanceInfo((0.0, 0.0, 0.0),1)].get().toString() for Engine(UnityClient07441fac-93b1-4172-bceb-04babcfe4f49)
+2017-11-17 13:06:42,932 INFO  [i.l.params.LoadbalancerParamsFactory] [] [] [] : LoadbalancerParams for worker type [UnityClient]: [FlagzLoadbalancerParams{energyLimitingEnabled=true, energyLimit=1.0E9, minWorkerRange=Infinity, maxWorkerRange=Infinity, maxWorkerStepSize=50.0, workerExpansionTimeMs=60000, workerGridSize=5, loadbalancerEnabled=true, hexGridMode=OFF, scalerAdvisorType=ENTITY_COUNT, maxWorkers=25, initialWorkers=25, numEntitiesPerWorker=9223372036854775807, statusReportPeriodMs=2000, pointsOfInterestEnabled=false, hexGridSolution=Empty, pointsOfInterestSolution=Empty}]
+2017-11-17 13:06:42,937 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClient07441fac-93b1-4172-bceb-04babcfe4f49"
+ registered with bridge internal service
+2017-11-17 13:06:42,940 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Got bridge started rpc from bridge: worker_id: "UnityClient07441fac-93b1-4172-bceb-04babcfe4f49"
+
+2017-11-17 13:06:42,940 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : The worker UnityClient07441fac-93b1-4172-bceb-04babcfe4f49 registered with SpatialOS successfully.
+2017-11-17 13:06:42,941 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge started to self for bridge endpoint BridgeOracleEndpoint
+2017-11-17 13:06:42,943 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClient07441fac-93b1-4172-bceb-04babcfe4f49) started.
+2017-11-17 13:06:43,038 INFO  [i.b.n.raknet.GuardedRakPeerInterface] [] [] [] : New RakNet connection established with 127.0.0.1
+2017-11-17 13:08:35,404 INFO  [i.b.n.BridgeActorTransportLinkListener] [] [] [] : TransportLinkListener(UnityClient07441fac-93b1-4172-bceb-04babcfe4f49) sending Disconnected to akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityClient07441fac-93b1-4172-bceb-04babcfe4f49
+2017-11-17 13:08:35,408 INFO  [i.b.n.raknet.reporter.RakNetReporter] [] [] [] : Tried to send to RakNet(UnityClient) on Port(7001)3 after closing. Payload: component_update {
+  entity_id: 2
+  component_id: 54
+  entity_co... (Logged every 1000 times)
+2017-11-17 13:08:35,426 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge stopped to self for bridge endpoint BridgeEndpoint(UnityClient07441fac-93b1-4172-bceb-04babcfe4f49)
+2017-11-17 13:08:35,431 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClient07441fac-93b1-4172-bceb-04babcfe4f49) stopped.
+2017-11-17 13:08:35,436 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClient07441fac-93b1-4172-bceb-04babcfe4f49"
+ unregistered with bridge internal service
+2017-11-17 13:08:35,436 INFO  [improbable.bridge.BridgeActor] [] [] [] : Bridge(UnityClient07441fac-93b1-4172-bceb-04babcfe4f49) on BridgeModuleEndpoint(8b9d51f6-9f7d-48f9-b151-e195231124c3) stopped.
+2017-11-17 13:08:35,454 INFO  [akka.actor.LocalActorRef] [akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityClient07441fac-93b1-4172-bceb-04babcfe4f49] [akkaFabric-akka.actor.default-dispatcher-26] [] : Message [improbable.fabric.internal.pubsub.PubSubMessageProto$PubSubMessage] from Actor[akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityClient07441fac-93b1-4172-bceb-04babcfe4f49#-1479559915] to Actor[akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityClient07441fac-93b1-4172-bceb-04babcfe4f49#-1479559915] was not delivered. [1] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2017-11-17 13:08:35,455 INFO  [akka.actor.LocalActorRef] [akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityClient07441fac-93b1-4172-bceb-04babcfe4f49] [akkaFabric-akka.actor.default-dispatcher-26] [] : Message [improbable.fabric.internal.pubsub.PubSubMessageProto$PubSubMessage] from Actor[akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityClient07441fac-93b1-4172-bceb-04babcfe4f49#-1479559915] to Actor[akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityClient07441fac-93b1-4172-bceb-04babcfe4f49#-1479559915] was not delivered. [2] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2017-11-17 13:08:35,456 INFO  [akka.actor.LocalActorRef] [akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityClient07441fac-93b1-4172-bceb-04babcfe4f49] [akkaFabric-akka.actor.default-dispatcher-26] [] : Message [improbable.fabric.internal.pubsub.PubSubMessageProto$PubSubMessage] from Actor[akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityClient07441fac-93b1-4172-bceb-04babcfe4f49#-1479559915] to Actor[akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityClient07441fac-93b1-4172-bceb-04babcfe4f49#-1479559915] was not delivered. [3] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2017-11-17 13:08:35,457 INFO  [akka.actor.LocalActorRef] [akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityClient07441fac-93b1-4172-bceb-04babcfe4f49] [akkaFabric-akka.actor.default-dispatcher-26] [] : Message [improbable.fabric.internal.pubsub.PubSubMessageProto$PubSubMessage] from Actor[akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityClient07441fac-93b1-4172-bceb-04babcfe4f49#-1479559915] to Actor[akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityClient07441fac-93b1-4172-bceb-04babcfe4f49#-1479559915] was not delivered. [4] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2017-11-17 13:08:35,459 INFO  [akka.actor.LocalActorRef] [akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityClient07441fac-93b1-4172-bceb-04babcfe4f49] [akkaFabric-akka.actor.default-dispatcher-26] [] : Message [improbable.fabric.internal.pubsub.PubSubMessageProto$PubSubMessage] from Actor[akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityClient07441fac-93b1-4172-bceb-04babcfe4f49#-1479559915] to Actor[akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityClient07441fac-93b1-4172-bceb-04babcfe4f49#-1479559915] was not delivered. [5] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2017-11-17 13:08:35,460 INFO  [akka.actor.LocalActorRef] [akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityClient07441fac-93b1-4172-bceb-04babcfe4f49] [akkaFabric-akka.actor.default-dispatcher-26] [] : Message [improbable.fabric.internal.pubsub.PubSubMessageProto$PubSubMessage] from Actor[akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityClient07441fac-93b1-4172-bceb-04babcfe4f49#-1479559915] to Actor[akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityClient07441fac-93b1-4172-bceb-04babcfe4f49#-1479559915] was not delivered. [6] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2017-11-17 13:08:35,942 INFO  [akka.actor.DeadLetterActorRef] [akka://akkaFabric/deadLetters] [akkaFabric-akka.actor.default-dispatcher-38] [] : Message [improbable.bridge.message.BridgeViewStatusRequest] from Actor[akka://akkaFabric/deadLetters] to Actor[akka://akkaFabric/deadLetters] was not delivered. [7] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2017-11-17 13:08:36,941 INFO  [akka.actor.DeadLetterActorRef] [akka://akkaFabric/deadLetters] [akkaFabric-akka.actor.default-dispatcher-38] [] : Message [improbable.bridge.message.BridgeViewStatusRequest] from Actor[akka://akkaFabric/deadLetters] to Actor[akka://akkaFabric/deadLetters] was not delivered. [8] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2017-11-17 13:08:37,941 INFO  [akka.actor.DeadLetterActorRef] [akka://akkaFabric/deadLetters] [akkaFabric-akka.actor.default-dispatcher-38] [] : Message [improbable.bridge.message.BridgeViewStatusRequest] from Actor[akka://akkaFabric/deadLetters] to Actor[akka://akkaFabric/deadLetters] was not delivered. [9] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2017-11-17 13:08:38,946 INFO  [akka.actor.DeadLetterActorRef] [akka://akkaFabric/deadLetters] [akkaFabric-akka.actor.default-dispatcher-38] [] : Message [improbable.bridge.message.BridgeViewStatusRequest] from Actor[akka://akkaFabric/deadLetters] to Actor[akka://akkaFabric/deadLetters] was not delivered. [10] dead letters encountered, no more dead letters will be logged. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2017-11-17 13:09:08,241 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Attempting to get positionHint for UnityClient1f72b3c7-6294-4f12-a80c-f54d852a8f4c via rpc
+2017-11-17 13:09:08,244 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Starting UnityClient1f72b3c7-6294-4f12-a80c-f54d852a8f4c without a position hint, so using a random bridge service
+2017-11-17 13:09:08,246 INFO  [i.m.b.o.m.BridgeModuleOracleActor] [] [] [] : BridgeServicePicker returned module Optional[legacy_guid: "8b9d51f6-9f7d-48f9-b151-e195231124c3"
+address {
+  host: "127.0.0.1"
+  port: 9019
+}
+] with load Optional[BridgeModuleLoadBalanceInfo((0.0, 0.0, 0.0),1)].get().toString() for Engine(UnityClient1f72b3c7-6294-4f12-a80c-f54d852a8f4c)
+2017-11-17 13:09:08,259 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClient1f72b3c7-6294-4f12-a80c-f54d852a8f4c"
+ registered with bridge internal service
+2017-11-17 13:09:08,261 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Got bridge started rpc from bridge: worker_id: "UnityClient1f72b3c7-6294-4f12-a80c-f54d852a8f4c"
+
+2017-11-17 13:09:08,262 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : The worker UnityClient1f72b3c7-6294-4f12-a80c-f54d852a8f4c registered with SpatialOS successfully.
+2017-11-17 13:09:08,262 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge started to self for bridge endpoint BridgeOracleEndpoint
+2017-11-17 13:09:08,263 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClient1f72b3c7-6294-4f12-a80c-f54d852a8f4c) started.
+2017-11-17 13:09:08,358 INFO  [i.b.n.raknet.GuardedRakPeerInterface] [] [] [] : New RakNet connection established with 127.0.0.1
+2017-11-17 13:10:13,899 INFO  [i.b.n.BridgeActorTransportLinkListener] [] [] [] : TransportLinkListener(UnityClient1f72b3c7-6294-4f12-a80c-f54d852a8f4c) sending Disconnected to akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityClient1f72b3c7-6294-4f12-a80c-f54d852a8f4c
+2017-11-17 13:10:13,910 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge stopped to self for bridge endpoint BridgeEndpoint(UnityClient1f72b3c7-6294-4f12-a80c-f54d852a8f4c)
+2017-11-17 13:10:13,911 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClient1f72b3c7-6294-4f12-a80c-f54d852a8f4c) stopped.
+2017-11-17 13:10:13,911 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClient1f72b3c7-6294-4f12-a80c-f54d852a8f4c"
+ unregistered with bridge internal service
+2017-11-17 13:10:13,913 INFO  [improbable.bridge.BridgeActor] [] [] [] : Bridge(UnityClient1f72b3c7-6294-4f12-a80c-f54d852a8f4c) on BridgeModuleEndpoint(8b9d51f6-9f7d-48f9-b151-e195231124c3) stopped.
+2017-11-17 13:12:19,046 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Attempting to get positionHint for UnityClientf5d61a54-2408-4a76-ba5c-612915f7aaab via rpc
+2017-11-17 13:12:19,050 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Starting UnityClientf5d61a54-2408-4a76-ba5c-612915f7aaab without a position hint, so using a random bridge service
+2017-11-17 13:12:19,052 INFO  [i.m.b.o.m.BridgeModuleOracleActor] [] [] [] : BridgeServicePicker returned module Optional[legacy_guid: "8b9d51f6-9f7d-48f9-b151-e195231124c3"
+address {
+  host: "127.0.0.1"
+  port: 9019
+}
+] with load Optional[BridgeModuleLoadBalanceInfo((0.0, 0.0, 0.0),1)].get().toString() for Engine(UnityClientf5d61a54-2408-4a76-ba5c-612915f7aaab)
+2017-11-17 13:12:19,085 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClientf5d61a54-2408-4a76-ba5c-612915f7aaab"
+ registered with bridge internal service
+2017-11-17 13:12:19,092 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Got bridge started rpc from bridge: worker_id: "UnityClientf5d61a54-2408-4a76-ba5c-612915f7aaab"
+
+2017-11-17 13:12:19,093 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : The worker UnityClientf5d61a54-2408-4a76-ba5c-612915f7aaab registered with SpatialOS successfully.
+2017-11-17 13:12:19,093 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge started to self for bridge endpoint BridgeOracleEndpoint
+2017-11-17 13:12:19,094 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClientf5d61a54-2408-4a76-ba5c-612915f7aaab) started.
+2017-11-17 13:12:19,188 INFO  [i.b.n.raknet.GuardedRakPeerInterface] [] [] [] : New RakNet connection established with 127.0.0.1
+2017-11-17 13:12:35,271 INFO  [i.b.n.BridgeActorTransportLinkListener] [] [] [] : TransportLinkListener(UnityClientf5d61a54-2408-4a76-ba5c-612915f7aaab) sending Disconnected to akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityClientf5d61a54-2408-4a76-ba5c-612915f7aaab
+2017-11-17 13:12:35,276 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge stopped to self for bridge endpoint BridgeEndpoint(UnityClientf5d61a54-2408-4a76-ba5c-612915f7aaab)
+2017-11-17 13:12:35,276 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClientf5d61a54-2408-4a76-ba5c-612915f7aaab) stopped.
+2017-11-17 13:12:35,278 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClientf5d61a54-2408-4a76-ba5c-612915f7aaab"
+ unregistered with bridge internal service
+2017-11-17 13:12:35,279 INFO  [improbable.bridge.BridgeActor] [] [] [] : Bridge(UnityClientf5d61a54-2408-4a76-ba5c-612915f7aaab) on BridgeModuleEndpoint(8b9d51f6-9f7d-48f9-b151-e195231124c3) stopped.
+2017-11-17 13:13:40,631 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Attempting to get positionHint for UnityClient7895451c-b405-42f6-99c4-c607b20f4d56 via rpc
+2017-11-17 13:13:40,634 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Starting UnityClient7895451c-b405-42f6-99c4-c607b20f4d56 without a position hint, so using a random bridge service
+2017-11-17 13:13:40,635 INFO  [i.m.b.o.m.BridgeModuleOracleActor] [] [] [] : BridgeServicePicker returned module Optional[legacy_guid: "8b9d51f6-9f7d-48f9-b151-e195231124c3"
+address {
+  host: "127.0.0.1"
+  port: 9019
+}
+] with load Optional[BridgeModuleLoadBalanceInfo((0.0, 0.0, 0.0),1)].get().toString() for Engine(UnityClient7895451c-b405-42f6-99c4-c607b20f4d56)
+2017-11-17 13:13:40,656 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClient7895451c-b405-42f6-99c4-c607b20f4d56"
+ registered with bridge internal service
+2017-11-17 13:13:40,658 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Got bridge started rpc from bridge: worker_id: "UnityClient7895451c-b405-42f6-99c4-c607b20f4d56"
+
+2017-11-17 13:13:40,659 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : The worker UnityClient7895451c-b405-42f6-99c4-c607b20f4d56 registered with SpatialOS successfully.
+2017-11-17 13:13:40,659 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge started to self for bridge endpoint BridgeOracleEndpoint
+2017-11-17 13:13:40,660 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClient7895451c-b405-42f6-99c4-c607b20f4d56) started.
+2017-11-17 13:13:40,709 INFO  [i.b.n.raknet.GuardedRakPeerInterface] [] [] [] : New RakNet connection established with 127.0.0.1
+2017-11-17 13:14:38,209 INFO  [i.b.n.BridgeActorTransportLinkListener] [] [] [] : TransportLinkListener(UnityClient7895451c-b405-42f6-99c4-c607b20f4d56) sending Disconnected to akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityClient7895451c-b405-42f6-99c4-c607b20f4d56
+2017-11-17 13:14:38,212 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClient7895451c-b405-42f6-99c4-c607b20f4d56"
+ unregistered with bridge internal service
+2017-11-17 13:14:38,213 INFO  [improbable.bridge.BridgeActor] [] [] [] : Bridge(UnityClient7895451c-b405-42f6-99c4-c607b20f4d56) on BridgeModuleEndpoint(8b9d51f6-9f7d-48f9-b151-e195231124c3) stopped.
+2017-11-17 13:14:38,213 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge stopped to self for bridge endpoint BridgeEndpoint(UnityClient7895451c-b405-42f6-99c4-c607b20f4d56)
+2017-11-17 13:14:38,214 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClient7895451c-b405-42f6-99c4-c607b20f4d56) stopped.
+2017-11-17 13:14:39,087 INFO  [i.b.client.BridgeServiceTaskRetrier] [] [] [] : An internal operation forwarding EntityCommandRequest for "entity_id: 5
+component_id: 1003
+" failed on the SpatialOS side of the connection to UnityWorker0 after 0 retries, is the deployment under heavy load?
+io.grpc.StatusRuntimeException: DEADLINE_EXCEEDED
+	at io.grpc.Status.asRuntimeException(Status.java:543) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.stub.ClientCalls$UnaryStreamToFuture.onClose(ClientCalls.java:442) [fabric__runtime_deploy.jar:na]
+	at io.grpc.ForwardingClientCallListener.onClose(ForwardingClientCallListener.java:56) [fabric__runtime_deploy.jar:na]
+	at me.dinowernli.grpc.prometheus.MonitoringClientCallListener.onClose(MonitoringClientCallListener.java:50) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:426) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl.access$100(ClientCallImpl.java:76) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl.close(ClientCallImpl.java:512) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl.access$700(ClientCallImpl.java:429) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:544) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:52) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:117) [fabric__runtime_deploy.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_162-ea]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_162-ea]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_162-ea]
+2017-11-17 13:14:39,111 WARN  [i.b.commands.BridgeCommandHandler] [] [] [] : Failed to execute command entity_command_request {
+  endpoint {
+    entity_id: 5
+    component_id: 1003
+  }
+  payload: "\332>\002\032\000"
+}
+ on UnityClient7895451c-b405-42f6-99c4-c607b20f4d56
+improbable.bridge.commands.exception.CommandException: DEADLINE_EXCEEDED
+	at improbable.bridge.commands.exception.CommandException.ofStatusRuntimeException(CommandException.java:76) ~[fabric__runtime_deploy.jar:na]
+	at improbable.bridge.commands.exception.CommandException.of(CommandException.java:27) ~[fabric__runtime_deploy.jar:na]
+	at improbable.bridge.client.BridgeInternalServiceClient.lambda$invokeCommand$2(BridgeInternalServiceClient.java:93) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractTransformFuture$TransformFuture.doTransform(AbstractTransformFuture.java:239) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractTransformFuture$TransformFuture.doTransform(AbstractTransformFuture.java:229) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractTransformFuture.run(AbstractTransformFuture.java:130) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:911) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:822) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.set(AbstractFuture.java:664) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractCatchingFuture$CatchingFuture.setResult(AbstractCatchingFuture.java:210) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractCatchingFuture.run(AbstractCatchingFuture.java:138) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:911) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:822) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.setException(AbstractFuture.java:686) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractTransformFuture.run(AbstractTransformFuture.java:112) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:911) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:822) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.setException(AbstractFuture.java:686) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.SettableFuture.setException(SettableFuture.java:54) ~[fabric__runtime_deploy.jar:na]
+	at improbable.bridge.client.BridgeServiceTaskRetrier.onFailure(BridgeServiceTaskRetrier.java:102) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.Futures$CallbackListener.run(Futures.java:1228) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:911) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:822) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.setException(AbstractFuture.java:686) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.stub.ClientCalls$GrpcFuture.setException(ClientCalls.java:466) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.stub.ClientCalls$UnaryStreamToFuture.onClose(ClientCalls.java:442) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.ForwardingClientCallListener.onClose(ForwardingClientCallListener.java:56) ~[fabric__runtime_deploy.jar:na]
+	at me.dinowernli.grpc.prometheus.MonitoringClientCallListener.onClose(MonitoringClientCallListener.java:50) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:426) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl.access$100(ClientCallImpl.java:76) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl.close(ClientCallImpl.java:512) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl.access$700(ClientCallImpl.java:429) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:544) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:52) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:117) ~[fabric__runtime_deploy.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_162-ea]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_162-ea]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_162-ea]
+Caused by: io.grpc.StatusRuntimeException: DEADLINE_EXCEEDED
+	at io.grpc.Status.asRuntimeException(Status.java:543) ~[fabric__runtime_deploy.jar:na]
+	... 13 common frames omitted
+2017-11-17 13:14:39,138 WARN  [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityWorker0] Incoming command request with ID 84 to entity ID 5 and component ID 1003 was not handled by the worker within the given timeout.
+ in  -[WorkerLogger:Unity]
+2017-11-17 13:17:23,297 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Attempting to get positionHint for UnityCliente3afa409-589e-455e-b450-398f4b20e8bb via rpc
+2017-11-17 13:17:23,301 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Starting UnityCliente3afa409-589e-455e-b450-398f4b20e8bb without a position hint, so using a random bridge service
+2017-11-17 13:17:23,302 INFO  [i.m.b.o.m.BridgeModuleOracleActor] [] [] [] : BridgeServicePicker returned module Optional[legacy_guid: "8b9d51f6-9f7d-48f9-b151-e195231124c3"
+address {
+  host: "127.0.0.1"
+  port: 9019
+}
+] with load Optional[BridgeModuleLoadBalanceInfo((0.0, 0.0, 0.0),1)].get().toString() for Engine(UnityCliente3afa409-589e-455e-b450-398f4b20e8bb)
+2017-11-17 13:17:23,330 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityCliente3afa409-589e-455e-b450-398f4b20e8bb"
+ registered with bridge internal service
+2017-11-17 13:17:23,333 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Got bridge started rpc from bridge: worker_id: "UnityCliente3afa409-589e-455e-b450-398f4b20e8bb"
+
+2017-11-17 13:17:23,334 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : The worker UnityCliente3afa409-589e-455e-b450-398f4b20e8bb registered with SpatialOS successfully.
+2017-11-17 13:17:23,334 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge started to self for bridge endpoint BridgeOracleEndpoint
+2017-11-17 13:17:23,334 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityCliente3afa409-589e-455e-b450-398f4b20e8bb) started.
+2017-11-17 13:17:23,430 INFO  [i.b.n.raknet.GuardedRakPeerInterface] [] [] [] : New RakNet connection established with 127.0.0.1
+2017-11-17 13:17:25,042 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:25,278 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:25,539 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:25,788 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:26,058 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:26,310 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:26,583 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:26,843 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:27,101 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:27,366 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:27,613 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:27,882 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:28,137 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:28,397 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:28,656 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:28,908 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:29,179 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:29,428 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:29,691 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:29,940 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:30,232 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:30,492 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:30,762 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:31,037 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:31,284 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:31,560 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:31,819 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:32,069 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:32,348 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:32,593 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:32,864 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:33,126 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:33,396 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:33,680 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:33,940 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:34,213 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:34,472 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:34,733 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:35,006 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:35,289 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:35,561 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:35,844 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:36,103 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:36,353 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:36,603 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:36,860 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:37,102 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:37,363 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:37,624 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:37,906 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:38,157 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:38,441 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:38,711 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:38,962 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:39,211 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:39,480 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:39,743 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:40,039 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:40,299 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:40,548 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:40,821 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:41,092 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:41,375 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:41,625 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:41,895 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:42,145 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:42,416 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:42,670 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:42,917 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:43,190 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:43,451 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:43,708 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityCliente3afa409-589e-455e-b450-398f4b20e8bb] UnassignedReferenceException: The variable player of RaycastShoot has not been assigned.
+You probably need to assign the player variable of the RaycastShoot script in the inspector.
+ in Assets.Gamelogic.Player.Guns.RaycastShoot.Update () (at Assets/Gamelogic/Player/Guns/RaycastShoot.cs:45)
+ -[WorkerLogger:Unity]
+2017-11-17 13:17:44,146 INFO  [i.b.n.BridgeActorTransportLinkListener] [] [] [] : TransportLinkListener(UnityCliente3afa409-589e-455e-b450-398f4b20e8bb) sending Disconnected to akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityCliente3afa409-589e-455e-b450-398f4b20e8bb
+2017-11-17 13:17:44,148 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityCliente3afa409-589e-455e-b450-398f4b20e8bb"
+ unregistered with bridge internal service
+2017-11-17 13:17:44,148 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge stopped to self for bridge endpoint BridgeEndpoint(UnityCliente3afa409-589e-455e-b450-398f4b20e8bb)
+2017-11-17 13:17:44,148 INFO  [improbable.bridge.BridgeActor] [] [] [] : Bridge(UnityCliente3afa409-589e-455e-b450-398f4b20e8bb) on BridgeModuleEndpoint(8b9d51f6-9f7d-48f9-b151-e195231124c3) stopped.
+2017-11-17 13:17:44,148 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityCliente3afa409-589e-455e-b450-398f4b20e8bb) stopped.
+2017-11-17 13:17:45,043 INFO  [i.b.client.BridgeServiceTaskRetrier] [] [] [] : An internal operation forwarding EntityCommandRequest for "entity_id: 6
+component_id: 1003
+" failed on the SpatialOS side of the connection to UnityWorker0 after 0 retries, is the deployment under heavy load?
+io.grpc.StatusRuntimeException: DEADLINE_EXCEEDED
+	at io.grpc.Status.asRuntimeException(Status.java:543) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.stub.ClientCalls$UnaryStreamToFuture.onClose(ClientCalls.java:442) [fabric__runtime_deploy.jar:na]
+	at io.grpc.ForwardingClientCallListener.onClose(ForwardingClientCallListener.java:56) [fabric__runtime_deploy.jar:na]
+	at me.dinowernli.grpc.prometheus.MonitoringClientCallListener.onClose(MonitoringClientCallListener.java:50) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:426) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl.access$100(ClientCallImpl.java:76) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl.close(ClientCallImpl.java:512) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl.access$700(ClientCallImpl.java:429) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:544) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:52) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:117) [fabric__runtime_deploy.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_162-ea]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_162-ea]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_162-ea]
+2017-11-17 13:17:45,047 WARN  [i.b.commands.BridgeCommandHandler] [] [] [] : Failed to execute command entity_command_request {
+  endpoint {
+    entity_id: 6
+    component_id: 1003
+  }
+  payload: "\332>\002\032\000"
+}
+ on UnityCliente3afa409-589e-455e-b450-398f4b20e8bb
+improbable.bridge.commands.exception.CommandException: DEADLINE_EXCEEDED
+	at improbable.bridge.commands.exception.CommandException.ofStatusRuntimeException(CommandException.java:76) ~[fabric__runtime_deploy.jar:na]
+	at improbable.bridge.commands.exception.CommandException.of(CommandException.java:27) ~[fabric__runtime_deploy.jar:na]
+	at improbable.bridge.client.BridgeInternalServiceClient.lambda$invokeCommand$2(BridgeInternalServiceClient.java:93) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractTransformFuture$TransformFuture.doTransform(AbstractTransformFuture.java:239) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractTransformFuture$TransformFuture.doTransform(AbstractTransformFuture.java:229) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractTransformFuture.run(AbstractTransformFuture.java:130) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:911) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:822) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.set(AbstractFuture.java:664) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractCatchingFuture$CatchingFuture.setResult(AbstractCatchingFuture.java:210) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractCatchingFuture.run(AbstractCatchingFuture.java:138) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:911) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:822) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.setException(AbstractFuture.java:686) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractTransformFuture.run(AbstractTransformFuture.java:112) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:911) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:822) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.setException(AbstractFuture.java:686) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.SettableFuture.setException(SettableFuture.java:54) ~[fabric__runtime_deploy.jar:na]
+	at improbable.bridge.client.BridgeServiceTaskRetrier.onFailure(BridgeServiceTaskRetrier.java:102) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.Futures$CallbackListener.run(Futures.java:1228) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:911) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:822) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.setException(AbstractFuture.java:686) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.stub.ClientCalls$GrpcFuture.setException(ClientCalls.java:466) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.stub.ClientCalls$UnaryStreamToFuture.onClose(ClientCalls.java:442) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.ForwardingClientCallListener.onClose(ForwardingClientCallListener.java:56) ~[fabric__runtime_deploy.jar:na]
+	at me.dinowernli.grpc.prometheus.MonitoringClientCallListener.onClose(MonitoringClientCallListener.java:50) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:426) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl.access$100(ClientCallImpl.java:76) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl.close(ClientCallImpl.java:512) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl.access$700(ClientCallImpl.java:429) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:544) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:52) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:117) ~[fabric__runtime_deploy.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_162-ea]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_162-ea]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_162-ea]
+Caused by: io.grpc.StatusRuntimeException: DEADLINE_EXCEEDED
+	at io.grpc.Status.asRuntimeException(Status.java:543) ~[fabric__runtime_deploy.jar:na]
+	... 13 common frames omitted
+2017-11-17 13:17:45,069 WARN  [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityWorker0] Incoming command request with ID 92 to entity ID 6 and component ID 1003 was not handled by the worker within the given timeout.
+ in  -[WorkerLogger:Unity]
+2017-11-17 13:19:43,378 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Attempting to get positionHint for UnityClient280eb8d5-bf54-46c6-8bff-60dafe0bc0fc via rpc
+2017-11-17 13:19:43,380 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Starting UnityClient280eb8d5-bf54-46c6-8bff-60dafe0bc0fc without a position hint, so using a random bridge service
+2017-11-17 13:19:43,382 INFO  [i.m.b.o.m.BridgeModuleOracleActor] [] [] [] : BridgeServicePicker returned module Optional[legacy_guid: "8b9d51f6-9f7d-48f9-b151-e195231124c3"
+address {
+  host: "127.0.0.1"
+  port: 9019
+}
+] with load Optional[BridgeModuleLoadBalanceInfo((0.0, 0.0, 0.0),1)].get().toString() for Engine(UnityClient280eb8d5-bf54-46c6-8bff-60dafe0bc0fc)
+2017-11-17 13:19:43,401 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClient280eb8d5-bf54-46c6-8bff-60dafe0bc0fc"
+ registered with bridge internal service
+2017-11-17 13:19:43,403 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Got bridge started rpc from bridge: worker_id: "UnityClient280eb8d5-bf54-46c6-8bff-60dafe0bc0fc"
+
+2017-11-17 13:19:43,403 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : The worker UnityClient280eb8d5-bf54-46c6-8bff-60dafe0bc0fc registered with SpatialOS successfully.
+2017-11-17 13:19:43,404 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge started to self for bridge endpoint BridgeOracleEndpoint
+2017-11-17 13:19:43,404 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClient280eb8d5-bf54-46c6-8bff-60dafe0bc0fc) started.
+2017-11-17 13:19:43,453 INFO  [i.b.n.raknet.GuardedRakPeerInterface] [] [] [] : New RakNet connection established with 127.0.0.1
+2017-11-17 13:20:07,864 INFO  [i.b.n.BridgeActorTransportLinkListener] [] [] [] : TransportLinkListener(UnityClient280eb8d5-bf54-46c6-8bff-60dafe0bc0fc) sending Disconnected to akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityClient280eb8d5-bf54-46c6-8bff-60dafe0bc0fc
+2017-11-17 13:20:07,867 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge stopped to self for bridge endpoint BridgeEndpoint(UnityClient280eb8d5-bf54-46c6-8bff-60dafe0bc0fc)
+2017-11-17 13:20:07,868 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClient280eb8d5-bf54-46c6-8bff-60dafe0bc0fc"
+ unregistered with bridge internal service
+2017-11-17 13:20:07,868 INFO  [improbable.bridge.BridgeActor] [] [] [] : Bridge(UnityClient280eb8d5-bf54-46c6-8bff-60dafe0bc0fc) on BridgeModuleEndpoint(8b9d51f6-9f7d-48f9-b151-e195231124c3) stopped.
+2017-11-17 13:20:07,869 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClient280eb8d5-bf54-46c6-8bff-60dafe0bc0fc) stopped.
+2017-11-17 13:20:52,043 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Attempting to get positionHint for UnityClient098a4439-4c0e-4bfa-9458-ec884ff4725e via rpc
+2017-11-17 13:20:52,044 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Starting UnityClient098a4439-4c0e-4bfa-9458-ec884ff4725e without a position hint, so using a random bridge service
+2017-11-17 13:20:52,046 INFO  [i.m.b.o.m.BridgeModuleOracleActor] [] [] [] : BridgeServicePicker returned module Optional[legacy_guid: "8b9d51f6-9f7d-48f9-b151-e195231124c3"
+address {
+  host: "127.0.0.1"
+  port: 9019
+}
+] with load Optional[BridgeModuleLoadBalanceInfo((0.0, 0.0, 0.0),1)].get().toString() for Engine(UnityClient098a4439-4c0e-4bfa-9458-ec884ff4725e)
+2017-11-17 13:20:52,052 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClient098a4439-4c0e-4bfa-9458-ec884ff4725e"
+ registered with bridge internal service
+2017-11-17 13:20:52,054 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Got bridge started rpc from bridge: worker_id: "UnityClient098a4439-4c0e-4bfa-9458-ec884ff4725e"
+
+2017-11-17 13:20:52,054 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : The worker UnityClient098a4439-4c0e-4bfa-9458-ec884ff4725e registered with SpatialOS successfully.
+2017-11-17 13:20:52,054 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge started to self for bridge endpoint BridgeOracleEndpoint
+2017-11-17 13:20:52,055 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClient098a4439-4c0e-4bfa-9458-ec884ff4725e) started.
+2017-11-17 13:20:52,106 INFO  [i.b.n.raknet.GuardedRakPeerInterface] [] [] [] : New RakNet connection established with 127.0.0.1
+2017-11-17 13:21:14,591 INFO  [i.b.n.BridgeActorTransportLinkListener] [] [] [] : TransportLinkListener(UnityClient098a4439-4c0e-4bfa-9458-ec884ff4725e) sending Disconnected to akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityClient098a4439-4c0e-4bfa-9458-ec884ff4725e
+2017-11-17 13:21:14,593 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge stopped to self for bridge endpoint BridgeEndpoint(UnityClient098a4439-4c0e-4bfa-9458-ec884ff4725e)
+2017-11-17 13:21:14,594 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClient098a4439-4c0e-4bfa-9458-ec884ff4725e) stopped.
+2017-11-17 13:21:14,595 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClient098a4439-4c0e-4bfa-9458-ec884ff4725e"
+ unregistered with bridge internal service
+2017-11-17 13:21:14,596 INFO  [improbable.bridge.BridgeActor] [] [] [] : Bridge(UnityClient098a4439-4c0e-4bfa-9458-ec884ff4725e) on BridgeModuleEndpoint(8b9d51f6-9f7d-48f9-b151-e195231124c3) stopped.
+2017-11-17 13:21:39,190 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Attempting to get positionHint for UnityClientbe5ebb4e-cf02-4809-884c-5e28d65af66b via rpc
+2017-11-17 13:21:39,191 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Starting UnityClientbe5ebb4e-cf02-4809-884c-5e28d65af66b without a position hint, so using a random bridge service
+2017-11-17 13:21:39,192 INFO  [i.m.b.o.m.BridgeModuleOracleActor] [] [] [] : BridgeServicePicker returned module Optional[legacy_guid: "8b9d51f6-9f7d-48f9-b151-e195231124c3"
+address {
+  host: "127.0.0.1"
+  port: 9019
+}
+] with load Optional[BridgeModuleLoadBalanceInfo((0.0, 0.0, 0.0),1)].get().toString() for Engine(UnityClientbe5ebb4e-cf02-4809-884c-5e28d65af66b)
+2017-11-17 13:21:39,211 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClientbe5ebb4e-cf02-4809-884c-5e28d65af66b"
+ registered with bridge internal service
+2017-11-17 13:21:39,212 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Got bridge started rpc from bridge: worker_id: "UnityClientbe5ebb4e-cf02-4809-884c-5e28d65af66b"
+
+2017-11-17 13:21:39,213 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : The worker UnityClientbe5ebb4e-cf02-4809-884c-5e28d65af66b registered with SpatialOS successfully.
+2017-11-17 13:21:39,213 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge started to self for bridge endpoint BridgeOracleEndpoint
+2017-11-17 13:21:39,214 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClientbe5ebb4e-cf02-4809-884c-5e28d65af66b) started.
+2017-11-17 13:21:39,264 INFO  [i.b.n.raknet.GuardedRakPeerInterface] [] [] [] : New RakNet connection established with 127.0.0.1
+2017-11-17 13:21:53,326 INFO  [i.b.n.BridgeActorTransportLinkListener] [] [] [] : TransportLinkListener(UnityClientbe5ebb4e-cf02-4809-884c-5e28d65af66b) sending Disconnected to akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityClientbe5ebb4e-cf02-4809-884c-5e28d65af66b
+2017-11-17 13:21:53,328 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge stopped to self for bridge endpoint BridgeEndpoint(UnityClientbe5ebb4e-cf02-4809-884c-5e28d65af66b)
+2017-11-17 13:21:53,329 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClientbe5ebb4e-cf02-4809-884c-5e28d65af66b) stopped.
+2017-11-17 13:21:53,329 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClientbe5ebb4e-cf02-4809-884c-5e28d65af66b"
+ unregistered with bridge internal service
+2017-11-17 13:21:53,330 INFO  [improbable.bridge.BridgeActor] [] [] [] : Bridge(UnityClientbe5ebb4e-cf02-4809-884c-5e28d65af66b) on BridgeModuleEndpoint(8b9d51f6-9f7d-48f9-b151-e195231124c3) stopped.
+2017-11-17 13:22:31,979 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Attempting to get positionHint for UnityClient9761a716-d646-4136-a04a-c8b8e83ccea0 via rpc
+2017-11-17 13:22:31,980 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Starting UnityClient9761a716-d646-4136-a04a-c8b8e83ccea0 without a position hint, so using a random bridge service
+2017-11-17 13:22:31,983 INFO  [i.m.b.o.m.BridgeModuleOracleActor] [] [] [] : BridgeServicePicker returned module Optional[legacy_guid: "8b9d51f6-9f7d-48f9-b151-e195231124c3"
+address {
+  host: "127.0.0.1"
+  port: 9019
+}
+] with load Optional[BridgeModuleLoadBalanceInfo((0.0, 0.0, 0.0),1)].get().toString() for Engine(UnityClient9761a716-d646-4136-a04a-c8b8e83ccea0)
+2017-11-17 13:22:31,990 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClient9761a716-d646-4136-a04a-c8b8e83ccea0"
+ registered with bridge internal service
+2017-11-17 13:22:31,991 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Got bridge started rpc from bridge: worker_id: "UnityClient9761a716-d646-4136-a04a-c8b8e83ccea0"
+
+2017-11-17 13:22:31,992 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : The worker UnityClient9761a716-d646-4136-a04a-c8b8e83ccea0 registered with SpatialOS successfully.
+2017-11-17 13:22:31,992 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge started to self for bridge endpoint BridgeOracleEndpoint
+2017-11-17 13:22:31,993 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClient9761a716-d646-4136-a04a-c8b8e83ccea0) started.
+2017-11-17 13:22:32,044 INFO  [i.b.n.raknet.GuardedRakPeerInterface] [] [] [] : New RakNet connection established with 127.0.0.1
+2017-11-17 13:22:44,655 INFO  [i.b.n.BridgeActorTransportLinkListener] [] [] [] : TransportLinkListener(UnityClient9761a716-d646-4136-a04a-c8b8e83ccea0) sending Disconnected to akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityClient9761a716-d646-4136-a04a-c8b8e83ccea0
+2017-11-17 13:22:44,657 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge stopped to self for bridge endpoint BridgeEndpoint(UnityClient9761a716-d646-4136-a04a-c8b8e83ccea0)
+2017-11-17 13:22:44,658 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClient9761a716-d646-4136-a04a-c8b8e83ccea0) stopped.
+2017-11-17 13:22:44,659 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClient9761a716-d646-4136-a04a-c8b8e83ccea0"
+ unregistered with bridge internal service
+2017-11-17 13:22:44,659 INFO  [improbable.bridge.BridgeActor] [] [] [] : Bridge(UnityClient9761a716-d646-4136-a04a-c8b8e83ccea0) on BridgeModuleEndpoint(8b9d51f6-9f7d-48f9-b151-e195231124c3) stopped.
+2017-11-17 13:23:12,655 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Attempting to get positionHint for UnityClient68d3ffaa-7407-46fa-a8b7-2c6d40b9e6c9 via rpc
+2017-11-17 13:23:12,656 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Starting UnityClient68d3ffaa-7407-46fa-a8b7-2c6d40b9e6c9 without a position hint, so using a random bridge service
+2017-11-17 13:23:12,658 INFO  [i.m.b.o.m.BridgeModuleOracleActor] [] [] [] : BridgeServicePicker returned module Optional[legacy_guid: "8b9d51f6-9f7d-48f9-b151-e195231124c3"
+address {
+  host: "127.0.0.1"
+  port: 9019
+}
+] with load Optional[BridgeModuleLoadBalanceInfo((0.0, 0.0, 0.0),1)].get().toString() for Engine(UnityClient68d3ffaa-7407-46fa-a8b7-2c6d40b9e6c9)
+2017-11-17 13:23:12,675 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClient68d3ffaa-7407-46fa-a8b7-2c6d40b9e6c9"
+ registered with bridge internal service
+2017-11-17 13:23:12,676 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Got bridge started rpc from bridge: worker_id: "UnityClient68d3ffaa-7407-46fa-a8b7-2c6d40b9e6c9"
+
+2017-11-17 13:23:12,677 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : The worker UnityClient68d3ffaa-7407-46fa-a8b7-2c6d40b9e6c9 registered with SpatialOS successfully.
+2017-11-17 13:23:12,677 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge started to self for bridge endpoint BridgeOracleEndpoint
+2017-11-17 13:23:12,677 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClient68d3ffaa-7407-46fa-a8b7-2c6d40b9e6c9) started.
+2017-11-17 13:23:12,727 INFO  [i.b.n.raknet.GuardedRakPeerInterface] [] [] [] : New RakNet connection established with 127.0.0.1
+2017-11-17 13:23:55,439 INFO  [i.b.n.BridgeActorTransportLinkListener] [] [] [] : TransportLinkListener(UnityClient68d3ffaa-7407-46fa-a8b7-2c6d40b9e6c9) sending Disconnected to akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityClient68d3ffaa-7407-46fa-a8b7-2c6d40b9e6c9
+2017-11-17 13:23:55,441 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClient68d3ffaa-7407-46fa-a8b7-2c6d40b9e6c9"
+ unregistered with bridge internal service
+2017-11-17 13:23:55,441 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge stopped to self for bridge endpoint BridgeEndpoint(UnityClient68d3ffaa-7407-46fa-a8b7-2c6d40b9e6c9)
+2017-11-17 13:23:55,442 INFO  [improbable.bridge.BridgeActor] [] [] [] : Bridge(UnityClient68d3ffaa-7407-46fa-a8b7-2c6d40b9e6c9) on BridgeModuleEndpoint(8b9d51f6-9f7d-48f9-b151-e195231124c3) stopped.
+2017-11-17 13:23:55,442 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClient68d3ffaa-7407-46fa-a8b7-2c6d40b9e6c9) stopped.
+2017-11-17 13:23:56,339 INFO  [i.b.client.BridgeServiceTaskRetrier] [] [] [] : An internal operation forwarding EntityCommandRequest for "entity_id: 11
+component_id: 1003
+" failed on the SpatialOS side of the connection to UnityWorker0 after 0 retries, is the deployment under heavy load?
+io.grpc.StatusRuntimeException: DEADLINE_EXCEEDED
+	at io.grpc.Status.asRuntimeException(Status.java:543) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.stub.ClientCalls$UnaryStreamToFuture.onClose(ClientCalls.java:442) [fabric__runtime_deploy.jar:na]
+	at io.grpc.ForwardingClientCallListener.onClose(ForwardingClientCallListener.java:56) [fabric__runtime_deploy.jar:na]
+	at me.dinowernli.grpc.prometheus.MonitoringClientCallListener.onClose(MonitoringClientCallListener.java:50) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:426) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl.access$100(ClientCallImpl.java:76) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl.close(ClientCallImpl.java:512) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl.access$700(ClientCallImpl.java:429) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:544) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:52) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:117) [fabric__runtime_deploy.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_162-ea]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_162-ea]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_162-ea]
+2017-11-17 13:23:56,345 WARN  [i.b.commands.BridgeCommandHandler] [] [] [] : Failed to execute command entity_command_request {
+  endpoint {
+    entity_id: 11
+    component_id: 1003
+  }
+  payload: "\332>\002\032\000"
+}
+ on UnityClient68d3ffaa-7407-46fa-a8b7-2c6d40b9e6c9
+improbable.bridge.commands.exception.CommandException: DEADLINE_EXCEEDED
+	at improbable.bridge.commands.exception.CommandException.ofStatusRuntimeException(CommandException.java:76) ~[fabric__runtime_deploy.jar:na]
+	at improbable.bridge.commands.exception.CommandException.of(CommandException.java:27) ~[fabric__runtime_deploy.jar:na]
+	at improbable.bridge.client.BridgeInternalServiceClient.lambda$invokeCommand$2(BridgeInternalServiceClient.java:93) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractTransformFuture$TransformFuture.doTransform(AbstractTransformFuture.java:239) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractTransformFuture$TransformFuture.doTransform(AbstractTransformFuture.java:229) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractTransformFuture.run(AbstractTransformFuture.java:130) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:911) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:822) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.set(AbstractFuture.java:664) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractCatchingFuture$CatchingFuture.setResult(AbstractCatchingFuture.java:210) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractCatchingFuture.run(AbstractCatchingFuture.java:138) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:911) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:822) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.setException(AbstractFuture.java:686) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractTransformFuture.run(AbstractTransformFuture.java:112) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:911) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:822) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.setException(AbstractFuture.java:686) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.SettableFuture.setException(SettableFuture.java:54) ~[fabric__runtime_deploy.jar:na]
+	at improbable.bridge.client.BridgeServiceTaskRetrier.onFailure(BridgeServiceTaskRetrier.java:102) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.Futures$CallbackListener.run(Futures.java:1228) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:911) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:822) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.setException(AbstractFuture.java:686) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.stub.ClientCalls$GrpcFuture.setException(ClientCalls.java:466) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.stub.ClientCalls$UnaryStreamToFuture.onClose(ClientCalls.java:442) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.ForwardingClientCallListener.onClose(ForwardingClientCallListener.java:56) ~[fabric__runtime_deploy.jar:na]
+	at me.dinowernli.grpc.prometheus.MonitoringClientCallListener.onClose(MonitoringClientCallListener.java:50) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:426) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl.access$100(ClientCallImpl.java:76) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl.close(ClientCallImpl.java:512) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl.access$700(ClientCallImpl.java:429) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:544) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:52) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:117) ~[fabric__runtime_deploy.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_162-ea]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_162-ea]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_162-ea]
+Caused by: io.grpc.StatusRuntimeException: DEADLINE_EXCEEDED
+	at io.grpc.Status.asRuntimeException(Status.java:543) ~[fabric__runtime_deploy.jar:na]
+	... 13 common frames omitted
+2017-11-17 13:23:56,363 WARN  [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityWorker0] Incoming command request with ID 132 to entity ID 11 and component ID 1003 was not handled by the worker within the given timeout.
+ in  -[WorkerLogger:Unity]
+2017-11-17 13:29:54,183 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Attempting to get positionHint for UnityClient7d9e87e5-072c-4f00-9b05-026ffb112fec via rpc
+2017-11-17 13:29:54,190 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Starting UnityClient7d9e87e5-072c-4f00-9b05-026ffb112fec without a position hint, so using a random bridge service
+2017-11-17 13:29:54,191 INFO  [i.m.b.o.m.BridgeModuleOracleActor] [] [] [] : BridgeServicePicker returned module Optional[legacy_guid: "8b9d51f6-9f7d-48f9-b151-e195231124c3"
+address {
+  host: "127.0.0.1"
+  port: 9019
+}
+] with load Optional[BridgeModuleLoadBalanceInfo((0.0, 0.0, 0.0),1)].get().toString() for Engine(UnityClient7d9e87e5-072c-4f00-9b05-026ffb112fec)
+2017-11-17 13:29:54,475 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClient7d9e87e5-072c-4f00-9b05-026ffb112fec"
+ registered with bridge internal service
+2017-11-17 13:29:54,483 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Got bridge started rpc from bridge: worker_id: "UnityClient7d9e87e5-072c-4f00-9b05-026ffb112fec"
+
+2017-11-17 13:29:54,484 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : The worker UnityClient7d9e87e5-072c-4f00-9b05-026ffb112fec registered with SpatialOS successfully.
+2017-11-17 13:29:54,484 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge started to self for bridge endpoint BridgeOracleEndpoint
+2017-11-17 13:29:54,489 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClient7d9e87e5-072c-4f00-9b05-026ffb112fec) started.
+2017-11-17 13:29:54,549 INFO  [i.b.n.raknet.GuardedRakPeerInterface] [] [] [] : New RakNet connection established with 127.0.0.1
+2017-11-17 13:30:05,400 INFO  [i.b.n.BridgeActorTransportLinkListener] [] [] [] : TransportLinkListener(UnityClient7d9e87e5-072c-4f00-9b05-026ffb112fec) sending Disconnected to akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityClient7d9e87e5-072c-4f00-9b05-026ffb112fec
+2017-11-17 13:30:05,404 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge stopped to self for bridge endpoint BridgeEndpoint(UnityClient7d9e87e5-072c-4f00-9b05-026ffb112fec)
+2017-11-17 13:30:05,405 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClient7d9e87e5-072c-4f00-9b05-026ffb112fec) stopped.
+2017-11-17 13:30:05,406 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClient7d9e87e5-072c-4f00-9b05-026ffb112fec"
+ unregistered with bridge internal service
+2017-11-17 13:30:05,407 INFO  [improbable.bridge.BridgeActor] [] [] [] : Bridge(UnityClient7d9e87e5-072c-4f00-9b05-026ffb112fec) on BridgeModuleEndpoint(8b9d51f6-9f7d-48f9-b151-e195231124c3) stopped.
+2017-11-17 13:31:06,633 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Attempting to get positionHint for UnityClient31cbabf5-948a-4a19-a9c8-f24f40a7e8a1 via rpc
+2017-11-17 13:31:06,635 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Starting UnityClient31cbabf5-948a-4a19-a9c8-f24f40a7e8a1 without a position hint, so using a random bridge service
+2017-11-17 13:31:06,637 INFO  [i.m.b.o.m.BridgeModuleOracleActor] [] [] [] : BridgeServicePicker returned module Optional[legacy_guid: "8b9d51f6-9f7d-48f9-b151-e195231124c3"
+address {
+  host: "127.0.0.1"
+  port: 9019
+}
+] with load Optional[BridgeModuleLoadBalanceInfo((0.0, 0.0, 0.0),1)].get().toString() for Engine(UnityClient31cbabf5-948a-4a19-a9c8-f24f40a7e8a1)
+2017-11-17 13:31:06,654 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClient31cbabf5-948a-4a19-a9c8-f24f40a7e8a1"
+ registered with bridge internal service
+2017-11-17 13:31:06,655 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Got bridge started rpc from bridge: worker_id: "UnityClient31cbabf5-948a-4a19-a9c8-f24f40a7e8a1"
+
+2017-11-17 13:31:06,656 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : The worker UnityClient31cbabf5-948a-4a19-a9c8-f24f40a7e8a1 registered with SpatialOS successfully.
+2017-11-17 13:31:06,656 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge started to self for bridge endpoint BridgeOracleEndpoint
+2017-11-17 13:31:06,656 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClient31cbabf5-948a-4a19-a9c8-f24f40a7e8a1) started.
+2017-11-17 13:31:06,707 INFO  [i.b.n.raknet.GuardedRakPeerInterface] [] [] [] : New RakNet connection established with 127.0.0.1
+2017-11-17 13:31:13,300 INFO  [i.b.n.BridgeActorTransportLinkListener] [] [] [] : TransportLinkListener(UnityClient31cbabf5-948a-4a19-a9c8-f24f40a7e8a1) sending Disconnected to akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityClient31cbabf5-948a-4a19-a9c8-f24f40a7e8a1
+2017-11-17 13:31:13,303 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge stopped to self for bridge endpoint BridgeEndpoint(UnityClient31cbabf5-948a-4a19-a9c8-f24f40a7e8a1)
+2017-11-17 13:31:13,304 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClient31cbabf5-948a-4a19-a9c8-f24f40a7e8a1) stopped.
+2017-11-17 13:31:13,305 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClient31cbabf5-948a-4a19-a9c8-f24f40a7e8a1"
+ unregistered with bridge internal service
+2017-11-17 13:31:13,306 INFO  [improbable.bridge.BridgeActor] [] [] [] : Bridge(UnityClient31cbabf5-948a-4a19-a9c8-f24f40a7e8a1) on BridgeModuleEndpoint(8b9d51f6-9f7d-48f9-b151-e195231124c3) stopped.
+2017-11-17 13:34:10,297 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Attempting to get positionHint for UnityClient51bb40a3-278a-4723-86af-1dd1ff9f35de via rpc
+2017-11-17 13:34:10,301 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Starting UnityClient51bb40a3-278a-4723-86af-1dd1ff9f35de without a position hint, so using a random bridge service
+2017-11-17 13:34:10,302 INFO  [i.m.b.o.m.BridgeModuleOracleActor] [] [] [] : BridgeServicePicker returned module Optional[legacy_guid: "8b9d51f6-9f7d-48f9-b151-e195231124c3"
+address {
+  host: "127.0.0.1"
+  port: 9019
+}
+] with load Optional[BridgeModuleLoadBalanceInfo((0.0, 0.0, 0.0),1)].get().toString() for Engine(UnityClient51bb40a3-278a-4723-86af-1dd1ff9f35de)
+2017-11-17 13:34:10,331 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClient51bb40a3-278a-4723-86af-1dd1ff9f35de"
+ registered with bridge internal service
+2017-11-17 13:34:10,335 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Got bridge started rpc from bridge: worker_id: "UnityClient51bb40a3-278a-4723-86af-1dd1ff9f35de"
+
+2017-11-17 13:34:10,335 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : The worker UnityClient51bb40a3-278a-4723-86af-1dd1ff9f35de registered with SpatialOS successfully.
+2017-11-17 13:34:10,336 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge started to self for bridge endpoint BridgeOracleEndpoint
+2017-11-17 13:34:10,336 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClient51bb40a3-278a-4723-86af-1dd1ff9f35de) started.
+2017-11-17 13:34:10,428 INFO  [i.b.n.raknet.GuardedRakPeerInterface] [] [] [] : New RakNet connection established with 127.0.0.1
+2017-11-17 13:34:59,260 INFO  [i.b.n.BridgeActorTransportLinkListener] [] [] [] : TransportLinkListener(UnityClient51bb40a3-278a-4723-86af-1dd1ff9f35de) sending Disconnected to akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityClient51bb40a3-278a-4723-86af-1dd1ff9f35de
+2017-11-17 13:34:59,264 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge stopped to self for bridge endpoint BridgeEndpoint(UnityClient51bb40a3-278a-4723-86af-1dd1ff9f35de)
+2017-11-17 13:34:59,265 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClient51bb40a3-278a-4723-86af-1dd1ff9f35de) stopped.
+2017-11-17 13:34:59,268 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClient51bb40a3-278a-4723-86af-1dd1ff9f35de"
+ unregistered with bridge internal service
+2017-11-17 13:34:59,268 INFO  [improbable.bridge.BridgeActor] [] [] [] : Bridge(UnityClient51bb40a3-278a-4723-86af-1dd1ff9f35de) on BridgeModuleEndpoint(8b9d51f6-9f7d-48f9-b151-e195231124c3) stopped.
+2017-11-17 13:36:22,504 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Attempting to get positionHint for UnityClientf2f76a87-4348-401f-be8e-01b754e7d7d4 via rpc
+2017-11-17 13:36:22,505 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Starting UnityClientf2f76a87-4348-401f-be8e-01b754e7d7d4 without a position hint, so using a random bridge service
+2017-11-17 13:36:22,508 INFO  [i.m.b.o.m.BridgeModuleOracleActor] [] [] [] : BridgeServicePicker returned module Optional[legacy_guid: "8b9d51f6-9f7d-48f9-b151-e195231124c3"
+address {
+  host: "127.0.0.1"
+  port: 9019
+}
+] with load Optional[BridgeModuleLoadBalanceInfo((0.0, 0.0, 0.0),1)].get().toString() for Engine(UnityClientf2f76a87-4348-401f-be8e-01b754e7d7d4)
+2017-11-17 13:36:22,525 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClientf2f76a87-4348-401f-be8e-01b754e7d7d4"
+ registered with bridge internal service
+2017-11-17 13:36:22,528 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Got bridge started rpc from bridge: worker_id: "UnityClientf2f76a87-4348-401f-be8e-01b754e7d7d4"
+
+2017-11-17 13:36:22,529 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : The worker UnityClientf2f76a87-4348-401f-be8e-01b754e7d7d4 registered with SpatialOS successfully.
+2017-11-17 13:36:22,529 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge started to self for bridge endpoint BridgeOracleEndpoint
+2017-11-17 13:36:22,529 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClientf2f76a87-4348-401f-be8e-01b754e7d7d4) started.
+2017-11-17 13:36:22,629 INFO  [i.b.n.raknet.GuardedRakPeerInterface] [] [] [] : New RakNet connection established with 127.0.0.1
+2017-11-17 13:37:28,742 INFO  [i.b.n.BridgeActorTransportLinkListener] [] [] [] : TransportLinkListener(UnityClientf2f76a87-4348-401f-be8e-01b754e7d7d4) sending Disconnected to akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityClientf2f76a87-4348-401f-be8e-01b754e7d7d4
+2017-11-17 13:37:28,766 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge stopped to self for bridge endpoint BridgeEndpoint(UnityClientf2f76a87-4348-401f-be8e-01b754e7d7d4)
+2017-11-17 13:37:28,767 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClientf2f76a87-4348-401f-be8e-01b754e7d7d4"
+ unregistered with bridge internal service
+2017-11-17 13:37:28,768 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClientf2f76a87-4348-401f-be8e-01b754e7d7d4) stopped.
+2017-11-17 13:37:28,768 INFO  [improbable.bridge.BridgeActor] [] [] [] : Bridge(UnityClientf2f76a87-4348-401f-be8e-01b754e7d7d4) on BridgeModuleEndpoint(8b9d51f6-9f7d-48f9-b151-e195231124c3) stopped.
+2017-11-17 13:49:37,312 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Attempting to get positionHint for UnityClient32d3189e-8e3f-4211-a483-1fc92bb8117e via rpc
+2017-11-17 13:49:37,317 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Starting UnityClient32d3189e-8e3f-4211-a483-1fc92bb8117e without a position hint, so using a random bridge service
+2017-11-17 13:49:37,319 INFO  [i.m.b.o.m.BridgeModuleOracleActor] [] [] [] : BridgeServicePicker returned module Optional[legacy_guid: "8b9d51f6-9f7d-48f9-b151-e195231124c3"
+address {
+  host: "127.0.0.1"
+  port: 9019
+}
+] with load Optional[BridgeModuleLoadBalanceInfo((0.0, 0.0, 0.0),1)].get().toString() for Engine(UnityClient32d3189e-8e3f-4211-a483-1fc92bb8117e)
+2017-11-17 13:49:37,366 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClient32d3189e-8e3f-4211-a483-1fc92bb8117e"
+ registered with bridge internal service
+2017-11-17 13:49:37,392 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Got bridge started rpc from bridge: worker_id: "UnityClient32d3189e-8e3f-4211-a483-1fc92bb8117e"
+
+2017-11-17 13:49:37,392 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : The worker UnityClient32d3189e-8e3f-4211-a483-1fc92bb8117e registered with SpatialOS successfully.
+2017-11-17 13:49:37,399 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge started to self for bridge endpoint BridgeOracleEndpoint
+2017-11-17 13:49:37,406 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClient32d3189e-8e3f-4211-a483-1fc92bb8117e) started.
+2017-11-17 13:49:37,598 INFO  [i.b.n.raknet.GuardedRakPeerInterface] [] [] [] : New RakNet connection established with 127.0.0.1
+2017-11-17 13:50:01,930 INFO  [i.b.n.BridgeActorTransportLinkListener] [] [] [] : TransportLinkListener(UnityClient32d3189e-8e3f-4211-a483-1fc92bb8117e) sending Disconnected to akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityClient32d3189e-8e3f-4211-a483-1fc92bb8117e
+2017-11-17 13:50:01,934 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge stopped to self for bridge endpoint BridgeEndpoint(UnityClient32d3189e-8e3f-4211-a483-1fc92bb8117e)
+2017-11-17 13:50:01,935 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClient32d3189e-8e3f-4211-a483-1fc92bb8117e) stopped.
+2017-11-17 13:50:01,937 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClient32d3189e-8e3f-4211-a483-1fc92bb8117e"
+ unregistered with bridge internal service
+2017-11-17 13:50:01,937 INFO  [improbable.bridge.BridgeActor] [] [] [] : Bridge(UnityClient32d3189e-8e3f-4211-a483-1fc92bb8117e) on BridgeModuleEndpoint(8b9d51f6-9f7d-48f9-b151-e195231124c3) stopped.
+2017-11-17 13:50:35,131 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Attempting to get positionHint for UnityClient20fab615-47b2-4d11-b0a3-1f3b1a1d856c via rpc
+2017-11-17 13:50:35,132 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Starting UnityClient20fab615-47b2-4d11-b0a3-1f3b1a1d856c without a position hint, so using a random bridge service
+2017-11-17 13:50:35,133 INFO  [i.m.b.o.m.BridgeModuleOracleActor] [] [] [] : BridgeServicePicker returned module Optional[legacy_guid: "8b9d51f6-9f7d-48f9-b151-e195231124c3"
+address {
+  host: "127.0.0.1"
+  port: 9019
+}
+] with load Optional[BridgeModuleLoadBalanceInfo((0.0, 0.0, 0.0),1)].get().toString() for Engine(UnityClient20fab615-47b2-4d11-b0a3-1f3b1a1d856c)
+2017-11-17 13:50:35,151 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClient20fab615-47b2-4d11-b0a3-1f3b1a1d856c"
+ registered with bridge internal service
+2017-11-17 13:50:35,153 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Got bridge started rpc from bridge: worker_id: "UnityClient20fab615-47b2-4d11-b0a3-1f3b1a1d856c"
+
+2017-11-17 13:50:35,153 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : The worker UnityClient20fab615-47b2-4d11-b0a3-1f3b1a1d856c registered with SpatialOS successfully.
+2017-11-17 13:50:35,153 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge started to self for bridge endpoint BridgeOracleEndpoint
+2017-11-17 13:50:35,154 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClient20fab615-47b2-4d11-b0a3-1f3b1a1d856c) started.
+2017-11-17 13:50:35,205 INFO  [i.b.n.raknet.GuardedRakPeerInterface] [] [] [] : New RakNet connection established with 127.0.0.1
+2017-11-17 13:51:29,886 INFO  [i.b.n.BridgeActorTransportLinkListener] [] [] [] : TransportLinkListener(UnityClient20fab615-47b2-4d11-b0a3-1f3b1a1d856c) sending Disconnected to akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityClient20fab615-47b2-4d11-b0a3-1f3b1a1d856c
+2017-11-17 13:51:29,891 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge stopped to self for bridge endpoint BridgeEndpoint(UnityClient20fab615-47b2-4d11-b0a3-1f3b1a1d856c)
+2017-11-17 13:51:29,892 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClient20fab615-47b2-4d11-b0a3-1f3b1a1d856c) stopped.
+2017-11-17 13:51:29,892 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClient20fab615-47b2-4d11-b0a3-1f3b1a1d856c"
+ unregistered with bridge internal service
+2017-11-17 13:51:29,894 INFO  [improbable.bridge.BridgeActor] [] [] [] : Bridge(UnityClient20fab615-47b2-4d11-b0a3-1f3b1a1d856c) on BridgeModuleEndpoint(8b9d51f6-9f7d-48f9-b151-e195231124c3) stopped.
+2017-11-17 13:53:51,553 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Attempting to get positionHint for UnityClientd5e97248-5d7a-4ca2-b0a0-19d8c614121a via rpc
+2017-11-17 13:53:51,555 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Starting UnityClientd5e97248-5d7a-4ca2-b0a0-19d8c614121a without a position hint, so using a random bridge service
+2017-11-17 13:53:51,556 INFO  [i.m.b.o.m.BridgeModuleOracleActor] [] [] [] : BridgeServicePicker returned module Optional[legacy_guid: "8b9d51f6-9f7d-48f9-b151-e195231124c3"
+address {
+  host: "127.0.0.1"
+  port: 9019
+}
+] with load Optional[BridgeModuleLoadBalanceInfo((0.0, 0.0, 0.0),1)].get().toString() for Engine(UnityClientd5e97248-5d7a-4ca2-b0a0-19d8c614121a)
+2017-11-17 13:53:51,581 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClientd5e97248-5d7a-4ca2-b0a0-19d8c614121a"
+ registered with bridge internal service
+2017-11-17 13:53:51,583 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Got bridge started rpc from bridge: worker_id: "UnityClientd5e97248-5d7a-4ca2-b0a0-19d8c614121a"
+
+2017-11-17 13:53:51,584 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : The worker UnityClientd5e97248-5d7a-4ca2-b0a0-19d8c614121a registered with SpatialOS successfully.
+2017-11-17 13:53:51,585 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge started to self for bridge endpoint BridgeOracleEndpoint
+2017-11-17 13:53:51,586 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClientd5e97248-5d7a-4ca2-b0a0-19d8c614121a) started.
+2017-11-17 13:53:51,685 INFO  [i.b.n.raknet.GuardedRakPeerInterface] [] [] [] : New RakNet connection established with 127.0.0.1
+2017-11-17 13:54:01,444 INFO  [i.b.n.BridgeActorTransportLinkListener] [] [] [] : TransportLinkListener(UnityClientd5e97248-5d7a-4ca2-b0a0-19d8c614121a) sending Disconnected to akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityClientd5e97248-5d7a-4ca2-b0a0-19d8c614121a
+2017-11-17 13:54:01,451 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge stopped to self for bridge endpoint BridgeEndpoint(UnityClientd5e97248-5d7a-4ca2-b0a0-19d8c614121a)
+2017-11-17 13:54:01,452 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClientd5e97248-5d7a-4ca2-b0a0-19d8c614121a) stopped.
+2017-11-17 13:54:01,453 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClientd5e97248-5d7a-4ca2-b0a0-19d8c614121a"
+ unregistered with bridge internal service
+2017-11-17 13:54:01,455 INFO  [improbable.bridge.BridgeActor] [] [] [] : Bridge(UnityClientd5e97248-5d7a-4ca2-b0a0-19d8c614121a) on BridgeModuleEndpoint(8b9d51f6-9f7d-48f9-b151-e195231124c3) stopped.
+2017-11-17 13:54:43,055 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Attempting to get positionHint for UnityClient47785bd6-67eb-400a-931f-35933c08764f via rpc
+2017-11-17 13:54:43,057 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Starting UnityClient47785bd6-67eb-400a-931f-35933c08764f without a position hint, so using a random bridge service
+2017-11-17 13:54:43,058 INFO  [i.m.b.o.m.BridgeModuleOracleActor] [] [] [] : BridgeServicePicker returned module Optional[legacy_guid: "8b9d51f6-9f7d-48f9-b151-e195231124c3"
+address {
+  host: "127.0.0.1"
+  port: 9019
+}
+] with load Optional[BridgeModuleLoadBalanceInfo((0.0, 0.0, 0.0),1)].get().toString() for Engine(UnityClient47785bd6-67eb-400a-931f-35933c08764f)
+2017-11-17 13:54:43,075 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClient47785bd6-67eb-400a-931f-35933c08764f"
+ registered with bridge internal service
+2017-11-17 13:54:43,077 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Got bridge started rpc from bridge: worker_id: "UnityClient47785bd6-67eb-400a-931f-35933c08764f"
+
+2017-11-17 13:54:43,077 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : The worker UnityClient47785bd6-67eb-400a-931f-35933c08764f registered with SpatialOS successfully.
+2017-11-17 13:54:43,077 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge started to self for bridge endpoint BridgeOracleEndpoint
+2017-11-17 13:54:43,078 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClient47785bd6-67eb-400a-931f-35933c08764f) started.
+2017-11-17 13:54:43,127 INFO  [i.b.n.raknet.GuardedRakPeerInterface] [] [] [] : New RakNet connection established with 127.0.0.1
+2017-11-17 13:55:00,405 INFO  [i.b.n.BridgeActorTransportLinkListener] [] [] [] : TransportLinkListener(UnityClient47785bd6-67eb-400a-931f-35933c08764f) sending Disconnected to akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityClient47785bd6-67eb-400a-931f-35933c08764f
+2017-11-17 13:55:00,407 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge stopped to self for bridge endpoint BridgeEndpoint(UnityClient47785bd6-67eb-400a-931f-35933c08764f)
+2017-11-17 13:55:00,408 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClient47785bd6-67eb-400a-931f-35933c08764f) stopped.
+2017-11-17 13:55:00,410 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClient47785bd6-67eb-400a-931f-35933c08764f"
+ unregistered with bridge internal service
+2017-11-17 13:55:00,410 INFO  [improbable.bridge.BridgeActor] [] [] [] : Bridge(UnityClient47785bd6-67eb-400a-931f-35933c08764f) on BridgeModuleEndpoint(8b9d51f6-9f7d-48f9-b151-e195231124c3) stopped.
+2017-11-17 13:55:14,339 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Attempting to get positionHint for UnityClientba22ab04-61d2-41f0-b461-92f35e0b9565 via rpc
+2017-11-17 13:55:14,340 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Starting UnityClientba22ab04-61d2-41f0-b461-92f35e0b9565 without a position hint, so using a random bridge service
+2017-11-17 13:55:14,342 INFO  [i.m.b.o.m.BridgeModuleOracleActor] [] [] [] : BridgeServicePicker returned module Optional[legacy_guid: "8b9d51f6-9f7d-48f9-b151-e195231124c3"
+address {
+  host: "127.0.0.1"
+  port: 9019
+}
+] with load Optional[BridgeModuleLoadBalanceInfo((0.0, 0.0, 0.0),1)].get().toString() for Engine(UnityClientba22ab04-61d2-41f0-b461-92f35e0b9565)
+2017-11-17 13:55:14,347 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClientba22ab04-61d2-41f0-b461-92f35e0b9565"
+ registered with bridge internal service
+2017-11-17 13:55:14,348 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Got bridge started rpc from bridge: worker_id: "UnityClientba22ab04-61d2-41f0-b461-92f35e0b9565"
+
+2017-11-17 13:55:14,348 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : The worker UnityClientba22ab04-61d2-41f0-b461-92f35e0b9565 registered with SpatialOS successfully.
+2017-11-17 13:55:14,349 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge started to self for bridge endpoint BridgeOracleEndpoint
+2017-11-17 13:55:14,349 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClientba22ab04-61d2-41f0-b461-92f35e0b9565) started.
+2017-11-17 13:55:14,401 INFO  [i.b.n.raknet.GuardedRakPeerInterface] [] [] [] : New RakNet connection established with 127.0.0.1
+2017-11-17 13:55:37,696 INFO  [i.b.n.BridgeActorTransportLinkListener] [] [] [] : TransportLinkListener(UnityClientba22ab04-61d2-41f0-b461-92f35e0b9565) sending Disconnected to akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityClientba22ab04-61d2-41f0-b461-92f35e0b9565
+2017-11-17 13:55:37,701 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge stopped to self for bridge endpoint BridgeEndpoint(UnityClientba22ab04-61d2-41f0-b461-92f35e0b9565)
+2017-11-17 13:55:37,702 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClientba22ab04-61d2-41f0-b461-92f35e0b9565) stopped.
+2017-11-17 13:55:37,703 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClientba22ab04-61d2-41f0-b461-92f35e0b9565"
+ unregistered with bridge internal service
+2017-11-17 13:55:37,704 INFO  [improbable.bridge.BridgeActor] [] [] [] : Bridge(UnityClientba22ab04-61d2-41f0-b461-92f35e0b9565) on BridgeModuleEndpoint(8b9d51f6-9f7d-48f9-b151-e195231124c3) stopped.
+2017-11-17 15:08:20,229 WARN  [i.b.oracle.monitoring.BridgeCleaner] [] [] [] : Got new list of 1 unhealthy worker connection services, cleaning them up
+2017-11-17 15:08:20,254 INFO  [i.b.oracle.monitoring.BridgeCleaner] [] [] [] : Cleaning up 1 bridge(s) whose bridge service died
+2017-11-17 15:08:20,259 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge stopped to self for bridge endpoint BridgeEndpoint(UnityWorker0)
+2017-11-17 15:08:20,261 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityWorker0) stopped.
+2017-11-17 15:08:20,278 INFO  [i.worker.exec.WorkerRunnerImpl] [] [] [] : Killing worker [UnityWorker0] forcibly
+2017-11-17 15:08:20,301 INFO  [i.worker.exec.CommandLineExecutor] [] [] [] : Worker UnityWorker0 terminated normally.
+2017-11-17 15:08:21,378 INFO  [i.b.o.m.BridgeOracleWorkerManager] [] [] [] : Trying to start managed worker UnityWorker1
+2017-11-17 15:08:21,382 INFO  [i.bridge.oracle.scaling.WorkerScaler] [] [] [] : Starting 1 new managed workers for attribute_set {
+  attribute: "physics"
+}
+ (required: 1, existing: 0)
+2017-11-17 15:08:21,382 INFO  [i.worker.exec.WorkerStartupExecutor] [] [] [] : Awaiting internal receptionist service to register with service discovery
+2017-11-17 15:08:21,383 INFO  [i.worker.exec.WorkerStartupExecutor] [] [] [] : Successfully found the internal receptionist service in service discovery
+2017-11-17 15:08:21,387 INFO  [i.worker.exec.WorkerStartupExecutor] [] [] [] : Awaiting public receptionist service to register with service discovery
+2017-11-17 15:08:21,389 INFO  [i.worker.exec.WorkerStartupExecutor] [] [] [] : Successfully found the public receptionist service in service discovery
+2017-11-17 15:08:21,446 WARN  [i.worker.exec.WorkerStartupExecutor] [] [] [] : Error while setting permissions of the worker directory.
+java.nio.file.FileSystemException: /var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T: Operation not permitted
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:91) ~[na:1.8.0_162-ea]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102) ~[na:1.8.0_162-ea]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107) ~[na:1.8.0_162-ea]
+	at sun.nio.fs.UnixFileAttributeViews$Posix.setMode(UnixFileAttributeViews.java:238) ~[na:1.8.0_162-ea]
+	at sun.nio.fs.UnixFileAttributeViews$Posix.setPermissions(UnixFileAttributeViews.java:260) ~[na:1.8.0_162-ea]
+	at java.nio.file.Files.setPosixFilePermissions(Files.java:2045) ~[na:1.8.0_162-ea]
+	at improbable.worker.exec.WorkerStartupExecutor.setWorkerFilePermissions(WorkerStartupExecutor.java:380) [fabric__runtime_deploy.jar:na]
+	at improbable.worker.exec.WorkerStartupExecutor.setPermissionsForDirectoryParents(WorkerStartupExecutor.java:350) [fabric__runtime_deploy.jar:na]
+	at improbable.worker.exec.WorkerStartupExecutor.setWorkerDirectoryPermissions(WorkerStartupExecutor.java:341) [fabric__runtime_deploy.jar:na]
+	at improbable.worker.exec.WorkerStartupExecutor.executeInternal(WorkerStartupExecutor.java:192) [fabric__runtime_deploy.jar:na]
+	at improbable.worker.exec.WorkerStartupExecutor.execute(WorkerStartupExecutor.java:117) [fabric__runtime_deploy.jar:na]
+	at improbable.worker.exec.WorkerRunnerImpl.startWorker(WorkerRunnerImpl.java:132) [fabric__runtime_deploy.jar:na]
+	at improbable.worker.exec.WorkerRunnerImpl.start(WorkerRunnerImpl.java:79) [fabric__runtime_deploy.jar:na]
+	at improbable.platform.inner.worker.WorkerRunnerGrpc$MethodHandlers.invoke(WorkerRunnerGrpc.java:326) [fabric__runtime_deploy.jar:na]
+	at io.grpc.stub.ServerCalls$1$1.onHalfClose(ServerCalls.java:148) [fabric__runtime_deploy.jar:na]
+	at io.grpc.PartialForwardingServerCallListener.onHalfClose(PartialForwardingServerCallListener.java:48) [fabric__runtime_deploy.jar:na]
+	at io.grpc.ForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:38) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:267) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$2.runInContext(ServerImpl.java:573) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:52) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:117) [fabric__runtime_deploy.jar:na]
+	at improbable.common.async.FabricListeningExecutorService.lambda$instrumentRunnable$0(FabricListeningExecutorService.java:133) [fabric__runtime_deploy.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_162-ea]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_162-ea]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_162-ea]
+2017-11-17 15:08:21,452 INFO  [i.worker.exec.WorkerStartupExecutor] [] [] [] : Created log file for worker UnityWorker1, type (UnityWorker): [/Users/dp.alex/Documents/ProgettoIS/logs/2017-11-17_13-05-49_0/workers/UnityWorker/UnityWorker1-8181320114092621884.log]
+2017-11-17 15:08:21,452 INFO  [i.worker.exec.CommandLineExecutor] [] [] [] : Running command: /var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T/zip-downloader1806182692338184286/c667a3f827f4dc5ff788cff8d665ccc7/UnityWorker@Mac.app/Contents/MacOS/UnityWorker@Mac +projectName your_project_name_here +receptionistIp 127.0.0.1 +receptionistPort 7777 +workerType UnityWorker +workerId UnityWorker1 +useInternalIpForBridge true +infraServicesUrl http://127.0.0.1:21000 +assemblyName local_assembly +linkProtocol RakNet -logfile /Users/dp.alex/Documents/ProgettoIS/logs/2017-11-17_13-05-49_0/workers/UnityWorker/UnityWorker1-8181320114092621884.log -batchmode -nographics
+2017-11-17 15:08:22,220 WARN  [i.b.oracle.monitoring.BridgeCleaner] [] [] [] : Got new list of 0 unhealthy worker connection services, cleaning them up
+2017-11-17 15:08:22,226 INFO  [i.b.oracle.monitoring.BridgeCleaner] [] [] [] : Cleaning up 0 bridge(s) whose bridge service died
+2017-11-17 15:08:22,699 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Attempting to get positionHint for UnityWorker1 via rpc
+2017-11-17 15:08:22,700 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Selected legacy_guid: "8b9d51f6-9f7d-48f9-b151-e195231124c3"
+address {
+  host: "127.0.0.1"
+  port: 9019
+}
+ with position  which is the nearest bridge service to position (0.0, 0.0, 0.0)
+2017-11-17 15:08:22,701 INFO  [i.m.b.o.m.BridgeModuleOracleActor] [] [] [] : BridgeServicePicker returned module Optional[legacy_guid: "8b9d51f6-9f7d-48f9-b151-e195231124c3"
+address {
+  host: "127.0.0.1"
+  port: 9019
+}
+] with load Optional[BridgeModuleLoadBalanceInfo((0.0, 0.0, 0.0),1)].get().toString() for Engine(UnityWorker1)
+2017-11-17 15:08:22,719 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityWorker1"
+ registered with bridge internal service
+2017-11-17 15:08:22,723 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Got bridge started rpc from bridge: worker_id: "UnityWorker1"
+
+2017-11-17 15:08:22,723 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : The worker UnityWorker1 registered with SpatialOS successfully.
+2017-11-17 15:08:22,724 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge started to self for bridge endpoint BridgeOracleEndpoint
+2017-11-17 15:08:22,724 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityWorker1) started.
+2017-11-17 15:08:22,725 INFO  [i.b.o.m.BridgeOracleWorkerManager] [] [] [] : Worker UnityWorker1 registered with the BridgeOracleWorker manager
+2017-11-17 15:08:22,819 INFO  [i.b.n.raknet.GuardedRakPeerInterface] [] [] [] : New RakNet connection established with 127.0.0.1
+2017-11-17 15:08:25,261 ERROR [i.module.bridge.oracle.BridgeOracle] [] [] [] : SpatialOS-internal error: Received a status update for unknown bridge: BridgeEndpoint(UnityWorker0)
+2017-11-17 15:08:30,259 ERROR [i.module.bridge.oracle.BridgeOracle] [] [] [] : SpatialOS-internal error: Received a status update for unknown bridge: BridgeEndpoint(UnityWorker0)
+2017-11-17 15:08:35,259 ERROR [i.module.bridge.oracle.BridgeOracle] [] [] [] : SpatialOS-internal error: Received a status update for unknown bridge: BridgeEndpoint(UnityWorker0)
+2017-11-17 15:08:35,470 WARN  [improbable.bridge.qos.QosHandler] [] [] [] : Worker connection for worker UnityWorker0 is unresponsive. Recent average latency: 24ms. Recent % of failed pings: 60.0%. Underlying transport layer healthy: true
+2017-11-17 15:08:35,470 WARN  [improbable.bridge.qos.QosHandler] [] [] [] : Kill worker UnityWorker0 due to: smoothedRTT > maxLatency = false, tooManyPingsUnacked = true. smoothedRTT = 24556970 nanoseconds, unackedPingRate between 3098135864352 and 3108135935014 = 0.6. RecentPingAckStates = Map(3100131246604 -> true, 3102130726445 -> true, 3104134427915 -> false, 3106133889834 -> false, 3108133278760 -> false, 3110133091056 -> false, 3112134661030 -> false, 3114131371874 -> false, 3116135774144 -> false, 3118135200920 -> false)
+2017-11-17 15:08:35,471 WARN  [i.bridge.v2.ping.WorkerPinger] [] [] [] : Worker UnityWorker0 connection closing itself due to poor responsiveness from the worker.
+2017-11-17 15:08:35,638 INFO  [i.b.n.BridgeActorTransportLinkListener] [] [] [] : TransportLinkListener(UnityWorker0) sending Disconnected to akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityWorker0
+2017-11-17 15:08:35,640 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge stopped to self for bridge endpoint BridgeEndpoint(UnityWorker0)
+2017-11-17 15:08:35,640 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityWorker0"
+ unregistered with bridge internal service
+2017-11-17 15:08:35,640 INFO  [improbable.bridge.BridgeActor] [] [] [] : Bridge(UnityWorker0) on BridgeModuleEndpoint(8b9d51f6-9f7d-48f9-b151-e195231124c3) stopped.
+2017-11-17 15:39:03,481 WARN  [i.b.oracle.monitoring.BridgeCleaner] [] [] [] : Got new list of 1 unhealthy worker connection services, cleaning them up
+2017-11-17 15:39:04,281 INFO  [i.b.oracle.monitoring.BridgeCleaner] [] [] [] : Cleaning up 1 bridge(s) whose bridge service died
+2017-11-17 15:39:04,283 WARN  [i.b.oracle.monitoring.BridgeCleaner] [] [] [] : Got new list of 0 unhealthy worker connection services, cleaning them up
+2017-11-17 15:39:04,290 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge stopped to self for bridge endpoint BridgeEndpoint(UnityWorker1)
+2017-11-17 15:39:04,298 INFO  [i.b.oracle.monitoring.BridgeCleaner] [] [] [] : Cleaning up 0 bridge(s) whose bridge service died
+2017-11-17 15:39:04,338 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityWorker1) stopped.
+2017-11-17 15:39:04,366 INFO  [i.worker.exec.WorkerRunnerImpl] [] [] [] : Killing worker [UnityWorker1] forcibly
+2017-11-17 15:39:04,464 INFO  [i.b.o.m.BridgeOracleWorkerManager] [] [] [] : Trying to start managed worker UnityWorker2
+2017-11-17 15:39:04,468 INFO  [i.bridge.oracle.scaling.WorkerScaler] [] [] [] : Starting 1 new managed workers for attribute_set {
+  attribute: "physics"
+}
+ (required: 1, existing: 0)
+2017-11-17 15:39:04,468 INFO  [i.worker.exec.WorkerStartupExecutor] [] [] [] : Awaiting internal receptionist service to register with service discovery
+2017-11-17 15:39:04,468 INFO  [i.worker.exec.WorkerStartupExecutor] [] [] [] : Successfully found the internal receptionist service in service discovery
+2017-11-17 15:39:04,469 INFO  [i.worker.exec.WorkerStartupExecutor] [] [] [] : Awaiting public receptionist service to register with service discovery
+2017-11-17 15:39:04,470 INFO  [i.worker.exec.WorkerStartupExecutor] [] [] [] : Successfully found the public receptionist service in service discovery
+2017-11-17 15:39:04,651 INFO  [i.worker.exec.CommandLineExecutor] [] [] [] : Worker UnityWorker1 terminated normally.
+2017-11-17 15:39:04,814 WARN  [i.worker.exec.WorkerStartupExecutor] [] [] [] : Error while setting permissions of the worker directory.
+java.nio.file.FileSystemException: /var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T: Operation not permitted
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:91) ~[na:1.8.0_162-ea]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102) ~[na:1.8.0_162-ea]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107) ~[na:1.8.0_162-ea]
+	at sun.nio.fs.UnixFileAttributeViews$Posix.setMode(UnixFileAttributeViews.java:238) ~[na:1.8.0_162-ea]
+	at sun.nio.fs.UnixFileAttributeViews$Posix.setPermissions(UnixFileAttributeViews.java:260) ~[na:1.8.0_162-ea]
+	at java.nio.file.Files.setPosixFilePermissions(Files.java:2045) ~[na:1.8.0_162-ea]
+	at improbable.worker.exec.WorkerStartupExecutor.setWorkerFilePermissions(WorkerStartupExecutor.java:380) [fabric__runtime_deploy.jar:na]
+	at improbable.worker.exec.WorkerStartupExecutor.setPermissionsForDirectoryParents(WorkerStartupExecutor.java:350) [fabric__runtime_deploy.jar:na]
+	at improbable.worker.exec.WorkerStartupExecutor.setWorkerDirectoryPermissions(WorkerStartupExecutor.java:341) [fabric__runtime_deploy.jar:na]
+	at improbable.worker.exec.WorkerStartupExecutor.executeInternal(WorkerStartupExecutor.java:192) [fabric__runtime_deploy.jar:na]
+	at improbable.worker.exec.WorkerStartupExecutor.execute(WorkerStartupExecutor.java:117) [fabric__runtime_deploy.jar:na]
+	at improbable.worker.exec.WorkerRunnerImpl.startWorker(WorkerRunnerImpl.java:132) [fabric__runtime_deploy.jar:na]
+	at improbable.worker.exec.WorkerRunnerImpl.start(WorkerRunnerImpl.java:79) [fabric__runtime_deploy.jar:na]
+	at improbable.platform.inner.worker.WorkerRunnerGrpc$MethodHandlers.invoke(WorkerRunnerGrpc.java:326) [fabric__runtime_deploy.jar:na]
+	at io.grpc.stub.ServerCalls$1$1.onHalfClose(ServerCalls.java:148) [fabric__runtime_deploy.jar:na]
+	at io.grpc.PartialForwardingServerCallListener.onHalfClose(PartialForwardingServerCallListener.java:48) [fabric__runtime_deploy.jar:na]
+	at io.grpc.ForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:38) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:267) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$2.runInContext(ServerImpl.java:573) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:52) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:117) [fabric__runtime_deploy.jar:na]
+	at improbable.common.async.FabricListeningExecutorService.lambda$instrumentRunnable$0(FabricListeningExecutorService.java:133) [fabric__runtime_deploy.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_162-ea]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_162-ea]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_162-ea]
+2017-11-17 15:39:04,828 INFO  [i.worker.exec.WorkerStartupExecutor] [] [] [] : Created log file for worker UnityWorker2, type (UnityWorker): [/Users/dp.alex/Documents/ProgettoIS/logs/2017-11-17_13-05-49_0/workers/UnityWorker/UnityWorker2-8796728060195863493.log]
+2017-11-17 15:39:04,831 INFO  [i.worker.exec.CommandLineExecutor] [] [] [] : Running command: /var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T/zip-downloader1806182692338184286/c667a3f827f4dc5ff788cff8d665ccc7/UnityWorker@Mac.app/Contents/MacOS/UnityWorker@Mac +projectName your_project_name_here +receptionistIp 127.0.0.1 +receptionistPort 7777 +workerType UnityWorker +workerId UnityWorker2 +useInternalIpForBridge true +infraServicesUrl http://127.0.0.1:21000 +assemblyName local_assembly +linkProtocol RakNet -logfile /Users/dp.alex/Documents/ProgettoIS/logs/2017-11-17_13-05-49_0/workers/UnityWorker/UnityWorker2-8796728060195863493.log -batchmode -nographics
+2017-11-17 15:39:07,259 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Attempting to get positionHint for UnityWorker2 via rpc
+2017-11-17 15:39:07,260 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Selected legacy_guid: "8b9d51f6-9f7d-48f9-b151-e195231124c3"
+address {
+  host: "127.0.0.1"
+  port: 9019
+}
+ with position  which is the nearest bridge service to position (0.0, 0.0, 0.0)
+2017-11-17 15:39:07,263 INFO  [i.m.b.o.m.BridgeModuleOracleActor] [] [] [] : BridgeServicePicker returned module Optional[legacy_guid: "8b9d51f6-9f7d-48f9-b151-e195231124c3"
+address {
+  host: "127.0.0.1"
+  port: 9019
+}
+] with load Optional[BridgeModuleLoadBalanceInfo((0.0, 0.0, 0.0),1)].get().toString() for Engine(UnityWorker2)
+2017-11-17 15:39:07,294 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityWorker2"
+ registered with bridge internal service
+2017-11-17 15:39:07,296 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Got bridge started rpc from bridge: worker_id: "UnityWorker2"
+
+2017-11-17 15:39:07,297 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : The worker UnityWorker2 registered with SpatialOS successfully.
+2017-11-17 15:39:07,297 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge started to self for bridge endpoint BridgeOracleEndpoint
+2017-11-17 15:39:07,298 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityWorker2) started.
+2017-11-17 15:39:07,299 INFO  [i.b.o.m.BridgeOracleWorkerManager] [] [] [] : Worker UnityWorker2 registered with the BridgeOracleWorker manager
+2017-11-17 15:39:07,397 INFO  [i.b.n.raknet.GuardedRakPeerInterface] [] [] [] : New RakNet connection established with 127.0.0.1
+2017-11-17 15:39:12,276 ERROR [i.module.bridge.oracle.BridgeOracle] [] [] [] : SpatialOS-internal error: Received a status update for unknown bridge: BridgeEndpoint(UnityWorker1)
+2017-11-17 15:39:13,744 WARN  [improbable.bridge.qos.QosHandler] [] [] [] : Worker connection for worker UnityWorker1 is unresponsive. Recent average latency: 0ms. Recent % of failed pings: 100.0%. Underlying transport layer healthy: true
+2017-11-17 15:39:13,744 WARN  [improbable.bridge.qos.QosHandler] [] [] [] : Kill worker UnityWorker1 due to: smoothedRTT > maxLatency = false, tooManyPingsUnacked = true. smoothedRTT = 0 nanoseconds, unackedPingRate between 34014716738 and 44014718773 = 1.0. RecentPingAckStates = Map(43608605425 -> false, 44356668840 -> false, 44383265177 -> false, 44402634729 -> false, 44404880787 -> false, 44550083639 -> false, 44550225421 -> false, 44550331599 -> false, 46017077701 -> false, 48019316401 -> false, 50019029204 -> false, 52013887310 -> false, 54014385602 -> false)
+2017-11-17 15:39:13,744 WARN  [i.bridge.v2.ping.WorkerPinger] [] [] [] : Worker UnityWorker1 connection closing itself due to poor responsiveness from the worker.
+2017-11-17 15:39:13,905 INFO  [i.b.n.BridgeActorTransportLinkListener] [] [] [] : TransportLinkListener(UnityWorker1) sending Disconnected to akka://akkaFabric/user/BridgeModule:8b9d51f6-9f7d-48f9-b151-e195231124c3/BridgeActor-UnityWorker1
+2017-11-17 15:39:13,907 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge stopped to self for bridge endpoint BridgeEndpoint(UnityWorker1)
+2017-11-17 15:39:13,907 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityWorker1"
+ unregistered with bridge internal service
+2017-11-17 15:39:13,908 INFO  [improbable.bridge.BridgeActor] [] [] [] : Bridge(UnityWorker1) on BridgeModuleEndpoint(8b9d51f6-9f7d-48f9-b151-e195231124c3) stopped.
+2017-11-17 15:39:23,810 INFO  [i.c.discovery.ServiceDiscoveryImpl] [] [] [] : Shutting down all services
+2017-11-17 15:39:23,817 ERROR [i.worker.exec.CommandLineExecutor] [] [] [] : Worker UnityWorker2 terminated abnormally. It may have crashed due to worker-side errors.
+2017-11-17 15:39:23,817 ERROR [i.worker.exec.CommandLineExecutor] [] [] [] : (UnityWorker2) Command exited with code 143 (POSIX signal: 15): /var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T/zip-downloader1806182692338184286/c667a3f827f4dc5ff788cff8d665ccc7/UnityWorker@Mac.app/Contents/MacOS/UnityWorker@Mac +projectName your_project_name_here +receptionistIp 127.0.0.1 +receptionistPort 7777 +workerType UnityWorker +workerId UnityWorker2 +useInternalIpForBridge true +infraServicesUrl http://127.0.0.1:21000 +assemblyName local_assembly +linkProtocol RakNet -logfile /Users/dp.alex/Documents/ProgettoIS/logs/2017-11-17_13-05-49_0/workers/UnityWorker/UnityWorker2-8796728060195863493.log -batchmode -nographics
+2017-11-17 15:39:23,842 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.StatusDiscoveryInternalService) on 127.0.0.1:5301.
+2017-11-17 15:39:23,845 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Stopped Service(improbable.platform.runtime.ModuleService) on 127.0.0.1:9000.
+2017-11-17 15:39:23,846 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Stopped Service(improbable.platform.runtime.HealthCheckService) on 127.0.0.1:9001.
+2017-11-17 15:39:23,846 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.PerfInternalService) on 127.0.0.1:9002.
+2017-11-17 15:39:23,846 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.ContentionInternalService) on 127.0.0.1:9003.
+2017-11-17 15:39:23,847 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Stopped Service(improbable.platform.runtime.FeatureService) on 127.0.0.1:9004.
+2017-11-17 15:39:23,847 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.NodeConfigurationInternalService) on 127.0.0.1:9005.
+2017-11-17 15:39:23,848 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.WorldExtentsInternalService) on 127.0.0.1:9006.
+2017-11-17 15:39:23,850 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.EntityIdInternalService) on 127.0.0.1:9007.
+2017-11-17 15:39:23,852 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.WorkerPrestartRegistryInternalService) on 127.0.0.1:9008.
+2017-11-17 15:39:23,853 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.RouterLookupInternalService) on 127.0.0.1:9009.
+2017-11-17 15:39:23,855 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.RouterInternalService) on 127.0.0.1:9010.
+2017-11-17 15:39:23,856 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.RemoteMessageInternalService) on 127.0.0.1:9011.
+2017-11-17 15:39:23,856 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.LocalBrokerInternalService) on 127.0.0.1:9012.
+2017-11-17 15:39:23,857 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.BridgeOracleInternalService) on 127.0.0.1:9013.
+2017-11-17 15:39:23,859 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.GlobalBrokerInternalService) on 127.0.0.1:9014.
+2017-11-17 15:39:23,860 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.BridgeServiceOracleInternalService) on 127.0.0.1:9015.
+2017-11-17 15:39:23,862 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.LocalSnapshotInternalService) on 127.0.0.1:9016.
+2017-11-17 15:39:23,863 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.ScalingStatsInternalService) on 127.0.0.1:9017.
+2017-11-17 15:39:23,864 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.EntityQueryInternalService) on 127.0.0.1:9018.
+2017-11-17 15:39:23,865 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.BridgeInternalService) on 127.0.0.1:9019.
+2017-11-17 15:39:23,867 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Stopped Service(improbable.platform.inner.worker.WorkerRunner) on 127.0.0.1:9020.
+2017-11-17 15:39:23,867 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.ReceptionistInternalService) on 127.0.0.1:9021.
+2017-11-17 15:39:23,867 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Stopped Service(improbable.platform.runtime.ReceptionistService) on 127.0.0.1:7777.

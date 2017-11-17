@@ -14,7 +14,7 @@ namespace Assets.Gamelogic.Player.Guns
 		void Start()
 		{
 			
-			//firerColliders = gameObject.GetComponentsInChildren<Collider>();
+
 		}
 
 		public void Fire(Vector3 dir)
@@ -24,13 +24,14 @@ namespace Assets.Gamelogic.Player.Guns
 			{
 				var bullet = Instantiate(BulletPrefab, transform.position+dir, transform.rotation) as GameObject;
 				var entityId = gameObject.EntityId();
+				firerColliders = BulletPrefab.GetComponentsInChildren<Collider>();
 				bullet.GetComponent<DestroyBullet>().firerEntityId = entityId;
 				bullet.GetComponent<BulletController> ().firerEntityId = entityId;
 
-				//EnsureBulletWillNotCollideWithFirer(bullet);
+				EnsureBulletWillNotCollideWithFirer(bullet);
 			}
 		}
-		/*
+
 		private void EnsureBulletWillNotCollideWithFirer(GameObject bullet)
 		{
 			if (firerColliders == null) return;
@@ -40,7 +41,7 @@ namespace Assets.Gamelogic.Player.Guns
 			{
 				Physics.IgnoreCollision(c, col);
 			}
-		}*/
+		}
 
 	}
 }

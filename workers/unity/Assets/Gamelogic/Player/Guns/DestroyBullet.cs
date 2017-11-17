@@ -11,7 +11,7 @@ namespace Assets.Gamelogic.Player.Guns
 		public Option<EntityId> firerEntityId = new Option<EntityId>();
 
 		[SerializeField]
-		public float SecondsUntilDestroy = 4f;
+		public float SecondsUntilDestroy = 0.5f;
 		private float spawnTime;
 
 		void Start()
@@ -22,10 +22,10 @@ namespace Assets.Gamelogic.Player.Guns
 		void Update()
 		{
 			var lifeTime = Time.time - spawnTime;
-			if (lifeTime > SecondsUntilDestroy)
-			{
+			if (lifeTime > SecondsUntilDestroy){
 				Destroy(gameObject);
 			}
+
 		}
 	}
 }

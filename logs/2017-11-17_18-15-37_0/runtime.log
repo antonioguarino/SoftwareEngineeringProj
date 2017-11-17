@@ -1,0 +1,587 @@
+2017-11-17 18:15:54,946 INFO  [i.deployment.InternalGameLauncher] [] [] [] : Parsed 362 internal flags at startup
+2017-11-17 18:16:00,260 INFO  [i.deployment.InternalGameLauncher] [] [] [] : SpatialOS runtime version: 11-20171114T103507Z-cc9d195
+2017-11-17 18:16:00,637 INFO  [i.c.c.f.FlagzFieldRegistryUpdater] [] [] [] : Initialized Fabric flagz registry with 11 set fields.
+2017-11-17 18:16:00,926 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.StatusDiscoveryInternalService) on 127.0.0.1:5301.
+2017-11-17 18:16:00,927 INFO  [i.c.discovery.ServiceDiscoveryImpl] [] [] [] : Status discovery address: host: "127.0.0.1"
+port: 5301
+
+2017-11-17 18:16:00,933 INFO  [improbable.module.ModuleNode] [] [] [] : Starting Fabric node as master (IP: 127.0.0.1).
+2017-11-17 18:16:00,936 INFO  [i.c.d.client.CheckpointDiscoveryImpl] [] [] [] : Reached a checkpoint: ALL_NODES_STARTED
+2017-11-17 18:16:00,936 INFO  [improbable.module.ModuleNode] [] [] [] : Node master has started, waiting for other nodes to reach the same checkpoint.
+2017-11-17 18:16:00,937 INFO  [improbable.module.ModuleNode] [] [] [] : All nodes have been started.
+2017-11-17 18:16:00,948 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Registered Service(improbable.platform.runtime.ModuleService) on 127.0.0.1:9000.
+2017-11-17 18:16:00,959 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Registered Service(improbable.platform.runtime.HealthCheckService) on 127.0.0.1:9001.
+2017-11-17 18:16:00,969 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.PerfInternalService) on 127.0.0.1:9002.
+2017-11-17 18:16:00,979 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.ContentionInternalService) on 127.0.0.1:9003.
+2017-11-17 18:16:01,008 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Registered Service(improbable.platform.runtime.FeatureService) on 127.0.0.1:9004.
+2017-11-17 18:16:01,042 INFO  [i.c.config.flagz.WorkerFlagzUpdater] [] [] [] : Initialized worker flagz registry with 0 set fields.
+2017-11-17 18:16:01,043 INFO  [improbable.module.ModuleNode] [] [] [] : Using master node configuration loader.
+2017-11-17 18:16:01,058 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.NodeConfigurationInternalService) on 127.0.0.1:9005.
+2017-11-17 18:16:01,083 INFO  [i.c.c.n.MasterNodeConfigurationLoader] [] [] [] : Using roles [MASTER, GSIM, BRIDGE, WORKER_RUNNER, INSPECTION] for node node_id {
+  deployment_id {
+    project_id {
+      name: "your_project_name_here"
+    }
+    name: "local"
+  }
+  name: "master"
+}
+private_ip: "127.0.0.1"
+roles: MASTER
+roles: GSIM
+roles: BRIDGE
+roles: WORKER_RUNNER
+roles: INSPECTION
+
+2017-11-17 18:16:01,113 INFO  [improbable.core.config.node.GsimGrid] [] [] [] : Created gsim grid configuration of size (1500, 1500) with 1 columns and 1 rows, using gsims of (30, 30) chunks.
+2017-11-17 18:16:01,136 INFO  [i.c.c.n.MasterNodeConfigurationLoader] [] [] [] : Original deployment module configuration (before parsing): {deployment_id {
+  project_id {
+    name: "your_project_name_here"
+  }
+  name: "local"
+}
+name: "master"
+=[ProfilingModule, BridgeModuleOracleModule, BridgeOracleModule, PersistenceModule, ReceptionistModule, RouterModule, GSimModule, BridgeModule, EngineStartupModule, InspectionRestModule]}
+2017-11-17 18:16:01,162 INFO  [i.c.c.n.MasterNodeConfigurationLoader] [] [] [] : Master successfully loaded configurations for 1 node(s).
+2017-11-17 18:16:01,172 INFO  [improbable.module.ModuleNode] [] [] [] : Loaded node configuration: node_id {
+  deployment_id {
+    project_id {
+      name: "your_project_name_here"
+    }
+    name: "local"
+  }
+  name: "master"
+}
+gsim_configurations {
+  extent {
+    bottom_left {
+      x_in_chunks: -15
+      z_in_chunks: -15
+    }
+    top_right {
+      x_in_chunks: 15
+      z_in_chunks: 15
+    }
+  }
+}
+start_router: true
+start_bridge_oracle: true
+start_bridge_module_oracle: true
+start_engine_startup_module: true
+start_receptionist_service: true
+start_inspection_rest_module: true
+start_snapshot_service: true
+start_profiling_module: true
+bridge_modules: "BridgeModule"
+gsim_modules: "GSimModule"
+
+2017-11-17 18:16:01,173 INFO  [improbable.module.ModuleNode] [] [] [] : Using master world extents provider.
+2017-11-17 18:16:01,198 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.WorldExtentsInternalService) on 127.0.0.1:9006.
+2017-11-17 18:16:01,199 INFO  [i.c.world.MasterWorldExtentsProvider] [] [] [] : Successfully initialized world extents with 1 rectangle(s).
+2017-11-17 18:16:01,205 INFO  [improbable.module.ModuleNode] [] [] [] : Loaded world extents: WorldExtents{proto=rectangles {
+  bottom_left {
+    x: -750.0
+    z: -750.0
+  }
+  top_right {
+    x: 750.0
+    z: 750.0
+  }
+  is_fully_simulated: true
+  responsible_gsim_id {
+  }
+}
+bounding_rectangle {
+  bottom_left {
+    x: -750.0
+    z: -750.0
+  }
+  top_right {
+    x: 750.0
+    z: 750.0
+  }
+  is_fully_simulated: true
+}
+}
+2017-11-17 18:16:01,364 INFO  [i.e.schema.ParsedFileDescriptorSet] [] [] [] : Parsed file descriptors of 13 proto files.
+2017-11-17 18:16:01,437 INFO  [i.entity.schema.SchemaFactory] [] [] [] : Found components: [improbable.player.Health, improbable.EntityAcl, improbable.Metadata, improbable.Position, improbable.Persistence, improbable.core.PlayerCreation, improbable.core.ClientAuthorityCheck, improbable.player.PlayerRotation, improbable.core.Rotation, improbable.player.PlayerInput, improbable.player.ClientConnection]
+2017-11-17 18:16:01,456 INFO  [i.entity.schema.SchemaFactory] [] [] [] : Found components: [improbable.EntityAcl, improbable.Metadata, improbable.Position, improbable.Persistence, improbable.core.PlayerCreation, improbable.player.PlayerInput, improbable.core.ClientAuthorityCheck, improbable.player.Health, improbable.internal.EntityAuthority, improbable.core.Rotation, improbable.player.ClientConnection, improbable.player.PlayerRotation]
+2017-11-17 18:16:01,457 INFO  [improbable.module.ModuleNode] [] [] [] : Successfully loaded schema for entities
+2017-11-17 18:16:01,459 INFO  [improbable.module.ModuleNode] [] [] [] : Validating snapshot at startup and determining max entity id
+2017-11-17 18:16:01,469 INFO  [i.p.s.storage.LegacySnapshotStorage] [] [] [] : Requesting download URL for Snapshot(local@latest) matching []
+2017-11-17 18:16:01,508 INFO  [i.p.s.storage.LegacySnapshotStorage] [] [] [] : Downloading snapshot from http://127.0.0.1:21000/snapshots/20171117181536459
+2017-11-17 18:16:01,565 INFO  [improbable.module.ModuleNode] [] [] [] : Determined the first entity id for the id assigner as 2
+2017-11-17 18:16:01,573 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.EntityIdInternalService) on 127.0.0.1:9007.
+2017-11-17 18:16:01,609 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.WorkerPrestartRegistryInternalService) on 127.0.0.1:9008.
+2017-11-17 18:16:01,624 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.RouterLookupInternalService) on 127.0.0.1:9009.
+2017-11-17 18:16:01,626 INFO  [i.module.router.ActorSystemFactory$] [] [] [] : Attempting to create ActorSystem akkaFabric with configRecord akkaFabric
+2017-11-17 18:16:02,233 INFO  [akka.event.slf4j.Slf4jLogger] [] [] [] : Slf4jLogger started
+2017-11-17 18:16:02,778 INFO  [i.c.d.g.GlobalCheckpointDiscoveryImpl] [] [] [] : Global checkpoint discovery refreshed checkpoints.
+2017-11-17 18:16:02,779 INFO  [i.c.d.g.GlobalServiceDiscoveryImpl] [] [] [] : Global service discovery refreshed 11 server(s) (previously: 0)
+2017-11-17 18:16:04,232 INFO  [i.l.params.LoadbalancerParamsFactory] [] [] [] : Parsed 1 worker loadbalancing configuration(s)
+2017-11-17 18:16:04,239 INFO  [i.l.params.LoadbalancerParamsFactory] [] [] [] : Successfully loaded loadbalancing configurations: {UnityWorker=improbable.loadbalancing.params.AutoHexGridLoadbalancerParams@7d98e410}
+2017-11-17 18:16:04,367 INFO  [i.w.a.WorkerAssemblyProviderFactory] [] [] [] : Loaded worker assemblies for these workers types: UnityClient, UnityWorker.
+2017-11-17 18:16:04,386 INFO  [improbable.module.ModuleNode] [] [] [] : Loaded worker assemblies: [worker_assembly_id {
+  assembly_id {
+    project_id {
+      name: "your_project_name_here"
+    }
+    name: "local_assembly"
+  }
+  name {
+    name: "UnityClient"
+  }
+}
+bridge_configuration {
+  worker_attribute_set {
+    attribute {
+      name: "visual"
+    }
+  }
+  entity_interest {
+    range_entity_interest {
+      radius: 200.0
+    }
+  }
+  component_delivery {
+    checkout_all_initially: true
+  }
+}
+, worker_assembly_id {
+  assembly_id {
+    project_id {
+      name: "your_project_name_here"
+    }
+    name: "local_assembly"
+  }
+  name {
+    name: "UnityWorker"
+  }
+}
+worker_launch_configuration {
+  platform: WINDOWS
+  worker_zip {
+    command: "UnityWorker@Windows.exe"
+    argument: "+projectName"
+    argument: "${IMPROBABLE_PROJECT_NAME}"
+    argument: "+receptionistIp"
+    argument: "${IMPROBABLE_RECEPTIONIST_HOST}"
+    argument: "+receptionistPort"
+    argument: "${IMPROBABLE_RECEPTIONIST_PORT}"
+    argument: "+workerType"
+    argument: "${IMPROBABLE_WORKER_NAME}"
+    argument: "+workerId"
+    argument: "${IMPROBABLE_WORKER_ID}"
+    argument: "+useInternalIpForBridge"
+    argument: "true"
+    argument: "+infraServicesUrl"
+    argument: "${IMPROBABLE_API_URL}"
+    argument: "+assemblyName"
+    argument: "${IMPROBABLE_ASSEMBLY_NAME}"
+    argument: "+linkProtocol"
+    argument: "RakNet"
+    argument: "-logfile"
+    argument: "${IMPROBABLE_LOG_FILE}"
+    argument: "-batchmode"
+    argument: "-nographics"
+    worker_location {
+      filename: "UnityWorker@Windows.zip"
+    }
+  }
+}
+worker_launch_configuration {
+  platform: MACOS
+  worker_zip {
+    command: "UnityWorker@Mac.app/Contents/MacOS/UnityWorker@Mac"
+    argument: "+projectName"
+    argument: "${IMPROBABLE_PROJECT_NAME}"
+    argument: "+receptionistIp"
+    argument: "${IMPROBABLE_RECEPTIONIST_HOST}"
+    argument: "+receptionistPort"
+    argument: "${IMPROBABLE_RECEPTIONIST_PORT}"
+    argument: "+workerType"
+    argument: "${IMPROBABLE_WORKER_NAME}"
+    argument: "+workerId"
+    argument: "${IMPROBABLE_WORKER_ID}"
+    argument: "+useInternalIpForBridge"
+    argument: "true"
+    argument: "+infraServicesUrl"
+    argument: "${IMPROBABLE_API_URL}"
+    argument: "+assemblyName"
+    argument: "${IMPROBABLE_ASSEMBLY_NAME}"
+    argument: "+linkProtocol"
+    argument: "RakNet"
+    argument: "-logfile"
+    argument: "${IMPROBABLE_LOG_FILE}"
+    argument: "-batchmode"
+    argument: "-nographics"
+    worker_location {
+      filename: "UnityWorker@Mac.zip"
+    }
+  }
+}
+worker_launch_configuration {
+  platform: LINUX
+  worker_zip {
+    command: "UnityWorker@Linux"
+    argument: "+projectName"
+    argument: "${IMPROBABLE_PROJECT_NAME}"
+    argument: "+receptionistIp"
+    argument: "${IMPROBABLE_RECEPTIONIST_HOST}"
+    argument: "+receptionistPort"
+    argument: "${IMPROBABLE_RECEPTIONIST_PORT}"
+    argument: "+workerType"
+    argument: "${IMPROBABLE_WORKER_NAME}"
+    argument: "+workerId"
+    argument: "${IMPROBABLE_WORKER_ID}"
+    argument: "+useInternalIpForBridge"
+    argument: "true"
+    argument: "+infraServicesUrl"
+    argument: "${IMPROBABLE_API_URL}"
+    argument: "+assemblyName"
+    argument: "${IMPROBABLE_ASSEMBLY_NAME}"
+    argument: "+linkProtocol"
+    argument: "RakNet"
+    argument: "-logfile"
+    argument: "${IMPROBABLE_LOG_FILE}"
+    argument: "-batchmode"
+    argument: "-nographics"
+    worker_location {
+      filename: "UnityWorker@Linux.zip"
+    }
+  }
+}
+bridge_configuration {
+  worker_attribute_set {
+    attribute {
+      name: "physics"
+    }
+  }
+  entity_interest {
+    range_entity_interest {
+      radius: 200.0
+    }
+  }
+  component_delivery {
+    checkout_all_initially: true
+  }
+}
+]
+2017-11-17 18:16:04,394 INFO  [i.w.assembly.WorkerAssemblyProvider] [] [] [] : Worker configuration for 'UnityClient' does not contain a launch configuration for the current platform 'MACOS', so Fabric will not start any managed workers of this type
+2017-11-17 18:16:04,395 INFO  [i.w.assembly.WorkerAssemblyProvider] [] [] [] : The following worker configurations do not contain valid managed launch configurations for the current platform MACOS, and the runtime will be unable to launch managed workers of this type: [UnityClient]. This is expected for worker types you intend to only connect manually.
+2017-11-17 18:16:04,399 INFO  [i.w.permissions.PermissionsFactory] [] [] [] : Created permissions manager with permissions: {UnityWorker=Permissions{{/sys/CreateEntity=, /sys/DeleteEntity=, /sys/EntityQuery={"component":["*"]}}}, UnityClient=Permissions{{/sys/EntityQuery={"component":[]}}}}
+2017-11-17 18:16:06,400 INFO  [improbable.module.ModuleNode] [] [] [] : Starting router on master
+2017-11-17 18:16:06,410 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.RouterInternalService) on 127.0.0.1:9010.
+2017-11-17 18:16:06,410 INFO  [i.c.m.r.RouterInternalServiceImpl] [] [] [] : Attempting to register RouterInternalServiceImpl with RouterLookupInternalService.
+2017-11-17 18:16:06,421 INFO  [i.c.m.r.l.RouterLookupInternalServiceImpl] [] [] [] : 1/1 router modules started
+2017-11-17 18:16:06,422 INFO  [i.c.m.r.RouterInternalServiceImpl] [] [] [] : Registered RouterInternalServiceImpl with RouterLookupInternalService.
+2017-11-17 18:16:06,425 INFO  [improbable.module.ModuleNode] [] [] [] : Attempting to get addresses of all RouterModules from master node
+2017-11-17 18:16:06,436 INFO  [improbable.module.ModuleNode] [] [] [] : Got all RouterModules from master node
+2017-11-17 18:16:06,457 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.RemoteMessageInternalService) on 127.0.0.1:9011.
+2017-11-17 18:16:06,475 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.LocalBrokerInternalService) on 127.0.0.1:9012.
+2017-11-17 18:16:06,481 INFO  [improbable.module.ModuleNode] [] [] [] : Waiting for all router modules in the deployment to have started
+2017-11-17 18:16:06,486 INFO  [improbable.module.ModuleNode] [] [] [] : All router modules in the deployment started
+2017-11-17 18:16:06,565 INFO  [org.eclipse.jetty.server.Server] [] [] [] : jetty-8.y.z-SNAPSHOT
+2017-11-17 18:16:06,595 INFO  [o.e.jetty.server.AbstractConnector] [] [] [] : Started SelectChannelConnector@0.0.0.0:5006
+2017-11-17 18:16:06,595 INFO  [improbable.http.ServletContainer$] [] [] [] : Servlet container started
+2017-11-17 18:16:06,598 INFO  [improbable.module.ModuleNode] [] [] [] : Starting BridgeOracle on master
+2017-11-17 18:16:06,607 INFO  [improbable.module.ModuleNode] [] [] [] : Waiting for the BridgeOracle to have started
+2017-11-17 18:16:06,755 INFO  [i.c.d.g.GlobalServiceDiscoveryImpl] [] [] [] : Global service discovery refreshed 14 server(s) (previously: 11)
+2017-11-17 18:16:06,870 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.BridgeOracleInternalService) on 127.0.0.1:9013.
+2017-11-17 18:16:07,756 INFO  [improbable.module.ModuleNode] [] [] [] : Received BridgeOracle started
+2017-11-17 18:16:07,756 INFO  [i.c.d.g.GlobalServiceDiscoveryImpl] [] [] [] : Global service discovery refreshed 15 server(s) (previously: 14)
+2017-11-17 18:16:07,764 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.GlobalBrokerInternalService) on 127.0.0.1:9014.
+2017-11-17 18:16:07,766 INFO  [improbable.module.ModuleNode] [] [] [] : Waiting for the BridgeModuleOracle to have started
+2017-11-17 18:16:07,769 INFO  [i.c.a.e.ExtensibleActorReporter] [] [] [] : Started BridgeModuleOracleActor(Actor[akka://akkaFabric/user/BridgeModuleOracleModule#-1015123641]).
+2017-11-17 18:16:07,781 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.BridgeServiceOracleInternalService) on 127.0.0.1:9015.
+2017-11-17 18:16:08,754 INFO  [i.c.d.g.GlobalServiceDiscoveryImpl] [] [] [] : Global service discovery refreshed 17 server(s) (previously: 15)
+2017-11-17 18:16:08,754 INFO  [improbable.module.ModuleNode] [] [] [] : Received BridgeModuleOracle started
+2017-11-17 18:16:08,759 INFO  [improbable.module.ModuleNode] [] [] [] : Starting gsim GSimModule
+2017-11-17 18:16:08,765 INFO  [improbable.module.ModuleNode] [] [] [] : Waiting for 1 entity query service(s) to start.
+2017-11-17 18:16:08,788 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.LocalSnapshotInternalService) on 127.0.0.1:9016.
+2017-11-17 18:16:08,818 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Registered Service(improbable.fabric.internal.service.ScalingStatsInternalService) on 127.0.0.1:9017.
+2017-11-17 18:16:08,829 INFO  [i.p.gsim.GSimPersistenceWriter] [] [] [] : Transitioning GSimPersistenceActor(0) from State [Idle] to [Idle].  Time Elapsed: 7 milliseconds
+2017-11-17 18:16:08,854 INFO  [i.bridge.oracle.scaling.WorkerScaler] [] [] [] : Skipping reconciliation because no WorkerRunner service is available. This message is expected at startup but should not persist through the deployment
+2017-11-17 18:16:08,883 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.EntityQueryInternalService) on 127.0.0.1:9018.
+2017-11-17 18:16:09,757 INFO  [i.c.d.g.GlobalServiceDiscoveryImpl] [] [] [] : Global service discovery refreshed 20 server(s) (previously: 17)
+2017-11-17 18:16:09,757 INFO  [improbable.module.ModuleNode] [] [] [] : All 1 entity query service(s) have started.
+2017-11-17 18:16:09,758 INFO  [improbable.module.ModuleNode] [] [] [] : Creating entity query client.
+2017-11-17 18:16:09,774 INFO  [improbable.module.ModuleNode] [] [] [] : Entity query client created with directory: EntityQueryServiceDirectory{allServices=[EntityQueryInternalServiceInfo{address=host: "127.0.0.1"
+port: 9018
+, extent=Rectangle{minX=-750.0, minZ=-750.0, maxX=750.0, maxZ=750.0}, isLocal=true}], localServices=[EntityQueryInternalServiceInfo{address=host: "127.0.0.1"
+port: 9018
+, extent=Rectangle{minX=-750.0, minZ=-750.0, maxX=750.0, maxZ=750.0}, isLocal=true}], remoteServices=[]}
+2017-11-17 18:16:09,782 INFO  [improbable.module.ModuleNode] [] [] [] : Waiting for 1 bridge service(s) to start.
+2017-11-17 18:16:09,807 INFO  [i.c.a.e.ExtensibleActorReporter] [] [] [] : Started BridgeModuleActor(Actor[akka://akkaFabric/user/BridgeModule:53eaf5f6-fc3d-4624-b216-13230e95c15e#1231371720]).
+2017-11-17 18:16:09,829 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.BridgeInternalService) on 127.0.0.1:9019.
+2017-11-17 18:16:09,829 INFO  [i.module.bridge.BridgeModuleActor] [] [] [] : Waiting for BridgeModuleOracle service to be available
+2017-11-17 18:16:09,844 INFO  [i.module.bridge.BridgeModuleActor] [] [] [] : Registered(BridgeModuleEndpoint(53eaf5f6-fc3d-4624-b216-13230e95c15e)) on BridgeModuleOracleService
+2017-11-17 18:16:10,758 INFO  [i.c.d.g.GlobalServiceDiscoveryImpl] [] [] [] : Global service discovery refreshed 21 server(s) (previously: 20)
+2017-11-17 18:16:10,758 INFO  [improbable.module.ModuleNode] [] [] [] : All 1 bridge service(s) have started.
+2017-11-17 18:16:10,758 INFO  [improbable.module.ModuleNode] [] [] [] : Starting WorkerRunner service (EngineStartupModule)
+2017-11-17 18:16:10,764 INFO  [improbable.worker.exec.WorkerStats] [] [] [] : Cannot read /proc/self/stat; worker stats reporting will not work.
+2017-11-17 18:16:10,774 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Registered Service(improbable.platform.inner.worker.WorkerRunner) on 127.0.0.1:9020.
+2017-11-17 18:16:10,784 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.ReceptionistInternalService) on 127.0.0.1:9021.
+2017-11-17 18:16:10,792 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Registered Service(improbable.platform.runtime.ReceptionistService) on 127.0.0.1:7777.
+2017-11-17 18:16:10,793 INFO  [improbable.module.ModuleNode] [] [] [] : Starting InspectionRestModule
+2017-11-17 18:16:10,795 INFO  [improbable.module.ModuleNode] [] [] [] : Starting ProfilingModule
+2017-11-17 18:16:10,796 INFO  [i.c.d.client.CheckpointDiscoveryImpl] [] [] [] : Reached a checkpoint: ALL_MODULES_STARTED
+2017-11-17 18:16:10,797 INFO  [improbable.module.ModuleNode] [] [] [] : All modules on this node started, waiting for other nodes to reach the same checkpoint.
+2017-11-17 18:16:10,803 INFO  [i.c.a.e.ExtensibleActorReporter] [] [] [] : Started ProfilingModuleActor(Actor[akka://akkaFabric/user/ProfilingModule#201161278]).
+2017-11-17 18:16:10,805 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.debug.HeatmapCellCacheInternalService) on 127.0.0.1:9022.
+2017-11-17 18:16:10,834 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Registered Service(improbable.platform.runtime.InspectionService) on 127.0.0.1:9023.
+2017-11-17 18:16:10,854 INFO  [i.bridge.oracle.scaling.WorkerScaler] [] [] [] : Skipping reconciliation because no WorkerRunner service is available. This message is expected at startup but should not persist through the deployment
+2017-11-17 18:16:10,892 INFO  [i.c.a.e.ExtensibleActorReporter] [] [] [] : Started InspectionRestModuleActor(Actor[akka://akkaFabric/user/InspectionRestModule#-1219245017]).
+2017-11-17 18:16:11,444 INFO  [spray.can.server.HttpListener] [akka://akkaFabric/user/IO-HTTP/listener-0] [akkaFabric-akka.actor.default-dispatcher-4] [] : Bound to /0.0.0.0:5005
+2017-11-17 18:16:11,754 INFO  [i.c.d.g.GlobalCheckpointDiscoveryImpl] [] [] [] : Global checkpoint discovery refreshed checkpoints.
+2017-11-17 18:16:11,754 INFO  [improbable.module.ModuleNode] [] [] [] : All modules on all nodes have been started.
+2017-11-17 18:16:11,755 INFO  [improbable.module.ModuleNode] [] [] [] : Loading a snapshot.
+2017-11-17 18:16:11,756 INFO  [i.c.d.g.GlobalServiceDiscoveryImpl] [] [] [] : Global service discovery refreshed 26 server(s) (previously: 21)
+2017-11-17 18:16:11,772 INFO  [i.p.g.GSimPersistenceLoadOrchestrator] [] [] [] : Loading snapshot on GSim(0).
+2017-11-17 18:16:11,773 INFO  [i.p.s.storage.LegacySnapshotStorage] [] [] [] : Requesting download URL for Snapshot(local@latest) matching []
+2017-11-17 18:16:11,782 INFO  [i.p.s.storage.LegacySnapshotStorage] [] [] [] : Downloading snapshot from http://127.0.0.1:21000/snapshots/20171117181536459
+2017-11-17 18:16:11,786 INFO  [i.p.gsim.GSimPersistenceLoader] [] [] [] : Loading snapshot
+2017-11-17 18:16:11,800 INFO  [i.p.g.GSimPersistenceLoadOrchestrator] [] [] [] : Loaded 1 entities on GSim(0).
+2017-11-17 18:16:11,804 INFO  [i.p.c.PersistenceLoaderCoordinatorActor] [] [] [] : All Snapshots loaded.
+2017-11-17 18:16:11,805 INFO  [improbable.module.ModuleNode] [] [] [] : Snapshot has been loaded.
+2017-11-17 18:16:11,805 INFO  [improbable.module.ModuleNode] [] [] [] : Starting SnapshotService.
+2017-11-17 18:16:11,818 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Registered Service(improbable.platform.runtime.SnapshotService) on 127.0.0.1:9024.
+2017-11-17 18:16:11,818 INFO  [i.c.d.client.CheckpointDiscoveryImpl] [] [] [] : Reached a checkpoint: LOAD_SNAPSHOT_FINISHED
+2017-11-17 18:16:11,820 INFO  [improbable.module.ModuleNode] [] [] [] : SpatialOS runtime startup complete.
+2017-11-17 18:16:11,872 INFO  [i.l.params.LoadbalancerParamsFactory] [] [] [] : LoadbalancerParams for worker type [UnityWorker]: [AutoHexGridLoadbalancerParams{energyLimitingEnabled=true, energyLimit=1.0E9, minWorkerRange=1500.0, maxWorkerRange=1500.0, maxWorkerStepSize=0.0, workerExpansionTimeMs=60000, workerGridSize=0, loadbalancerEnabled=false, hexGridMode=AUTO, scalerAdvisorType=CONSTANT, maxWorkers=1, initialWorkers=1, numEntitiesPerWorker=9223372036854775807, statusReportPeriodMs=30000, pointsOfInterestEnabled=false, hexGridSolution=AutoValue_HexGridSolution{workersUsed=1, hexagonEdgeLength=1500.0, hexagonOrientation=POINTY_TOP, bounds=Rectangle{minX=-750.0, minZ=-750.0, maxX=750.0, maxZ=750.0}}, pointsOfInterestSolution=Empty}]
+2017-11-17 18:16:12,757 INFO  [i.c.d.g.GlobalCheckpointDiscoveryImpl] [] [] [] : Global checkpoint discovery refreshed checkpoints.
+2017-11-17 18:16:12,758 INFO  [i.c.d.g.GlobalServiceDiscoveryImpl] [] [] [] : Global service discovery refreshed 27 server(s) (previously: 26)
+2017-11-17 18:16:13,920 INFO  [i.b.o.m.BridgeOracleWorkerManager] [] [] [] : Trying to start managed worker UnityWorker0
+2017-11-17 18:16:13,942 INFO  [i.bridge.oracle.scaling.WorkerScaler] [] [] [] : Starting 1 new managed workers for attribute_set {
+  attribute: "physics"
+}
+ (required: 1, existing: 0)
+2017-11-17 18:16:13,942 INFO  [i.worker.exec.WorkerStartupExecutor] [] [] [] : Awaiting internal receptionist service to register with service discovery
+2017-11-17 18:16:13,948 INFO  [i.worker.exec.WorkerStartupExecutor] [] [] [] : Successfully found the internal receptionist service in service discovery
+2017-11-17 18:16:13,954 INFO  [i.worker.exec.WorkerStartupExecutor] [] [] [] : Awaiting public receptionist service to register with service discovery
+2017-11-17 18:16:13,954 INFO  [i.worker.exec.WorkerStartupExecutor] [] [] [] : Successfully found the public receptionist service in service discovery
+2017-11-17 18:16:15,688 WARN  [i.worker.exec.WorkerStartupExecutor] [] [] [] : Error while setting permissions of the worker directory.
+java.nio.file.FileSystemException: /var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T: Operation not permitted
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:91) ~[na:1.8.0_162-ea]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102) ~[na:1.8.0_162-ea]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107) ~[na:1.8.0_162-ea]
+	at sun.nio.fs.UnixFileAttributeViews$Posix.setMode(UnixFileAttributeViews.java:238) ~[na:1.8.0_162-ea]
+	at sun.nio.fs.UnixFileAttributeViews$Posix.setPermissions(UnixFileAttributeViews.java:260) ~[na:1.8.0_162-ea]
+	at java.nio.file.Files.setPosixFilePermissions(Files.java:2045) ~[na:1.8.0_162-ea]
+	at improbable.worker.exec.WorkerStartupExecutor.setWorkerFilePermissions(WorkerStartupExecutor.java:380) [fabric__runtime_deploy.jar:na]
+	at improbable.worker.exec.WorkerStartupExecutor.setPermissionsForDirectoryParents(WorkerStartupExecutor.java:350) [fabric__runtime_deploy.jar:na]
+	at improbable.worker.exec.WorkerStartupExecutor.setWorkerDirectoryPermissions(WorkerStartupExecutor.java:341) [fabric__runtime_deploy.jar:na]
+	at improbable.worker.exec.WorkerStartupExecutor.executeInternal(WorkerStartupExecutor.java:192) [fabric__runtime_deploy.jar:na]
+	at improbable.worker.exec.WorkerStartupExecutor.execute(WorkerStartupExecutor.java:117) [fabric__runtime_deploy.jar:na]
+	at improbable.worker.exec.WorkerRunnerImpl.startWorker(WorkerRunnerImpl.java:132) [fabric__runtime_deploy.jar:na]
+	at improbable.worker.exec.WorkerRunnerImpl.start(WorkerRunnerImpl.java:79) [fabric__runtime_deploy.jar:na]
+	at improbable.platform.inner.worker.WorkerRunnerGrpc$MethodHandlers.invoke(WorkerRunnerGrpc.java:326) [fabric__runtime_deploy.jar:na]
+	at io.grpc.stub.ServerCalls$1$1.onHalfClose(ServerCalls.java:148) [fabric__runtime_deploy.jar:na]
+	at io.grpc.PartialForwardingServerCallListener.onHalfClose(PartialForwardingServerCallListener.java:48) [fabric__runtime_deploy.jar:na]
+	at io.grpc.ForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:38) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:267) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$2.runInContext(ServerImpl.java:573) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:52) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:117) [fabric__runtime_deploy.jar:na]
+	at improbable.common.async.FabricListeningExecutorService.lambda$instrumentRunnable$0(FabricListeningExecutorService.java:133) [fabric__runtime_deploy.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_162-ea]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_162-ea]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_162-ea]
+2017-11-17 18:16:15,692 INFO  [i.worker.exec.WorkerStartupExecutor] [] [] [] : Created log file for worker UnityWorker0, type (UnityWorker): [/Users/dp.alex/Documents/ProgettoIS/logs/2017-11-17_18-15-37_0/workers/UnityWorker/UnityWorker0-8177655815527815219.log]
+2017-11-17 18:16:15,693 INFO  [i.worker.exec.CommandLineExecutor] [] [] [] : Running command: /var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T/zip-downloader8158331546106220641/a7063bbada899c23aa4dc5eef80768a7/UnityWorker@Mac.app/Contents/MacOS/UnityWorker@Mac +projectName your_project_name_here +receptionistIp 127.0.0.1 +receptionistPort 7777 +workerType UnityWorker +workerId UnityWorker0 +useInternalIpForBridge true +infraServicesUrl http://127.0.0.1:21000 +assemblyName local_assembly +linkProtocol RakNet -logfile /Users/dp.alex/Documents/ProgettoIS/logs/2017-11-17_18-15-37_0/workers/UnityWorker/UnityWorker0-8177655815527815219.log -batchmode -nographics
+2017-11-17 18:16:16,489 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Attempting to get positionHint for UnityWorker0 via rpc
+2017-11-17 18:16:16,496 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Selected legacy_guid: "53eaf5f6-fc3d-4624-b216-13230e95c15e"
+address {
+  host: "127.0.0.1"
+  port: 9019
+}
+ with position  which is the nearest bridge service to position (0.0, 0.0, 0.0)
+2017-11-17 18:16:16,504 INFO  [i.m.b.o.m.BridgeModuleOracleActor] [] [] [] : BridgeServicePicker returned module Optional[legacy_guid: "53eaf5f6-fc3d-4624-b216-13230e95c15e"
+address {
+  host: "127.0.0.1"
+  port: 9019
+}
+] with load Optional[BridgeModuleLoadBalanceInfo((0.0, 0.0, 0.0),0)].get().toString() for Engine(UnityWorker0)
+2017-11-17 18:16:16,787 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityWorker0"
+ registered with bridge internal service
+2017-11-17 18:16:16,796 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Got bridge started rpc from bridge: worker_id: "UnityWorker0"
+
+2017-11-17 18:16:16,796 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : The worker UnityWorker0 registered with SpatialOS successfully.
+2017-11-17 18:16:16,797 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge started to self for bridge endpoint BridgeOracleEndpoint
+2017-11-17 18:16:16,800 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityWorker0) started.
+2017-11-17 18:16:16,806 INFO  [i.b.o.m.BridgeOracleWorkerManager] [] [] [] : Worker UnityWorker0 registered with the BridgeOracleWorker manager
+2017-11-17 18:16:16,936 INFO  [i.b.n.raknet.GuardedRakPeerInterface] [] [] [] : New RakNet connection established with 127.0.0.1
+2017-11-17 18:16:23,976 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Attempting to get positionHint for UnityClient8e9e1fff-3492-42d0-98f9-8b54c94e9353 via rpc
+2017-11-17 18:16:23,978 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Starting UnityClient8e9e1fff-3492-42d0-98f9-8b54c94e9353 without a position hint, so using a random bridge service
+2017-11-17 18:16:23,979 INFO  [i.m.b.o.m.BridgeModuleOracleActor] [] [] [] : BridgeServicePicker returned module Optional[legacy_guid: "53eaf5f6-fc3d-4624-b216-13230e95c15e"
+address {
+  host: "127.0.0.1"
+  port: 9019
+}
+] with load Optional[BridgeModuleLoadBalanceInfo((0.0, 0.0, 0.0),1)].get().toString() for Engine(UnityClient8e9e1fff-3492-42d0-98f9-8b54c94e9353)
+2017-11-17 18:16:23,995 INFO  [i.l.params.LoadbalancerParamsFactory] [] [] [] : LoadbalancerParams for worker type [UnityClient]: [FlagzLoadbalancerParams{energyLimitingEnabled=true, energyLimit=1.0E9, minWorkerRange=Infinity, maxWorkerRange=Infinity, maxWorkerStepSize=50.0, workerExpansionTimeMs=60000, workerGridSize=5, loadbalancerEnabled=true, hexGridMode=OFF, scalerAdvisorType=ENTITY_COUNT, maxWorkers=25, initialWorkers=25, numEntitiesPerWorker=9223372036854775807, statusReportPeriodMs=2000, pointsOfInterestEnabled=false, hexGridSolution=Empty, pointsOfInterestSolution=Empty}]
+2017-11-17 18:16:24,000 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClient8e9e1fff-3492-42d0-98f9-8b54c94e9353"
+ registered with bridge internal service
+2017-11-17 18:16:24,003 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Got bridge started rpc from bridge: worker_id: "UnityClient8e9e1fff-3492-42d0-98f9-8b54c94e9353"
+
+2017-11-17 18:16:24,003 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : The worker UnityClient8e9e1fff-3492-42d0-98f9-8b54c94e9353 registered with SpatialOS successfully.
+2017-11-17 18:16:24,004 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge started to self for bridge endpoint BridgeOracleEndpoint
+2017-11-17 18:16:24,005 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClient8e9e1fff-3492-42d0-98f9-8b54c94e9353) started.
+2017-11-17 18:16:24,101 INFO  [i.b.n.raknet.GuardedRakPeerInterface] [] [] [] : New RakNet connection established with 127.0.0.1
+2017-11-17 18:16:32,045 INFO  [i.b.n.BridgeActorTransportLinkListener] [] [] [] : TransportLinkListener(UnityClient8e9e1fff-3492-42d0-98f9-8b54c94e9353) sending Disconnected to akka://akkaFabric/user/BridgeModule:53eaf5f6-fc3d-4624-b216-13230e95c15e/BridgeActor-UnityClient8e9e1fff-3492-42d0-98f9-8b54c94e9353
+2017-11-17 18:16:32,051 INFO  [i.b.n.raknet.reporter.RakNetReporter] [] [] [] : Tried to send to RakNet(UnityClient) on Port(7001)3 after closing. Payload: component_update {
+  entity_id: 2
+  component_id: 54
+  entity_co... (Logged every 1000 times)
+2017-11-17 18:16:32,068 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge stopped to self for bridge endpoint BridgeEndpoint(UnityClient8e9e1fff-3492-42d0-98f9-8b54c94e9353)
+2017-11-17 18:16:32,087 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClient8e9e1fff-3492-42d0-98f9-8b54c94e9353) stopped.
+2017-11-17 18:16:32,100 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClient8e9e1fff-3492-42d0-98f9-8b54c94e9353"
+ unregistered with bridge internal service
+2017-11-17 18:16:32,102 INFO  [improbable.bridge.BridgeActor] [] [] [] : Bridge(UnityClient8e9e1fff-3492-42d0-98f9-8b54c94e9353) on BridgeModuleEndpoint(53eaf5f6-fc3d-4624-b216-13230e95c15e) stopped.
+2017-11-17 18:16:32,117 INFO  [akka.actor.LocalActorRef] [akka://akkaFabric/user/BridgeModule:53eaf5f6-fc3d-4624-b216-13230e95c15e/BridgeActor-UnityClient8e9e1fff-3492-42d0-98f9-8b54c94e9353] [akkaFabric-akka.actor.default-dispatcher-2] [] : Message [improbable.fabric.internal.pubsub.PubSubMessageProto$PubSubMessage] from Actor[akka://akkaFabric/user/BridgeModule:53eaf5f6-fc3d-4624-b216-13230e95c15e/BridgeActor-UnityClient8e9e1fff-3492-42d0-98f9-8b54c94e9353#-1817015666] to Actor[akka://akkaFabric/user/BridgeModule:53eaf5f6-fc3d-4624-b216-13230e95c15e/BridgeActor-UnityClient8e9e1fff-3492-42d0-98f9-8b54c94e9353#-1817015666] was not delivered. [1] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2017-11-17 18:16:32,117 INFO  [akka.actor.LocalActorRef] [akka://akkaFabric/user/BridgeModule:53eaf5f6-fc3d-4624-b216-13230e95c15e/BridgeActor-UnityClient8e9e1fff-3492-42d0-98f9-8b54c94e9353] [akkaFabric-akka.actor.default-dispatcher-2] [] : Message [improbable.fabric.internal.pubsub.PubSubMessageProto$PubSubMessage] from Actor[akka://akkaFabric/user/BridgeModule:53eaf5f6-fc3d-4624-b216-13230e95c15e/BridgeActor-UnityClient8e9e1fff-3492-42d0-98f9-8b54c94e9353#-1817015666] to Actor[akka://akkaFabric/user/BridgeModule:53eaf5f6-fc3d-4624-b216-13230e95c15e/BridgeActor-UnityClient8e9e1fff-3492-42d0-98f9-8b54c94e9353#-1817015666] was not delivered. [2] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2017-11-17 18:16:32,118 INFO  [akka.actor.LocalActorRef] [akka://akkaFabric/user/BridgeModule:53eaf5f6-fc3d-4624-b216-13230e95c15e/BridgeActor-UnityClient8e9e1fff-3492-42d0-98f9-8b54c94e9353] [akkaFabric-akka.actor.default-dispatcher-2] [] : Message [improbable.fabric.internal.pubsub.PubSubMessageProto$PubSubMessage] from Actor[akka://akkaFabric/user/BridgeModule:53eaf5f6-fc3d-4624-b216-13230e95c15e/BridgeActor-UnityClient8e9e1fff-3492-42d0-98f9-8b54c94e9353#-1817015666] to Actor[akka://akkaFabric/user/BridgeModule:53eaf5f6-fc3d-4624-b216-13230e95c15e/BridgeActor-UnityClient8e9e1fff-3492-42d0-98f9-8b54c94e9353#-1817015666] was not delivered. [3] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2017-11-17 18:16:32,118 INFO  [akka.actor.LocalActorRef] [akka://akkaFabric/user/BridgeModule:53eaf5f6-fc3d-4624-b216-13230e95c15e/BridgeActor-UnityClient8e9e1fff-3492-42d0-98f9-8b54c94e9353] [akkaFabric-akka.actor.default-dispatcher-2] [] : Message [improbable.fabric.internal.pubsub.PubSubMessageProto$PubSubMessage] from Actor[akka://akkaFabric/user/BridgeModule:53eaf5f6-fc3d-4624-b216-13230e95c15e/BridgeActor-UnityClient8e9e1fff-3492-42d0-98f9-8b54c94e9353#-1817015666] to Actor[akka://akkaFabric/user/BridgeModule:53eaf5f6-fc3d-4624-b216-13230e95c15e/BridgeActor-UnityClient8e9e1fff-3492-42d0-98f9-8b54c94e9353#-1817015666] was not delivered. [4] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2017-11-17 18:16:32,122 INFO  [akka.actor.LocalActorRef] [akka://akkaFabric/user/BridgeModule:53eaf5f6-fc3d-4624-b216-13230e95c15e/BridgeActor-UnityClient8e9e1fff-3492-42d0-98f9-8b54c94e9353] [akkaFabric-akka.actor.default-dispatcher-2] [] : Message [improbable.fabric.internal.pubsub.PubSubMessageProto$PubSubMessage] from Actor[akka://akkaFabric/user/BridgeModule:53eaf5f6-fc3d-4624-b216-13230e95c15e/BridgeActor-UnityClient8e9e1fff-3492-42d0-98f9-8b54c94e9353#-1817015666] to Actor[akka://akkaFabric/user/BridgeModule:53eaf5f6-fc3d-4624-b216-13230e95c15e/BridgeActor-UnityClient8e9e1fff-3492-42d0-98f9-8b54c94e9353#-1817015666] was not delivered. [5] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2017-11-17 18:16:32,123 INFO  [akka.actor.LocalActorRef] [akka://akkaFabric/user/BridgeModule:53eaf5f6-fc3d-4624-b216-13230e95c15e/BridgeActor-UnityClient8e9e1fff-3492-42d0-98f9-8b54c94e9353] [akkaFabric-akka.actor.default-dispatcher-26] [] : Message [improbable.fabric.internal.pubsub.PubSubMessageProto$PubSubMessage] from Actor[akka://akkaFabric/user/BridgeModule:53eaf5f6-fc3d-4624-b216-13230e95c15e/BridgeActor-UnityClient8e9e1fff-3492-42d0-98f9-8b54c94e9353#-1817015666] to Actor[akka://akkaFabric/user/BridgeModule:53eaf5f6-fc3d-4624-b216-13230e95c15e/BridgeActor-UnityClient8e9e1fff-3492-42d0-98f9-8b54c94e9353#-1817015666] was not delivered. [6] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2017-11-17 18:16:32,123 INFO  [akka.actor.LocalActorRef] [akka://akkaFabric/user/BridgeModule:53eaf5f6-fc3d-4624-b216-13230e95c15e/BridgeActor-UnityClient8e9e1fff-3492-42d0-98f9-8b54c94e9353] [akkaFabric-akka.actor.default-dispatcher-26] [] : Message [improbable.fabric.internal.pubsub.PubSubMessageProto$PubSubMessage] from Actor[akka://akkaFabric/user/BridgeModule:53eaf5f6-fc3d-4624-b216-13230e95c15e/BridgeActor-UnityClient8e9e1fff-3492-42d0-98f9-8b54c94e9353#-1817015666] to Actor[akka://akkaFabric/user/BridgeModule:53eaf5f6-fc3d-4624-b216-13230e95c15e/BridgeActor-UnityClient8e9e1fff-3492-42d0-98f9-8b54c94e9353#-1817015666] was not delivered. [7] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2017-11-17 18:16:32,124 INFO  [akka.actor.LocalActorRef] [akka://akkaFabric/user/BridgeModule:53eaf5f6-fc3d-4624-b216-13230e95c15e/BridgeActor-UnityClient8e9e1fff-3492-42d0-98f9-8b54c94e9353] [akkaFabric-akka.actor.default-dispatcher-26] [] : Message [improbable.fabric.internal.pubsub.PubSubMessageProto$PubSubMessage] from Actor[akka://akkaFabric/user/BridgeModule:53eaf5f6-fc3d-4624-b216-13230e95c15e/BridgeActor-UnityClient8e9e1fff-3492-42d0-98f9-8b54c94e9353#-1817015666] to Actor[akka://akkaFabric/user/BridgeModule:53eaf5f6-fc3d-4624-b216-13230e95c15e/BridgeActor-UnityClient8e9e1fff-3492-42d0-98f9-8b54c94e9353#-1817015666] was not delivered. [8] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2017-11-17 18:16:33,004 INFO  [akka.actor.DeadLetterActorRef] [akka://akkaFabric/deadLetters] [akkaFabric-akka.actor.default-dispatcher-2] [] : Message [improbable.bridge.message.BridgeViewStatusRequest] from Actor[akka://akkaFabric/deadLetters] to Actor[akka://akkaFabric/deadLetters] was not delivered. [9] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2017-11-17 18:16:34,003 INFO  [akka.actor.DeadLetterActorRef] [akka://akkaFabric/deadLetters] [akkaFabric-akka.actor.default-dispatcher-2] [] : Message [improbable.bridge.message.BridgeViewStatusRequest] from Actor[akka://akkaFabric/deadLetters] to Actor[akka://akkaFabric/deadLetters] was not delivered. [10] dead letters encountered, no more dead letters will be logged. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2017-11-17 18:16:52,551 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Attempting to get positionHint for UnityCliente360e183-948f-46c9-957c-ce7ad47c4775 via rpc
+2017-11-17 18:16:52,558 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Starting UnityCliente360e183-948f-46c9-957c-ce7ad47c4775 without a position hint, so using a random bridge service
+2017-11-17 18:16:52,562 INFO  [i.m.b.o.m.BridgeModuleOracleActor] [] [] [] : BridgeServicePicker returned module Optional[legacy_guid: "53eaf5f6-fc3d-4624-b216-13230e95c15e"
+address {
+  host: "127.0.0.1"
+  port: 9019
+}
+] with load Optional[BridgeModuleLoadBalanceInfo((0.0, 0.0, 0.0),1)].get().toString() for Engine(UnityCliente360e183-948f-46c9-957c-ce7ad47c4775)
+2017-11-17 18:16:52,633 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityCliente360e183-948f-46c9-957c-ce7ad47c4775"
+ registered with bridge internal service
+2017-11-17 18:16:52,643 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Got bridge started rpc from bridge: worker_id: "UnityCliente360e183-948f-46c9-957c-ce7ad47c4775"
+
+2017-11-17 18:16:52,644 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : The worker UnityCliente360e183-948f-46c9-957c-ce7ad47c4775 registered with SpatialOS successfully.
+2017-11-17 18:16:52,644 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge started to self for bridge endpoint BridgeOracleEndpoint
+2017-11-17 18:16:52,645 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityCliente360e183-948f-46c9-957c-ce7ad47c4775) started.
+2017-11-17 18:16:52,728 INFO  [i.b.n.raknet.GuardedRakPeerInterface] [] [] [] : New RakNet connection established with 127.0.0.1
+2017-11-17 18:17:02,283 INFO  [i.b.n.BridgeActorTransportLinkListener] [] [] [] : TransportLinkListener(UnityCliente360e183-948f-46c9-957c-ce7ad47c4775) sending Disconnected to akka://akkaFabric/user/BridgeModule:53eaf5f6-fc3d-4624-b216-13230e95c15e/BridgeActor-UnityCliente360e183-948f-46c9-957c-ce7ad47c4775
+2017-11-17 18:17:02,289 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge stopped to self for bridge endpoint BridgeEndpoint(UnityCliente360e183-948f-46c9-957c-ce7ad47c4775)
+2017-11-17 18:17:02,292 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityCliente360e183-948f-46c9-957c-ce7ad47c4775) stopped.
+2017-11-17 18:17:02,292 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityCliente360e183-948f-46c9-957c-ce7ad47c4775"
+ unregistered with bridge internal service
+2017-11-17 18:17:02,295 INFO  [improbable.bridge.BridgeActor] [] [] [] : Bridge(UnityCliente360e183-948f-46c9-957c-ce7ad47c4775) on BridgeModuleEndpoint(53eaf5f6-fc3d-4624-b216-13230e95c15e) stopped.
+2017-11-17 18:18:10,080 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Attempting to get positionHint for UnityClient943af362-5795-40d9-a656-41afa5aa95aa via rpc
+2017-11-17 18:18:10,084 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Starting UnityClient943af362-5795-40d9-a656-41afa5aa95aa without a position hint, so using a random bridge service
+2017-11-17 18:18:10,085 INFO  [i.m.b.o.m.BridgeModuleOracleActor] [] [] [] : BridgeServicePicker returned module Optional[legacy_guid: "53eaf5f6-fc3d-4624-b216-13230e95c15e"
+address {
+  host: "127.0.0.1"
+  port: 9019
+}
+] with load Optional[BridgeModuleLoadBalanceInfo((0.0, 0.0, 0.0),1)].get().toString() for Engine(UnityClient943af362-5795-40d9-a656-41afa5aa95aa)
+2017-11-17 18:18:10,104 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClient943af362-5795-40d9-a656-41afa5aa95aa"
+ registered with bridge internal service
+2017-11-17 18:18:10,105 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Got bridge started rpc from bridge: worker_id: "UnityClient943af362-5795-40d9-a656-41afa5aa95aa"
+
+2017-11-17 18:18:10,106 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : The worker UnityClient943af362-5795-40d9-a656-41afa5aa95aa registered with SpatialOS successfully.
+2017-11-17 18:18:10,106 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge started to self for bridge endpoint BridgeOracleEndpoint
+2017-11-17 18:18:10,107 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClient943af362-5795-40d9-a656-41afa5aa95aa) started.
+2017-11-17 18:18:10,206 INFO  [i.b.n.raknet.GuardedRakPeerInterface] [] [] [] : New RakNet connection established with 127.0.0.1
+2017-11-17 18:18:24,731 INFO  [i.b.n.BridgeActorTransportLinkListener] [] [] [] : TransportLinkListener(UnityClient943af362-5795-40d9-a656-41afa5aa95aa) sending Disconnected to akka://akkaFabric/user/BridgeModule:53eaf5f6-fc3d-4624-b216-13230e95c15e/BridgeActor-UnityClient943af362-5795-40d9-a656-41afa5aa95aa
+2017-11-17 18:18:24,733 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge stopped to self for bridge endpoint BridgeEndpoint(UnityClient943af362-5795-40d9-a656-41afa5aa95aa)
+2017-11-17 18:18:24,735 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClient943af362-5795-40d9-a656-41afa5aa95aa"
+ unregistered with bridge internal service
+2017-11-17 18:18:24,735 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClient943af362-5795-40d9-a656-41afa5aa95aa) stopped.
+2017-11-17 18:18:24,745 INFO  [improbable.bridge.BridgeActor] [] [] [] : Bridge(UnityClient943af362-5795-40d9-a656-41afa5aa95aa) on BridgeModuleEndpoint(53eaf5f6-fc3d-4624-b216-13230e95c15e) stopped.
+2017-11-17 18:20:06,710 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Attempting to get positionHint for UnityClientad067ac7-c1c1-4909-b46d-60282ffe1854 via rpc
+2017-11-17 18:20:06,712 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Starting UnityClientad067ac7-c1c1-4909-b46d-60282ffe1854 without a position hint, so using a random bridge service
+2017-11-17 18:20:06,713 INFO  [i.m.b.o.m.BridgeModuleOracleActor] [] [] [] : BridgeServicePicker returned module Optional[legacy_guid: "53eaf5f6-fc3d-4624-b216-13230e95c15e"
+address {
+  host: "127.0.0.1"
+  port: 9019
+}
+] with load Optional[BridgeModuleLoadBalanceInfo((0.0, 0.0, 0.0),1)].get().toString() for Engine(UnityClientad067ac7-c1c1-4909-b46d-60282ffe1854)
+2017-11-17 18:20:06,731 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClientad067ac7-c1c1-4909-b46d-60282ffe1854"
+ registered with bridge internal service
+2017-11-17 18:20:06,733 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Got bridge started rpc from bridge: worker_id: "UnityClientad067ac7-c1c1-4909-b46d-60282ffe1854"
+
+2017-11-17 18:20:06,734 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : The worker UnityClientad067ac7-c1c1-4909-b46d-60282ffe1854 registered with SpatialOS successfully.
+2017-11-17 18:20:06,735 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge started to self for bridge endpoint BridgeOracleEndpoint
+2017-11-17 18:20:06,736 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClientad067ac7-c1c1-4909-b46d-60282ffe1854) started.
+2017-11-17 18:20:06,784 INFO  [i.b.n.raknet.GuardedRakPeerInterface] [] [] [] : New RakNet connection established with 127.0.0.1
+2017-11-17 18:20:18,199 INFO  [i.b.n.BridgeActorTransportLinkListener] [] [] [] : TransportLinkListener(UnityClientad067ac7-c1c1-4909-b46d-60282ffe1854) sending Disconnected to akka://akkaFabric/user/BridgeModule:53eaf5f6-fc3d-4624-b216-13230e95c15e/BridgeActor-UnityClientad067ac7-c1c1-4909-b46d-60282ffe1854
+2017-11-17 18:20:18,202 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClientad067ac7-c1c1-4909-b46d-60282ffe1854"
+ unregistered with bridge internal service
+2017-11-17 18:20:18,203 INFO  [improbable.bridge.BridgeActor] [] [] [] : Bridge(UnityClientad067ac7-c1c1-4909-b46d-60282ffe1854) on BridgeModuleEndpoint(53eaf5f6-fc3d-4624-b216-13230e95c15e) stopped.
+2017-11-17 18:20:18,203 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge stopped to self for bridge endpoint BridgeEndpoint(UnityClientad067ac7-c1c1-4909-b46d-60282ffe1854)
+2017-11-17 18:20:18,204 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClientad067ac7-c1c1-4909-b46d-60282ffe1854) stopped.
+2017-11-17 18:26:23,323 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Attempting to get positionHint for UnityClientde61dc5c-d6f7-498d-a0a0-fe0c5e5183ed via rpc
+2017-11-17 18:26:23,325 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Starting UnityClientde61dc5c-d6f7-498d-a0a0-fe0c5e5183ed without a position hint, so using a random bridge service
+2017-11-17 18:26:23,326 INFO  [i.m.b.o.m.BridgeModuleOracleActor] [] [] [] : BridgeServicePicker returned module Optional[legacy_guid: "53eaf5f6-fc3d-4624-b216-13230e95c15e"
+address {
+  host: "127.0.0.1"
+  port: 9019
+}
+] with load Optional[BridgeModuleLoadBalanceInfo((0.0, 0.0, 0.0),1)].get().toString() for Engine(UnityClientde61dc5c-d6f7-498d-a0a0-fe0c5e5183ed)
+2017-11-17 18:26:23,348 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClientde61dc5c-d6f7-498d-a0a0-fe0c5e5183ed"
+ registered with bridge internal service
+2017-11-17 18:26:23,350 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Got bridge started rpc from bridge: worker_id: "UnityClientde61dc5c-d6f7-498d-a0a0-fe0c5e5183ed"
+
+2017-11-17 18:26:23,351 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : The worker UnityClientde61dc5c-d6f7-498d-a0a0-fe0c5e5183ed registered with SpatialOS successfully.
+2017-11-17 18:26:23,351 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge started to self for bridge endpoint BridgeOracleEndpoint
+2017-11-17 18:26:23,352 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClientde61dc5c-d6f7-498d-a0a0-fe0c5e5183ed) started.
+2017-11-17 18:26:23,446 INFO  [i.b.n.raknet.GuardedRakPeerInterface] [] [] [] : New RakNet connection established with 127.0.0.1
+2017-11-17 18:26:30,970 INFO  [i.b.n.BridgeActorTransportLinkListener] [] [] [] : TransportLinkListener(UnityClientde61dc5c-d6f7-498d-a0a0-fe0c5e5183ed) sending Disconnected to akka://akkaFabric/user/BridgeModule:53eaf5f6-fc3d-4624-b216-13230e95c15e/BridgeActor-UnityClientde61dc5c-d6f7-498d-a0a0-fe0c5e5183ed
+2017-11-17 18:26:30,972 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge stopped to self for bridge endpoint BridgeEndpoint(UnityClientde61dc5c-d6f7-498d-a0a0-fe0c5e5183ed)
+2017-11-17 18:26:30,973 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClientde61dc5c-d6f7-498d-a0a0-fe0c5e5183ed"
+ unregistered with bridge internal service
+2017-11-17 18:26:30,973 INFO  [improbable.bridge.BridgeActor] [] [] [] : Bridge(UnityClientde61dc5c-d6f7-498d-a0a0-fe0c5e5183ed) on BridgeModuleEndpoint(53eaf5f6-fc3d-4624-b216-13230e95c15e) stopped.
+2017-11-17 18:26:30,973 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClientde61dc5c-d6f7-498d-a0a0-fe0c5e5183ed) stopped.
+2017-11-17 18:33:01,569 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Attempting to get positionHint for UnityClient27d7f2a5-4c08-4b87-a92c-01cae6c6bd16 via rpc
+2017-11-17 18:33:01,587 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Starting UnityClient27d7f2a5-4c08-4b87-a92c-01cae6c6bd16 without a position hint, so using a random bridge service
+2017-11-17 18:33:01,603 INFO  [i.m.b.o.m.BridgeModuleOracleActor] [] [] [] : BridgeServicePicker returned module Optional[legacy_guid: "53eaf5f6-fc3d-4624-b216-13230e95c15e"
+address {
+  host: "127.0.0.1"
+  port: 9019
+}
+] with load Optional[BridgeModuleLoadBalanceInfo((0.0, 0.0, 0.0),1)].get().toString() for Engine(UnityClient27d7f2a5-4c08-4b87-a92c-01cae6c6bd16)
+2017-11-17 18:33:01,651 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClient27d7f2a5-4c08-4b87-a92c-01cae6c6bd16"
+ registered with bridge internal service
+2017-11-17 18:33:01,658 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Got bridge started rpc from bridge: worker_id: "UnityClient27d7f2a5-4c08-4b87-a92c-01cae6c6bd16"
+
+2017-11-17 18:33:01,659 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : The worker UnityClient27d7f2a5-4c08-4b87-a92c-01cae6c6bd16 registered with SpatialOS successfully.
+2017-11-17 18:33:01,660 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge started to self for bridge endpoint BridgeOracleEndpoint
+2017-11-17 18:33:01,662 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClient27d7f2a5-4c08-4b87-a92c-01cae6c6bd16) started.
+2017-11-17 18:33:01,744 INFO  [i.b.n.raknet.GuardedRakPeerInterface] [] [] [] : New RakNet connection established with 127.0.0.1
+2017-11-17 18:33:15,580 INFO  [i.b.n.BridgeActorTransportLinkListener] [] [] [] : TransportLinkListener(UnityClient27d7f2a5-4c08-4b87-a92c-01cae6c6bd16) sending Disconnected to akka://akkaFabric/user/BridgeModule:53eaf5f6-fc3d-4624-b216-13230e95c15e/BridgeActor-UnityClient27d7f2a5-4c08-4b87-a92c-01cae6c6bd16
+2017-11-17 18:33:15,589 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClient27d7f2a5-4c08-4b87-a92c-01cae6c6bd16"
+ unregistered with bridge internal service
+2017-11-17 18:33:15,590 INFO  [improbable.bridge.BridgeActor] [] [] [] : Bridge(UnityClient27d7f2a5-4c08-4b87-a92c-01cae6c6bd16) on BridgeModuleEndpoint(53eaf5f6-fc3d-4624-b216-13230e95c15e) stopped.
+2017-11-17 18:33:15,590 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge stopped to self for bridge endpoint BridgeEndpoint(UnityClient27d7f2a5-4c08-4b87-a92c-01cae6c6bd16)
+2017-11-17 18:33:15,592 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClient27d7f2a5-4c08-4b87-a92c-01cae6c6bd16) stopped.
+2017-11-17 18:35:45,161 INFO  [i.c.discovery.ServiceDiscoveryImpl] [] [] [] : Shutting down all services
+2017-11-17 18:35:45,171 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.StatusDiscoveryInternalService) on 127.0.0.1:5301.
+2017-11-17 18:35:45,172 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Stopped Service(improbable.platform.runtime.ModuleService) on 127.0.0.1:9000.
+2017-11-17 18:35:45,173 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Stopped Service(improbable.platform.runtime.HealthCheckService) on 127.0.0.1:9001.
+2017-11-17 18:35:45,173 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.PerfInternalService) on 127.0.0.1:9002.
+2017-11-17 18:35:45,173 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.ContentionInternalService) on 127.0.0.1:9003.
+2017-11-17 18:35:45,174 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Stopped Service(improbable.platform.runtime.FeatureService) on 127.0.0.1:9004.
+2017-11-17 18:35:45,174 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.NodeConfigurationInternalService) on 127.0.0.1:9005.
+2017-11-17 18:35:45,174 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.WorldExtentsInternalService) on 127.0.0.1:9006.
+2017-11-17 18:35:45,182 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.EntityIdInternalService) on 127.0.0.1:9007.
+2017-11-17 18:35:45,180 ERROR [i.worker.exec.CommandLineExecutor] [] [] [] : Worker UnityWorker0 terminated abnormally. It may have crashed due to worker-side errors.
+2017-11-17 18:35:45,184 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.WorkerPrestartRegistryInternalService) on 127.0.0.1:9008.
+2017-11-17 18:35:45,184 ERROR [i.worker.exec.CommandLineExecutor] [] [] [] : (UnityWorker0) Command exited with code 143 (POSIX signal: 15): /var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T/zip-downloader8158331546106220641/a7063bbada899c23aa4dc5eef80768a7/UnityWorker@Mac.app/Contents/MacOS/UnityWorker@Mac +projectName your_project_name_here +receptionistIp 127.0.0.1 +receptionistPort 7777 +workerType UnityWorker +workerId UnityWorker0 +useInternalIpForBridge true +infraServicesUrl http://127.0.0.1:21000 +assemblyName local_assembly +linkProtocol RakNet -logfile /Users/dp.alex/Documents/ProgettoIS/logs/2017-11-17_18-15-37_0/workers/UnityWorker/UnityWorker0-8177655815527815219.log -batchmode -nographics
+2017-11-17 18:35:45,187 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.RouterLookupInternalService) on 127.0.0.1:9009.
+2017-11-17 18:35:45,192 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.RouterInternalService) on 127.0.0.1:9010.
+2017-11-17 18:35:45,195 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.RemoteMessageInternalService) on 127.0.0.1:9011.
+2017-11-17 18:35:45,196 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.LocalBrokerInternalService) on 127.0.0.1:9012.
+2017-11-17 18:35:45,198 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.BridgeOracleInternalService) on 127.0.0.1:9013.
+2017-11-17 18:35:45,199 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.GlobalBrokerInternalService) on 127.0.0.1:9014.
+2017-11-17 18:35:45,201 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.BridgeServiceOracleInternalService) on 127.0.0.1:9015.
+2017-11-17 18:35:45,201 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.LocalSnapshotInternalService) on 127.0.0.1:9016.
+2017-11-17 18:35:45,203 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.ScalingStatsInternalService) on 127.0.0.1:9017.
+2017-11-17 18:35:45,205 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.EntityQueryInternalService) on 127.0.0.1:9018.
+2017-11-17 18:35:45,206 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.BridgeInternalService) on 127.0.0.1:9019.
+2017-11-17 18:35:45,208 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Stopped Service(improbable.platform.inner.worker.WorkerRunner) on 127.0.0.1:9020.
+2017-11-17 18:35:45,209 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.ReceptionistInternalService) on 127.0.0.1:9021.
+2017-11-17 18:35:45,209 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Stopped Service(improbable.platform.runtime.ReceptionistService) on 127.0.0.1:7777.
