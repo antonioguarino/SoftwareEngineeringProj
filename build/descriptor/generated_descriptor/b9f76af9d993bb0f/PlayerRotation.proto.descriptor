@@ -1,13 +1,0 @@
-
-ö
-&improbable/player/PlayerRotation.protoschema.improbable.playerimprobable/entity_state.proto"H
-PlayerRotationData2
-field1_bearing (B¬ÛbearingRfield1Bearing"–
-PlayerRotation
-Events
-
-Commands2~
-component_extension.schema.improbable.EntityStateÃ (2,.schema.improbable.player.PlayerRotationDataRcomponentExtension2y
-event_extension.schema.improbable.EntityEventÃ (2/.schema.improbable.player.PlayerRotation.EventsReventExtension2Å
-command_extension .schema.improbable.EntityCommandÃ (21.schema.improbable.player.PlayerRotation.CommandsRcommandExtension:)¬Û%
- improbable.player.PlayerRotationÃBBPlayerRotationOuterClass
