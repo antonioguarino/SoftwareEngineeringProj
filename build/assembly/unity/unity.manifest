@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 3151539792
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: environment@windows
+      Dependencies: {}
+    Info_1:
+      Name: ground02_decal@windows
+      Dependencies: {}
+    Info_2:
+      Name: player@windows
+      Dependencies: {}
+    Info_3:
+      Name: player1@windows
+      Dependencies: {}
+    Info_4:
+      Name: playercreator@windows
+      Dependencies: {}

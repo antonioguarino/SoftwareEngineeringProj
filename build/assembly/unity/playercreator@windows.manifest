@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 2619897420
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1a483b57a700ba38a5b65c295668dbe8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8cb97b1e3591e2dd318d14be7a9b5449
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: d2ece578584aa49328476b915727eafe, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/EntityPrefabs/PlayerCreator.prefab
+Dependencies: []

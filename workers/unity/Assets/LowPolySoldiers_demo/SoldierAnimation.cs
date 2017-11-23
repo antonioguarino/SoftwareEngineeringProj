@@ -1,29 +1,43 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using Improbable.Unity;
+using Improbable.Unity.Visualizer;
+using Improbable.Player;
 
-public class SoldierAnimation : MonoBehaviour
+namespace Assets.Gamelogic.Player
 {
-    public Animator animator;
-
-    void Update()
+    public class SoldierAnimation : MonoBehaviour
     {
-        //Get input from controls
-        float z = Input.GetAxisRaw("Horizontal");
-        float x = -(Input.GetAxisRaw("Vertical"));
 
-        //Apply inputs to animator
-        //animator.SetFloat("Input X", z);
-        //animator.SetFloat("Input Z", -(x));
+        [Require] private PlayerInput.Reader PlayerInputReader;
+        public Animator animator;
 
-        if (x != 0 || z != 0)  //if there is some input
+
+        // Use this for initialization
+        private void OnEnable()
         {
-            //set that character is moving
+            PlayerInputReader.MoveTriggered.Add(OnMove);
+            PlayerInputReader.StopTriggered.Add(OnStop);
+        }
+
+        private void OnDisable()
+        {
+            PlayerInputReader.MoveTriggered.Remove(OnMove);
+            PlayerInputReader.StopTriggered.Remove(OnStop);
+        }
+
+        // Update is called once per frame
+        private void OnMove(Move move)
+        {
+            // Respond to FireLeft event
             animator.SetBool("Moving", true);
             animator.SetBool("Running", true);
         }
-        else
+
+        private void OnStop(Stop stop)
         {
-            //character is not moving
+            // Respond to FireLeft event
             animator.SetBool("Moving", false);
             animator.SetBool("Running", false);
         }

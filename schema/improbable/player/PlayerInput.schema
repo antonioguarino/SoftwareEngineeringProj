@@ -6,10 +6,14 @@ type Joystick {
 }
 
 type Fire {}
+type Move {}
+type Stop {}
 
 component PlayerInput {
     id = 1004;
     Joystick joystick = 1;
     // The component event for triggering firing.
   	event Fire fire;
+	event Move move;
+	event Stop stop;
 }
