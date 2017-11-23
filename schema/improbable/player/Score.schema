@@ -1,0 +1,19 @@
+package improbable.player;
+
+type AwardPoints {
+    int32 amount = 1;
+}
+
+type AwardResponse {
+    int32 amount = 1;
+}
+
+component Score {
+    // Component ID, unique within the project
+    id = 1007;
+
+    int32 score = 1;
+
+    // Used by other entities to give points to entity with the Score component
+    command AwardResponse award_points(AwardPoints);
+}

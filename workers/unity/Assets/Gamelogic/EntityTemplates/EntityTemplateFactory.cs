@@ -10,41 +10,42 @@ using Improbable.Unity.Entity;
 
 namespace Assets.Gamelogic.EntityTemplates
 {
-    public class EntityTemplateFactory : MonoBehaviour
-    {
-        public static Entity CreatePlayerCreatorTemplate()
-        {
-            var playerCreatorEntityTemplate = EntityBuilder.Begin()
-                .AddPositionComponent(Improbable.Coordinates.ZERO.ToUnityVector(), CommonRequirementSets.PhysicsOnly)
-                .AddMetadataComponent(entityType: SimulationSettings.PlayerCreatorPrefabName)
-                .SetPersistence(true)
-                .SetReadAcl(CommonRequirementSets.PhysicsOrVisual)
-                .AddComponent(new Rotation.Data(Quaternion.identity.ToNativeQuaternion()), CommonRequirementSets.PhysicsOnly)
-                .AddComponent(new PlayerCreation.Data(), CommonRequirementSets.PhysicsOnly)
-                .Build();
+	public class EntityTemplateFactory : MonoBehaviour
+	{
+		public static Entity CreatePlayerCreatorTemplate()
+		{
+			var playerCreatorEntityTemplate = EntityBuilder.Begin()
+				.AddPositionComponent(Improbable.Coordinates.ZERO.ToUnityVector(), CommonRequirementSets.PhysicsOnly)
+				.AddMetadataComponent(entityType: SimulationSettings.PlayerCreatorPrefabName)
+				.SetPersistence(true)
+				.SetReadAcl(CommonRequirementSets.PhysicsOrVisual)
+				.AddComponent(new Rotation.Data(Quaternion.identity.ToNativeQuaternion()), CommonRequirementSets.PhysicsOnly)
+				.AddComponent(new PlayerCreation.Data(), CommonRequirementSets.PhysicsOnly)
+				.Build();
 
-            return playerCreatorEntityTemplate;
-        }
+			return playerCreatorEntityTemplate;
+		}
 
-        public static Entity CreatePlayerTemplate(string clientId)
-        {
-            var playerTemplate = EntityBuilder.Begin()
-                .AddPositionComponent(new Improbable.Coordinates(0, SimulationSettings.PlayerSpawnHeight, 0).ToUnityVector(), CommonRequirementSets.PhysicsOnly)
-                .AddMetadataComponent(entityType: SimulationSettings.PlayerPrefabName)
-                .SetPersistence(false)
-                .SetReadAcl(CommonRequirementSets.PhysicsOrVisual)
-                .AddComponent(new Rotation.Data(Quaternion.identity.ToNativeQuaternion()), CommonRequirementSets.PhysicsOnly)
-                .AddComponent(new ClientAuthorityCheck.Data(), CommonRequirementSets.SpecificClientOnly(clientId))
-                .AddComponent(new ClientConnection.Data(SimulationSettings.TotalHeartbeatsBeforeTimeout), CommonRequirementSets.PhysicsOnly)
-                .AddComponent(new PlayerInput.Data(new Joystick(xAxis: 0, yAxis: 0)), CommonRequirementSets.SpecificClientOnly(clientId))
-                .AddComponent(new PlayerRotation.Data(0), CommonRequirementSets.SpecificClientOnly(clientId))
+		public static Entity CreatePlayerTemplate(string clientId)
+		{
+			var playerTemplate = EntityBuilder.Begin()
+				.AddPositionComponent(new Improbable.Coordinates(0, SimulationSettings.PlayerSpawnHeight, 0).ToUnityVector(), CommonRequirementSets.PhysicsOnly)
+				.AddMetadataComponent(entityType: SimulationSettings.PlayerPrefabName)
+				.SetPersistence(false)
+				.SetReadAcl(CommonRequirementSets.PhysicsOrVisual)
+				.AddComponent(new Rotation.Data(Quaternion.identity.ToNativeQuaternion()), CommonRequirementSets.PhysicsOnly)
+				.AddComponent(new ClientAuthorityCheck.Data(), CommonRequirementSets.SpecificClientOnly(clientId))
+				.AddComponent(new ClientConnection.Data(SimulationSettings.TotalHeartbeatsBeforeTimeout), CommonRequirementSets.PhysicsOnly)
+				.AddComponent(new PlayerInput.Data(new Joystick(xAxis: 0, yAxis: 0)), CommonRequirementSets.SpecificClientOnly(clientId))
+				.AddComponent(new PlayerRotation.Data(0), CommonRequirementSets.SpecificClientOnly(clientId))
 				.AddComponent(new Health.Data(1000), CommonRequirementSets.PhysicsOnly)
-                .Build();
+				.AddComponent(new Score.Data(0), CommonRequirementSets.PhysicsOnly)
+				.Build();
 
-            return playerTemplate;
-        }
+			return playerTemplate;
+		}
 
-       /* public static Entity CreateCubeTemplate()
+		/* public static Entity CreateCubeTemplate()
         {
             var cubeTemplate = EntityBuilder.Begin()
                 .AddPositionComponent(Improbable.Coordinates.ZERO.ToUnityVector(), CommonRequirementSets.PhysicsOnly)
@@ -56,5 +57,5 @@ namespace Assets.Gamelogic.EntityTemplates
 
             return cubeTemplate;
         }*/
-    }
+	}
 }

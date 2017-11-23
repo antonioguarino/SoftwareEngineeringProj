@@ -1,40 +1,40 @@
 Initialize engine version: 5.6.0f3 (497a0f351392)
 GfxDevice: creating device client; threaded=1
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) HD Graphics 620 (ID=0x5916)
-    Vendor:   Intel
-    VRAM:     2111 MB
-    Driver:   22.20.16.4735
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 960M (ID=0x139b)
+    Vendor:   NVIDIA
+    VRAM:     2019 MB
+    Driver:   22.21.13.8205
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\Raffaele\Documents\GitHub\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\Raffaele\Documents\GitHub\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\Raffaele\Documents\GitHub\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading C:\Users\Raffaele\Documents\GitHub\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: C:\Users\Raffaele\Documents\GitHub\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\Raffaele\Documents\GitHub\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\Raffaele\Documents\GitHub\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\Raffaele\Documents\GitHub\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\Raffaele\Documents\GitHub\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\Raffaele\Documents\GitHub\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\Raffaele\Documents\GitHub\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\Generated.Code.dll (this message is harmless)
-Loading C:\Users\Raffaele\Documents\GitHub\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\Generated.Code.dll into Unity Child Domain
-Platform assembly: C:\Users\Raffaele\Documents\GitHub\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\Improbable.WorkerSdkCsharp.dll (this message is harmless)
-Loading C:\Users\Raffaele\Documents\GitHub\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\Improbable.WorkerSdkCsharp.dll into Unity Child Domain
-Platform assembly: C:\Users\Raffaele\Documents\GitHub\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\Improbable.WorkerSdkCsharp.Framework.dll (this message is harmless)
-Loading C:\Users\Raffaele\Documents\GitHub\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\Improbable.WorkerSdkCsharp.Framework.dll into Unity Child Domain
-Platform assembly: C:\Users\Raffaele\Documents\GitHub\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\System.Threading.dll (this message is harmless)
-Loading C:\Users\Raffaele\Documents\GitHub\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\System.Threading.dll into Unity Child Domain
-Platform assembly: C:\Users\Raffaele\Documents\GitHub\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\Improbable.UnityDll.dll (this message is harmless)
-Loading C:\Users\Raffaele\Documents\GitHub\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\Improbable.UnityDll.dll into Unity Child Domain
-- Completed reload, in  0.102 seconds
-Platform assembly: C:\Users\Raffaele\Documents\GitHub\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\Raffaele\Documents\GitHub\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Antonio\Documents\GitHub\SoftwareEngineeringProj\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Antonio\Documents\GitHub\SoftwareEngineeringProj\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Antonio\Documents\GitHub\SoftwareEngineeringProj\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Antonio\Documents\GitHub\SoftwareEngineeringProj\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Antonio\Documents\GitHub\SoftwareEngineeringProj\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Antonio\Documents\GitHub\SoftwareEngineeringProj\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Antonio\Documents\GitHub\SoftwareEngineeringProj\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Antonio\Documents\GitHub\SoftwareEngineeringProj\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Antonio\Documents\GitHub\SoftwareEngineeringProj\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Antonio\Documents\GitHub\SoftwareEngineeringProj\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Antonio\Documents\GitHub\SoftwareEngineeringProj\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\Generated.Code.dll (this message is harmless)
+Loading C:\Users\Antonio\Documents\GitHub\SoftwareEngineeringProj\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\Generated.Code.dll into Unity Child Domain
+Platform assembly: C:\Users\Antonio\Documents\GitHub\SoftwareEngineeringProj\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\Improbable.WorkerSdkCsharp.dll (this message is harmless)
+Loading C:\Users\Antonio\Documents\GitHub\SoftwareEngineeringProj\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\Improbable.WorkerSdkCsharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Antonio\Documents\GitHub\SoftwareEngineeringProj\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\Improbable.WorkerSdkCsharp.Framework.dll (this message is harmless)
+Loading C:\Users\Antonio\Documents\GitHub\SoftwareEngineeringProj\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\Improbable.WorkerSdkCsharp.Framework.dll into Unity Child Domain
+Platform assembly: C:\Users\Antonio\Documents\GitHub\SoftwareEngineeringProj\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\System.Threading.dll (this message is harmless)
+Loading C:\Users\Antonio\Documents\GitHub\SoftwareEngineeringProj\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\System.Threading.dll into Unity Child Domain
+Platform assembly: C:\Users\Antonio\Documents\GitHub\SoftwareEngineeringProj\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\Improbable.UnityDll.dll (this message is harmless)
+Loading C:\Users\Antonio\Documents\GitHub\SoftwareEngineeringProj\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\Improbable.UnityDll.dll into Unity Child Domain
+- Completed reload, in  0.960 seconds
+Platform assembly: C:\Users\Antonio\Documents\GitHub\SoftwareEngineeringProj\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Antonio\Documents\GitHub\SoftwareEngineeringProj\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 59Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.660599 ms
+UnloadTime: 4.237331 ms
 Command line build/worker/UnityClient@Windows/UnityClient@Windows.exe +assemblyName local_assembly +workerType UnityClient +infraServicesUrl http://127.0.0.1:21000 +projectName your_project_name_here -logfile external-default-unityclient.log
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -45,9 +45,9 @@ ProjectName = your_project_name_here
 AssemblyName = local_assembly
 DeploymentId = 
 DeploymentTag = prod
-EngineId = UnityClient719586f2-42a9-44bf-aa81-42b543b6105b
+EngineId = UnityClient6aa0523c-9ee6-4168-8d11-899e9d13e2b7
 EnginePlatform = UnityClient
-WorkerId = UnityClient719586f2-42a9-44bf-aa81-42b543b6105b
+WorkerId = UnityClient6aa0523c-9ee6-4168-8d11-899e9d13e2b7
 WorkerPlatform = UnityClient
 EntityCreationLimitPerFrame = 100
 InfraServiceUrl = http://127.0.0.1:21000
@@ -77,16 +77,66 @@ LogExceptionToSpatialOs = True
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 3a44 -> priority: 1 
+  Thread -> id: 234c -> priority: 1 
 ClientMetrics OS=Windows 10  (10.0.0) 64bit.
-Processor: type Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz, cores 4.
-Graphics: id 22806, vendor 32902, name Intel(R) HD Graphics 620, size 2111.
-Memory: 8077.
+Processor: type Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz, cores 4.
+Graphics: id 5019, vendor 4318, name NVIDIA GeForce GTX 960M, size 2019.
+Memory: 8046.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Platform assembly: C:\Users\Raffaele\Documents\GitHub\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\Mono.Security.dll (this message is harmless)
-Platform assembly: C:\Users\Raffaele\Documents\GitHub\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\System.Configuration.dll (this message is harmless)
-Platform assembly: C:\Users\Raffaele\Documents\GitHub\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\System.Xml.dll (this message is harmless)
-Setting up 2 worker threads for Enlighten.
-  Thread -> id: 3a60 -> priority: 1 
-  Thread -> id: 43f0 -> priority: 1 
+Platform assembly: C:\Users\Antonio\Documents\GitHub\SoftwareEngineeringProj\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\Mono.Security.dll (this message is harmless)
+Platform assembly: C:\Users\Antonio\Documents\GitHub\SoftwareEngineeringProj\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\System.Configuration.dll (this message is harmless)
+Platform assembly: C:\Users\Antonio\Documents\GitHub\SoftwareEngineeringProj\SoftwareEngineeringProj\workers\unity\build\worker\UnityClient@Windows\UnityClient@Windows_Data\Managed\System.Xml.dll (this message is harmless)
+NullReferenceException: Object reference not set to an instance of an object
+  at Assets.Gamelogic.Player.Guns.ScoreGUI.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(GameObject, Vector3, Quaternion)
+Improbable.Unity.ComponentFactory.UnityPrefabFactory:MakeComponent(GameObject, String)
+Improbable.Unity.ComponentFactory.PrefabFactoryMetrics:MakeComponent(GameObject, String)
+Improbable.Unity.Core.LegacyEntityCreator:InstantiateEntityObject(EntityId, String)
+Improbable.Unity.Core.LegacyEntityCreator:OnMakeEntitySuccess(EntityId, String)
+Improbable.Unity.Core.<MakeEntity>c__AnonStorey0:<>m__0(String)
+Improbable.Unity.Entity.<PrepareTemplate>c__AnonStorey0:<>m__0(GameObject)
+Improbable.Unity.Assets.<LoadAsset>c__AnonStorey0:<>m__0(GameObject)
+Improbable.Unity.Assets.<LoadAsset>c__AnonStorey0:<>m__0(GameObject)
+Improbable.Unity.Assets.GameObjectFromAssetBundleLoader:OnAssetBundleLoaded(AssetBundle, String)
+Improbable.Unity.Assets.<LoadAsset>c__AnonStorey0:<>m__0(AssetBundle)
+Improbable.Unity.Assets.AssetBundleDownloader:HandleDownloadAssetResponse(String, Action`1, Action`1, WWWResponse)
+Improbable.Unity.Assets.<LoadAsset>c__AnonStorey0:<>m__0(WWWResponse)
+Improbable.Unity.Assets.AssetBundleDownloader:DownloadAsyncResponse(WWWResponse, IWWWRequest, String, Action`1)
+Improbable.Unity.Assets.<DownloadAsync>c__AnonStorey2:<>m__1(WWWResponse)
+Improbable.Unity.Util.<SendPostRequestCoroutine>c__Iterator1:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Assets.Gamelogic.Player.Guns.ScoreGUI.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(GameObject, Vector3, Quaternion)
+Improbable.Unity.ComponentFactory.UnityPrefabFactory:MakeComponent(GameObject, String)
+Improbable.Unity.ComponentFactory.PrefabFactoryMetrics:MakeComponent(GameObject, String)
+Improbable.Unity.Core.LegacyEntityCreator:InstantiateEntityObject(EntityId, String)
+Improbable.Unity.Core.LegacyEntityCreator:OnMakeEntitySuccess(EntityId, String)
+Improbable.Unity.Core.<MakeEntity>c__AnonStorey0:<>m__0(String)
+Improbable.Unity.Entity.<PrepareTemplate>c__AnonStorey0:<>m__0(GameObject)
+Improbable.Unity.Assets.<LoadAsset>c__AnonStorey0:<>m__0(GameObject)
+Improbable.Unity.Assets.<LoadAsset>c__AnonStorey0:<>m__0(GameObject)
+Improbable.Unity.Assets.GameObjectFromAssetBundleLoader:OnAssetBundleLoaded(AssetBundle, String)
+Improbable.Unity.Assets.<LoadAsset>c__AnonStorey0:<>m__0(AssetBundle)
+Improbable.Unity.Assets.AssetBundleDownloader:HandleDownloadAssetResponse(String, Action`1, Action`1, WWWResponse)
+Improbable.Unity.Assets.<LoadAsset>c__AnonStorey0:<>m__0(WWWResponse)
+Improbable.Unity.Assets.AssetBundleDownloader:DownloadAsyncResponse(WWWResponse, IWWWRequest, String, Action`1)
+Improbable.Unity.Assets.<DownloadAsync>c__AnonStorey2:<>m__1(WWWResponse)
+Improbable.Unity.Util.<SendPostRequestCoroutine>c__Iterator1:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename:  Line: -1)
+

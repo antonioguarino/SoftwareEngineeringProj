@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿using Improbable;
+using Improbable.Unity.Core;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Improbable.Unity;
@@ -38,7 +40,34 @@ namespace Assets.Gamelogic.Player.Guns
 				int newHealth = HealthWriter.Data.currentHealth - 100;
 				HealthWriter.Send(new Health.Update().SetCurrentHealth(newHealth));
 				//Destroy (other.gameObject);
+				if (newHealth <= 0) {
+					Debug.LogError ("---");
+					Debug.LogError (other.GetComponent<Guns.DestroyBullet>().firerEntityId.Value.Id);
+					AwardPointsForKill (new EntityId (other.GetComponent<Guns.DestroyBullet>().firerEntityId.Value.Id));
+
+				}
 			}
 		}
+		private void AwardPointsForKill(EntityId firerEntityId)
+		{
+			int pointsToAward = 1;
+			// Use Commands API to issue an AwardPoints request to the entity who fired the cannonball
+			SpatialOS.Commands.SendCommand(HealthWriter, Score.Commands.AwardPoints.Descriptor, new AwardPoints(pointsToAward), firerEntityId)
+				.OnSuccess(OnAwardPointsSuccess)
+				.OnFailure(OnAwardPointsFailure);
+		}
+
+		private void OnAwardPointsSuccess(AwardResponse response)
+		{
+			Debug.Log("AwardPoints command succeeded. Points awarded: " + response.amount);
+		}
+
+		private void OnAwardPointsFailure(ICommandErrorDetails response)
+		{
+			Debug.LogError("Failed to send AwardPoints command with error: " + response.ErrorMessage);
+		}
+	
 	}
+	
+	
 }
