@@ -22,6 +22,12 @@ message Move {
 message Stop {
 }
 
+message Shield {
+}
+
+message NotShield {
+}
+
 message PlayerInputData {
   optional .schema.improbable.player.Joystick field1_joystick = 1
     [(.schema.improbable.schemalang_field_name) = "joystick"];
@@ -42,6 +48,8 @@ message PlayerInput {
     repeated .schema.improbable.player.Fire event_fire = 1;
     repeated .schema.improbable.player.Move event_move = 2;
     repeated .schema.improbable.player.Stop event_stop = 3;
+    repeated .schema.improbable.player.Shield event_shield = 4;
+    repeated .schema.improbable.player.NotShield event_not_shield = 5;
   }
   extend .schema.improbable.EntityCommand {
     optional Commands command_extension = 1004;

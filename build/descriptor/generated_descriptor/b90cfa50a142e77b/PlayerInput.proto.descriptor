@@ -1,0 +1,31 @@
+
+•	
+#improbable/player/PlayerInput.protoschema.improbable.playerimprobable/entity_state.proto"j
+Joystick.
+field1_x_axis (B
+Âóx_axisRfield1XAxis.
+field2_y_axis (B
+Âóy_axisRfield2YAxis"
+Fire"
+Move"
+Stop"
+Shield"
+	NotShield"l
+PlayerInputDataY
+field1_joystick (2".schema.improbable.player.JoystickBÂójoystickRfield1Joystick"’
+PlayerInputÙ
+Events=
+
+event_fire (2.schema.improbable.player.FireR	eventFire=
+
+event_move (2.schema.improbable.player.MoveR	eventMove=
+
+event_stop (2.schema.improbable.player.StopR	eventStopC
+event_shield (2 .schema.improbable.player.ShieldReventShieldM
+event_not_shield (2#.schema.improbable.player.NotShieldReventNotShield
+
+Commands2{
+component_extension.schema.improbable.EntityStateì (2).schema.improbable.player.PlayerInputDataRcomponentExtension2v
+event_extension.schema.improbable.EntityEventì (2,.schema.improbable.player.PlayerInput.EventsReventExtension2~
+command_extension .schema.improbable.EntityCommandì (2..schema.improbable.player.PlayerInput.CommandsRcommandExtension:&Âó"
+improbable.player.PlayerInputìBBPlayerInputOuterClass

@@ -1,0 +1,2406 @@
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+4e0/UnityWorker@Mac.app/Contents/Data/Managed/etc'
+Player data archive not found at `/var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T/zip-downloader4713071347906859320/853c00b8de7722f661cbb9b186c704e0/UnityWorker@Mac.app/Contents/Resources/Data/data.unity3d`, using local filesystemInitialize engine version: 5.6.4p1 (e67c4b7007d5)
+Forcing GfxDevice: Null
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+Platform assembly: /var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T/zip-downloader4713071347906859320/853c00b8de7722f661cbb9b186c704e0/UnityWorker@Mac.app/Contents/Resources/Data/Managed/UnityEngine.dll (this message is harmless)
+Loading /var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T/zip-downloader4713071347906859320/853c00b8de7722f661cbb9b186c704e0/UnityWorker@Mac.app/Contents/Resources/Data/Managed/UnityEngine.dll into Unity Child Domain
+Platform assembly: /var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T/zip-downloader4713071347906859320/853c00b8de7722f661cbb9b186c704e0/UnityWorker@Mac.app/Contents/Resources/Data/Managed/Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading /var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T/zip-downloader4713071347906859320/853c00b8de7722f661cbb9b186c704e0/UnityWorker@Mac.app/Contents/Resources/Data/Managed/Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: /var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T/zip-downloader4713071347906859320/853c00b8de7722f661cbb9b186c704e0/UnityWorker@Mac.app/Contents/Resources/Data/Managed/Assembly-CSharp.dll (this message is harmless)
+Loading /var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T/zip-downloader4713071347906859320/853c00b8de7722f661cbb9b186c704e0/UnityWorker@Mac.app/Contents/Resources/Data/Managed/Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: /var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T/zip-downloader4713071347906859320/853c00b8de7722f661cbb9b186c704e0/UnityWorker@Mac.app/Contents/Resources/Data/Managed/UnityEngine.UI.dll (this message is harmless)
+Loading /var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T/zip-downloader4713071347906859320/853c00b8de7722f661cbb9b186c704e0/UnityWorker@Mac.app/Contents/Resources/Data/Managed/UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: /var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T/zip-downloader4713071347906859320/853c00b8de7722f661cbb9b186c704e0/UnityWorker@Mac.app/Contents/Resources/Data/Managed/UnityEngine.Networking.dll (this message is harmless)
+Loading /var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T/zip-downloader4713071347906859320/853c00b8de7722f661cbb9b186c704e0/UnityWorker@Mac.app/Contents/Resources/Data/Managed/UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: /var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T/zip-downloader4713071347906859320/853c00b8de7722f661cbb9b186c704e0/UnityWorker@Mac.app/Contents/Resources/Data/Managed/System.Threading.dll (this message is harmless)
+Loading /var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T/zip-downloader4713071347906859320/853c00b8de7722f661cbb9b186c704e0/UnityWorker@Mac.app/Contents/Resources/Data/Managed/System.Threading.dll into Unity Child Domain
+Platform assembly: /var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T/zip-downloader4713071347906859320/853c00b8de7722f661cbb9b186c704e0/UnityWorker@Mac.app/Contents/Resources/Data/Managed/Improbable.WorkerSdkCsharp.Framework.dll (this message is harmless)
+Loading /var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T/zip-downloader4713071347906859320/853c00b8de7722f661cbb9b186c704e0/UnityWorker@Mac.app/Contents/Resources/Data/Managed/Improbable.WorkerSdkCsharp.Framework.dll into Unity Child Domain
+Platform assembly: /var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T/zip-downloader4713071347906859320/853c00b8de7722f661cbb9b186c704e0/UnityWorker@Mac.app/Contents/Resources/Data/Managed/Improbable.WorkerSdkCsharp.dll (this message is harmless)
+Loading /var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T/zip-downloader4713071347906859320/853c00b8de7722f661cbb9b186c704e0/UnityWorker@Mac.app/Contents/Resources/Data/Managed/Improbable.WorkerSdkCsharp.dll into Unity Child Domain
+Platform assembly: /var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T/zip-downloader4713071347906859320/853c00b8de7722f661cbb9b186c704e0/UnityWorker@Mac.app/Contents/Resources/Data/Managed/Generated.Code.dll (this message is harmless)
+Loading /var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T/zip-downloader4713071347906859320/853c00b8de7722f661cbb9b186c704e0/UnityWorker@Mac.app/Contents/Resources/Data/Managed/Generated.Code.dll into Unity Child Domain
+Platform assembly: /var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T/zip-downloader4713071347906859320/853c00b8de7722f661cbb9b186c704e0/UnityWorker@Mac.app/Contents/Resources/Data/Managed/Improbable.UnityDll.dll (this message is harmless)
+Loading /var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T/zip-downloader4713071347906859320/853c00b8de7722f661cbb9b186c704e0/UnityWorker@Mac.app/Contents/Resources/Data/Managed/Improbable.UnityDll.dll into Unity Child Domain
+Platform assembly: /private/var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T/zip-downloader4713071347906859320/853c00b8de7722f661cbb9b186c704e0/UnityWorker@Mac.app/Contents/Resources/Data/Managed/System.Core.dll (this message is harmless)
+- Completed reload, in  0.131 seconds
+Platform assembly: /private/var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T/zip-downloader4713071347906859320/853c00b8de7722f661cbb9b186c704e0/UnityWorker@Mac.app/Contents/Resources/Data/Managed/System.dll (this message is harmless)
+UnloadTime: 1.006618 ms
+Command line /var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T/zip-downloader4713071347906859320/853c00b8de7722f661cbb9b186c704e0/UnityWorker@Mac.app/Contents/MacOS/UnityWorker@Mac +projectName your_project_name_here +receptionistIp 127.0.0.1 +receptionistPort 7777 +workerType UnityWorker +workerId UnityWorker0 +useInternalIpForBridge true +infraServicesUrl http://127.0.0.1:21000 +assemblyName local_assembly +linkProtocol RakNet -logfile /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj/logs/2017-11-23_18-08-32_0/workers/UnityWorker/UnityWorker0-5015700047409901013.log -batchmode -nographics
+ 
+(Filename: /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+WorkerConfiguration settings
+AppName = 
+ProjectName = your_project_name_here
+AssemblyName = local_assembly
+DeploymentId = 
+DeploymentTag = prod
+EngineId = UnityWorker0
+EnginePlatform = UnityWorker
+WorkerId = UnityWorker0
+WorkerPlatform = UnityWorker
+EntityCreationLimitPerFrame = 100
+InfraServiceUrl = http://127.0.0.1:21000
+LocatorHost = locator.improbable.io
+ReceptionistHost = 127.0.0.1
+ReceptionistPort = 7777
+LinkProtocol = RakNet
+LoginToken = 
+ProtocolLoggingOnStartup = False
+ProtocolLogPrefix = protocol-
+ProtocolLogMaxFileBytes = 104857600
+RaknetHeartbeatTimeoutMillis = 60000
+ReceiveQueueCapacity = 32768
+SendQueueCapacity = 16384
+ShowDebugTraces = False
+SteamToken = 
+TcpMultiplexLevel = 32
+UseInstrumentation = True
+UsePerInstanceAssetCache = True
+UsePrefabPooling = False
+LogDebugToSpatialOs = False
+LogAssertToSpatialOs = False
+LogWarningToSpatialOs = True
+LogErrorToSpatialOs = True
+LogExceptionToSpatialOs = True
+
+ 
+(Filename: /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Platform assembly: /private/var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T/zip-downloader4713071347906859320/853c00b8de7722f661cbb9b186c704e0/UnityWorker@Mac.app/Contents/Resources/Data/Managed/Mono.Security.dll (this message is harmless)
+Platform assembly: /private/var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T/zip-downloader4713071347906859320/853c00b8de7722f661cbb9b186c704e0/UnityWorker@Mac.app/Contents/Resources/Data/Managed/System.Configuration.dll (this message is harmless)
+Platform assembly: /private/var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T/zip-downloader4713071347906859320/853c00b8de7722f661cbb9b186c704e0/UnityWorker@Mac.app/Contents/Resources/Data/Managed/System.Xml.dll (this message is harmless)
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 70000c63c000 -> priority: 1 
+  Thread -> id: 70000c6bf000 -> priority: 1 
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Assets.Gamelogic.Player.Guns.RaycastShoot.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Incoming command request with ID 73 to entity ID 3 and component ID 1003 was not handled by the worker within the given timeout.
+ 
+(Filename: /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+

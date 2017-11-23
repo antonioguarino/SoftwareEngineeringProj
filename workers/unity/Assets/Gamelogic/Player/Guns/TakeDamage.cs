@@ -30,7 +30,7 @@ namespace Assets.Gamelogic.Player.Guns
 			if (HealthWriter.Data.currentHealth <= 0)
 				return;
 
-			if (other != null && other.gameObject.tag == "Bullet")
+			if (other != null && other.gameObject.tag == "Bullet" || other.gameObject.tag == "Shield" )
 			{
 				// Reduce health of this entity when hit
 				//Debug.LogError("Collision detected with " + gameObject.EntityId());

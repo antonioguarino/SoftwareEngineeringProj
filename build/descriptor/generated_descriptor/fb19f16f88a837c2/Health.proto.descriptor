@@ -1,14 +1,0 @@
-
-í
-improbable/player/Health.protoschema.improbable.playerimprobable/entity_state.proto"T
-
-HealthDataF
-field1_current_health (BÂócurrent_healthRfield1CurrentHealth"§
-Health
-Events
-
-Commands2v
-component_extension.schema.improbable.EntityStateª (2$.schema.improbable.player.HealthDataRcomponentExtension2q
-event_extension.schema.improbable.EntityEventª (2'.schema.improbable.player.Health.EventsReventExtension2y
-command_extension .schema.improbable.EntityCommandª (2).schema.improbable.player.Health.CommandsRcommandExtension:!Âó
-improbable.player.HealthªBBHealthOuterClass

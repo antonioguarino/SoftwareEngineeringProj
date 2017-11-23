@@ -8,12 +8,15 @@ type Joystick {
 type Fire {}
 type Move {}
 type Stop {}
-
+type Shield {}
+type NotShield {}
 component PlayerInput {
     id = 1004;
     Joystick joystick = 1;
     // The component event for triggering firing.
   	event Fire fire;
-	event Move move;
-	event Stop stop;
+	  event Move move;
+	  event Stop stop;
+    event Shield shield;
+    event NotShield not_shield;
 }

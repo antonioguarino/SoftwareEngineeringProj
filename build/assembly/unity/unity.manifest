@@ -1,19 +1,19 @@
 ManifestFileVersion: 0
-CRC: 3151539792
+CRC: 1750657006
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: environment@windows
+      Name: environment@linux
       Dependencies: {}
     Info_1:
-      Name: ground02_decal@windows
+      Name: ground02_decal@linux
       Dependencies: {}
     Info_2:
-      Name: player@windows
+      Name: player@linux
       Dependencies: {}
     Info_3:
-      Name: player1@windows
+      Name: player1@linux
       Dependencies: {}
     Info_4:
-      Name: playercreator@windows
+      Name: playercreator@linux
       Dependencies: {}

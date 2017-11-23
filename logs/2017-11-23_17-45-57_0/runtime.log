@@ -1,0 +1,2422 @@
+2017-11-23 17:46:14,925 INFO  [i.deployment.InternalGameLauncher] [] [] [] : Parsed 362 internal flags at startup
+2017-11-23 17:46:20,278 INFO  [i.deployment.InternalGameLauncher] [] [] [] : SpatialOS runtime version: 11-20171114T103507Z-cc9d195
+2017-11-23 17:46:20,658 INFO  [i.c.c.f.FlagzFieldRegistryUpdater] [] [] [] : Initialized Fabric flagz registry with 11 set fields.
+2017-11-23 17:46:20,944 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.StatusDiscoveryInternalService) on 127.0.0.1:5301.
+2017-11-23 17:46:20,945 INFO  [i.c.discovery.ServiceDiscoveryImpl] [] [] [] : Status discovery address: host: "127.0.0.1"
+port: 5301
+
+2017-11-23 17:46:20,950 INFO  [improbable.module.ModuleNode] [] [] [] : Starting Fabric node as master (IP: 127.0.0.1).
+2017-11-23 17:46:20,952 INFO  [i.c.d.client.CheckpointDiscoveryImpl] [] [] [] : Reached a checkpoint: ALL_NODES_STARTED
+2017-11-23 17:46:20,953 INFO  [improbable.module.ModuleNode] [] [] [] : Node master has started, waiting for other nodes to reach the same checkpoint.
+2017-11-23 17:46:20,953 INFO  [improbable.module.ModuleNode] [] [] [] : All nodes have been started.
+2017-11-23 17:46:20,964 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Registered Service(improbable.platform.runtime.ModuleService) on 127.0.0.1:9000.
+2017-11-23 17:46:20,978 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Registered Service(improbable.platform.runtime.HealthCheckService) on 127.0.0.1:9001.
+2017-11-23 17:46:20,988 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.PerfInternalService) on 127.0.0.1:9002.
+2017-11-23 17:46:21,000 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.ContentionInternalService) on 127.0.0.1:9003.
+2017-11-23 17:46:21,036 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Registered Service(improbable.platform.runtime.FeatureService) on 127.0.0.1:9004.
+2017-11-23 17:46:21,073 INFO  [i.c.config.flagz.WorkerFlagzUpdater] [] [] [] : Initialized worker flagz registry with 0 set fields.
+2017-11-23 17:46:21,075 INFO  [improbable.module.ModuleNode] [] [] [] : Using master node configuration loader.
+2017-11-23 17:46:21,097 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.NodeConfigurationInternalService) on 127.0.0.1:9005.
+2017-11-23 17:46:21,126 INFO  [i.c.c.n.MasterNodeConfigurationLoader] [] [] [] : Using roles [MASTER, GSIM, BRIDGE, WORKER_RUNNER, INSPECTION] for node node_id {
+  deployment_id {
+    project_id {
+      name: "your_project_name_here"
+    }
+    name: "local"
+  }
+  name: "master"
+}
+private_ip: "127.0.0.1"
+roles: MASTER
+roles: GSIM
+roles: BRIDGE
+roles: WORKER_RUNNER
+roles: INSPECTION
+
+2017-11-23 17:46:21,156 INFO  [improbable.core.config.node.GsimGrid] [] [] [] : Created gsim grid configuration of size (1500, 1500) with 1 columns and 1 rows, using gsims of (30, 30) chunks.
+2017-11-23 17:46:21,194 INFO  [i.c.c.n.MasterNodeConfigurationLoader] [] [] [] : Original deployment module configuration (before parsing): {deployment_id {
+  project_id {
+    name: "your_project_name_here"
+  }
+  name: "local"
+}
+name: "master"
+=[ProfilingModule, BridgeModuleOracleModule, BridgeOracleModule, PersistenceModule, ReceptionistModule, RouterModule, GSimModule, BridgeModule, EngineStartupModule, InspectionRestModule]}
+2017-11-23 17:46:21,223 INFO  [i.c.c.n.MasterNodeConfigurationLoader] [] [] [] : Master successfully loaded configurations for 1 node(s).
+2017-11-23 17:46:21,234 INFO  [improbable.module.ModuleNode] [] [] [] : Loaded node configuration: node_id {
+  deployment_id {
+    project_id {
+      name: "your_project_name_here"
+    }
+    name: "local"
+  }
+  name: "master"
+}
+gsim_configurations {
+  extent {
+    bottom_left {
+      x_in_chunks: -15
+      z_in_chunks: -15
+    }
+    top_right {
+      x_in_chunks: 15
+      z_in_chunks: 15
+    }
+  }
+}
+start_router: true
+start_bridge_oracle: true
+start_bridge_module_oracle: true
+start_engine_startup_module: true
+start_receptionist_service: true
+start_inspection_rest_module: true
+start_snapshot_service: true
+start_profiling_module: true
+bridge_modules: "BridgeModule"
+gsim_modules: "GSimModule"
+
+2017-11-23 17:46:21,235 INFO  [improbable.module.ModuleNode] [] [] [] : Using master world extents provider.
+2017-11-23 17:46:21,262 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.WorldExtentsInternalService) on 127.0.0.1:9006.
+2017-11-23 17:46:21,263 INFO  [i.c.world.MasterWorldExtentsProvider] [] [] [] : Successfully initialized world extents with 1 rectangle(s).
+2017-11-23 17:46:21,268 INFO  [improbable.module.ModuleNode] [] [] [] : Loaded world extents: WorldExtents{proto=rectangles {
+  bottom_left {
+    x: -750.0
+    z: -750.0
+  }
+  top_right {
+    x: 750.0
+    z: 750.0
+  }
+  is_fully_simulated: true
+  responsible_gsim_id {
+  }
+}
+bounding_rectangle {
+  bottom_left {
+    x: -750.0
+    z: -750.0
+  }
+  top_right {
+    x: 750.0
+    z: 750.0
+  }
+  is_fully_simulated: true
+}
+}
+2017-11-23 17:46:21,451 INFO  [i.e.schema.ParsedFileDescriptorSet] [] [] [] : Parsed file descriptors of 13 proto files.
+2017-11-23 17:46:21,529 INFO  [i.entity.schema.SchemaFactory] [] [] [] : Found components: [improbable.player.Health, improbable.EntityAcl, improbable.Metadata, improbable.Position, improbable.Persistence, improbable.core.PlayerCreation, improbable.core.ClientAuthorityCheck, improbable.player.PlayerRotation, improbable.core.Rotation, improbable.player.PlayerInput, improbable.player.ClientConnection]
+2017-11-23 17:46:21,547 INFO  [i.entity.schema.SchemaFactory] [] [] [] : Found components: [improbable.EntityAcl, improbable.Metadata, improbable.Position, improbable.Persistence, improbable.core.PlayerCreation, improbable.player.PlayerInput, improbable.core.ClientAuthorityCheck, improbable.player.Health, improbable.internal.EntityAuthority, improbable.core.Rotation, improbable.player.ClientConnection, improbable.player.PlayerRotation]
+2017-11-23 17:46:21,548 INFO  [improbable.module.ModuleNode] [] [] [] : Successfully loaded schema for entities
+2017-11-23 17:46:21,550 INFO  [improbable.module.ModuleNode] [] [] [] : Validating snapshot at startup and determining max entity id
+2017-11-23 17:46:21,560 INFO  [i.p.s.storage.LegacySnapshotStorage] [] [] [] : Requesting download URL for Snapshot(local@latest) matching []
+2017-11-23 17:46:21,593 INFO  [i.p.s.storage.LegacySnapshotStorage] [] [] [] : Downloading snapshot from http://127.0.0.1:21000/snapshots/20171123174556296
+2017-11-23 17:46:21,648 INFO  [improbable.module.ModuleNode] [] [] [] : Determined the first entity id for the id assigner as 2
+2017-11-23 17:46:21,656 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.EntityIdInternalService) on 127.0.0.1:9007.
+2017-11-23 17:46:21,687 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.WorkerPrestartRegistryInternalService) on 127.0.0.1:9008.
+2017-11-23 17:46:21,699 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.RouterLookupInternalService) on 127.0.0.1:9009.
+2017-11-23 17:46:21,700 INFO  [i.module.router.ActorSystemFactory$] [] [] [] : Attempting to create ActorSystem akkaFabric with configRecord akkaFabric
+2017-11-23 17:46:21,805 INFO  [i.c.d.g.GlobalCheckpointDiscoveryImpl] [] [] [] : Global checkpoint discovery refreshed checkpoints.
+2017-11-23 17:46:21,806 INFO  [i.c.d.g.GlobalServiceDiscoveryImpl] [] [] [] : Global service discovery refreshed 11 server(s) (previously: 0)
+2017-11-23 17:46:22,284 INFO  [akka.event.slf4j.Slf4jLogger] [] [] [] : Slf4jLogger started
+2017-11-23 17:46:24,422 INFO  [i.l.params.LoadbalancerParamsFactory] [] [] [] : Parsed 1 worker loadbalancing configuration(s)
+2017-11-23 17:46:24,430 INFO  [i.l.params.LoadbalancerParamsFactory] [] [] [] : Successfully loaded loadbalancing configurations: {UnityWorker=improbable.loadbalancing.params.AutoHexGridLoadbalancerParams@efba38a}
+2017-11-23 17:46:24,570 INFO  [i.w.a.WorkerAssemblyProviderFactory] [] [] [] : Loaded worker assemblies for these workers types: UnityClient, UnityWorker.
+2017-11-23 17:46:24,574 INFO  [improbable.module.ModuleNode] [] [] [] : Loaded worker assemblies: [worker_assembly_id {
+  assembly_id {
+    project_id {
+      name: "your_project_name_here"
+    }
+    name: "local_assembly"
+  }
+  name {
+    name: "UnityClient"
+  }
+}
+bridge_configuration {
+  worker_attribute_set {
+    attribute {
+      name: "visual"
+    }
+  }
+  entity_interest {
+    range_entity_interest {
+      radius: 200.0
+    }
+  }
+  component_delivery {
+    checkout_all_initially: true
+  }
+}
+, worker_assembly_id {
+  assembly_id {
+    project_id {
+      name: "your_project_name_here"
+    }
+    name: "local_assembly"
+  }
+  name {
+    name: "UnityWorker"
+  }
+}
+worker_launch_configuration {
+  platform: WINDOWS
+  worker_zip {
+    command: "UnityWorker@Windows.exe"
+    argument: "+projectName"
+    argument: "${IMPROBABLE_PROJECT_NAME}"
+    argument: "+receptionistIp"
+    argument: "${IMPROBABLE_RECEPTIONIST_HOST}"
+    argument: "+receptionistPort"
+    argument: "${IMPROBABLE_RECEPTIONIST_PORT}"
+    argument: "+workerType"
+    argument: "${IMPROBABLE_WORKER_NAME}"
+    argument: "+workerId"
+    argument: "${IMPROBABLE_WORKER_ID}"
+    argument: "+useInternalIpForBridge"
+    argument: "true"
+    argument: "+infraServicesUrl"
+    argument: "${IMPROBABLE_API_URL}"
+    argument: "+assemblyName"
+    argument: "${IMPROBABLE_ASSEMBLY_NAME}"
+    argument: "+linkProtocol"
+    argument: "RakNet"
+    argument: "-logfile"
+    argument: "${IMPROBABLE_LOG_FILE}"
+    argument: "-batchmode"
+    argument: "-nographics"
+    worker_location {
+      filename: "UnityWorker@Windows.zip"
+    }
+  }
+}
+worker_launch_configuration {
+  platform: MACOS
+  worker_zip {
+    command: "UnityWorker@Mac.app/Contents/MacOS/UnityWorker@Mac"
+    argument: "+projectName"
+    argument: "${IMPROBABLE_PROJECT_NAME}"
+    argument: "+receptionistIp"
+    argument: "${IMPROBABLE_RECEPTIONIST_HOST}"
+    argument: "+receptionistPort"
+    argument: "${IMPROBABLE_RECEPTIONIST_PORT}"
+    argument: "+workerType"
+    argument: "${IMPROBABLE_WORKER_NAME}"
+    argument: "+workerId"
+    argument: "${IMPROBABLE_WORKER_ID}"
+    argument: "+useInternalIpForBridge"
+    argument: "true"
+    argument: "+infraServicesUrl"
+    argument: "${IMPROBABLE_API_URL}"
+    argument: "+assemblyName"
+    argument: "${IMPROBABLE_ASSEMBLY_NAME}"
+    argument: "+linkProtocol"
+    argument: "RakNet"
+    argument: "-logfile"
+    argument: "${IMPROBABLE_LOG_FILE}"
+    argument: "-batchmode"
+    argument: "-nographics"
+    worker_location {
+      filename: "UnityWorker@Mac.zip"
+    }
+  }
+}
+worker_launch_configuration {
+  platform: LINUX
+  worker_zip {
+    command: "UnityWorker@Linux"
+    argument: "+projectName"
+    argument: "${IMPROBABLE_PROJECT_NAME}"
+    argument: "+receptionistIp"
+    argument: "${IMPROBABLE_RECEPTIONIST_HOST}"
+    argument: "+receptionistPort"
+    argument: "${IMPROBABLE_RECEPTIONIST_PORT}"
+    argument: "+workerType"
+    argument: "${IMPROBABLE_WORKER_NAME}"
+    argument: "+workerId"
+    argument: "${IMPROBABLE_WORKER_ID}"
+    argument: "+useInternalIpForBridge"
+    argument: "true"
+    argument: "+infraServicesUrl"
+    argument: "${IMPROBABLE_API_URL}"
+    argument: "+assemblyName"
+    argument: "${IMPROBABLE_ASSEMBLY_NAME}"
+    argument: "+linkProtocol"
+    argument: "RakNet"
+    argument: "-logfile"
+    argument: "${IMPROBABLE_LOG_FILE}"
+    argument: "-batchmode"
+    argument: "-nographics"
+    worker_location {
+      filename: "UnityWorker@Linux.zip"
+    }
+  }
+}
+bridge_configuration {
+  worker_attribute_set {
+    attribute {
+      name: "physics"
+    }
+  }
+  entity_interest {
+    range_entity_interest {
+      radius: 200.0
+    }
+  }
+  component_delivery {
+    checkout_all_initially: true
+  }
+}
+]
+2017-11-23 17:46:24,579 INFO  [i.w.assembly.WorkerAssemblyProvider] [] [] [] : Worker configuration for 'UnityClient' does not contain a launch configuration for the current platform 'MACOS', so Fabric will not start any managed workers of this type
+2017-11-23 17:46:24,580 INFO  [i.w.assembly.WorkerAssemblyProvider] [] [] [] : The following worker configurations do not contain valid managed launch configurations for the current platform MACOS, and the runtime will be unable to launch managed workers of this type: [UnityClient]. This is expected for worker types you intend to only connect manually.
+2017-11-23 17:46:24,585 INFO  [i.w.permissions.PermissionsFactory] [] [] [] : Created permissions manager with permissions: {UnityWorker=Permissions{{/sys/CreateEntity=, /sys/DeleteEntity=, /sys/EntityQuery={"component":["*"]}}}, UnityClient=Permissions{{/sys/EntityQuery={"component":[]}}}}
+2017-11-23 17:46:26,972 INFO  [improbable.module.ModuleNode] [] [] [] : Starting router on master
+2017-11-23 17:46:26,983 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.RouterInternalService) on 127.0.0.1:9010.
+2017-11-23 17:46:26,983 INFO  [i.c.m.r.RouterInternalServiceImpl] [] [] [] : Attempting to register RouterInternalServiceImpl with RouterLookupInternalService.
+2017-11-23 17:46:26,998 INFO  [i.c.m.r.l.RouterLookupInternalServiceImpl] [] [] [] : 1/1 router modules started
+2017-11-23 17:46:26,999 INFO  [i.c.m.r.RouterInternalServiceImpl] [] [] [] : Registered RouterInternalServiceImpl with RouterLookupInternalService.
+2017-11-23 17:46:27,000 INFO  [improbable.module.ModuleNode] [] [] [] : Attempting to get addresses of all RouterModules from master node
+2017-11-23 17:46:27,011 INFO  [improbable.module.ModuleNode] [] [] [] : Got all RouterModules from master node
+2017-11-23 17:46:27,032 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.RemoteMessageInternalService) on 127.0.0.1:9011.
+2017-11-23 17:46:27,056 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.LocalBrokerInternalService) on 127.0.0.1:9012.
+2017-11-23 17:46:27,064 INFO  [improbable.module.ModuleNode] [] [] [] : Waiting for all router modules in the deployment to have started
+2017-11-23 17:46:27,069 INFO  [improbable.module.ModuleNode] [] [] [] : All router modules in the deployment started
+2017-11-23 17:46:27,150 INFO  [org.eclipse.jetty.server.Server] [] [] [] : jetty-8.y.z-SNAPSHOT
+2017-11-23 17:46:27,183 INFO  [o.e.jetty.server.AbstractConnector] [] [] [] : Started SelectChannelConnector@0.0.0.0:5006
+2017-11-23 17:46:27,184 INFO  [improbable.http.ServletContainer$] [] [] [] : Servlet container started
+2017-11-23 17:46:27,187 INFO  [improbable.module.ModuleNode] [] [] [] : Starting BridgeOracle on master
+2017-11-23 17:46:27,199 INFO  [improbable.module.ModuleNode] [] [] [] : Waiting for the BridgeOracle to have started
+2017-11-23 17:46:27,457 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.BridgeOracleInternalService) on 127.0.0.1:9013.
+2017-11-23 17:46:27,776 INFO  [improbable.module.ModuleNode] [] [] [] : Received BridgeOracle started
+2017-11-23 17:46:27,776 INFO  [i.c.d.g.GlobalServiceDiscoveryImpl] [] [] [] : Global service discovery refreshed 15 server(s) (previously: 11)
+2017-11-23 17:46:27,786 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.GlobalBrokerInternalService) on 127.0.0.1:9014.
+2017-11-23 17:46:27,787 INFO  [improbable.module.ModuleNode] [] [] [] : Waiting for the BridgeModuleOracle to have started
+2017-11-23 17:46:27,790 INFO  [i.c.a.e.ExtensibleActorReporter] [] [] [] : Started BridgeModuleOracleActor(Actor[akka://akkaFabric/user/BridgeModuleOracleModule#803877177]).
+2017-11-23 17:46:27,810 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.BridgeServiceOracleInternalService) on 127.0.0.1:9015.
+2017-11-23 17:46:28,776 INFO  [improbable.module.ModuleNode] [] [] [] : Received BridgeModuleOracle started
+2017-11-23 17:46:28,776 INFO  [i.c.d.g.GlobalServiceDiscoveryImpl] [] [] [] : Global service discovery refreshed 17 server(s) (previously: 15)
+2017-11-23 17:46:28,782 INFO  [improbable.module.ModuleNode] [] [] [] : Starting gsim GSimModule
+2017-11-23 17:46:28,788 INFO  [improbable.module.ModuleNode] [] [] [] : Waiting for 1 entity query service(s) to start.
+2017-11-23 17:46:28,814 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.LocalSnapshotInternalService) on 127.0.0.1:9016.
+2017-11-23 17:46:28,845 INFO  [i.p.gsim.GSimPersistenceWriter] [] [] [] : Transitioning GSimPersistenceActor(0) from State [Idle] to [Idle].  Time Elapsed: 2 milliseconds
+2017-11-23 17:46:28,846 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Registered Service(improbable.fabric.internal.service.ScalingStatsInternalService) on 127.0.0.1:9017.
+2017-11-23 17:46:28,867 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.EntityQueryInternalService) on 127.0.0.1:9018.
+2017-11-23 17:46:29,440 INFO  [i.bridge.oracle.scaling.WorkerScaler] [] [] [] : Skipping reconciliation because no WorkerRunner service is available. This message is expected at startup but should not persist through the deployment
+2017-11-23 17:46:29,781 INFO  [i.c.d.g.GlobalServiceDiscoveryImpl] [] [] [] : Global service discovery refreshed 20 server(s) (previously: 17)
+2017-11-23 17:46:29,781 INFO  [improbable.module.ModuleNode] [] [] [] : All 1 entity query service(s) have started.
+2017-11-23 17:46:29,781 INFO  [improbable.module.ModuleNode] [] [] [] : Creating entity query client.
+2017-11-23 17:46:29,800 INFO  [improbable.module.ModuleNode] [] [] [] : Entity query client created with directory: EntityQueryServiceDirectory{allServices=[EntityQueryInternalServiceInfo{address=host: "127.0.0.1"
+port: 9018
+, extent=Rectangle{minX=-750.0, minZ=-750.0, maxX=750.0, maxZ=750.0}, isLocal=true}], localServices=[EntityQueryInternalServiceInfo{address=host: "127.0.0.1"
+port: 9018
+, extent=Rectangle{minX=-750.0, minZ=-750.0, maxX=750.0, maxZ=750.0}, isLocal=true}], remoteServices=[]}
+2017-11-23 17:46:29,808 INFO  [improbable.module.ModuleNode] [] [] [] : Waiting for 1 bridge service(s) to start.
+2017-11-23 17:46:29,835 INFO  [i.c.a.e.ExtensibleActorReporter] [] [] [] : Started BridgeModuleActor(Actor[akka://akkaFabric/user/BridgeModule:0e934f3f-ac03-44d8-8c3f-2bd06d6f22b0#871755174]).
+2017-11-23 17:46:29,860 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.BridgeInternalService) on 127.0.0.1:9019.
+2017-11-23 17:46:29,861 INFO  [i.module.bridge.BridgeModuleActor] [] [] [] : Waiting for BridgeModuleOracle service to be available
+2017-11-23 17:46:29,877 INFO  [i.module.bridge.BridgeModuleActor] [] [] [] : Registered(BridgeModuleEndpoint(0e934f3f-ac03-44d8-8c3f-2bd06d6f22b0)) on BridgeModuleOracleService
+2017-11-23 17:46:30,777 INFO  [i.c.d.g.GlobalServiceDiscoveryImpl] [] [] [] : Global service discovery refreshed 21 server(s) (previously: 20)
+2017-11-23 17:46:30,777 INFO  [improbable.module.ModuleNode] [] [] [] : All 1 bridge service(s) have started.
+2017-11-23 17:46:30,778 INFO  [improbable.module.ModuleNode] [] [] [] : Starting WorkerRunner service (EngineStartupModule)
+2017-11-23 17:46:30,783 INFO  [improbable.worker.exec.WorkerStats] [] [] [] : Cannot read /proc/self/stat; worker stats reporting will not work.
+2017-11-23 17:46:30,793 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Registered Service(improbable.platform.inner.worker.WorkerRunner) on 127.0.0.1:9020.
+2017-11-23 17:46:30,804 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.ReceptionistInternalService) on 127.0.0.1:9021.
+2017-11-23 17:46:30,813 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Registered Service(improbable.platform.runtime.ReceptionistService) on 127.0.0.1:7777.
+2017-11-23 17:46:30,814 INFO  [improbable.module.ModuleNode] [] [] [] : Starting InspectionRestModule
+2017-11-23 17:46:30,816 INFO  [improbable.module.ModuleNode] [] [] [] : Starting ProfilingModule
+2017-11-23 17:46:30,821 INFO  [i.c.d.client.CheckpointDiscoveryImpl] [] [] [] : Reached a checkpoint: ALL_MODULES_STARTED
+2017-11-23 17:46:30,822 INFO  [improbable.module.ModuleNode] [] [] [] : All modules on this node started, waiting for other nodes to reach the same checkpoint.
+2017-11-23 17:46:30,836 INFO  [i.c.a.e.ExtensibleActorReporter] [] [] [] : Started ProfilingModuleActor(Actor[akka://akkaFabric/user/ProfilingModule#759394234]).
+2017-11-23 17:46:30,844 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.debug.HeatmapCellCacheInternalService) on 127.0.0.1:9022.
+2017-11-23 17:46:30,878 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Registered Service(improbable.platform.runtime.InspectionService) on 127.0.0.1:9023.
+2017-11-23 17:46:30,943 INFO  [i.c.a.e.ExtensibleActorReporter] [] [] [] : Started InspectionRestModuleActor(Actor[akka://akkaFabric/user/InspectionRestModule#977480837]).
+2017-11-23 17:46:31,441 INFO  [i.bridge.oracle.scaling.WorkerScaler] [] [] [] : Skipping reconciliation because no WorkerRunner service is available. This message is expected at startup but should not persist through the deployment
+2017-11-23 17:46:31,528 INFO  [spray.can.server.HttpListener] [akka://akkaFabric/user/IO-HTTP/listener-0] [akkaFabric-akka.actor.default-dispatcher-26] [] : Bound to /0.0.0.0:5005
+2017-11-23 17:46:31,778 INFO  [improbable.module.ModuleNode] [] [] [] : All modules on all nodes have been started.
+2017-11-23 17:46:31,778 INFO  [i.c.d.g.GlobalCheckpointDiscoveryImpl] [] [] [] : Global checkpoint discovery refreshed checkpoints.
+2017-11-23 17:46:31,778 INFO  [improbable.module.ModuleNode] [] [] [] : Loading a snapshot.
+2017-11-23 17:46:31,778 INFO  [i.c.d.g.GlobalServiceDiscoveryImpl] [] [] [] : Global service discovery refreshed 26 server(s) (previously: 21)
+2017-11-23 17:46:31,793 INFO  [i.p.g.GSimPersistenceLoadOrchestrator] [] [] [] : Loading snapshot on GSim(0).
+2017-11-23 17:46:31,794 INFO  [i.p.s.storage.LegacySnapshotStorage] [] [] [] : Requesting download URL for Snapshot(local@latest) matching []
+2017-11-23 17:46:31,802 INFO  [i.p.s.storage.LegacySnapshotStorage] [] [] [] : Downloading snapshot from http://127.0.0.1:21000/snapshots/20171123174556296
+2017-11-23 17:46:31,805 INFO  [i.p.gsim.GSimPersistenceLoader] [] [] [] : Loading snapshot
+2017-11-23 17:46:31,823 INFO  [i.p.g.GSimPersistenceLoadOrchestrator] [] [] [] : Loaded 1 entities on GSim(0).
+2017-11-23 17:46:31,826 INFO  [i.p.c.PersistenceLoaderCoordinatorActor] [] [] [] : All Snapshots loaded.
+2017-11-23 17:46:31,827 INFO  [improbable.module.ModuleNode] [] [] [] : Snapshot has been loaded.
+2017-11-23 17:46:31,827 INFO  [improbable.module.ModuleNode] [] [] [] : Starting SnapshotService.
+2017-11-23 17:46:31,883 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Registered Service(improbable.platform.runtime.SnapshotService) on 127.0.0.1:9024.
+2017-11-23 17:46:31,883 INFO  [i.c.d.client.CheckpointDiscoveryImpl] [] [] [] : Reached a checkpoint: LOAD_SNAPSHOT_FINISHED
+2017-11-23 17:46:31,884 INFO  [improbable.module.ModuleNode] [] [] [] : SpatialOS runtime startup complete.
+2017-11-23 17:46:31,942 INFO  [i.l.params.LoadbalancerParamsFactory] [] [] [] : LoadbalancerParams for worker type [UnityWorker]: [AutoHexGridLoadbalancerParams{energyLimitingEnabled=true, energyLimit=1.0E9, minWorkerRange=1500.0, maxWorkerRange=1500.0, maxWorkerStepSize=0.0, workerExpansionTimeMs=60000, workerGridSize=0, loadbalancerEnabled=false, hexGridMode=AUTO, scalerAdvisorType=CONSTANT, maxWorkers=1, initialWorkers=1, numEntitiesPerWorker=9223372036854775807, statusReportPeriodMs=30000, pointsOfInterestEnabled=false, hexGridSolution=AutoValue_HexGridSolution{workersUsed=1, hexagonEdgeLength=1500.0, hexagonOrientation=POINTY_TOP, bounds=Rectangle{minX=-750.0, minZ=-750.0, maxX=750.0, maxZ=750.0}}, pointsOfInterestSolution=Empty}]
+2017-11-23 17:46:32,779 INFO  [i.c.d.g.GlobalCheckpointDiscoveryImpl] [] [] [] : Global checkpoint discovery refreshed checkpoints.
+2017-11-23 17:46:32,780 INFO  [i.c.d.g.GlobalServiceDiscoveryImpl] [] [] [] : Global service discovery refreshed 27 server(s) (previously: 26)
+2017-11-23 17:46:32,845 INFO  [i.b.o.m.BridgeOracleWorkerManager] [] [] [] : Trying to start managed worker UnityWorker0
+2017-11-23 17:46:32,874 INFO  [i.bridge.oracle.scaling.WorkerScaler] [] [] [] : Starting 1 new managed workers for attribute_set {
+  attribute: "physics"
+}
+ (required: 1, existing: 0)
+2017-11-23 17:46:32,874 INFO  [i.worker.exec.WorkerStartupExecutor] [] [] [] : Awaiting internal receptionist service to register with service discovery
+2017-11-23 17:46:32,878 INFO  [i.worker.exec.WorkerStartupExecutor] [] [] [] : Successfully found the internal receptionist service in service discovery
+2017-11-23 17:46:32,885 INFO  [i.worker.exec.WorkerStartupExecutor] [] [] [] : Awaiting public receptionist service to register with service discovery
+2017-11-23 17:46:32,885 INFO  [i.worker.exec.WorkerStartupExecutor] [] [] [] : Successfully found the public receptionist service in service discovery
+2017-11-23 17:46:35,162 WARN  [i.worker.exec.WorkerStartupExecutor] [] [] [] : Error while setting permissions of the worker directory.
+java.nio.file.FileSystemException: /var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T: Operation not permitted
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:91) ~[na:1.8.0_162-ea]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102) ~[na:1.8.0_162-ea]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107) ~[na:1.8.0_162-ea]
+	at sun.nio.fs.UnixFileAttributeViews$Posix.setMode(UnixFileAttributeViews.java:238) ~[na:1.8.0_162-ea]
+	at sun.nio.fs.UnixFileAttributeViews$Posix.setPermissions(UnixFileAttributeViews.java:260) ~[na:1.8.0_162-ea]
+	at java.nio.file.Files.setPosixFilePermissions(Files.java:2045) ~[na:1.8.0_162-ea]
+	at improbable.worker.exec.WorkerStartupExecutor.setWorkerFilePermissions(WorkerStartupExecutor.java:380) [fabric__runtime_deploy.jar:na]
+	at improbable.worker.exec.WorkerStartupExecutor.setPermissionsForDirectoryParents(WorkerStartupExecutor.java:350) [fabric__runtime_deploy.jar:na]
+	at improbable.worker.exec.WorkerStartupExecutor.setWorkerDirectoryPermissions(WorkerStartupExecutor.java:341) [fabric__runtime_deploy.jar:na]
+	at improbable.worker.exec.WorkerStartupExecutor.executeInternal(WorkerStartupExecutor.java:192) [fabric__runtime_deploy.jar:na]
+	at improbable.worker.exec.WorkerStartupExecutor.execute(WorkerStartupExecutor.java:117) [fabric__runtime_deploy.jar:na]
+	at improbable.worker.exec.WorkerRunnerImpl.startWorker(WorkerRunnerImpl.java:132) [fabric__runtime_deploy.jar:na]
+	at improbable.worker.exec.WorkerRunnerImpl.start(WorkerRunnerImpl.java:79) [fabric__runtime_deploy.jar:na]
+	at improbable.platform.inner.worker.WorkerRunnerGrpc$MethodHandlers.invoke(WorkerRunnerGrpc.java:326) [fabric__runtime_deploy.jar:na]
+	at io.grpc.stub.ServerCalls$1$1.onHalfClose(ServerCalls.java:148) [fabric__runtime_deploy.jar:na]
+	at io.grpc.PartialForwardingServerCallListener.onHalfClose(PartialForwardingServerCallListener.java:48) [fabric__runtime_deploy.jar:na]
+	at io.grpc.ForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:38) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:267) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$2.runInContext(ServerImpl.java:573) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:52) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:117) [fabric__runtime_deploy.jar:na]
+	at improbable.common.async.FabricListeningExecutorService.lambda$instrumentRunnable$0(FabricListeningExecutorService.java:133) [fabric__runtime_deploy.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_162-ea]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_162-ea]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_162-ea]
+2017-11-23 17:46:35,165 INFO  [i.worker.exec.WorkerStartupExecutor] [] [] [] : Created log file for worker UnityWorker0, type (UnityWorker): [/Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj/logs/2017-11-23_17-45-57_0/workers/UnityWorker/UnityWorker0-3698611842708115781.log]
+2017-11-23 17:46:35,166 INFO  [i.worker.exec.CommandLineExecutor] [] [] [] : Running command: /var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T/zip-downloader4874251772943457345/5baf65d57013391a4d8131c4a8d5d7b9/UnityWorker@Mac.app/Contents/MacOS/UnityWorker@Mac +projectName your_project_name_here +receptionistIp 127.0.0.1 +receptionistPort 7777 +workerType UnityWorker +workerId UnityWorker0 +useInternalIpForBridge true +infraServicesUrl http://127.0.0.1:21000 +assemblyName local_assembly +linkProtocol RakNet -logfile /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj/logs/2017-11-23_17-45-57_0/workers/UnityWorker/UnityWorker0-3698611842708115781.log -batchmode -nographics
+2017-11-23 17:46:35,976 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Attempting to get positionHint for UnityWorker0 via rpc
+2017-11-23 17:46:35,982 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Selected legacy_guid: "0e934f3f-ac03-44d8-8c3f-2bd06d6f22b0"
+address {
+  host: "127.0.0.1"
+  port: 9019
+}
+ with position  which is the nearest bridge service to position (0.0, 0.0, 0.0)
+2017-11-23 17:46:35,990 INFO  [i.m.b.o.m.BridgeModuleOracleActor] [] [] [] : BridgeServicePicker returned module Optional[legacy_guid: "0e934f3f-ac03-44d8-8c3f-2bd06d6f22b0"
+address {
+  host: "127.0.0.1"
+  port: 9019
+}
+] with load Optional[BridgeModuleLoadBalanceInfo((0.0, 0.0, 0.0),0)].get().toString() for Engine(UnityWorker0)
+2017-11-23 17:46:36,249 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityWorker0"
+ registered with bridge internal service
+2017-11-23 17:46:36,262 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Got bridge started rpc from bridge: worker_id: "UnityWorker0"
+
+2017-11-23 17:46:36,263 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : The worker UnityWorker0 registered with SpatialOS successfully.
+2017-11-23 17:46:36,263 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge started to self for bridge endpoint BridgeOracleEndpoint
+2017-11-23 17:46:36,266 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityWorker0) started.
+2017-11-23 17:46:36,273 INFO  [i.b.o.m.BridgeOracleWorkerManager] [] [] [] : Worker UnityWorker0 registered with the BridgeOracleWorker manager
+2017-11-23 17:46:36,403 INFO  [i.b.n.raknet.GuardedRakPeerInterface] [] [] [] : New RakNet connection established with 127.0.0.1
+2017-11-23 17:53:24,337 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Attempting to get positionHint for UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf via rpc
+2017-11-23 17:53:24,340 INFO  [i.b.s.BridgeServicePicker] [] [] [] : Starting UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf without a position hint, so using a random bridge service
+2017-11-23 17:53:24,341 INFO  [i.m.b.o.m.BridgeModuleOracleActor] [] [] [] : BridgeServicePicker returned module Optional[legacy_guid: "0e934f3f-ac03-44d8-8c3f-2bd06d6f22b0"
+address {
+  host: "127.0.0.1"
+  port: 9019
+}
+] with load Optional[BridgeModuleLoadBalanceInfo((0.0, 0.0, 0.0),1)].get().toString() for Engine(UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf)
+2017-11-23 17:53:24,358 INFO  [i.l.params.LoadbalancerParamsFactory] [] [] [] : LoadbalancerParams for worker type [UnityClient]: [FlagzLoadbalancerParams{energyLimitingEnabled=true, energyLimit=1.0E9, minWorkerRange=Infinity, maxWorkerRange=Infinity, maxWorkerStepSize=50.0, workerExpansionTimeMs=60000, workerGridSize=5, loadbalancerEnabled=true, hexGridMode=OFF, scalerAdvisorType=ENTITY_COUNT, maxWorkers=25, initialWorkers=25, numEntitiesPerWorker=9223372036854775807, statusReportPeriodMs=2000, pointsOfInterestEnabled=false, hexGridSolution=Empty, pointsOfInterestSolution=Empty}]
+2017-11-23 17:53:24,365 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf"
+ registered with bridge internal service
+2017-11-23 17:53:24,367 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Got bridge started rpc from bridge: worker_id: "UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf"
+
+2017-11-23 17:53:24,368 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : The worker UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf registered with SpatialOS successfully.
+2017-11-23 17:53:24,368 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge started to self for bridge endpoint BridgeOracleEndpoint
+2017-11-23 17:53:24,369 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf) started.
+2017-11-23 17:53:24,463 INFO  [i.b.n.raknet.GuardedRakPeerInterface] [] [] [] : New RakNet connection established with 127.0.0.1
+2017-11-23 17:53:28,188 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: False  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,191 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  0
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,214 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,216 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  0.03555107
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,247 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,248 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  0.06777596
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,278 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,279 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  0.103694
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,322 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,322 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  0.143635
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,364 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,366 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  0.1846299
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,408 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,409 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  0.2237909
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,439 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,439 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  0.260139
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,480 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,481 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  0.296078
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,512 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,513 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  0.335546
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,554 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,556 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  0.3714991
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,586 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,588 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  0.4039159
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,607 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,608 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  0.4314361
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,639 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,640 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  0.4632401
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,682 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,683 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  0.4997401
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,714 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,715 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  0.5315681
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,747 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,748 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  0.5639691
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,810 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,810 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  0.6192341
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,854 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,855 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  0.6601119
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,907 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,908 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  0.7261992
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,940 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,941 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  0.7649012
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,977 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:28,978 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  0.7994981
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,018 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,019 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  0.8353658
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,051 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,059 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  0.8678341
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,093 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,095 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  0.9117432
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,122 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,123 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  0.9477868
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,154 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,155 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  0.9794998
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,188 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,189 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  1.012267
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,218 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,220 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  1.043537
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,252 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,252 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  1.075974
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,285 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,286 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  1.103831
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,317 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,318 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  1.135649
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,361 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,362 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  1.163635
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,394 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,395 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  1.211478
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,436 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,437 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  1.261189
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,481 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,482 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  1.299886
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,512 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,513 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  1.331398
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,545 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,545 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  1.36353
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,577 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,578 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  1.395529
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,610 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,610 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  1.428462
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,641 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,642 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  1.460728
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,706 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,707 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  1.523586
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,738 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,739 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  1.555711
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,770 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,771 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  1.591713
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,803 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,804 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  1.628549
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,834 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,846 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  1.660162
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,877 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,878 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  1.696371
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,910 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,919 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  1.735598
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,942 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,951 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  1.768337
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,979 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:29,980 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  1.803788
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,009 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,020 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  1.835508
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,053 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,054 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  1.87139
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,086 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,086 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  1.903738
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,118 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,119 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  1.935947
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,150 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,151 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  1.972094
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,182 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,183 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  2.007463
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,226 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,227 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  2.043489
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,257 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,257 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  2.075384
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,290 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,291 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  2.107896
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,311 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,313 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  2.135301
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,343 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,343 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  2.16854
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,386 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,387 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  2.203936
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,420 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,421 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  2.239691
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,453 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,454 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  2.275775
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,482 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,483 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  2.307502
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,525 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,526 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  2.343814
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,547 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,547 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  2.371375
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,578 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,579 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  2.403649
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,613 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,614 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  2.431867
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,645 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,646 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  2.46788
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,677 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,677 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  2.500475
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,721 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,722 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  2.540049
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,763 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,763 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  2.579323
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,795 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,796 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  2.619873
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,839 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,839 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  2.659417
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,870 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,871 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  2.695586
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,913 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,914 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  2.731932
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,945 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,945 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  2.76802
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,988 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:30,989 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  2.807833
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,009 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,010 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  2.835411
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,041 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,041 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  2.867459
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,073 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,073 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  2.895529
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,105 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,106 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  2.927402
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,138 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,138 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  2.95584
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,170 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,171 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  2.987983
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,202 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,202 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  3.023579
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,234 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,235 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  3.055667
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,267 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,268 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  3.083884
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,298 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,299 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  3.123288
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,329 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,330 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  3.155642
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,361 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,372 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  3.187397
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,404 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,405 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  3.223603
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,447 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,448 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  3.263895
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,489 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,490 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  3.308541
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,523 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,523 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  3.343353
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,556 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,557 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  3.379906
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,589 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,590 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  3.411586
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,632 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,634 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  3.451522
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,666 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,667 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  3.48781
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,697 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,698 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  3.519512
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,731 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,731 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  3.55154
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,762 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,763 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  3.587678
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,806 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,807 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  3.62722
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,838 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,839 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  3.659898
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,881 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,882 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  3.699292
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,913 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,924 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  3.739797
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,946 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,948 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  3.768231
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,982 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:31,982 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  3.807872
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,025 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,025 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  3.840477
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,057 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,058 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  3.876916
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,088 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,088 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  3.911715
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,131 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,132 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  3.947889
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,164 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,164 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  3.984242
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,208 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,208 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  4.023672
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,239 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,240 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  4.059412
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,272 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,273 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  4.095853
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,306 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,307 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  4.127546
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,337 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,337 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  4.155519
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,369 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,369 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  4.184437
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,401 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,401 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  4.220478
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,435 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,436 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  4.259876
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,467 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,468 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  4.291372
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,501 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,502 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  4.32393
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,534 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,534 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  4.355742
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,567 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,568 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  4.391923
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,599 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,599 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  4.424554
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,643 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,643 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  4.460232
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,685 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,686 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  4.50455
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,748 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,749 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  4.567304
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,782 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,792 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  4.607795
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,825 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,826 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  4.644078
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,859 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,860 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  4.675642
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,890 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,892 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  4.71129
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,922 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,924 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  4.743787
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,956 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,956 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  4.7756
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,981 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:32,981 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  4.807839
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,012 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,012 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  4.83927
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,046 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,046 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  4.87148
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,078 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,089 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  4.90378
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,120 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,121 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  4.943403
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,164 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,165 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  4.980204
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,196 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,196 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  5.015917
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,227 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,228 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  5.047207
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,251 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,252 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  5.071932
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,282 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,282 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  5.106254
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,326 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,327 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  5.143884
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,358 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,369 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  5.183782
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,401 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,401 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  5.219525
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,445 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,446 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  5.263832
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,471 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,472 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  5.295689
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,502 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,502 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  5.327368
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,546 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,547 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  5.363732
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,578 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,587 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  5.403548
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,619 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,621 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  5.440857
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,650 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,651 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  5.475735
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,684 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,685 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  5.503824
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,715 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,717 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  5.536113
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,748 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,748 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  5.568595
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,780 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,781 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  5.601396
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,802 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,802 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  5.627068
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,835 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,836 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  5.65579
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,866 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,867 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  5.683712
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,898 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,898 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  5.716037
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,919 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,920 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  5.740096
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,952 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,953 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  5.772647
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,981 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:33,982 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  5.803587
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,026 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,026 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  5.840117
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,045 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,058 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  5.871615
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,078 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,079 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  5.904358
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,122 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,123 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  5.93944
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,143 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,146 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  5.967575
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,177 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,178 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  5.995745
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,198 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,198 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  6.019321
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,220 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,220 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  6.043306
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,252 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,253 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  6.075795
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,285 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,285 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  6.108506
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,316 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,316 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  6.135328
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,338 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,338 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  6.163296
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,370 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,370 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  6.191735
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,402 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,403 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  6.219892
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,435 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,435 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  6.252096
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,479 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,480 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  6.299773
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,511 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,511 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  6.335713
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,542 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,542 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  6.367608
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,575 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,575 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  6.395547
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,597 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,598 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  6.42334
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,630 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,630 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  6.447217
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,663 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,663 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  6.479535
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,685 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,696 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  6.511712
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,718 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,718 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  6.543967
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,750 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,751 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  6.571497
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,781 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,782 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  6.607578
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,814 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,815 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  6.635563
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,845 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,855 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  6.671739
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,889 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,889 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  6.70781
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,919 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,921 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  6.740048
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,952 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,952 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  6.771306
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,981 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:34,982 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  6.804077
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,025 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,026 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  6.844977
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,071 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,071 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  6.888025
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,103 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,104 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  6.928189
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,146 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,147 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  6.964137
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,167 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,169 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  6.991125
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,201 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,202 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  7.021361
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,222 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,223 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  7.047234
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,255 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,256 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  7.075921
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,286 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,288 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  7.107428
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,319 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,320 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  7.139984
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,350 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,351 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  7.171886
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,373 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,373 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  7.199366
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,404 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,416 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  7.231958
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,449 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,450 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  7.267761
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,490 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,491 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  7.308291
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,523 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,524 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  7.343657
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,556 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,556 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  7.379792
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,587 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,588 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  7.407554
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,619 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,620 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  7.443446
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,653 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,653 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  7.47179
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,696 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,697 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  7.511405
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,729 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,730 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  7.551672
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,770 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,771 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  7.587977
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,802 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,803 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  7.624214
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,834 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,836 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  7.655947
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,866 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,867 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  7.683458
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,899 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,899 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  7.716315
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,920 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,920 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  7.743458
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,964 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,964 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  7.78047
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,989 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:35,990 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  7.811496
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:36,022 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:36,023 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  7.843512
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:36,054 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:36,055 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  7.875808
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:36,086 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:36,087 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  7.90772
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:36,118 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:36,119 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  7.939725
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:36,150 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:36,151 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] Secondi:  7.97145
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:46)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:36,182 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] using shield: True  readyshield: True
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:40)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:36,182 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf] ho disabilitato
+ in UnityEngine.Debug:LogError(Object)
+PlayerInputSender:Update() (at Assets/Gamelogic/Player/PlayerInputSender.cs:51)
+ -[WorkerLogger:Unity]
+2017-11-23 17:53:43,973 INFO  [akka.actor.LocalActorRef] [akka://akkaFabric/user/GSimModule/EntityFactory/Entity-2/EntityUser-2] [akkaFabric-akka.actor.default-dispatcher-41] [] : Message [improbable.gsim.proxy.entity.StateUpdateWrapperMsg] from Actor[akka://akkaFabric/deadLetters] to Actor[akka://akkaFabric/user/GSimModule/EntityFactory/Entity-2/EntityUser-2#973067818] was not delivered. [1] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2017-11-23 17:53:43,974 INFO  [akka.actor.LocalActorRef] [akka://akkaFabric/user/GSimModule/EntityFactory/Entity-2/EntityUser-2] [akkaFabric-akka.actor.default-dispatcher-41] [] : Message [improbable.gsim.proxy.entity.StateUpdateWrapperMsg] from Actor[akka://akkaFabric/deadLetters] to Actor[akka://akkaFabric/user/GSimModule/EntityFactory/Entity-2/EntityUser-2#973067818] was not delivered. [2] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2017-11-23 17:53:43,974 INFO  [akka.actor.LocalActorRef] [akka://akkaFabric/user/GSimModule/EntityFactory/Entity-2/EntityUser-2] [akkaFabric-akka.actor.default-dispatcher-41] [] : Message [improbable.gsim.proxy.entity.StateUpdateWrapperMsg] from Actor[akka://akkaFabric/deadLetters] to Actor[akka://akkaFabric/user/GSimModule/EntityFactory/Entity-2/EntityUser-2#973067818] was not delivered. [3] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2017-11-23 17:53:43,975 INFO  [akka.actor.LocalActorRef] [akka://akkaFabric/user/GSimModule/EntityFactory/Entity-2/EntityUser-2] [akkaFabric-akka.actor.default-dispatcher-41] [] : Message [improbable.gsim.proxy.entity.StateUpdateWrapperMsg] from Actor[akka://akkaFabric/deadLetters] to Actor[akka://akkaFabric/user/GSimModule/EntityFactory/Entity-2/EntityUser-2#973067818] was not delivered. [4] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2017-11-23 17:53:44,019 INFO  [i.b.n.BridgeActorTransportLinkListener] [] [] [] : TransportLinkListener(UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf) sending Disconnected to akka://akkaFabric/user/BridgeModule:0e934f3f-ac03-44d8-8c3f-2bd06d6f22b0/BridgeActor-UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf
+2017-11-23 17:53:44,025 INFO  [i.b.n.raknet.reporter.RakNetReporter] [] [] [] : Tried to send to RakNet(UnityClient) on Port(7001)3 after closing. Payload: component_update {
+  entity_id: 2
+  component_id: 54
+  entity_co... (Logged every 1000 times)
+2017-11-23 17:53:44,063 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Sending bridge stopped to self for bridge endpoint BridgeEndpoint(UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf)
+2017-11-23 17:53:44,064 INFO  [i.module.bridge.oracle.BridgeOracle] [] [] [] : Bridge(UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf) stopped.
+2017-11-23 17:53:44,076 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge worker_id: "UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf"
+ unregistered with bridge internal service
+2017-11-23 17:53:44,077 INFO  [improbable.bridge.BridgeActor] [] [] [] : Bridge(UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf) on BridgeModuleEndpoint(0e934f3f-ac03-44d8-8c3f-2bd06d6f22b0) stopped.
+2017-11-23 17:53:44,369 INFO  [akka.actor.DeadLetterActorRef] [akka://akkaFabric/deadLetters] [akkaFabric-akka.actor.default-dispatcher-43] [] : Message [improbable.bridge.message.BridgeViewStatusRequest] from Actor[akka://akkaFabric/deadLetters] to Actor[akka://akkaFabric/deadLetters] was not delivered. [5] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2017-11-23 17:53:44,920 INFO  [i.b.client.BridgeServiceTaskRetrier] [] [] [] : An internal operation forwarding EntityCommandRequest for "entity_id: 2
+component_id: 1003
+" failed on the SpatialOS side of the connection to UnityWorker0 after 0 retries, is the deployment under heavy load?
+io.grpc.StatusRuntimeException: DEADLINE_EXCEEDED
+	at io.grpc.Status.asRuntimeException(Status.java:543) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.stub.ClientCalls$UnaryStreamToFuture.onClose(ClientCalls.java:442) [fabric__runtime_deploy.jar:na]
+	at io.grpc.ForwardingClientCallListener.onClose(ForwardingClientCallListener.java:56) [fabric__runtime_deploy.jar:na]
+	at me.dinowernli.grpc.prometheus.MonitoringClientCallListener.onClose(MonitoringClientCallListener.java:50) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:426) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl.access$100(ClientCallImpl.java:76) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl.close(ClientCallImpl.java:512) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl.access$700(ClientCallImpl.java:429) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:544) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:52) [fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:117) [fabric__runtime_deploy.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_162-ea]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_162-ea]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_162-ea]
+2017-11-23 17:53:44,931 WARN  [i.b.commands.BridgeCommandHandler] [] [] [] : Failed to execute command entity_command_request {
+  endpoint {
+    entity_id: 2
+    component_id: 1003
+  }
+  payload: "\332>\002\032\000"
+}
+ on UnityClienta02995d3-76fd-4c9a-9d45-d55ad437a9bf
+improbable.bridge.commands.exception.CommandException: DEADLINE_EXCEEDED
+	at improbable.bridge.commands.exception.CommandException.ofStatusRuntimeException(CommandException.java:76) ~[fabric__runtime_deploy.jar:na]
+	at improbable.bridge.commands.exception.CommandException.of(CommandException.java:27) ~[fabric__runtime_deploy.jar:na]
+	at improbable.bridge.client.BridgeInternalServiceClient.lambda$invokeCommand$2(BridgeInternalServiceClient.java:93) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractTransformFuture$TransformFuture.doTransform(AbstractTransformFuture.java:239) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractTransformFuture$TransformFuture.doTransform(AbstractTransformFuture.java:229) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractTransformFuture.run(AbstractTransformFuture.java:130) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:911) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:822) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.set(AbstractFuture.java:664) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractCatchingFuture$CatchingFuture.setResult(AbstractCatchingFuture.java:210) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractCatchingFuture.run(AbstractCatchingFuture.java:138) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:911) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:822) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.setException(AbstractFuture.java:686) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractTransformFuture.run(AbstractTransformFuture.java:112) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:911) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:822) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.setException(AbstractFuture.java:686) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.SettableFuture.setException(SettableFuture.java:54) ~[fabric__runtime_deploy.jar:na]
+	at improbable.bridge.client.BridgeServiceTaskRetrier.onFailure(BridgeServiceTaskRetrier.java:102) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.Futures$CallbackListener.run(Futures.java:1228) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:911) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:822) ~[fabric__runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.setException(AbstractFuture.java:686) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.stub.ClientCalls$GrpcFuture.setException(ClientCalls.java:466) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.stub.ClientCalls$UnaryStreamToFuture.onClose(ClientCalls.java:442) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.ForwardingClientCallListener.onClose(ForwardingClientCallListener.java:56) ~[fabric__runtime_deploy.jar:na]
+	at me.dinowernli.grpc.prometheus.MonitoringClientCallListener.onClose(MonitoringClientCallListener.java:50) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:426) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl.access$100(ClientCallImpl.java:76) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl.close(ClientCallImpl.java:512) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl.access$700(ClientCallImpl.java:429) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:544) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:52) ~[fabric__runtime_deploy.jar:na]
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:117) ~[fabric__runtime_deploy.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_162-ea]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_162-ea]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_162-ea]
+Caused by: io.grpc.StatusRuntimeException: DEADLINE_EXCEEDED
+	at io.grpc.Status.asRuntimeException(Status.java:543) ~[fabric__runtime_deploy.jar:na]
+	... 13 common frames omitted
+2017-11-23 17:53:44,946 WARN  [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityWorker0] Incoming command request with ID 7 to entity ID 2 and component ID 1003 was not handled by the worker within the given timeout.
+ in  -[WorkerLogger:Unity]
+2017-11-23 17:53:45,368 INFO  [akka.actor.DeadLetterActorRef] [akka://akkaFabric/deadLetters] [akkaFabric-akka.actor.default-dispatcher-43] [] : Message [improbable.bridge.message.BridgeViewStatusRequest] from Actor[akka://akkaFabric/deadLetters] to Actor[akka://akkaFabric/deadLetters] was not delivered. [6] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2017-11-23 17:53:46,369 INFO  [akka.actor.DeadLetterActorRef] [akka://akkaFabric/deadLetters] [akkaFabric-akka.actor.default-dispatcher-43] [] : Message [improbable.bridge.message.BridgeViewStatusRequest] from Actor[akka://akkaFabric/deadLetters] to Actor[akka://akkaFabric/deadLetters] was not delivered. [7] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2017-11-23 17:53:47,369 INFO  [akka.actor.DeadLetterActorRef] [akka://akkaFabric/deadLetters] [akkaFabric-akka.actor.default-dispatcher-43] [] : Message [improbable.bridge.message.BridgeViewStatusRequest] from Actor[akka://akkaFabric/deadLetters] to Actor[akka://akkaFabric/deadLetters] was not delivered. [8] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2017-11-23 17:53:48,367 INFO  [akka.actor.DeadLetterActorRef] [akka://akkaFabric/deadLetters] [akkaFabric-akka.actor.default-dispatcher-43] [] : Message [improbable.bridge.message.BridgeViewStatusRequest] from Actor[akka://akkaFabric/deadLetters] to Actor[akka://akkaFabric/deadLetters] was not delivered. [9] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2017-11-23 17:53:49,367 INFO  [akka.actor.DeadLetterActorRef] [akka://akkaFabric/deadLetters] [akkaFabric-akka.actor.default-dispatcher-43] [] : Message [improbable.bridge.message.BridgeViewStatusRequest] from Actor[akka://akkaFabric/deadLetters] to Actor[akka://akkaFabric/deadLetters] was not delivered. [10] dead letters encountered, no more dead letters will be logged. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+2017-11-23 17:53:51,077 INFO  [i.c.discovery.ServiceDiscoveryImpl] [] [] [] : Shutting down all services
+2017-11-23 17:53:51,082 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.StatusDiscoveryInternalService) on 127.0.0.1:5301.
+2017-11-23 17:53:51,084 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Stopped Service(improbable.platform.runtime.ModuleService) on 127.0.0.1:9000.
+2017-11-23 17:53:51,085 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Stopped Service(improbable.platform.runtime.HealthCheckService) on 127.0.0.1:9001.
+2017-11-23 17:53:51,087 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.PerfInternalService) on 127.0.0.1:9002.
+2017-11-23 17:53:51,088 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.ContentionInternalService) on 127.0.0.1:9003.
+2017-11-23 17:53:51,088 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Stopped Service(improbable.platform.runtime.FeatureService) on 127.0.0.1:9004.
+2017-11-23 17:53:51,097 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.NodeConfigurationInternalService) on 127.0.0.1:9005.
+2017-11-23 17:53:51,097 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.WorldExtentsInternalService) on 127.0.0.1:9006.
+2017-11-23 17:53:51,100 ERROR [i.worker.exec.CommandLineExecutor] [] [] [] : Worker UnityWorker0 terminated abnormally. It may have crashed due to worker-side errors.
+2017-11-23 17:53:51,100 ERROR [i.worker.exec.CommandLineExecutor] [] [] [] : (UnityWorker0) Command exited with code 143 (POSIX signal: 15): /var/folders/x8/wtf95w9s64gcftlt_63mjfqm0000gn/T/zip-downloader4874251772943457345/5baf65d57013391a4d8131c4a8d5d7b9/UnityWorker@Mac.app/Contents/MacOS/UnityWorker@Mac +projectName your_project_name_here +receptionistIp 127.0.0.1 +receptionistPort 7777 +workerType UnityWorker +workerId UnityWorker0 +useInternalIpForBridge true +infraServicesUrl http://127.0.0.1:21000 +assemblyName local_assembly +linkProtocol RakNet -logfile /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj/logs/2017-11-23_17-45-57_0/workers/UnityWorker/UnityWorker0-3698611842708115781.log -batchmode -nographics
+2017-11-23 17:53:51,102 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.EntityIdInternalService) on 127.0.0.1:9007.
+2017-11-23 17:53:51,103 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.WorkerPrestartRegistryInternalService) on 127.0.0.1:9008.
+2017-11-23 17:53:51,105 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.RouterLookupInternalService) on 127.0.0.1:9009.
+2017-11-23 17:53:51,109 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.RouterInternalService) on 127.0.0.1:9010.
+2017-11-23 17:53:51,111 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.RemoteMessageInternalService) on 127.0.0.1:9011.
+2017-11-23 17:53:51,111 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.LocalBrokerInternalService) on 127.0.0.1:9012.
+2017-11-23 17:53:51,115 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.BridgeOracleInternalService) on 127.0.0.1:9013.
+2017-11-23 17:53:51,118 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.GlobalBrokerInternalService) on 127.0.0.1:9014.
+2017-11-23 17:53:51,120 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.BridgeServiceOracleInternalService) on 127.0.0.1:9015.
+2017-11-23 17:53:51,120 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.LocalSnapshotInternalService) on 127.0.0.1:9016.
+2017-11-23 17:53:51,122 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.ScalingStatsInternalService) on 127.0.0.1:9017.
+2017-11-23 17:53:51,124 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.EntityQueryInternalService) on 127.0.0.1:9018.
+2017-11-23 17:53:51,126 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.BridgeInternalService) on 127.0.0.1:9019.
+2017-11-23 17:53:51,127 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Stopped Service(improbable.platform.inner.worker.WorkerRunner) on 127.0.0.1:9020.
+2017-11-23 17:53:51,130 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Stopped Service(improbable.fabric.internal.service.ReceptionistInternalService) on 127.0.0.1:9021.
+2017-11-23 17:53:51,130 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Stopped Service(improbable.platform.runtime.ReceptionistService) on 127.0.0.1:7777.

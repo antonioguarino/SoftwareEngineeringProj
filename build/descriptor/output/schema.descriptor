@@ -78,7 +78,7 @@ HealthDataF
 event_extension.schema.improbable.EntityEventª (2'.schema.improbable.player.Health.EventsReventExtension2y
 command_extension .schema.improbable.EntityCommandª (2).schema.improbable.player.Health.CommandsRcommandExtension:!Âó
 improbable.player.HealthªBBHealthOuterClass
-ê
+•	
 #improbable/player/PlayerInput.protoschema.improbable.playerimprobable/entity_state.proto"j
 Joystick.
 field1_x_axis (B
@@ -87,17 +87,21 @@ HealthDataF
 Âóy_axisRfield2YAxis"
 Fire"
 Move"
-Stop"l
+Stop"
+Shield"
+	NotShield"l
 PlayerInputDataY
-field1_joystick (2".schema.improbable.player.JoystickBÂójoystickRfield1Joystick"þ
-PlayerInputÅ
+field1_joystick (2".schema.improbable.player.JoystickBÂójoystickRfield1Joystick"’
+PlayerInputÙ
 Events=
 
 event_fire (2.schema.improbable.player.FireR	eventFire=
 
 event_move (2.schema.improbable.player.MoveR	eventMove=
 
-event_stop (2.schema.improbable.player.StopR	eventStop
+event_stop (2.schema.improbable.player.StopR	eventStopC
+event_shield (2 .schema.improbable.player.ShieldReventShieldM
+event_not_shield (2#.schema.improbable.player.NotShieldReventNotShield
 
 Commands2{
 component_extension.schema.improbable.EntityStateì (2).schema.improbable.player.PlayerInputDataRcomponentExtension2v
