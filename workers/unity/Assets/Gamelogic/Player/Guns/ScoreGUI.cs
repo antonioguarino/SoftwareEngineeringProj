@@ -1,4 +1,4 @@
-﻿
+
 using Improbable.Player;
 using Improbable.Unity;
 using Improbable.Unity.Visualizer;
@@ -24,11 +24,12 @@ namespace Assets.Gamelogic.Player.Guns
 
 		private void Awake()
 		{
-			//if (scoreCanvasUI != null) {
+			scoreCanvasUI= GameObject.Find("ScoreCanvas").GetComponent<Canvas>();
+			if (scoreCanvasUI != null) {
 				totalPointsGUI = scoreCanvasUI.GetComponentInChildren<Text>();
-			//	scoreCanvasUI.enabled = false;
-			//	updateGUI(0);
-			//}
+				scoreCanvasUI.enabled = false;
+				updateGUI(0);
+			}
 		}
 
 		private void OnEnable()
@@ -53,18 +54,18 @@ namespace Assets.Gamelogic.Player.Guns
 
 		void updateGUI(int score)
 		{
-			//if (scoreCanvasUI != null) {
-			//	if (score >= 0)
-			//	{
-			//		scoreCanvasUI.enabled = true;
+			if (scoreCanvasUI != null) {
+				if (score >= 0)
+				{
+					scoreCanvasUI.enabled = true;
 					totalPointsGUI.text = "Score: " + score.ToString();
 					Debug.LogError (score.ToString());
-			//	}
-			//	else
-			//	{
-			//		scoreCanvasUI.enabled = false;
-			//	}
-			//}//
+				}
+				else
+				{
+					scoreCanvasUI.enabled = false;
+				}
+			}
 		}
 	}
 }
