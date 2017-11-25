@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Bullet
   - PlayerBody
+  - Shield
+  - GreenBar
+  - Alien
   layers:
   - Default
   - TransparentFX

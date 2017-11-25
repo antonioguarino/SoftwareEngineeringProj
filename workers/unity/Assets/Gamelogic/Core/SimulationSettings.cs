@@ -9,8 +9,11 @@ namespace Assets.Gamelogic.Core
 
         public static readonly string PlayerPrefabName = "Player";
         public static readonly string PlayerCreatorPrefabName = "PlayerCreator";
+		public static readonly string AlienPrefabName = "Alien";
         //public static readonly string CubePrefabName = "Cube";
 		public static readonly float ClientConnectionTimeoutSecs = 7;
+		public static readonly int AliensSpawnDiameter = 300;
+		public static readonly int TotalAliens = 50;
 
 
         //Camera

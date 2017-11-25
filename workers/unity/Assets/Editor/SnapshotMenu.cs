@@ -18,9 +18,27 @@ namespace Assets.Editor
 			var currentEntityId = 1;
 
 			snapshotEntities.Add(new EntityId(currentEntityId++), EntityTemplateFactory.CreatePlayerCreatorTemplate());
+
+			PopulateSnapshotWithAlienEntities(ref snapshotEntities, ref currentEntityId);
+
+
 			//snapshotEntities.Add(new EntityId(currentEntityId++), EntityTemplateFactory.CreateCubeTemplate());
 
 			SaveSnapshot(snapshotEntities);
+		}
+
+		public static void PopulateSnapshotWithAlienEntities(ref Dictionary<EntityId, Entity> snapshotEntities, ref int nextAvailableId)
+		{
+			var positionArray = new [] { new Vector3(-221f,0.3f,199f),new Vector3(-198f,0.3f,-209f),new Vector3(199f,0.3f,221f), new Vector3(209f,0.3f,-190f), new Vector3(-23f,0f,-296f), new Vector3(55f,0f,298f), new Vector3(-331f,0f,29f), new Vector3(275f,0f,-45f) };
+
+			for (var i = 0; i < SimulationSettings.TotalAliens; i++)
+			{
+				// Choose a starting position for this pirate entity
+				var alienCoordinates = positionArray[Random.Range(0,8)];
+				float alienRotation = Random.Range(0f,360f);
+
+				snapshotEntities.Add(new EntityId(nextAvailableId++), EntityTemplateFactory.CreateAlienTemplate(alienCoordinates, alienRotation));
+			}
 		}
 
 		private static void SaveSnapshot(IDictionary<EntityId, Entity> snapshotEntities)

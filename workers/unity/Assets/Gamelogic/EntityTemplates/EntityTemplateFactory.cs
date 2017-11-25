@@ -45,7 +45,22 @@ namespace Assets.Gamelogic.EntityTemplates
 			return playerTemplate;
 		}
 
-		/* public static Entity CreateCubeTemplate()
+		public static Entity CreateAlienTemplate(Vector3 initialPosition,float rotation)
+		{
+			var alienTemplate = EntityBuilder.Begin()
+				.AddPositionComponent(new Improbable.Coordinates(initialPosition.x, SimulationSettings.PlayerSpawnHeight, initialPosition.z).ToUnityVector(), CommonRequirementSets.PhysicsOnly)
+				.AddMetadataComponent(entityType: SimulationSettings.AlienPrefabName)
+				.SetPersistence(true)
+				.SetReadAcl(CommonRequirementSets.PhysicsOrVisual)
+				.AddComponent(new Rotation.Data(Quaternion.identity.ToNativeQuaternion()), CommonRequirementSets.PhysicsOnly)
+				.AddComponent(new PlayerInput.Data(new Joystick(xAxis: 0, yAxis: 0)), CommonRequirementSets.PhysicsOnly)
+				.AddComponent(new PlayerRotation.Data(rotation), CommonRequirementSets.PhysicsOnly)
+				.Build();
+
+			return alienTemplate;
+		}
+
+		/*public static Entity CreateCubeTemplate()
         {
             var cubeTemplate = EntityBuilder.Begin()
                 .AddPositionComponent(Improbable.Coordinates.ZERO.ToUnityVector(), CommonRequirementSets.PhysicsOnly)
