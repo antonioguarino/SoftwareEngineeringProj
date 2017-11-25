@@ -55,6 +55,7 @@ namespace Assets.Gamelogic.EntityTemplates
 				.AddComponent(new Rotation.Data(Quaternion.identity.ToNativeQuaternion()), CommonRequirementSets.PhysicsOnly)
 				.AddComponent(new PlayerInput.Data(new Joystick(xAxis: 0, yAxis: 0)), CommonRequirementSets.PhysicsOnly)
 				.AddComponent(new PlayerRotation.Data(rotation), CommonRequirementSets.PhysicsOnly)
+				.AddComponent(new Health.Data(1000), CommonRequirementSets.PhysicsOnly)
 				.Build();
 
 			return alienTemplate;

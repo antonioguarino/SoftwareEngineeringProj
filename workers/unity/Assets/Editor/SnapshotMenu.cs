@@ -29,7 +29,7 @@ namespace Assets.Editor
 
 		public static void PopulateSnapshotWithAlienEntities(ref Dictionary<EntityId, Entity> snapshotEntities, ref int nextAvailableId)
 		{
-			var positionArray = new [] { new Vector3(-221f,0.3f,199f),new Vector3(-198f,0.3f,-209f),new Vector3(199f,0.3f,221f), new Vector3(209f,0.3f,-190f), new Vector3(-23f,0f,-296f), new Vector3(55f,0f,298f), new Vector3(-331f,0f,29f), new Vector3(275f,0f,-45f) };
+			var positionArray = new [] { new Vector3(-221f,0.4f,199f),new Vector3(-198f,0.4f,-209f),new Vector3(199f,0.4f,221f), new Vector3(209f,0.4f,-190f), new Vector3(-23f,0.4f,-296f), new Vector3(55f,0.4f,298f), new Vector3(-331f,0.4f,29f), new Vector3(275f,0.4f,-45f) };
 
 			for (var i = 0; i < SimulationSettings.TotalAliens; i++)
 			{
