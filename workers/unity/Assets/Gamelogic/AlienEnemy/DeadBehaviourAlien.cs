@@ -15,7 +15,7 @@ namespace Assets.Gamelogic.AlienEnemy
 		[Require] private Health.Reader HealthReader;
 		private Animator _animator;
 
-		public bool alreadyDead = false;
+		public static bool alreadyDead = false;
 
 		private void OnEnable()
 		{
@@ -39,10 +39,14 @@ namespace Assets.Gamelogic.AlienEnemy
 		{
 			if (!alreadyDead && currentHealth <= 0)
 			{
+				
 				_animator.Play("dead");
 				alreadyDead = true;
 
-			}
+
+			}	
 		}
+
+
 	}
 }

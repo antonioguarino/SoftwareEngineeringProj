@@ -37,8 +37,10 @@ namespace Assets.Gamelogic.AlienEnemy
 			var update = new PlayerInput.Update();
 			update.SetJoystick(new Joystick(xAxis, yAxis));
 			PlayerInputWriter.Send(update);
-
-
+			var shootCheck = Random.Range (0, 6);
+			if (shootCheck==0 || shootCheck==1 || shootCheck==2 || shootCheck==3 || shootCheck==4) {
+				PlayerInputWriter.Send (new PlayerInput.Update ().AddFire (new Fire ()));
+			}
 		}
 
 	}

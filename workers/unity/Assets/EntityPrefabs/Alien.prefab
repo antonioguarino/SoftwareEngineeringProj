@@ -402,6 +402,8 @@ GameObject:
   - component: {fileID: 114347517582270720}
   - component: {fileID: 114786314890422240}
   - component: {fileID: 114565755918754336}
+  - component: {fileID: 114234984002185442}
+  - component: {fileID: 114556485778601176}
   m_Layer: 0
   m_Name: Alien
   m_TagString: Alien
@@ -1329,7 +1331,7 @@ Transform:
   m_GameObject: {fileID: 1349042562253510}
   m_LocalRotation: {x: 0, y: 0.5056423, z: 0, w: 0.86274326}
   m_LocalPosition: {x: -1.691865, y: 0.20516956, z: -4.219354}
-  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 2.4}
   m_Children:
   - {fileID: 4703591829150946}
   - {fileID: 4347692385286322}
@@ -1806,6 +1808,17 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114234984002185442
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1349042562253510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 103bd9f659a4646369ce86e51ea5f759, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114306050871215906
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1828,7 +1841,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a71658f79bdfa412087128f85da5818e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  alreadyDead: 0
+--- !u!114 &114556485778601176
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1349042562253510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1df06813a13a94e65aca22420d39a274, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BulletPrefab: {fileID: 1897664141763930, guid: a2796aaeac23e487c996772ba69ec965,
+    type: 2}
 --- !u!114 &114565755918754336
 MonoBehaviour:
   m_ObjectHideFlags: 1

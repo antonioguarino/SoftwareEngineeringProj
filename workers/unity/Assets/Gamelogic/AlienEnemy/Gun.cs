@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Assets.Gamelogic.Player.Guns
+namespace Assets.Gamelogic.AlienEnemy
 {
 	public class Gun : MonoBehaviour
 	{
@@ -22,10 +22,12 @@ namespace Assets.Gamelogic.Player.Guns
 
 			if (BulletPrefab != null)
 			{
-				var bullet = Instantiate(BulletPrefab, transform.position+dir, transform.rotation) as GameObject;
+				Vector3 gunEnd = transform.position;
+				gunEnd.y = 3f;
+				var bullet = Instantiate(BulletPrefab, gunEnd+dir, transform.rotation) as GameObject;
 				var entityId = gameObject.EntityId();
 				firerColliders = BulletPrefab.GetComponentsInChildren<Collider>();
-				bullet.GetComponent<DestroyBullet>().firerEntityId = entityId;
+				bullet.GetComponent<DestroyAlienBullet>().firerEntityId = entityId;
 				bullet.GetComponent<BulletController> ().firerEntityId = entityId;
 
 				EnsureBulletWillNotCollideWithFirer(bullet);
