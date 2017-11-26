@@ -21,11 +21,13 @@ namespace Assets.Gamelogic.AlienEnemy
 		{
 			// Change steering decisions every five seconds
 			InvokeRepeating("RandomizeSteering", 0, 5.0f);
+			InvokeRepeating ("RandomizeShooting", 0, 1f);
 		}
 
 		private void OnDisable()
 		{
 			CancelInvoke("RandomizeSteering");
+			CancelInvoke ("RandomizeShooting");
 		}
 			
 		private void RandomizeSteering()
@@ -37,10 +39,15 @@ namespace Assets.Gamelogic.AlienEnemy
 			var update = new PlayerInput.Update();
 			update.SetJoystick(new Joystick(xAxis, yAxis));
 			PlayerInputWriter.Send(update);
-			var shootCheck = Random.Range (0, 6);
-			if (shootCheck==0 || shootCheck==1 || shootCheck==2 || shootCheck==3 || shootCheck==4) {
+
+		}
+		private void RandomizeShooting()
+		{
+			var shootCheck = Random.Range (0,2);
+			if (shootCheck==0) {
 				PlayerInputWriter.Send (new PlayerInput.Update ().AddFire (new Fire ()));
 			}
+
 		}
 
 	}

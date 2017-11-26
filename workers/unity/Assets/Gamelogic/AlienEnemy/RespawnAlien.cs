@@ -35,7 +35,7 @@ namespace Assets.Gamelogic.AlienEnemy
 					HealthWriter.Send (new Health.Update ().SetCurrentHealth (1000));
 					rigidbody.position = positionArray [Random.Range (0, 8)];
 					var pos = rigidbody.position;
-					Debug.LogError ("respawn in position: " + pos.x + "," + pos.y + "," + pos.z);
+					//Debug.LogError ("respawn in position: " + pos.x + "," + pos.y + "," + pos.z);
 					var positionUpdate = new Position.Update ()
 					.SetCoords (new Coordinates (pos.x, pos.y, pos.z));
 					PositionWriter.Send (positionUpdate);

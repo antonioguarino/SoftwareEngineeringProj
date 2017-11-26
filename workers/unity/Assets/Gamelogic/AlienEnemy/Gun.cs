@@ -9,22 +9,19 @@ namespace Assets.Gamelogic.AlienEnemy
 		[SerializeField]
 		private GameObject BulletPrefab;
 		private Collider[] firerColliders;
+		[SerializeField]
+		private GameObject gunEnd;
 
-
-		void Start()
-		{
-			
-
-		}
 
 		public void Fire(Vector3 dir)
 		{
 
 			if (BulletPrefab != null)
 			{
-				Vector3 gunEnd = transform.position;
-				gunEnd.y = 3f;
-				var bullet = Instantiate(BulletPrefab, gunEnd+dir, transform.rotation) as GameObject;
+				
+				Vector3 gunEndV = gunEnd.transform.position;
+				//gunEnd.y = 4f;
+				var bullet = Instantiate(BulletPrefab, gunEndV+dir, transform.rotation) as GameObject;
 				var entityId = gameObject.EntityId();
 				firerColliders = BulletPrefab.GetComponentsInChildren<Collider>();
 				bullet.GetComponent<DestroyAlienBullet>().firerEntityId = entityId;
