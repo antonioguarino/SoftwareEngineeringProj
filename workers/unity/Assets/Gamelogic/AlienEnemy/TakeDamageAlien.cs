@@ -30,7 +30,7 @@ namespace Assets.Gamelogic.AlienEnemy
 			if (HealthWriter.Data.currentHealth <= 0)
 				return;
 
-			if (other != null && other.gameObject.tag == "Bullet")
+			if (other != null && (other.gameObject.tag == "Bullet" || other.gameObject.tag == "Shield") )
 			{
 				int newHealth = HealthWriter.Data.currentHealth - 250;
 				HealthWriter.Send(new Health.Update().SetCurrentHealth(newHealth));

@@ -37,18 +37,18 @@ public class PlayerInputSender : MonoBehaviour
 
 
     if ((Input.GetKeyDown (KeyCode.P) || usingShield) && readyShield) {
-      Debug.LogError ("using shield: " + usingShield + "  readyshield: " + readyShield);
+      //Debug.LogError ("using shield: " + usingShield + "  readyshield: " + readyShield);
       if (usingShield == false) {
         spawnTime = Time.time;
 
       }
       if ((Time.time - spawnTime) < SecondsUntilDisableShield) {
-        Debug.LogError ("Secondi:  " + (Time.time - spawnTime));
+       // Debug.LogError ("Secondi:  " + (Time.time - spawnTime));
         usingShield = true;
         PlayerInputWriter.Send (new PlayerInput.Update ().AddShield (new Shield ()));
 
       } else {
-        Debug.LogError ("ho disabilitato");
+        //Debug.LogError ("ho disabilitato");
         PlayerInputWriter.Send (new PlayerInput.Update ().AddNotShield (new NotShield ()));
         usingShield = false;
 

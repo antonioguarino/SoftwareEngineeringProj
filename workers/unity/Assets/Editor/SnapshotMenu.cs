@@ -29,12 +29,12 @@ namespace Assets.Editor
 
 		public static void PopulateSnapshotWithAlienEntities(ref Dictionary<EntityId, Entity> snapshotEntities, ref int nextAvailableId)
 		{
-			var positionArray = new [] { new Vector3(-221f,0.4f,199f),new Vector3(-198f,0.4f,-209f),new Vector3(199f,0.4f,221f), new Vector3(209f,0.4f,-190f), new Vector3(-23f,0.4f,-296f), new Vector3(55f,0.4f,298f), new Vector3(-331f,0.4f,29f), new Vector3(275f,0.4f,-45f) };
+			var positionArray = new [] { new Vector3(167f,0.02f,-88f),new Vector3(-55f,0.02f,84f),new Vector3(-166f,0.02f,-106f), new Vector3(98f,0.02f,59f)};
 
 			for (var i = 0; i < SimulationSettings.TotalAliens; i++)
 			{
 				// Choose a starting position for this pirate entity
-				var alienCoordinates = positionArray[Random.Range(0,8)];
+				var alienCoordinates = positionArray[Random.Range(0,4)];
 				float alienRotation = Random.Range(0f,360f);
 
 				snapshotEntities.Add(new EntityId(nextAvailableId++), EntityTemplateFactory.CreateAlienTemplate(alienCoordinates, alienRotation));

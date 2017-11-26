@@ -18,7 +18,7 @@ namespace Assets.Gamelogic.AlienEnemy
 		[Require] private Position.Writer PositionWriter;
 		[Require] private Health.Writer HealthWriter;
 		[Require] private PlayerInput.Writer PlayerInputWriter;
-		private Vector3[] positionArray = new [] { new Vector3(-221f,1f,199f),new Vector3(-198f,1f,-209f),new Vector3(199f,1f,221f), new Vector3(209f,1f,-190f), new Vector3(-23f,1f,-296f), new Vector3(55f,1f,298f), new Vector3(-331f,1f,29f), new Vector3(275f,1f,-45f) };
+		private Vector3[] positionArray = new [] { new Vector3(167f,0.02f,-88f),new Vector3(-55f,0.02f,84f),new Vector3(-166f,0.02f,-106f), new Vector3(98f,0.02f,59f)};
 		private Rigidbody rigidbody;
 
 		void OnEnable()
@@ -33,9 +33,9 @@ namespace Assets.Gamelogic.AlienEnemy
 			int actualHealth = HealthWriter.Data.currentHealth;
 			if (actualHealth <= 0) {
 					HealthWriter.Send (new Health.Update ().SetCurrentHealth (1000));
-					rigidbody.position = positionArray [Random.Range (0, 8)];
+					rigidbody.position = positionArray [Random.Range (0, 4)];
 					var pos = rigidbody.position;
-					Debug.LogError ("respawn in position: " + pos.x + "," + pos.y + "," + pos.z);
+					//Debug.LogError ("respawn in position: " + pos.x + "," + pos.y + "," + pos.z);
 					var positionUpdate = new Position.Update ()
 					.SetCoords (new Coordinates (pos.x, pos.y, pos.z));
 					PositionWriter.Send (positionUpdate);
