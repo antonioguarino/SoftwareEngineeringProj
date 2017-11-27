@@ -1,89 +1,89 @@
-==========> Opened at 2017-11-25 18:29:01.2726629 +0100 CET
-debug Executing [spatial.exe worker_package unpack-to worker_sdk core-dynamic-x86_64-win32 C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86_64-win32]
-debug Current directory = C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity
-debug Found project root at C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj
-debug Found version '12.0.1' in file C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\spatialos.json
-debug Skipping extraction of [C:\Users\Matteo Torraca\AppData\Local\.improbable\toolbelt\cache\worker_package\f5e3365f80a0fe506bd318da59d5ed108359925f\worker_sdk\12.0.1\core-dynamic-x86_64-win32.zip] to C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86_64-win32. Nothing has changed.
-info 'spatial.exe worker_package unpack-to worker_sdk core-dynamic-x86_64-win32 C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86_64-win32' succeeded category=success duration=0.1s
-==========> Opened at 2017-11-25 18:29:50.196586 +0100 CET
+==========> Opened at 2017-11-27 17:01:23.569984 +0100 CET
+debug Executing [spatial.exe worker_package unpack-to worker_sdk core-dynamic-x86-win32 C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86-win32]
+debug Current directory = C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity
+debug Found project root at C:\Users\gmasc\Desktop\SoftwareEngineeringProj
+debug Found version '12.0.1' in file C:\Users\gmasc\Desktop\SoftwareEngineeringProj\spatialos.json
+debug Skipping extraction of [C:\Users\gmasc\AppData\Local\.improbable\toolbelt\cache\worker_package\59edb0e1351b09eb2e4fe1f046530026d8b29af9\worker_sdk\12.0.1\core-dynamic-x86-win32.zip] to C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86-win32. Nothing has changed.
+info 'spatial.exe worker_package unpack-to worker_sdk core-dynamic-x86-win32 C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86-win32' succeeded duration=0.1s category=success
+==========> Opened at 2017-11-27 17:05:11.7663443 +0100 CET
 debug Executing [spatial.exe clean]
-debug Current directory = C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj
-debug Found project root at C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj
-debug Found project root at C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj
-debug Found version '12.0.1' in file C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\spatialos.json
-debug Extracting built-in asset 'unity' to 'C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity'
+debug Current directory = C:\Users\gmasc\Desktop\SoftwareEngineeringProj
+debug Found project root at C:\Users\gmasc\Desktop\SoftwareEngineeringProj
+debug Found project root at C:\Users\gmasc\Desktop\SoftwareEngineeringProj
+debug Found version '12.0.1' in file C:\Users\gmasc\Desktop\SoftwareEngineeringProj\spatialos.json
+debug Extracting built-in asset 'unity' to 'C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity'
 debug Unpacking unity.zip
-debug Extracting built-in asset 'unity' to 'C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity'
+debug Extracting built-in asset 'unity' to 'C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity'
 debug Unpacking unity.zip
 info Running task 'clean' for 'UnityClient'
 info [1/3] > Clean All Unity clients and prefabs category=heading
-debug Found project root at C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj
-debug Running within a SpatialOS project, using the default input paths '[C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\schema C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\build\dependencies\schema\standard_library]'
-debug Running within a SpatialOS project, using the default input paths '[C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\schema C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\build\dependencies\schema\standard_library]'
-debug Running within a SpatialOS project, using the default input paths '[C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\schema C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\build\dependencies\schema\standard_library]'
+debug Found project root at C:\Users\gmasc\Desktop\SoftwareEngineeringProj
+debug Running within a SpatialOS project, using the default input paths '[C:\Users\gmasc\Desktop\SoftwareEngineeringProj\schema C:\Users\gmasc\Desktop\SoftwareEngineeringProj\build\dependencies\schema\standard_library]'
+debug Running within a SpatialOS project, using the default input paths '[C:\Users\gmasc\Desktop\SoftwareEngineeringProj\schema C:\Users\gmasc\Desktop\SoftwareEngineeringProj\build\dependencies\schema\standard_library]'
+debug Running within a SpatialOS project, using the default input paths '[C:\Users\gmasc\Desktop\SoftwareEngineeringProj\schema C:\Users\gmasc\Desktop\SoftwareEngineeringProj\build\dependencies\schema\standard_library]'
 debug Executing internal command: [invoke unity Improbable.Unity.EditorTools.Build.SimpleBuildSystem.Clean --allow_fail]
 debug Invoking [Improbable.Unity.EditorTools.Build.SimpleBuildSystem.Clean] via a Unity instance
 debug Found Unity via known path at 'C:\Program Files\Unity\Editor'
-debug In '', C:\Program Files\Unity\Editor\Unity.exe [-quit -batchmode -logfile C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\.invoke.log -projectPath C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity -nographics -executeMethod Improbable.Unity.EditorTools.Build.SimpleBuildSystem.Clean]
-==========> Opened at 2017-11-25 18:29:53.155631 +0100 CET
-debug Executing [C:\Users\Matteo Torraca\AppData\Local\.improbable\bin\plugins\sdk\12.0.1\sdk.exe plugin_export --log_level=warning]
-debug Current directory = C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity
-debug Found project root at C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj
-==========> Opened at 2017-11-25 18:29:53.5774433 +0100 CET
-debug Executing [spatial.exe worker_package unpack-to worker_sdk core-dynamic-x86-win32 C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86-win32]
-debug Current directory = C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity
-debug Found project root at C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj
-debug Found version '12.0.1' in file C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\spatialos.json
-debug Skipping extraction of [C:\Users\Matteo Torraca\AppData\Local\.improbable\toolbelt\cache\worker_package\59edb0e1351b09eb2e4fe1f046530026d8b29af9\worker_sdk\12.0.1\core-dynamic-x86-win32.zip] to C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86-win32. Nothing has changed.
-info 'spatial.exe worker_package unpack-to worker_sdk core-dynamic-x86-win32 C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86-win32' succeeded duration=0.1s category=success
-==========> Opened at 2017-11-25 18:29:54.7281945 +0100 CET
-debug Executing [C:\Users\Matteo Torraca\AppData\Local\.improbable\bin\plugins\sdk\12.0.1\sdk.exe plugin_export --log_level=warning]
-debug Current directory = C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity
-debug Found project root at C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj
-==========> Opened at 2017-11-25 18:29:55.12019 +0100 CET
-debug Executing [spatial.exe worker_package unpack-to worker_sdk core-dynamic-x86_64-win32 C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86_64-win32]
-debug Current directory = C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity
-debug Found project root at C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj
-debug Found version '12.0.1' in file C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\spatialos.json
-debug Skipping extraction of [C:\Users\Matteo Torraca\AppData\Local\.improbable\toolbelt\cache\worker_package\f5e3365f80a0fe506bd318da59d5ed108359925f\worker_sdk\12.0.1\core-dynamic-x86_64-win32.zip] to C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86_64-win32. Nothing has changed.
-info 'spatial.exe worker_package unpack-to worker_sdk core-dynamic-x86_64-win32 C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86_64-win32' succeeded category=success duration=0.1s
-==========> Opened at 2017-11-25 18:30:00.636204 +0100 CET
-debug Executing [C:\Users\Matteo Torraca\AppData\Local\.improbable\bin\plugins\sdk\12.0.1\sdk.exe plugin_export --log_level=warning]
-debug Current directory = C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity
-debug Found project root at C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj
-==========> Opened at 2017-11-25 18:30:00.9898219 +0100 CET
-debug Executing [spatial.exe worker_package unpack-to worker_sdk core-dynamic-x86-win32 C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86-win32]
-debug Current directory = C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity
-debug Found project root at C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj
-debug Found version '12.0.1' in file C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\spatialos.json
-debug Skipping extraction of [C:\Users\Matteo Torraca\AppData\Local\.improbable\toolbelt\cache\worker_package\59edb0e1351b09eb2e4fe1f046530026d8b29af9\worker_sdk\12.0.1\core-dynamic-x86-win32.zip] to C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86-win32. Nothing has changed.
-info 'spatial.exe worker_package unpack-to worker_sdk core-dynamic-x86-win32 C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86-win32' succeeded duration=0.1s category=success
-==========> Opened at 2017-11-25 18:30:01.8195876 +0100 CET
-debug Executing [C:\Users\Matteo Torraca\AppData\Local\.improbable\bin\plugins\sdk\12.0.1\sdk.exe plugin_export --log_level=warning]
-debug Current directory = C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity
-debug Found project root at C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj
-==========> Opened at 2017-11-25 18:30:02.2113051 +0100 CET
-debug Executing [spatial.exe worker_package unpack-to worker_sdk core-dynamic-x86_64-win32 C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86_64-win32]
-debug Current directory = C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity
-debug Found project root at C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj
-debug Found version '12.0.1' in file C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\spatialos.json
-debug Skipping extraction of [C:\Users\Matteo Torraca\AppData\Local\.improbable\toolbelt\cache\worker_package\f5e3365f80a0fe506bd318da59d5ed108359925f\worker_sdk\12.0.1\core-dynamic-x86_64-win32.zip] to C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86_64-win32. Nothing has changed.
-info 'spatial.exe worker_package unpack-to worker_sdk core-dynamic-x86_64-win32 C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86_64-win32' succeeded duration=0.1s category=success
-debug --> Begin Logfile C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\.invoke.log
+debug In '', C:\Program Files\Unity\Editor\Unity.exe [-quit -batchmode -logfile C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\.invoke.log -projectPath C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity -nographics -executeMethod Improbable.Unity.EditorTools.Build.SimpleBuildSystem.Clean]
+==========> Opened at 2017-11-27 17:05:16.1522005 +0100 CET
+debug Executing [C:\Users\gmasc\AppData\Local\.improbable\bin\plugins\sdk\12.0.1\sdk.exe plugin_export --log_level=warning]
+debug Current directory = C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity
+debug Found project root at C:\Users\gmasc\Desktop\SoftwareEngineeringProj
+==========> Opened at 2017-11-27 17:05:16.4529705 +0100 CET
+debug Executing [spatial.exe worker_package unpack-to worker_sdk core-dynamic-x86-win32 C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86-win32]
+debug Current directory = C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity
+debug Found project root at C:\Users\gmasc\Desktop\SoftwareEngineeringProj
+debug Found version '12.0.1' in file C:\Users\gmasc\Desktop\SoftwareEngineeringProj\spatialos.json
+debug Skipping extraction of [C:\Users\gmasc\AppData\Local\.improbable\toolbelt\cache\worker_package\59edb0e1351b09eb2e4fe1f046530026d8b29af9\worker_sdk\12.0.1\core-dynamic-x86-win32.zip] to C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86-win32. Nothing has changed.
+info 'spatial.exe worker_package unpack-to worker_sdk core-dynamic-x86-win32 C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86-win32' succeeded duration=0.1s category=success
+==========> Opened at 2017-11-27 17:05:17.9245904 +0100 CET
+debug Executing [C:\Users\gmasc\AppData\Local\.improbable\bin\plugins\sdk\12.0.1\sdk.exe plugin_export --log_level=warning]
+debug Current directory = C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity
+debug Found project root at C:\Users\gmasc\Desktop\SoftwareEngineeringProj
+==========> Opened at 2017-11-27 17:05:18.2054498 +0100 CET
+debug Executing [spatial.exe worker_package unpack-to worker_sdk core-dynamic-x86_64-win32 C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86_64-win32]
+debug Current directory = C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity
+debug Found project root at C:\Users\gmasc\Desktop\SoftwareEngineeringProj
+debug Found version '12.0.1' in file C:\Users\gmasc\Desktop\SoftwareEngineeringProj\spatialos.json
+debug Skipping extraction of [C:\Users\gmasc\AppData\Local\.improbable\toolbelt\cache\worker_package\f5e3365f80a0fe506bd318da59d5ed108359925f\worker_sdk\12.0.1\core-dynamic-x86_64-win32.zip] to C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86_64-win32. Nothing has changed.
+info 'spatial.exe worker_package unpack-to worker_sdk core-dynamic-x86_64-win32 C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86_64-win32' succeeded duration=0.1s category=success
+==========> Opened at 2017-11-27 17:05:27.2143895 +0100 CET
+debug Executing [C:\Users\gmasc\AppData\Local\.improbable\bin\plugins\sdk\12.0.1\sdk.exe plugin_export --log_level=warning]
+debug Current directory = C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity
+debug Found project root at C:\Users\gmasc\Desktop\SoftwareEngineeringProj
+==========> Opened at 2017-11-27 17:05:27.4831966 +0100 CET
+debug Executing [spatial.exe worker_package unpack-to worker_sdk core-dynamic-x86-win32 C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86-win32]
+debug Current directory = C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity
+debug Found project root at C:\Users\gmasc\Desktop\SoftwareEngineeringProj
+debug Found version '12.0.1' in file C:\Users\gmasc\Desktop\SoftwareEngineeringProj\spatialos.json
+debug Skipping extraction of [C:\Users\gmasc\AppData\Local\.improbable\toolbelt\cache\worker_package\59edb0e1351b09eb2e4fe1f046530026d8b29af9\worker_sdk\12.0.1\core-dynamic-x86-win32.zip] to C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86-win32. Nothing has changed.
+info 'spatial.exe worker_package unpack-to worker_sdk core-dynamic-x86-win32 C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86-win32' succeeded category=success duration=0.1s
+==========> Opened at 2017-11-27 17:05:29.0613595 +0100 CET
+debug Executing [C:\Users\gmasc\AppData\Local\.improbable\bin\plugins\sdk\12.0.1\sdk.exe plugin_export --log_level=warning]
+debug Current directory = C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity
+debug Found project root at C:\Users\gmasc\Desktop\SoftwareEngineeringProj
+==========> Opened at 2017-11-27 17:05:29.3123752 +0100 CET
+debug Executing [spatial.exe worker_package unpack-to worker_sdk core-dynamic-x86_64-win32 C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86_64-win32]
+debug Current directory = C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity
+debug Found project root at C:\Users\gmasc\Desktop\SoftwareEngineeringProj
+debug Found version '12.0.1' in file C:\Users\gmasc\Desktop\SoftwareEngineeringProj\spatialos.json
+debug Skipping extraction of [C:\Users\gmasc\AppData\Local\.improbable\toolbelt\cache\worker_package\f5e3365f80a0fe506bd318da59d5ed108359925f\worker_sdk\12.0.1\core-dynamic-x86_64-win32.zip] to C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86_64-win32. Nothing has changed.
+info 'spatial.exe worker_package unpack-to worker_sdk core-dynamic-x86_64-win32 C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\CoreSdk\core-dynamic-x86_64-win32' succeeded duration=0.1s category=success
+debug --> Begin Logfile C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\.invoke.log
 debug 
-debug LICENSE SYSTEM [20171125 18:29:50] No start/stop license dates set
+debug LICENSE SYSTEM [20171127 17:5:13] No start/stop license dates set
 debug 
-debug LICENSE SYSTEM [20171125 18:29:50] Next license update check is after 2017-11-11T11:14:54
+debug LICENSE SYSTEM [20171127 17:5:13] Next license update check is after 2017-11-28T10:56:29
 debug 
 debug Built from '5.6/release' branch; Version is '5.6.0f3 (497a0f351392) revision 4815375'; Using compiler version '160040219'
-debug OS: 'Windows 10  (10.0.0) 64bit' Language: 'it' Physical Memory: 8077 MB
+debug OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 4023 MB
 debug BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 debug Initialize mono
 debug Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 debug Mono path[1] = 'C:/Program Files/Unity/Editor/Data/Mono/lib/mono/2.0'
 debug Mono path[2] = 'C:/Program Files/Unity/Editor/Data/UnityScript'
 debug Mono config path = 'C:/Program Files/Unity/Editor/Data/Mono/etc'
-debug Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56764
+debug Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56692
 debug 
 debug  COMMAND LINE ARGUMENTS:
 debug 
@@ -91,18 +91,18 @@ debug C:\Program Files\Unity\Editor\Unity.exe
 debug -quit
 debug -batchmode
 debug -logfile
-debug C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\.invoke.log
+debug C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\.invoke.log
 debug -projectPath
-debug C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity
+debug C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity
 debug -nographics
 debug -executeMethod
 debug Improbable.Unity.EditorTools.Build.SimpleBuildSystem.Clean
-debug Successfully changed project path to: C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity
-debug C:/Users/Matteo Torraca/Desktop/Nuovo/SoftwareEngineeringProj/workers/unity
-debug Loading GUID <-> Path mappings...0.000065 seconds
-debug Loading Asset Database...0.009009 seconds
-debug Audio: FMOD Profiler initialized on port 54901
-debug AssetDatabase consistency checks...0.059459 seconds
+debug Successfully changed project path to: C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity
+debug C:/Users/gmasc/Desktop/SoftwareEngineeringProj/workers/unity
+debug Loading GUID <-> Path mappings...0.000093 seconds
+debug Loading Asset Database...0.015095 seconds
+debug Audio: FMOD Profiler initialized on port 54900
+debug AssetDatabase consistency checks...0.057889 seconds
 debug Initialize engine version: 5.6.0f3 (497a0f351392)
 debug Forcing GfxDevice: Null
 debug NullGfxDevice:
@@ -113,7 +113,7 @@ debug Begin MonoManager ReloadAssembly
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\UnityEngine.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\UnityEditor.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\Unity.Locator.dll (this message is harmless)
-debug Refreshing native plugins compatible for Editor in 12.76 ms, found 5 plugins.
+debug Refreshing native plugins compatible for Editor in 18.81 ms, found 5 plugins.
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\I18N.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\I18N.West.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\Unity.DataContract.dll (this message is harmless)
@@ -124,7 +124,6 @@ debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\Sy
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\System.Configuration.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\PackageManager\Unity\PackageManager\5.6.0\Unity.PackageManager.dll (this message is harmless)
 debug Initializing Unity.PackageManager (PackageManager) v5.6.0 for Unity v5.6.0f3
-debug Setting Unknown:MetroPlayer v5.6.0 for Unity v5.6.0f3 to C:\Program Files\Unity\Editor\Data\PlaybackEngines\iOSSupport
 debug Setting Standalone:StandaloneLinux v5.6.0 for Unity v5.6.0f3 to C:\Program Files\Unity\Editor\Data\PlaybackEngines\LinuxStandaloneSupport
 debug Setting Standalone:StandaloneOSXIntel v5.6.0 for Unity v5.6.0f3 to C:\Program Files\Unity\Editor\Data\PlaybackEngines\MacStandaloneSupport
 debug Setting Standalone:StandaloneWindows v5.6.0 for Unity v5.6.0f3 to C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport
@@ -162,11 +161,10 @@ debug   Editor/UnityEditor.VR.dll (Extension) GUID: 4ba2329b63d54f0187bcaa12486b
 debug   Runtime/UnityEngine.VR.dll (Extension) GUID: 6cdf1e5c78d14720aaadccd4C792df96
 debug   RuntimeEditor/UnityEngine.VR.dll (Extension) GUID: 307433eba81a469ab1e2084d52d1a5a2
 debug Registering custom unity dll's ...
-debug Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 debug Register platform support module: C:\Program Files\Unity\Editor\Data\PlaybackEngines\LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 debug Register platform support module: C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
 debug Register platform support module: C:\Program Files\Unity\Editor\Data\PlaybackEngines\MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-debug Registered in 0.002897 seconds.
+debug Registered in 0.002966 seconds.
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\PackageManager\Unity\PackageManager\5.6.0\Unity.PackageManager.dll (this message is harmless)
 debug Loading C:\Program Files\Unity\Editor\Data\PackageManager\Unity\PackageManager\5.6.0\Unity.PackageManager.dll into Unity Child Domain
 debug Non platform assembly: C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\Advertisements\Editor\UnityEditor.Advertisements.dll (this message is harmless)
@@ -203,16 +201,14 @@ debug Non platform assembly: C:\Program Files\Unity\Editor\Data\UnityExtensions\
 debug Loading C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\UnityVR\RuntimeEditor\UnityEngine.VR.dll into Unity Child Domain
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll (this message is harmless)
 debug Loading C:\Program Files\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll into Unity Child Domain
-debug Platform assembly: C:\Program Files\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll (this message is harmless)
-debug Loading C:\Program Files\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll into Unity Child Domain
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\PlaybackEngines\LinuxStandaloneSupport\UnityEditor.LinuxStandalone.Extensions.dll (this message is harmless)
 debug Loading C:\Program Files\Unity\Editor\Data\PlaybackEngines\LinuxStandaloneSupport\UnityEditor.LinuxStandalone.Extensions.dll into Unity Child Domain
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport\UnityEditor.WindowsStandalone.Extensions.dll (this message is harmless)
 debug Loading C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport\UnityEditor.WindowsStandalone.Extensions.dll into Unity Child Domain
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\PlaybackEngines\MacStandaloneSupport\UnityEditor.OSXStandalone.Extensions.dll (this message is harmless)
 debug Loading C:\Program Files\Unity\Editor\Data\PlaybackEngines\MacStandaloneSupport\UnityEditor.OSXStandalone.Extensions.dll into Unity Child Domain
-debug Refreshing native plugins compatible for Editor in 0.54 ms, found 5 plugins.
-debug Preloading 2 native plugins for Editor in 1.35 ms.
+debug Refreshing native plugins compatible for Editor in 0.81 ms, found 5 plugins.
+debug Preloading 2 native plugins for Editor in 1.98 ms.
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\Mono.Cecil.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\Unity.SerializationLogic.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\UnityScript.dll (this message is harmless)
@@ -220,9 +216,8 @@ debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\ICSharpCode.
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\System.Xml.Linq.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\System.Web.dll (this message is harmless)
 debug Non platform assembly: C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\UnityVR\Editor\UnityEditor.iOS.Extensions.Xcode.dll (this message is harmless)
-debug Platform assembly: C:\Program Files\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll (this message is harmless)
 debug Mono: successfully reloaded assembly
-debug - Completed reload, in  0.680 seconds
+debug - Completed reload, in  1.007 seconds
 debug Registering platform support modules:
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\System.Drawing.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\System.Data.dll (this message is harmless)
@@ -231,15 +226,10 @@ debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\Bo
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.Parser.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\UnityScript.Lang.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\Mono.Security.dll (this message is harmless)
-debug Registered platform support modules in: 0.1122219s.
+debug Registered platform support modules in: 0.1675959s.
 debug Native extension for OSXStandalone target not found
 debug Native extension for WindowsStandalone target not found
 debug Native extension for LinuxStandalone target not found
-debug Loading native library: iOSSupport\x86_64\UnityEditor.iOS.Native at C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\x86_64\UnityEditor.iOS.Native.dll
-debug [usbmuxd] Start listen thread
-debug [usbmuxd] Listen thread started
-debug [usbmuxd] Send listen message
-debug Native extension for iOS target not found
 debug Begin MonoManager ReloadAssembly
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\UnityEngine.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\UnityEditor.dll (this message is harmless)
@@ -249,15 +239,15 @@ debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\I1
 debug Registering custom user dll's ...
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\System.Core.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\Unity.DataContract.dll (this message is harmless)
-debug Registered in 0.028855 seconds.
-debug Non platform assembly: C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll (this message is harmless)
-debug Loading C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll into Unity Child Domain
-debug Non platform assembly: C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Library\ScriptAssemblies\Assembly-CSharp.dll (this message is harmless)
-debug Loading C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Library\ScriptAssemblies\Assembly-CSharp.dll into Unity Child Domain
-debug Non platform assembly: C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll (this message is harmless)
-debug Loading C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll into Unity Child Domain
-debug Non platform assembly: C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll (this message is harmless)
-debug Loading C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll into Unity Child Domain
+debug Registered in 0.034338 seconds.
+debug Non platform assembly: C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll (this message is harmless)
+debug Loading C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll into Unity Child Domain
+debug Non platform assembly: C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Library\ScriptAssemblies\Assembly-CSharp.dll (this message is harmless)
+debug Loading C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Library\ScriptAssemblies\Assembly-CSharp.dll into Unity Child Domain
+debug Non platform assembly: C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll (this message is harmless)
+debug Loading C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll into Unity Child Domain
+debug Non platform assembly: C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll (this message is harmless)
+debug Loading C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll into Unity Child Domain
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\PackageManager\Unity\PackageManager\5.6.0\Unity.PackageManager.dll (this message is harmless)
 debug Loading C:\Program Files\Unity\Editor\Data\PackageManager\Unity\PackageManager\5.6.0\Unity.PackageManager.dll into Unity Child Domain
 debug Non platform assembly: C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\Advertisements\Editor\UnityEditor.Advertisements.dll (this message is harmless)
@@ -294,40 +284,36 @@ debug Non platform assembly: C:\Program Files\Unity\Editor\Data\UnityExtensions\
 debug Loading C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\UnityVR\RuntimeEditor\UnityEngine.VR.dll into Unity Child Domain
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll (this message is harmless)
 debug Loading C:\Program Files\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll into Unity Child Domain
-debug Platform assembly: C:\Program Files\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll (this message is harmless)
-debug Loading C:\Program Files\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll into Unity Child Domain
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\PlaybackEngines\LinuxStandaloneSupport\UnityEditor.LinuxStandalone.Extensions.dll (this message is harmless)
 debug Loading C:\Program Files\Unity\Editor\Data\PlaybackEngines\LinuxStandaloneSupport\UnityEditor.LinuxStandalone.Extensions.dll into Unity Child Domain
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport\UnityEditor.WindowsStandalone.Extensions.dll (this message is harmless)
 debug Loading C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport\UnityEditor.WindowsStandalone.Extensions.dll into Unity Child Domain
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\PlaybackEngines\MacStandaloneSupport\UnityEditor.OSXStandalone.Extensions.dll (this message is harmless)
 debug Loading C:\Program Files\Unity\Editor\Data\PlaybackEngines\MacStandaloneSupport\UnityEditor.OSXStandalone.Extensions.dll into Unity Child Domain
-debug Platform assembly: C:\Program Files\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll (this message is harmless)
-debug Loading C:\Program Files\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll into Unity Child Domain
-debug Platform assembly: C:\Program Files\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll (this message is harmless)
-debug Loading C:\Program Files\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll into Unity Child Domain
-debug Non platform assembly: C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\Generated.Code.dll (this message is harmless)
-debug Loading C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\Generated.Code.dll into Unity Child Domain
-debug Non platform assembly: C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\Improbable.WorkerSdkCsharp.dll (this message is harmless)
-debug Loading C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\Improbable.WorkerSdkCsharp.dll into Unity Child Domain
-debug Non platform assembly: C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\Improbable.WorkerSdkCsharp.Framework.dll (this message is harmless)
-debug Loading C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\Improbable.WorkerSdkCsharp.Framework.dll into Unity Child Domain
-debug Non platform assembly: C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\System.Threading.dll (this message is harmless)
-debug Loading C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\System.Threading.dll into Unity Child Domain
-debug Non platform assembly: C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\Unity\Improbable.UnityDll.dll (this message is harmless)
-debug Loading C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\Unity\Improbable.UnityDll.dll into Unity Child Domain
-debug Non platform assembly: C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Addons\Improbable.Unity.EditorAddon.SpatialBuild.dll (this message is harmless)
-debug Loading C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Addons\Improbable.Unity.EditorAddon.SpatialBuild.dll into Unity Child Domain
-debug Non platform assembly: C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Addons\Improbable.Unity.EditorAddon.SpatialConnect.dll (this message is harmless)
-debug Loading C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Addons\Improbable.Unity.EditorAddon.SpatialConnect.dll into Unity Child Domain
-debug Non platform assembly: C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Addons\Improbable.Unity.EditorAddon.SpatialLocal.dll (this message is harmless)
-debug Loading C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Addons\Improbable.Unity.EditorAddon.SpatialLocal.dll into Unity Child Domain
-debug Non platform assembly: C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Addons\Improbable.Unity.EditorAddon.SpatialUpload.dll (this message is harmless)
-debug Loading C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Addons\Improbable.Unity.EditorAddon.SpatialUpload.dll into Unity Child Domain
-debug Non platform assembly: C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Dll\Editor\Improbable.EditorDll.dll (this message is harmless)
-debug Loading C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Dll\Editor\Improbable.EditorDll.dll into Unity Child Domain
-debug Refreshing native plugins compatible for Editor in 0.55 ms, found 5 plugins.
-debug Preloading 2 native plugins for Editor in 0.22 ms.
+debug Non platform assembly: C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\15.0\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll (this message is harmless)
+debug Loading C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\15.0\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll into Unity Child Domain
+debug Non platform assembly: C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\Generated.Code.dll (this message is harmless)
+debug Loading C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\Generated.Code.dll into Unity Child Domain
+debug Non platform assembly: C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\Improbable.WorkerSdkCsharp.dll (this message is harmless)
+debug Loading C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\Improbable.WorkerSdkCsharp.dll into Unity Child Domain
+debug Non platform assembly: C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\Improbable.WorkerSdkCsharp.Framework.dll (this message is harmless)
+debug Loading C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\Improbable.WorkerSdkCsharp.Framework.dll into Unity Child Domain
+debug Non platform assembly: C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\System.Threading.dll (this message is harmless)
+debug Loading C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\System.Threading.dll into Unity Child Domain
+debug Non platform assembly: C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\Unity\Improbable.UnityDll.dll (this message is harmless)
+debug Loading C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\Unity\Improbable.UnityDll.dll into Unity Child Domain
+debug Non platform assembly: C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Addons\Improbable.Unity.EditorAddon.SpatialBuild.dll (this message is harmless)
+debug Loading C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Addons\Improbable.Unity.EditorAddon.SpatialBuild.dll into Unity Child Domain
+debug Non platform assembly: C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Addons\Improbable.Unity.EditorAddon.SpatialConnect.dll (this message is harmless)
+debug Loading C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Addons\Improbable.Unity.EditorAddon.SpatialConnect.dll into Unity Child Domain
+debug Non platform assembly: C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Addons\Improbable.Unity.EditorAddon.SpatialLocal.dll (this message is harmless)
+debug Loading C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Addons\Improbable.Unity.EditorAddon.SpatialLocal.dll into Unity Child Domain
+debug Non platform assembly: C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Addons\Improbable.Unity.EditorAddon.SpatialUpload.dll (this message is harmless)
+debug Loading C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Addons\Improbable.Unity.EditorAddon.SpatialUpload.dll into Unity Child Domain
+debug Non platform assembly: C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Dll\Editor\Improbable.EditorDll.dll (this message is harmless)
+debug Loading C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Dll\Editor\Improbable.EditorDll.dll into Unity Child Domain
+debug Refreshing native plugins compatible for Editor in 0.83 ms, found 5 plugins.
+debug Preloading 2 native plugins for Editor in 0.27 ms.
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\Mono.Cecil.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\Unity.SerializationLogic.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\UnityScript.dll (this message is harmless)
@@ -335,29 +321,29 @@ debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\ICSharpCode.
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\System.Xml.Linq.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\Unity.IvyParser.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\System.Web.dll (this message is harmless)
-debug Updating Assets/Plugins/Improbable/CoreSdk/core-dynamic-x86-win32 - GUID: 8e6f2167535c02b4793e08e7ab26d953...
-debug  done. [Time: 60.911339 ms] 
-debug Refreshing native plugins compatible for Editor in 0.56 ms, found 5 plugins.
-debug Preloading 2 native plugins for Editor in 0.18 ms.
+debug Non platform assembly: C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\15.0\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll (this message is harmless)
+debug Updating Assets/Plugins/Improbable/CoreSdk/core-dynamic-x86-win32 - GUID: 88b357e36e2f3d7469524907ef0c691a...
+debug  done. [Time: 95.735207 ms] 
+debug Refreshing native plugins compatible for Editor in 1.05 ms, found 5 plugins.
+debug Preloading 2 native plugins for Editor in 0.24 ms.
 debug 
-debug ----- Total AssetImport time: 0.176485s, AssetImport time: 0.106016s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.325234s, AssetImport time: 0.209101s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
-debug Updating Assets/Plugins/Improbable/CoreSdk/core-dynamic-x86-win32 - GUID: 8e6f2167535c02b4793e08e7ab26d953...
-debug  done. [Time: 8.732715 ms] 
-debug Refreshing native plugins compatible for Editor in 0.54 ms, found 5 plugins.
-debug Preloading 2 native plugins for Editor in 0.19 ms.
+debug Updating Assets/Plugins/Improbable/CoreSdk/core-dynamic-x86-win32 - GUID: 88b357e36e2f3d7469524907ef0c691a...
+debug  done. [Time: 24.397964 ms] 
+debug Refreshing native plugins compatible for Editor in 0.96 ms, found 5 plugins.
+debug Preloading 2 native plugins for Editor in 0.21 ms.
 debug 
-debug ----- Total AssetImport time: 0.064409s, AssetImport time: 0.040090s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.128926s, AssetImport time: 0.092017s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
-debug Updating Assets/Plugins/Improbable/CoreSdk/core-dynamic-x86-win32 - GUID: 8e6f2167535c02b4793e08e7ab26d953...
-debug  done. [Time: 19.783634 ms] 
-debug Refreshing native plugins compatible for Editor in 1.25 ms, found 5 plugins.
-debug Preloading 2 native plugins for Editor in 0.39 ms.
+debug Updating Assets/Plugins/Improbable/CoreSdk/core-dynamic-x86-win32 - GUID: 88b357e36e2f3d7469524907ef0c691a...
+debug  done. [Time: 23.031809 ms] 
+debug Refreshing native plugins compatible for Editor in 0.83 ms, found 5 plugins.
+debug Preloading 2 native plugins for Editor in 0.22 ms.
 debug 
-debug ----- Total AssetImport time: 0.087059s, AssetImport time: 0.064183s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.124466s, AssetImport time: 0.087203s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
 debug Initializing Unity.PackageManager (PackageManager) v5.6.0 for Unity v5.6.0f3
-debug Setting Unknown:MetroPlayer v5.6.0 for Unity v5.6.0f3 to C:\Program Files\Unity\Editor\Data\PlaybackEngines\iOSSupport
 debug Setting Standalone:StandaloneLinux v5.6.0 for Unity v5.6.0f3 to C:\Program Files\Unity\Editor\Data\PlaybackEngines\LinuxStandaloneSupport
 debug Setting Standalone:StandaloneOSXIntel v5.6.0 for Unity v5.6.0f3 to C:\Program Files\Unity\Editor\Data\PlaybackEngines\MacStandaloneSupport
 debug Setting Standalone:StandaloneWindows v5.6.0 for Unity v5.6.0f3 to C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport
@@ -401,60 +387,61 @@ debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\Bo
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.Parser.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\UnityScript.Lang.dll (this message is harmless)
-debug Registered platform support modules in: 0.0841626s.
+debug Registered platform support modules in: 0.1224441s.
 debug 
-debug Hashing assets ... 0.005 seconds
+debug Hashing assets ... 0.008 seconds
 debug   file open: 0.000 seconds (2 files)
-debug   file read: 0.001 seconds (3.115 MB)
-debug   hash: 0.004 seconds
-debug Updating Assets/Plugins/Improbable/CoreSdk/core-dynamic-x86-win32/CoreSdkDll.dll - GUID: 6a463dd1427a88945a333c5d2e25e85b...
-debug  done. [Time: 11.171939 ms] 
-debug Refreshing native plugins compatible for Editor in 1.15 ms, found 5 plugins.
-debug Preloading 2 native plugins for Editor in 0.16 ms.
+debug   file read: 0.002 seconds (3.115 MB)
+debug   hash: 0.007 seconds
+debug Updating Assets/Plugins/Improbable/CoreSdk/core-dynamic-x86-win32/CoreSdkDll.dll - GUID: 3dd99c31a7b6dc74591f737c4411ce55...
+debug  done. [Time: 36.454067 ms] 
+debug Refreshing native plugins compatible for Editor in 1.72 ms, found 5 plugins.
+debug Preloading 2 native plugins for Editor in 0.24 ms.
 debug 
-debug ----- Total AssetImport time: 0.080092s, AssetImport time: 0.048495s, Asset hashing: 0.005043s [3.1 MB, 617.795105 mb/s]
+debug ----- Total AssetImport time: 0.158199s, AssetImport time: 0.109954s, Asset hashing: 0.008102s [3.1 MB, 384.494659 mb/s]
 debug 
-debug Updating Assets/Plugins/Improbable/CoreSdk/core-dynamic-x86_64-win32 - GUID: 2a024cb82f379ba4aafffcb4a3a6a642...
-debug  done. [Time: 8.576628 ms] 
-debug Refreshing native plugins compatible for Editor in 0.55 ms, found 5 plugins.
-debug Preloading 2 native plugins for Editor in 0.16 ms.
+debug Updating Assets/Plugins/Improbable/CoreSdk/core-dynamic-x86_64-win32 - GUID: 0dd04eb665f8f8b49aa64aa46182d8b0...
+debug  done. [Time: 56.555847 ms] 
+debug Refreshing native plugins compatible for Editor in 0.84 ms, found 5 plugins.
+debug Preloading 2 native plugins for Editor in 0.22 ms.
 debug 
-debug ----- Total AssetImport time: 0.067131s, AssetImport time: 0.043989s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.163159s, AssetImport time: 0.126126s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
-debug Updating Assets/Plugins/Improbable/CoreSdk/core-dynamic-x86_64-win32 - GUID: 2a024cb82f379ba4aafffcb4a3a6a642...
-debug  done. [Time: 8.524029 ms] 
-debug Refreshing native plugins compatible for Editor in 0.54 ms, found 5 plugins.
-debug Preloading 2 native plugins for Editor in 0.17 ms.
+debug Updating Assets/Plugins/Improbable/CoreSdk/core-dynamic-x86_64-win32 - GUID: 0dd04eb665f8f8b49aa64aa46182d8b0...
+debug  done. [Time: 21.740738 ms] 
+debug Refreshing native plugins compatible for Editor in 0.83 ms, found 5 plugins.
+debug Preloading 2 native plugins for Editor in 0.21 ms.
 debug 
-debug ----- Total AssetImport time: 0.065869s, AssetImport time: 0.042945s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.131369s, AssetImport time: 0.092460s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
-debug Updating Assets/Plugins/Improbable/CoreSdk/core-dynamic-x86_64-win32 - GUID: 2a024cb82f379ba4aafffcb4a3a6a642...
-debug  done. [Time: 9.142817 ms] 
-debug Refreshing native plugins compatible for Editor in 0.54 ms, found 5 plugins.
-debug Preloading 2 native plugins for Editor in 0.17 ms.
+debug Updating Assets/Plugins/Improbable/CoreSdk/core-dynamic-x86_64-win32 - GUID: 0dd04eb665f8f8b49aa64aa46182d8b0...
+debug  done. [Time: 22.690945 ms] 
+debug Refreshing native plugins compatible for Editor in 1.08 ms, found 5 plugins.
+debug Preloading 2 native plugins for Editor in 0.22 ms.
 debug 
-debug ----- Total AssetImport time: 0.065339s, AssetImport time: 0.041079s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.132216s, AssetImport time: 0.091937s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
 debug 
-debug Hashing assets ... 0.006 seconds
-debug   file open: 0.000 seconds (2 files)
-debug   file read: 0.001 seconds (4.094 MB)
-debug   hash: 0.006 seconds
-debug Updating Assets/Plugins/Improbable/CoreSdk/core-dynamic-x86_64-win32/CoreSdkDll.dll - GUID: 348c038038b666f4995ced1a05c0c5a2...
-debug  done. [Time: 11.089406 ms] 
-debug Refreshing native plugins compatible for Editor in 1.16 ms, found 5 plugins.
-debug Preloading 2 native plugins for Editor in 0.16 ms.
+debug Hashing assets ... 0.187 seconds
+debug   file open: 0.022 seconds (2 files)
+debug   file read: 0.164 seconds (4.094 MB)
+debug   hash: 0.024 seconds
+debug Updating Assets/Plugins/Improbable/CoreSdk/core-dynamic-x86_64-win32/CoreSdkDll.dll - GUID: 7f5b5637995248441a199ce270c73614...
+debug  done. [Time: 50.108608 ms] 
+debug Refreshing native plugins compatible for Editor in 1.71 ms, found 5 plugins.
+debug Preloading 2 native plugins for Editor in 0.21 ms.
 debug 
-debug ----- Total AssetImport time: 0.077336s, AssetImport time: 0.043119s, Asset hashing: 0.006473s [4.1 MB, 632.557678 mb/s]
+debug ----- Total AssetImport time: 0.369346s, AssetImport time: 0.138144s, Asset hashing: 0.187575s [4.1 MB, 21.827724 mb/s]
 debug 
-debug Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.060278 seconds
-debug Refreshing native plugins compatible for Editor in 0.53 ms, found 5 plugins.
-debug Preloading 2 native plugins for Editor in 0.16 ms.
+debug Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.089119 seconds
+debug Refreshing native plugins compatible for Editor in 0.80 ms, found 5 plugins.
+debug Preloading 2 native plugins for Editor in 0.20 ms.
 debug 
-debug ----- Total AssetImport time: 0.049352s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.075207s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
+debug Non platform assembly: C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\UnityVR\Editor\UnityEditor.iOS.Extensions.Xcode.dll (this message is harmless)
 debug Mono: successfully reloaded assembly
-debug - Completed reload, in  3.070 seconds
+debug - Completed reload, in  4.045 seconds
 debug - starting compile Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll, for buildtarget 5
 debug - Finished compile Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
 debug WeaveUnetFromEditor Temp/Assembly-CSharp-firstpass.dll
@@ -465,16 +452,16 @@ debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\Mono.Cecil.P
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\Mono.Cecil.Mdb.dll (this message is harmless)
 debug Symbols will be read from Temp/Assembly-CSharp-firstpass.dll.mdb
 debug Script Module: Assembly-CSharp-firstpass.dll
-debug Pass: 0 took 40 milliseconds
-debug Pass: 1 took 10 milliseconds
+debug Pass: 0 took 62 milliseconds
+debug Pass: 1 took 15 milliseconds
 debug - starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 5
 debug - starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll, for buildtarget 5
 debug 
 debug -----Compiler Commandline Arguments:
 debug Filename: "C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\bin\mono.exe"
-debug Arguments: "C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.5\mcs.exe"  @Temp/UnityTempFile-04fb1d88222fad648ab3c8b06c2767ec
+debug Arguments: "C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.5\mcs.exe"  @Temp/UnityTempFile-d61d6157d18a3aa4bacb66bcd98de57a
 debug index: 77
-debug Responsefile: Temp/UnityTempFile-04fb1d88222fad648ab3c8b06c2767ec Contents: 
+debug Responsefile: Temp/UnityTempFile-d61d6157d18a3aa4bacb66bcd98de57a Contents: 
 debug -debug
 debug -target:library
 debug -nowarn:0169
@@ -496,8 +483,6 @@ debug -r:Assets/Plugins/Improbable/Sdk/Dll/Improbable.WorkerSdkCsharp.Framework.
 debug -r:Assets/Plugins/Improbable/Sdk/Dll/System.Threading.dll
 debug -r:Assets/Plugins/Improbable/Sdk/Dll/Unity/Improbable.UnityDll.dll
 debug -r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
-debug -r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
-debug -r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
 debug -define:UNITY_5_3_OR_NEWER
 debug -define:UNITY_5_4_OR_NEWER
 debug -define:UNITY_5_5_OR_NEWER
@@ -569,6 +554,7 @@ debug -define:UNITY_EDITOR_64
 debug -define:UNITY_EDITOR_WIN
 debug -define:ENABLE_NATIVE_ARRAY_CHECKS
 debug -define:UNITY_TEAM_LICENSE
+debug -define:ENABLE_VSTU
 debug -define:CROSS_PLATFORM_INPUT
 debug Assets/Gamelogic/AlienEnemy/DeadBehaviourAlien.cs
 debug Assets/Gamelogic/AlienEnemy/MoveRandomly.cs
@@ -642,7 +628,7 @@ debug WeaveAssemblies unityPath= C:/Program Files/Unity/Editor/Data/Managed/Unit
 debug WeaveAssemblies unetPath= C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
 debug Symbols will be read from Temp/Assembly-CSharp.dll.mdb
 debug Script Module: Assembly-CSharp.dll
-debug Pass: 0 took 11 milliseconds
+debug Pass: 0 took 17 milliseconds
 debug Pass: 1 took 1 milliseconds
 debug Assets/Gamelogic/AlienEnemy/RespawnAlien.cs(22,21): warning CS0108: `Assets.Gamelogic.AlienEnemy.RespawnAlien.rigidbody' hides inherited member `UnityEngine.Component.rigidbody'. Use the new keyword if hiding was intended
 debug  
@@ -690,15 +676,15 @@ debug WeaveAssemblies unityPath= C:/Program Files/Unity/Editor/Data/Managed/Unit
 debug WeaveAssemblies unetPath= C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
 debug Symbols will be read from Temp/Assembly-CSharp-Editor-firstpass.dll.mdb
 debug Script Module: Assembly-CSharp-Editor-firstpass.dll
-debug Pass: 0 took 31 milliseconds
+debug Pass: 0 took 48 milliseconds
 debug Pass: 1 took 0 milliseconds
 debug - starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll, for buildtarget 5
 debug 
 debug -----Compiler Commandline Arguments:
 debug Filename: "C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\bin\mono.exe"
-debug Arguments: "C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.5\mcs.exe"  @Temp/UnityTempFile-f9af8092423f06f4b9975225e31dbbdc
+debug Arguments: "C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.5\mcs.exe"  @Temp/UnityTempFile-b98d39d19954141459720e5ece193d4f
 debug index: 77
-debug Responsefile: Temp/UnityTempFile-f9af8092423f06f4b9975225e31dbbdc Contents: 
+debug Responsefile: Temp/UnityTempFile-b98d39d19954141459720e5ece193d4f Contents: 
 debug -debug
 debug -target:library
 debug -nowarn:0169
@@ -727,10 +713,10 @@ debug -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasi
 debug -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
 debug -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll"
 debug -r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll"
-debug -r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll"
 debug -r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll"
 debug -r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
 debug -r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll"
+debug -r:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
 debug -r:Assets/Plugins/Improbable/Sdk/Dll/Generated.Code.dll
 debug -r:Assets/Plugins/Improbable/Sdk/Dll/Improbable.WorkerSdkCsharp.dll
 debug -r:Assets/Plugins/Improbable/Sdk/Dll/Improbable.WorkerSdkCsharp.Framework.dll
@@ -741,8 +727,6 @@ debug -r:Assets/Plugins/Improbable/Sdk/Editor/Addons/Improbable.Unity.EditorAddo
 debug -r:Assets/Plugins/Improbable/Sdk/Editor/Addons/Improbable.Unity.EditorAddon.SpatialLocal.dll
 debug -r:Assets/Plugins/Improbable/Sdk/Editor/Addons/Improbable.Unity.EditorAddon.SpatialUpload.dll
 debug -r:Assets/Plugins/Improbable/Sdk/Editor/Dll/Editor/Improbable.EditorDll.dll
-debug -r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
-debug -r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
 debug -define:UNITY_5_3_OR_NEWER
 debug -define:UNITY_5_4_OR_NEWER
 debug -define:UNITY_5_5_OR_NEWER
@@ -814,6 +798,7 @@ debug -define:UNITY_EDITOR_64
 debug -define:UNITY_EDITOR_WIN
 debug -define:ENABLE_NATIVE_ARRAY_CHECKS
 debug -define:UNITY_TEAM_LICENSE
+debug -define:ENABLE_VSTU
 debug -define:CROSS_PLATFORM_INPUT
 debug Assets/Editor/PlayerBuildProcess.cs
 debug Assets/Editor/SnapshotMenu.cs
@@ -844,14 +829,14 @@ debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\UnityEditor.
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\Unity.Locator.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\I18N.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\I18N.West.dll (this message is harmless)
-debug Non platform assembly: C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll (this message is harmless)
-debug Loading C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll into Unity Child Domain
-debug Non platform assembly: C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Library\ScriptAssemblies\Assembly-CSharp.dll (this message is harmless)
-debug Loading C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Library\ScriptAssemblies\Assembly-CSharp.dll into Unity Child Domain
-debug Non platform assembly: C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll (this message is harmless)
-debug Loading C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll into Unity Child Domain
-debug Non platform assembly: C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll (this message is harmless)
-debug Loading C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll into Unity Child Domain
+debug Non platform assembly: C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll (this message is harmless)
+debug Loading C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll into Unity Child Domain
+debug Non platform assembly: C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Library\ScriptAssemblies\Assembly-CSharp.dll (this message is harmless)
+debug Loading C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Library\ScriptAssemblies\Assembly-CSharp.dll into Unity Child Domain
+debug Non platform assembly: C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll (this message is harmless)
+debug Loading C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll into Unity Child Domain
+debug Non platform assembly: C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll (this message is harmless)
+debug Loading C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll into Unity Child Domain
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\PackageManager\Unity\PackageManager\5.6.0\Unity.PackageManager.dll (this message is harmless)
 debug Loading C:\Program Files\Unity\Editor\Data\PackageManager\Unity\PackageManager\5.6.0\Unity.PackageManager.dll into Unity Child Domain
 debug Non platform assembly: C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\Advertisements\Editor\UnityEditor.Advertisements.dll (this message is harmless)
@@ -888,41 +873,37 @@ debug Non platform assembly: C:\Program Files\Unity\Editor\Data\UnityExtensions\
 debug Loading C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\UnityVR\RuntimeEditor\UnityEngine.VR.dll into Unity Child Domain
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll (this message is harmless)
 debug Loading C:\Program Files\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll into Unity Child Domain
-debug Platform assembly: C:\Program Files\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll (this message is harmless)
-debug Loading C:\Program Files\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll into Unity Child Domain
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\PlaybackEngines\LinuxStandaloneSupport\UnityEditor.LinuxStandalone.Extensions.dll (this message is harmless)
 debug Loading C:\Program Files\Unity\Editor\Data\PlaybackEngines\LinuxStandaloneSupport\UnityEditor.LinuxStandalone.Extensions.dll into Unity Child Domain
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport\UnityEditor.WindowsStandalone.Extensions.dll (this message is harmless)
 debug Loading C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport\UnityEditor.WindowsStandalone.Extensions.dll into Unity Child Domain
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\PlaybackEngines\MacStandaloneSupport\UnityEditor.OSXStandalone.Extensions.dll (this message is harmless)
 debug Loading C:\Program Files\Unity\Editor\Data\PlaybackEngines\MacStandaloneSupport\UnityEditor.OSXStandalone.Extensions.dll into Unity Child Domain
-debug Platform assembly: C:\Program Files\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll (this message is harmless)
-debug Loading C:\Program Files\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll into Unity Child Domain
-debug Platform assembly: C:\Program Files\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll (this message is harmless)
-debug Loading C:\Program Files\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll into Unity Child Domain
-debug Non platform assembly: C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\Generated.Code.dll (this message is harmless)
-debug Loading C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\Generated.Code.dll into Unity Child Domain
-debug Non platform assembly: C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\Improbable.WorkerSdkCsharp.dll (this message is harmless)
-debug Loading C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\Improbable.WorkerSdkCsharp.dll into Unity Child Domain
-debug Non platform assembly: C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\Improbable.WorkerSdkCsharp.Framework.dll (this message is harmless)
-debug Loading C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\Improbable.WorkerSdkCsharp.Framework.dll into Unity Child Domain
-debug Non platform assembly: C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\System.Threading.dll (this message is harmless)
-debug Loading C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\System.Threading.dll into Unity Child Domain
-debug Non platform assembly: C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\Unity\Improbable.UnityDll.dll (this message is harmless)
-debug Loading C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\Unity\Improbable.UnityDll.dll into Unity Child Domain
-debug Non platform assembly: C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Addons\Improbable.Unity.EditorAddon.SpatialBuild.dll (this message is harmless)
-debug Loading C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Addons\Improbable.Unity.EditorAddon.SpatialBuild.dll into Unity Child Domain
-debug Non platform assembly: C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Addons\Improbable.Unity.EditorAddon.SpatialConnect.dll (this message is harmless)
-debug Loading C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Addons\Improbable.Unity.EditorAddon.SpatialConnect.dll into Unity Child Domain
-debug Non platform assembly: C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Addons\Improbable.Unity.EditorAddon.SpatialLocal.dll (this message is harmless)
-debug Loading C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Addons\Improbable.Unity.EditorAddon.SpatialLocal.dll into Unity Child Domain
-debug Non platform assembly: C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Addons\Improbable.Unity.EditorAddon.SpatialUpload.dll (this message is harmless)
-debug Loading C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Addons\Improbable.Unity.EditorAddon.SpatialUpload.dll into Unity Child Domain
-debug Non platform assembly: C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Dll\Editor\Improbable.EditorDll.dll (this message is harmless)
-debug Loading C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Dll\Editor\Improbable.EditorDll.dll into Unity Child Domain
+debug Non platform assembly: C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\15.0\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll (this message is harmless)
+debug Loading C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\15.0\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll into Unity Child Domain
+debug Non platform assembly: C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\Generated.Code.dll (this message is harmless)
+debug Loading C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\Generated.Code.dll into Unity Child Domain
+debug Non platform assembly: C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\Improbable.WorkerSdkCsharp.dll (this message is harmless)
+debug Loading C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\Improbable.WorkerSdkCsharp.dll into Unity Child Domain
+debug Non platform assembly: C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\Improbable.WorkerSdkCsharp.Framework.dll (this message is harmless)
+debug Loading C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\Improbable.WorkerSdkCsharp.Framework.dll into Unity Child Domain
+debug Non platform assembly: C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\System.Threading.dll (this message is harmless)
+debug Loading C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\System.Threading.dll into Unity Child Domain
+debug Non platform assembly: C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\Unity\Improbable.UnityDll.dll (this message is harmless)
+debug Loading C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\Unity\Improbable.UnityDll.dll into Unity Child Domain
+debug Non platform assembly: C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Addons\Improbable.Unity.EditorAddon.SpatialBuild.dll (this message is harmless)
+debug Loading C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Addons\Improbable.Unity.EditorAddon.SpatialBuild.dll into Unity Child Domain
+debug Non platform assembly: C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Addons\Improbable.Unity.EditorAddon.SpatialConnect.dll (this message is harmless)
+debug Loading C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Addons\Improbable.Unity.EditorAddon.SpatialConnect.dll into Unity Child Domain
+debug Non platform assembly: C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Addons\Improbable.Unity.EditorAddon.SpatialLocal.dll (this message is harmless)
+debug Loading C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Addons\Improbable.Unity.EditorAddon.SpatialLocal.dll into Unity Child Domain
+debug Non platform assembly: C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Addons\Improbable.Unity.EditorAddon.SpatialUpload.dll (this message is harmless)
+debug Loading C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Addons\Improbable.Unity.EditorAddon.SpatialUpload.dll into Unity Child Domain
+debug Non platform assembly: C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Dll\Editor\Improbable.EditorDll.dll (this message is harmless)
+debug Loading C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Editor\Dll\Editor\Improbable.EditorDll.dll into Unity Child Domain
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\System.Core.dll (this message is harmless)
-debug Refreshing native plugins compatible for Editor in 0.59 ms, found 5 plugins.
-debug Preloading 2 native plugins for Editor in 0.20 ms.
+debug Refreshing native plugins compatible for Editor in 0.88 ms, found 5 plugins.
+debug Preloading 2 native plugins for Editor in 0.26 ms.
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\Mono.Cecil.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\Unity.SerializationLogic.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\Unity.DataContract.dll (this message is harmless)
@@ -931,29 +912,29 @@ debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\ICSharpCode.
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\System.Xml.Linq.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\Unity.IvyParser.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\System.Web.dll (this message is harmless)
-debug Updating Assets/Plugins/Improbable/CoreSdk/core-dynamic-x86-win32 - GUID: 8e6f2167535c02b4793e08e7ab26d953...
-debug  done. [Time: 45.364277 ms] 
-debug Refreshing native plugins compatible for Editor in 0.56 ms, found 5 plugins.
-debug Preloading 2 native plugins for Editor in 0.18 ms.
+debug Non platform assembly: C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\15.0\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll (this message is harmless)
+debug Updating Assets/Plugins/Improbable/CoreSdk/core-dynamic-x86-win32 - GUID: 88b357e36e2f3d7469524907ef0c691a...
+debug  done. [Time: 81.567474 ms] 
+debug Refreshing native plugins compatible for Editor in 0.81 ms, found 5 plugins.
+debug Preloading 2 native plugins for Editor in 0.22 ms.
 debug 
-debug ----- Total AssetImport time: 0.150677s, AssetImport time: 0.080676s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.321740s, AssetImport time: 0.193715s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
-debug Updating Assets/Plugins/Improbable/CoreSdk/core-dynamic-x86-win32 - GUID: 8e6f2167535c02b4793e08e7ab26d953...
-debug  done. [Time: 8.911037 ms] 
-debug Refreshing native plugins compatible for Editor in 0.56 ms, found 5 plugins.
-debug Preloading 2 native plugins for Editor in 0.17 ms.
+debug Updating Assets/Plugins/Improbable/CoreSdk/core-dynamic-x86-win32 - GUID: 88b357e36e2f3d7469524907ef0c691a...
+debug  done. [Time: 27.401457 ms] 
+debug Refreshing native plugins compatible for Editor in 1.33 ms, found 5 plugins.
+debug Preloading 2 native plugins for Editor in 0.32 ms.
 debug 
-debug ----- Total AssetImport time: 0.064899s, AssetImport time: 0.041838s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.157110s, AssetImport time: 0.103955s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
-debug Updating Assets/Plugins/Improbable/CoreSdk/core-dynamic-x86-win32 - GUID: 8e6f2167535c02b4793e08e7ab26d953...
-debug  done. [Time: 8.784886 ms] 
-debug Refreshing native plugins compatible for Editor in 0.56 ms, found 5 plugins.
-debug Preloading 2 native plugins for Editor in 0.17 ms.
+debug Updating Assets/Plugins/Improbable/CoreSdk/core-dynamic-x86-win32 - GUID: 88b357e36e2f3d7469524907ef0c691a...
+debug  done. [Time: 26.878548 ms] 
+debug Refreshing native plugins compatible for Editor in 1.29 ms, found 5 plugins.
+debug Preloading 2 native plugins for Editor in 0.34 ms.
 debug 
-debug ----- Total AssetImport time: 0.063478s, AssetImport time: 0.039886s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.142845s, AssetImport time: 0.101171s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
 debug Initializing Unity.PackageManager (PackageManager) v5.6.0 for Unity v5.6.0f3
-debug Setting Unknown:MetroPlayer v5.6.0 for Unity v5.6.0f3 to C:\Program Files\Unity\Editor\Data\PlaybackEngines\iOSSupport
 debug Setting Standalone:StandaloneLinux v5.6.0 for Unity v5.6.0f3 to C:\Program Files\Unity\Editor\Data\PlaybackEngines\LinuxStandaloneSupport
 debug Setting Standalone:StandaloneOSXIntel v5.6.0 for Unity v5.6.0f3 to C:\Program Files\Unity\Editor\Data\PlaybackEngines\MacStandaloneSupport
 debug Setting Standalone:StandaloneWindows v5.6.0 for Unity v5.6.0f3 to C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport
@@ -997,73 +978,73 @@ debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\Bo
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.Parser.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\UnityScript.Lang.dll (this message is harmless)
-debug Registered platform support modules in: 0.0777242s.
+debug Registered platform support modules in: 0.2003286s.
 debug 
-debug Hashing assets ... 0.005 seconds
+debug Hashing assets ... 0.009 seconds
 debug   file open: 0.000 seconds (2 files)
-debug   file read: 0.001 seconds (3.115 MB)
-debug   hash: 0.004 seconds
-debug Updating Assets/Plugins/Improbable/CoreSdk/core-dynamic-x86-win32/CoreSdkDll.dll - GUID: 6a463dd1427a88945a333c5d2e25e85b...
-debug  done. [Time: 11.482829 ms] 
-debug Refreshing native plugins compatible for Editor in 1.18 ms, found 5 plugins.
-debug Preloading 2 native plugins for Editor in 0.16 ms.
+debug   file read: 0.002 seconds (3.115 MB)
+debug   hash: 0.008 seconds
+debug Updating Assets/Plugins/Improbable/CoreSdk/core-dynamic-x86-win32/CoreSdkDll.dll - GUID: 3dd99c31a7b6dc74591f737c4411ce55...
+debug  done. [Time: 38.316658 ms] 
+debug Refreshing native plugins compatible for Editor in 1.59 ms, found 5 plugins.
+debug Preloading 2 native plugins for Editor in 0.20 ms.
 debug 
-debug ----- Total AssetImport time: 0.077229s, AssetImport time: 0.046011s, Asset hashing: 0.004946s [3.1 MB, 629.921326 mb/s]
+debug ----- Total AssetImport time: 0.177460s, AssetImport time: 0.119856s, Asset hashing: 0.008740s [3.1 MB, 356.429871 mb/s]
 debug 
-debug Updating Assets/Plugins/Improbable/CoreSdk/core-dynamic-x86_64-win32 - GUID: 2a024cb82f379ba4aafffcb4a3a6a642...
-debug  done. [Time: 9.015808 ms] 
-debug Refreshing native plugins compatible for Editor in 0.55 ms, found 5 plugins.
-debug Preloading 2 native plugins for Editor in 0.17 ms.
+debug Updating Assets/Plugins/Improbable/CoreSdk/core-dynamic-x86_64-win32 - GUID: 0dd04eb665f8f8b49aa64aa46182d8b0...
+debug  done. [Time: 22.464602 ms] 
+debug Refreshing native plugins compatible for Editor in 1.05 ms, found 5 plugins.
+debug Preloading 2 native plugins for Editor in 0.21 ms.
 debug 
-debug ----- Total AssetImport time: 0.068125s, AssetImport time: 0.041079s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.147875s, AssetImport time: 0.094741s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
-debug Updating Assets/Plugins/Improbable/CoreSdk/core-dynamic-x86_64-win32 - GUID: 2a024cb82f379ba4aafffcb4a3a6a642...
-debug  done. [Time: 9.011104 ms] 
-debug Refreshing native plugins compatible for Editor in 0.56 ms, found 5 plugins.
-debug Preloading 2 native plugins for Editor in 0.17 ms.
+debug Updating Assets/Plugins/Improbable/CoreSdk/core-dynamic-x86_64-win32 - GUID: 0dd04eb665f8f8b49aa64aa46182d8b0...
+debug  done. [Time: 22.289038 ms] 
+debug Refreshing native plugins compatible for Editor in 0.82 ms, found 5 plugins.
+debug Preloading 2 native plugins for Editor in 0.21 ms.
 debug 
-debug ----- Total AssetImport time: 0.063115s, AssetImport time: 0.040206s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.124614s, AssetImport time: 0.086045s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
-debug Updating Assets/Plugins/Improbable/CoreSdk/core-dynamic-x86_64-win32 - GUID: 2a024cb82f379ba4aafffcb4a3a6a642...
-debug  done. [Time: 8.933703 ms] 
-debug Refreshing native plugins compatible for Editor in 0.56 ms, found 5 plugins.
-debug Preloading 2 native plugins for Editor in 0.17 ms.
+debug Updating Assets/Plugins/Improbable/CoreSdk/core-dynamic-x86_64-win32 - GUID: 0dd04eb665f8f8b49aa64aa46182d8b0...
+debug  done. [Time: 22.157770 ms] 
+debug Refreshing native plugins compatible for Editor in 1.00 ms, found 5 plugins.
+debug Preloading 2 native plugins for Editor in 0.21 ms.
 debug 
-debug ----- Total AssetImport time: 0.066108s, AssetImport time: 0.041604s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.126782s, AssetImport time: 0.086560s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
 debug 
-debug Hashing assets ... 0.006 seconds
+debug Hashing assets ... 0.010 seconds
 debug   file open: 0.000 seconds (2 files)
-debug   file read: 0.001 seconds (4.094 MB)
-debug   hash: 0.006 seconds
-debug Updating Assets/Plugins/Improbable/CoreSdk/core-dynamic-x86_64-win32/CoreSdkDll.dll - GUID: 348c038038b666f4995ced1a05c0c5a2...
-debug  done. [Time: 11.195887 ms] 
-debug Refreshing native plugins compatible for Editor in 1.18 ms, found 5 plugins.
-debug Preloading 2 native plugins for Editor in 0.16 ms.
+debug   file read: 0.002 seconds (4.094 MB)
+debug   hash: 0.010 seconds
+debug Updating Assets/Plugins/Improbable/CoreSdk/core-dynamic-x86_64-win32/CoreSdkDll.dll - GUID: 7f5b5637995248441a199ce270c73614...
+debug  done. [Time: 33.699604 ms] 
+debug Refreshing native plugins compatible for Editor in 1.83 ms, found 5 plugins.
+debug Preloading 2 native plugins for Editor in 0.25 ms.
 debug 
-debug ----- Total AssetImport time: 0.077600s, AssetImport time: 0.045408s, Asset hashing: 0.006458s [4.1 MB, 633.981873 mb/s]
+debug ----- Total AssetImport time: 0.153172s, AssetImport time: 0.103122s, Asset hashing: 0.010439s [4.1 MB, 392.224701 mb/s]
 debug 
-debug Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.060857 seconds
-debug Refreshing native plugins compatible for Editor in 0.56 ms, found 5 plugins.
-debug Preloading 2 native plugins for Editor in 0.17 ms.
+debug Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.092293 seconds
+debug Refreshing native plugins compatible for Editor in 0.82 ms, found 5 plugins.
+debug Preloading 2 native plugins for Editor in 0.21 ms.
 debug 
-debug ----- Total AssetImport time: 0.050008s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.080171s, AssetImport time: 0.000001s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
+debug Non platform assembly: C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\UnityVR\Editor\UnityEditor.iOS.Extensions.Xcode.dll (this message is harmless)
 debug Mono: successfully reloaded assembly
-debug - Completed reload, in  2.739 seconds
+debug - Completed reload, in  3.959 seconds
 debug Modules already registered, not loading
 debug Native extension for OSXStandalone target not found
 debug Native extension for WindowsStandalone target not found
 debug Native extension for LinuxStandalone target not found
-debug Native extension for iOS target not found
-debug Validating Project structure ... 0.011156 seconds.
-debug Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.057914 seconds
-debug Refreshing native plugins compatible for Editor in 0.55 ms, found 5 plugins.
-debug Preloading 2 native plugins for Editor in 0.16 ms.
+debug Validating Project structure ... 0.015072 seconds.
+debug Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.084892 seconds
+debug Refreshing native plugins compatible for Editor in 0.85 ms, found 5 plugins.
+debug Preloading 2 native plugins for Editor in 0.21 ms.
 debug 
-debug ----- Total AssetImport time: 0.047121s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.072674s, AssetImport time: 0.000001s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
-debug Warming cache for 569 main assets: 0.005115 seconds elapsed
+debug Warming cache for 600 main assets: 0.003636 seconds elapsed
 debug Initializing Unity extensions:
 debug  'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll'  GUID: 12fd8a0055b84bb59e84c9835a37e333
 debug  'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll'  GUID: 852e56802eb941638acbb491814497b0
@@ -1089,12 +1070,12 @@ debug  'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Edito
 debug  'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll'  GUID: 4113173d5e95493ab8765d7b08371de4
 debug  'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll'  GUID: 8e0cd8ed44d4412cbe0642067abc9e44
 debug  'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll'  GUID: 739bbd9f364b4268874f9fd86ab3beef
-debug Unloading 281 Unused Serialized files (Serialized files now loaded: 0)
-debug System memory in use before: 26.4 MB.
+debug Unloading 280 Unused Serialized files (Serialized files now loaded: 0)
+debug System memory in use before: 26.3 MB.
 debug System memory in use after: 26.2 MB.
 debug 
-debug Unloading 168 unused Assets to reduce memory usage. Loaded Objects now: 750.
-debug Total: 1.098591 ms (FindLiveObjects: 0.135559 ms CreateObjectMapping: 0.026085 ms MarkObjects: 0.903163 ms  DeleteObjects: 0.032500 ms)
+debug Unloading 167 unused Assets to reduce memory usage. Loaded Objects now: 750.
+debug Total: 1.461230 ms (FindLiveObjects: 0.124785 ms CreateObjectMapping: 0.033492 ms MarkObjects: 1.252174 ms  DeleteObjects: 0.049698 ms)
 debug 
 debug Starting SpatialOS Unity Clean
 debug UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
@@ -1165,143 +1146,140 @@ debug
 debug (Filename: C:/w/ee9378522cbb9fd1/UnitySdk/Improbable.Unity/Assets/Precompiled/Editor/Build/SimpleBuildSystem.cs Line: 142)
 debug 
 debug Batchmode quit successfully invoked - shutting down!
-debug Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.053458 seconds
+debug Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.089058 seconds
 debug Refresh: trashing asset 9c5ad41057599e34ca564d5563d304ea
 debug Refresh: trashing asset cf7fda100708e75448f8a540f362c0d4
-debug Refresh: trashing asset 3a5d91203dc79f3458557c8b8c4b2220
-debug Refresh: trashing asset e7d24030794b15b4d980f9dcec2f98de
-debug Refresh: trashing asset 348c038038b666f4995ced1a05c0c5a2
 debug Refresh: trashing asset f534f290f88feed4ca0def5c466a4373
-debug Refresh: trashing asset d477e9b04cb995b4a9fe975dfc0fa375
-debug Refresh: trashing asset cdfbe4f0baeb64f4f959f76db92fc863
 debug Refresh: trashing asset 2f7d86215b75bf740a74376d893772b8
-debug Refresh: trashing asset e34f8e21ebab7d74390b0b38f0897db6
+debug Refresh: trashing asset fe0c6a3165a1a614ba5b4e1fcd57f1c1
+debug Refresh: trashing asset 3dd99c31a7b6dc74591f737c4411ce55
 debug Refresh: trashing asset b75c0e3164850d246a9ec83eebb44e5f
+debug Refresh: trashing asset 3e1d905160ce5254fb2b0899e1760bee
 debug Refresh: trashing asset 0faf5b711b6513b46b0a620da7ed31c7
+debug Refresh: trashing asset 5c340681ef4b5ee419e7b2324d1c230c
 debug Refresh: trashing asset e29f6d81fd0d26944a651954f663730b
 debug Refresh: trashing asset db4abba1fe40593382896b18e966eabc
+debug Refresh: trashing asset 5feaf6b14a5147a4daf9bfec5c966dcd
 debug Refresh: trashing asset df2f7bb12c331e340b9596d57d3da5ad
 debug Refresh: trashing asset 501c1eb1107d62a4cb285eebca4107da
-debug Refresh: trashing asset 211d71c13d1e485469f6e11f6b187c4a
 debug Refresh: trashing asset 52d9d9d1a275a1049bb23dc924ed242d
-debug Refresh: trashing asset 6a463dd1427a88945a333c5d2e25e85b
-debug Refresh: trashing asset db170ce1c6b2db14da2065800305a542
 debug Refresh: trashing asset c719d5029aded364596084d3b37520b7
 debug Refresh: trashing asset 33942e022b0d5852b23a073d26762a86
 debug Refresh: trashing asset 0ef75f029f3d326418757222729ab076
+debug Refresh: trashing asset 642be1127ae977746971e9005984a955
 debug Refresh: trashing asset 9c355812e84737045ab2921b5e87e815
+debug Refresh: trashing asset 8f3b9242fb7bedd4384533755f3d0f48
 debug Refresh: trashing asset 4661d052866da2a4b81e61e28eb2a28f
-debug Refresh: trashing asset 1e54d262bab9a674b863eea8b6bdf6c6
-debug Refresh: trashing asset 4c12936247f96d848a8778d4f8b0a16d
-debug Refresh: trashing asset 71748462bed5084438f2696d7490d312
+debug Refresh: trashing asset bc3d8e628c29908499f476c6c2cc3457
 debug Refresh: trashing asset b01113722c165a278676f66c04955b56
 debug Refresh: trashing asset 30de75a272ae5716992d3d944e5ae71b
-debug Refresh: trashing asset f44ba6c22bd04184585cd3c7aaea812f
 debug Refresh: trashing asset 67aa41e26569041e686bd24bd4deabb2
-debug Refresh: trashing asset 5483c8e2c4f21304992ca6b6c8a0cbd9
 debug Refresh: trashing asset d29444134e66ce54ab77e48c6b8e12a3
 debug Refresh: trashing asset 12cf77239e0cbef44950eec439e7fc87
 debug Refresh: trashing asset 681b3e330237d434ca857e6cbd895117
 debug Refresh: trashing asset 9598b543b87d59f4883de0dd66ab9b7b
 debug Refresh: trashing asset 98433a43b744a6c439323bb46b6ae27d
-debug Refresh: trashing asset 2340c4535c10bc4498dbbadca6a9a950
+debug Refresh: trashing asset b631b053ff312b949a4e5dbedfcc671d
 debug Refresh: trashing asset 62c2d3638a93f0d48a69124481b9e216
+debug Refresh: trashing asset 3fdd9473ff851244bb92111be04ea148
 debug Refresh: trashing asset 9556988323f446d4bb85777e81b94c09
 debug Refresh: trashing asset 1bd66e93a2fb70d41820af15750be948
 debug Refresh: trashing asset f4559eb36412f8b49b214b86924e7479
 debug Refresh: trashing asset 184ad5c3b5c51804b8f9e96a6e90a345
 debug Refresh: trashing asset b1db4fd37fed4b546af51f63acd26171
+debug Refresh: trashing asset 88b357e36e2f3d7469524907ef0c691a
 debug Refresh: trashing asset de0af7e32febd1143bb82e65881a71f0
 debug Refresh: trashing asset 41b7b02479a05a5281afe326ce8dfa43
-debug Refresh: trashing asset a8d89c242ebf2cd46bb96061181c5030
 debug Refresh: trashing asset 8166aa3422ade8440bf95a57204cb43e
+debug Refresh: trashing asset 08178f3424982c14c88556b337621b0b
 debug Refresh: trashing asset 8377b044344f0ba4797a82b5d61bacd8
-debug Refresh: trashing asset ab0a6444fb4b49943b0dafedba6e7862
 debug Refresh: trashing asset 601d4064a47f5a9d900eaee8b0222050
 debug Refresh: trashing asset 2df7a964d785f6e4fbc5ca00b2162274
 debug Refresh: trashing asset 99ccd074be3e39546a33faf32b21fded
 debug Refresh: trashing asset 5582d874a006b5245a50389e508da20a
-debug Refresh: trashing asset dc02de84565d0ac49b78f361725d52de
-debug Refresh: trashing asset f2d05ea4a282e074caed4cb625e84d8d
-debug Refresh: trashing asset fe3597e43aba3434db37a4bf5e1340e0
+debug Refresh: trashing asset c8fbfe84f6134c04fa6df0a774980948
+debug Refresh: trashing asset ee4fa0949cfbecc4c84db1daab2d50d9
+debug Refresh: trashing asset 7a7a18b48ebf7ad49ae0eee319bca190
+debug Refresh: trashing asset ce609dc4cef69464caa11896ffd2c99e
+debug Refresh: trashing asset 35e3bdd4696f22b43b8412b61ac609e4
 debug Refresh: trashing asset 281d48f4e6faef64aa7124ced317562f
-debug Refresh: trashing asset f99f5cf42ae53b4409944c681c8c628a
+debug Refresh: trashing asset 465ad005be428b94b8a66b231f71c43b
 debug Refresh: trashing asset a6f99405e353e9044ab85947cdb4eefc
-debug Refresh: trashing asset 672bed15ac4962644b19120d13e08962
+debug Refresh: trashing asset 50e11e057515b604e93836479a2543a3
 debug Refresh: trashing asset b89da13510b255f19d03de99274ec846
-debug Refresh: trashing asset 58559c354b0c52642a3c4128e8266e35
+debug Refresh: trashing asset 4bb4b24536e471d4eba3cf0773e24cbf
 debug Refresh: trashing asset 2c9cd445986c5f74e8f11fe8fdf82f1d
-debug Refresh: trashing asset ada1d645effaef144a246f1c1231cbe5
 debug Refresh: trashing asset 3861ba45f21f5930b5cfe59b5f858e1e
+debug Refresh: trashing asset f936af4533e88f14d8e1f431be510687
 debug Refresh: trashing asset bb596665c0b76f94ba77a342827d51a9
 debug Refresh: trashing asset 4e9dd085558e3184b9f1c119024171aa
 debug Refresh: trashing asset f0f17f9505d7d374e8e8ba4af0531007
 debug Refresh: trashing asset eb50d8e596e496c44827b5b80a04dd2b
 debug Refresh: trashing asset dc32d6f532f0501429cf470fee98e035
 debug Refresh: trashing asset 5d504af5aa1f0ed4fad51a0dfde196c0
-debug Refresh: trashing asset 3e667cf550fa5d84593ed2dd8f9862e1
 debug Refresh: trashing asset b5323df59b215a878e557b24ac2b2bb9
-debug Refresh: trashing asset 018fc9060a0b0d945864fbf371c8da68
+debug Refresh: trashing asset 50721b1605fe0484fa23416ebfda56bb
 debug Refresh: trashing asset f15933463890a3547999ce6b9d9d437b
 debug Refresh: trashing asset d53cf74672fe53549a85938620778b26
-debug Refresh: trashing asset cd1a2f46963ea7e49883f270a0ad5806
 debug Refresh: trashing asset a6c0c556a0e988443a2f36cd87066744
+debug Refresh: trashing asset 543599560c4330d43a153f9975693e67
 debug Refresh: trashing asset 8341e066cd112a24d9bb69ff8f6c39a9
 debug Refresh: trashing asset 6d98c466b77ebab4f8b8654dbdb2e637
-debug Refresh: trashing asset a470b276e7afce243a33a7128258b7de
+debug Refresh: trashing asset 2b21bb76063947c4bbac075da118391a
 debug Refresh: trashing asset 2f4fef76d99852eb823ff9a9a6d1fa51
 debug Refresh: trashing asset 435fcb8684b356318dcbbf0a0c884952
 debug Refresh: trashing asset 562b1e96ea87bcd49a9a9b3a21a48b60
 debug Refresh: trashing asset 245b24a688535fb5b395b0803c628565
 debug Refresh: trashing asset 6a1b3aa61c49ae645a77ad0d35dd6644
-debug Refresh: trashing asset 40341db606380c343aba5d13601aa529
+debug Refresh: trashing asset 0dd04eb665f8f8b49aa64aa46182d8b0
+debug Refresh: trashing asset 923e67f6d03d2fc4cbfd33aeeecee935
 debug Refresh: trashing asset 7671ef079ef60f545874c7ef0f2c698b
-debug Refresh: trashing asset 48dad8373080e0943a6ed9d48b0aa2c2
+debug Refresh: trashing asset c1191727881263141bead511fccff604
+debug Refresh: trashing asset 7f5b5637995248441a199ce270c73614
 debug Refresh: trashing asset 38841d3731301fb44bda44766b5315b3
-debug Refresh: trashing asset c98ee9475f282544796b80f06c5f323c
 debug Refresh: trashing asset 3b0560575dffad74cbe3e9e4e4806aba
-debug Refresh: trashing asset 8e6f2167535c02b4793e08e7ab26d953
+debug Refresh: trashing asset aa5e60871ca74414da61badc2ea29cf4
 debug Refresh: trashing asset 74ea0b873ffc2a14697a945df9fe9107
 debug Refresh: trashing asset 9e63d197aee438a46a68b2418e673945
 debug Refresh: trashing asset 23ec88979300913418089a1ce988d692
-debug Refresh: trashing asset d72a35c7b0999714bb272b7fe0f2c981
+debug Refresh: trashing asset daaa05a7f126c2745b2fddd4eeffedcb
+debug Refresh: trashing asset a40ec9b7170796946a41150a16dd6f8b
 debug Refresh: trashing asset 36200ac70c93efb499190e2bb30a98dd
-debug Refresh: trashing asset a3b74a18638344745bf9a9f2e139feb5
-debug Refresh: trashing asset d221ca68b00da0049a9ae3daf7fab74c
+debug Refresh: trashing asset 9c3b85286d0e543458878c9ebb473236
 debug Refresh: trashing asset d018bc78cce6f7a4d9975f0b789fac1e
-debug Refresh: trashing asset bcbdb3b8f41f9c048b3daf9fe1376b1e
-debug Refresh: trashing asset b61355b845594b34fb2fb7f3eecb5595
-debug Refresh: trashing asset 2a024cb82f379ba4aafffcb4a3a6a642
-debug Refresh: trashing asset 68384db8680b92e439a669ef3aa60d5a
+debug Refresh: trashing asset 2f3a86b8d4dbef843a16ebd744d8659d
 debug Refresh: trashing asset 4048ffb8cb76529ab0d883f0a16ecb56
 debug Refresh: trashing asset a27bf0c8102ce4c979033bf2835fc027
+debug Refresh: trashing asset 44b188c89972fe04ebd0243ed54d0cf2
+debug Refresh: trashing asset 4c9b10d850a9b294ba99cb03ec07aaa0
 debug Refresh: trashing asset 0d2580e801aadf649b264c0e4e8c3287
+debug Refresh: trashing asset 0d4246096530f3a499185ae41e2d4f42
+debug Refresh: trashing asset 2fe56519c6f54354e9c93c66247ede46
 debug Refresh: trashing asset 23658a29650e8e9448113085fa988e50
-debug Refresh: trashing asset 126782391c91f69429ffa807341b042c
+debug Refresh: trashing asset 4598d049a8d63be468877b31de19a54b
 debug Refresh: trashing asset 9220bd49d60c5dc4aabaa970bf3be46b
-debug Refresh: trashing asset 4b856a59711feae47a0c48ef3a88deb4
+debug Refresh: trashing asset 3bc36d5910f5feb43b92d4dc4b080ebc
+debug Refresh: trashing asset ccb70f79301a92f419e5f8ee0912ff67
 debug Refresh: trashing asset 772c758976058a74499949e50df56f33
+debug Refresh: trashing asset bafa3d893cc04a84497820d2ee28b3e2
 debug Refresh: trashing asset ba3ab89976f1bf04088338a507fb19c9
+debug Refresh: trashing asset 749f86a9d3b26654e89c1a2c6eb5ad65
 debug Refresh: trashing asset 05835ea961e5d8c4c97ddbdae5956be3
-debug Refresh: trashing asset 10ca3cb92564c614c8eb17dfa6f1db3c
+debug Refresh: trashing asset a34e09b977a31a24ea574941061f830a
 debug Refresh: trashing asset a37464d92e6d7ef4a89a5088fc8057c6
 debug Refresh: trashing asset 1c9400e9ec2061a45b91256e9dcd7af1
 debug Refresh: trashing asset afb35d0ae5ba4a64eb6c9ab38fb54ef5
+debug Refresh: trashing asset 92f6db1aa1642014e9178ab8457e996c
 debug Refresh: trashing asset ceabfe1aafcc05047b7d59adac704f8e
 debug Refresh: trashing asset 07ead33a1fe957a29b05a58248ad6973
-debug Refresh: trashing asset 1c147a3a5e4c7094f9f2d612fcadd4c0
+debug Refresh: trashing asset 00d48f4ab93548147ac3450efe368a60
 debug Refresh: trashing asset d99bf75a185b59843a1696f0c9703900
 debug Refresh: trashing asset 0fdfce6a40eb55acb297a10e279f7d60
 debug Refresh: trashing asset 28b51f7a5f85039498981aaad68b2675
-debug Refresh: trashing asset 013153ca4c24039429ba388c747fd5cb
 debug Refresh: trashing asset c8ad01ea56b15c849aea76f8ac408cb5
 debug Refresh: trashing asset d7c8e2fa51e39684598c42a7745bedeb
-debug Refresh: trashing asset 9115100b02348764b9250b0bd3c7327b
 debug Refresh: trashing asset 9e1d420bfa2a1d34587e0a4434624949
-debug Refresh: trashing asset 4b575d1bd13e8c84b8a6fcdf8ab19289
-debug Refresh: trashing asset c228b93b571665348992d554b7bd4db9
-debug Refresh: trashing asset 9a2c8e3b1ad9f7e4cb246b8bd9da8fd2
-debug Refresh: trashing asset 42fcf34b35ed27c40995e69a618834fd
+debug Refresh: trashing asset 49deba0b82f134448a8ec01b14eddd9d
 debug Refresh: trashing asset aabe264b4b1498445a6d652c842d8268
 debug Refresh: trashing asset 6124c94b427701f4fa3c0b6912bf798e
 debug Refresh: trashing asset ef6dbe4bbe79e5a42b2ecf2c5f3261cf
@@ -1309,53 +1287,53 @@ debug Refresh: trashing asset 9167c05b43fc1a44f82349d21c66ce2b
 debug Refresh: trashing asset b094315b693a80f42a2cbe6d6fe3dc85
 debug Refresh: trashing asset 9e94475b22cea2f45a728991af0822bf
 debug Refresh: trashing asset d3791b5badfa5406b200e502b634b055
-debug Refresh: trashing asset 09e9f66b200bbd449af17519065a86df
-debug Refresh: trashing asset 11b4f58b77b9ac44e8eae47b5fcb8335
 debug Refresh: trashing asset 6e066d8bff4753d0ba87d58e6e75e2e7
-debug Refresh: trashing asset 3019ddbb2cbd6c1408ffd1a76e0f57ee
-debug Refresh: trashing asset 115729cbe0d07854d8fdf7e2f4b65a89
-debug Refresh: trashing asset 564b94db2dc54f048b58fb6e48f91528
+debug Refresh: trashing asset a2f3309b1c5d030409e98dea56832226
 debug Refresh: trashing asset 00dd92eb51d304c4e848ec943d76d3d6
-debug Refresh: trashing asset faf4e4fbb1ae1b846b48901f247d627c
+debug Refresh: trashing asset 4f2fb9ebc018c1a49ba7f42824f1b502
+debug Refresh: trashing asset c0b7d4fbb8da42a4487718413a57b567
 debug Refresh: trashing asset 5cb8b60c88635e4da1dff5acd42ef6ea
+debug Refresh: trashing asset 48066c0ca6789ec498944683506feaae
 debug Refresh: trashing asset 1740dd0c285ab6f41a626b631f8620c1
 debug Refresh: trashing asset 41c9a31c5b785245872880cfbfb0d143
 debug Refresh: trashing asset 359d352c3870977438d9e32c641596d7
-debug Refresh: trashing asset 0e76d62c13274d5498c169f3c5ed8f4e
 debug Refresh: trashing asset 7ac5a85c19e2557f8938fcb2c231efa1
 debug Refresh: trashing asset 36fc768ccbdd2b24aa28cdbfcd632b56
+debug Refresh: trashing asset ea71529cba09d524893d801780e3b713
 debug Refresh: trashing asset 5235339c146a675449098fb3ffe85a40
 debug Refresh: trashing asset 5fa44dbcc911b9d4dacf189f17ceac51
 debug Refresh: trashing asset 733c8fcc926571644845cde0db6dd3a4
+debug Refresh: trashing asset 8876f0dc37f436643a820db98e04af0a
+debug Refresh: trashing asset cd7b42dc844baf64dbe9c69f948f0306
 debug Refresh: trashing asset 34021fec446a5e14190f9556e2d8ce42
 debug Refresh: trashing asset a0f3f7fc918455e1bc8b4a5a77696437
 debug Refresh: trashing asset 82bc8bfce7ee2b743a1cd061bab57d30
-debug Refresh: trashing asset 6376a10d6777dae448fbc42783b46788
-debug Refresh: trashing asset 8a00081d5be76f84084c1d0a03ad57cf
+debug Refresh: trashing asset 3fcfd00d614d47b47bd3b9b806e38675
+debug Refresh: trashing asset 49a8660d5d552bd4789d60a21c97e3c3
 debug Refresh: trashing asset a295953df62a78846b170ab507f10247
 debug Refresh: trashing asset 79b7354d6621ea544be9f48865593bbe
-debug Refresh: trashing asset 6c055c9d1b7583242bad5430fc841f5b
+debug Refresh: trashing asset c5e31b7d09d26d449ada632850be64d6
 debug Refresh: trashing asset 0f0d10cd1f0971c4eafea83a3729268e
 debug Refresh: trashing asset ad5e13cd9bfc340488a3552b6354aac6
 debug Refresh: trashing asset c35f15cdd70d86e4e925b26bc1b6c8bc
 debug Refresh: trashing asset 5814fbed48b65b845a0d2f7548011fde
-debug Refresh: trashing asset 4638dfed8b60fdc47ae75afc3ddb678d
+debug Refresh: trashing asset a61fe3fdeef96974faf9e5a1e3b38c60
 debug Refresh: trashing asset 5ea866fd2c5a59acb04925fa16b3972d
 debug Refresh: trashing asset a786f8fde2c7b0b47b96966044de60d2
 debug Refresh: trashing asset 7739a80e57e656444b381b740f858445
-debug Refresh: trashing asset bf552b3e709bce649a99b2e7ac317089
-debug Refresh: trashing asset ee4931ce1e378124eb544c4bee85a8dd
-debug Refresh: trashing asset eb5a2cceb3a3b6d41820b5cd2f390b54
-debug Refresh: trashing asset 871b05de88a86734a88c34b179d33f07
+debug Refresh: trashing asset 29d5a22ed320f614ea4181fdd3c5bbd9
+debug Refresh: trashing asset ebecba3e929a92549923f6d98671856e
+debug Refresh: trashing asset 1f79c34eab784dd408b10e0ea929a04a
+debug Refresh: trashing asset 5896165e2cd73d9409288b6b2ffbee4f
+debug Refresh: trashing asset 30b5746e719da824b832e17845675b7c
+debug Refresh: trashing asset 757cad7ee7d554b49b74e93b68a74bb5
 debug Refresh: trashing asset eaeb5d0f53e65d2ba9c3f435e66a9655
-debug Refresh: trashing asset 36ca322fdbae83d41a6f39982fb343b6
+debug Refresh: trashing asset 3bd8ec1f6793b3a4ba3cb78e55bd9e48
+debug Refresh: trashing asset 5b8b335f5cc681f46b3441506f0c21b8
 debug Refresh: trashing asset 37f5357f2b54ea34b9c8036ff17be5b6
-debug Refresh: trashing asset 1acef98f82dd15446981f4ee96c82f7f
 debug Refresh: trashing asset d7c1bc8fbf8d57ca86df828c403b9a45
-debug Refresh: trashing asset fda801cf783067c448f4c0e82bdf890c
-debug Refresh: trashing asset 33d55fdffc892b94fad7768120f4d3d9
+debug Refresh: trashing asset 3634d49f692390245baff25002d0f223
 debug Refresh: trashing asset c95e45ef45da09344a9871d6ca58bdac
-debug Refresh: trashing asset 7bf894ff79a2db047963e8c8631e6e41
 debug Ignoring 'Assets/Plugins/Improbable/Sdk/Dll/Generated.Code.dll' because it wasn't found
 debug Ignoring 'Assets/Plugins/Improbable/Sdk/Dll/Improbable.WorkerSdkCsharp.Framework.dll' because it wasn't found
 debug Ignoring 'Assets/Plugins/Improbable/Sdk/Dll/Improbable.WorkerSdkCsharp.dll' because it wasn't found
@@ -1391,62 +1369,76 @@ debug     Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Uni
 debug     Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor:Editor
 debug     Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Runtime/UnityEngine.VR.dll' because we're compiling for Editor:Editor
 debug - starting compile Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll, for buildtarget 5
-debug Refreshing native plugins compatible for Editor in 0.46 ms, found 4 plugins.
-debug Preloading 2 native plugins for Editor in 0.19 ms.
+debug Ignoring 'Assets/Plugins/Improbable/Sdk/Dll/Generated.Code.dll' because it wasn't found
+debug Ignoring 'Assets/Plugins/Improbable/Sdk/Dll/Improbable.WorkerSdkCsharp.Framework.dll' because it wasn't found
+debug Ignoring 'Assets/Plugins/Improbable/Sdk/Dll/Improbable.WorkerSdkCsharp.dll' because it wasn't found
+debug Ignoring 'Assets/Plugins/Improbable/Sdk/Dll/System.Threading.dll' because it wasn't found
+debug Ignoring 'Assets/Plugins/Improbable/Sdk/Dll/Unity/Improbable.UnityDll.dll' because it wasn't found
+debug Ignoring 'Assets/Plugins/Improbable/Sdk/Editor/Addons/Improbable.Unity.EditorAddon.SpatialBuild.dll' because it wasn't found
+debug Ignoring 'Assets/Plugins/Improbable/Sdk/Editor/Addons/Improbable.Unity.EditorAddon.SpatialConnect.dll' because it wasn't found
+debug Ignoring 'Assets/Plugins/Improbable/Sdk/Editor/Addons/Improbable.Unity.EditorAddon.SpatialLocal.dll' because it wasn't found
+debug Ignoring 'Assets/Plugins/Improbable/Sdk/Editor/Addons/Improbable.Unity.EditorAddon.SpatialUpload.dll' because it wasn't found
+debug Ignoring 'Assets/Plugins/Improbable/Sdk/Editor/Dll/Editor/Improbable.EditorDll.dll' because it wasn't found
+debug     Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor:Editor
+debug     Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll' because we're compiling for Editor:Editor
+debug     Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll' because we're compiling for Editor:Editor
+debug     Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/standalone/nunit.framework.dll' because we're compiling for Editor:Editor
+debug     Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Runtime/UnityEngine.HoloLens.dll' because we're compiling for Editor:Editor
+debug     Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor:Editor
+debug     Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Runtime/UnityEngine.VR.dll' because we're compiling for Editor:Editor
+debug Refreshing native plugins compatible for Editor in 0.68 ms, found 4 plugins.
+debug Preloading 2 native plugins for Editor in 0.25 ms.
 debug 
-debug ----- Total AssetImport time: 0.406698s, AssetImport time: 0.128550s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 3.953179s, AssetImport time: 0.600276s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
-debug Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.008635 seconds (Nothing changed)
+debug Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.014889 seconds (Nothing changed)
 debug Cleanup mono
-debug [usbmuxd] Stop listen thread
-debug [usbmuxd] Error: 
-debug [usbmuxd] Listen thread exiting
 debug Exiting batchmode successfully now!
-debug debugger-agent: Unable to listen on 1104
-debug <-- End Logfile C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\.invoke.log
-info [1/3] < Clean All Unity clients and prefabs category=success duration=15.7s
+debug debugger-agent: Unable to listen on 1156
+debug <-- End Logfile C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\.invoke.log
+info [1/3] < Clean All Unity clients and prefabs duration=26.6s category=success
 info [2/3] > Clean Dependencies category=heading
-debug Found project root at C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj
-debug Running within a SpatialOS project, using the default input paths '[C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\schema C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\build\dependencies\schema\standard_library]'
-debug Running within a SpatialOS project, using the default input paths '[C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\schema C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\build\dependencies\schema\standard_library]'
-debug Running within a SpatialOS project, using the default input paths '[C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\schema C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\build\dependencies\schema\standard_library]'
+debug Found project root at C:\Users\gmasc\Desktop\SoftwareEngineeringProj
+debug Running within a SpatialOS project, using the default input paths '[C:\Users\gmasc\Desktop\SoftwareEngineeringProj\schema C:\Users\gmasc\Desktop\SoftwareEngineeringProj\build\dependencies\schema\standard_library]'
+debug Running within a SpatialOS project, using the default input paths '[C:\Users\gmasc\Desktop\SoftwareEngineeringProj\schema C:\Users\gmasc\Desktop\SoftwareEngineeringProj\build\dependencies\schema\standard_library]'
+debug Running within a SpatialOS project, using the default input paths '[C:\Users\gmasc\Desktop\SoftwareEngineeringProj\schema C:\Users\gmasc\Desktop\SoftwareEngineeringProj\build\dependencies\schema\standard_library]'
 debug Executing internal command: [worker_package clean]
-debug Found version '12.0.1' in file C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\spatialos.json
+debug Found version '12.0.1' in file C:\Users\gmasc\Desktop\SoftwareEngineeringProj\spatialos.json
 info [2/3] < Clean Dependencies duration=0.0s category=success
 info [3/3] > Clean Generated C# code category=heading
-debug Found project root at C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj
-debug Running within a SpatialOS project, using the default input paths '[C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\schema C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\build\dependencies\schema\standard_library]'
-debug Running within a SpatialOS project, using the default input paths '[C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\schema C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\build\dependencies\schema\standard_library]'
-debug Running within a SpatialOS project, using the default input paths '[C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\schema C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\build\dependencies\schema\standard_library]'
+debug Found project root at C:\Users\gmasc\Desktop\SoftwareEngineeringProj
+debug Running within a SpatialOS project, using the default input paths '[C:\Users\gmasc\Desktop\SoftwareEngineeringProj\schema C:\Users\gmasc\Desktop\SoftwareEngineeringProj\build\dependencies\schema\standard_library]'
+debug Running within a SpatialOS project, using the default input paths '[C:\Users\gmasc\Desktop\SoftwareEngineeringProj\schema C:\Users\gmasc\Desktop\SoftwareEngineeringProj\build\dependencies\schema\standard_library]'
+debug Running within a SpatialOS project, using the default input paths '[C:\Users\gmasc\Desktop\SoftwareEngineeringProj\schema C:\Users\gmasc\Desktop\SoftwareEngineeringProj\build\dependencies\schema\standard_library]'
 debug Executing internal command: [process_schema clean .spatialos Assets/Plugins/Improbable/Sdk/Dll/Generated.Code.dll]
 info   Cleaning the following directories [.spatialos/schema_codegen_cache .spatialos Assets/Plugins/Improbable/Sdk/Dll/Generated.Code.dll].
-info [3/3] < Clean Generated C# code category=success duration=0.0s
-info >>> Clean category=neutral duration=15.7s
+info [3/3] < Clean Generated C# code duration=0.4s category=success
+info >>> Clean duration=27.0s category=neutral
 info Running task 'clean' for 'UnityWorker'
 info [1/3] > Clean All Unity workers and prefabs category=heading
-debug Found project root at C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj
-debug Running within a SpatialOS project, using the default input paths '[C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\schema C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\build\dependencies\schema\standard_library]'
-debug Running within a SpatialOS project, using the default input paths '[C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\schema C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\build\dependencies\schema\standard_library]'
-debug Running within a SpatialOS project, using the default input paths '[C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\schema C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\build\dependencies\schema\standard_library]'
+debug Found project root at C:\Users\gmasc\Desktop\SoftwareEngineeringProj
+debug Running within a SpatialOS project, using the default input paths '[C:\Users\gmasc\Desktop\SoftwareEngineeringProj\schema C:\Users\gmasc\Desktop\SoftwareEngineeringProj\build\dependencies\schema\standard_library]'
+debug Running within a SpatialOS project, using the default input paths '[C:\Users\gmasc\Desktop\SoftwareEngineeringProj\schema C:\Users\gmasc\Desktop\SoftwareEngineeringProj\build\dependencies\schema\standard_library]'
+debug Running within a SpatialOS project, using the default input paths '[C:\Users\gmasc\Desktop\SoftwareEngineeringProj\schema C:\Users\gmasc\Desktop\SoftwareEngineeringProj\build\dependencies\schema\standard_library]'
 debug Executing internal command: [invoke unity Improbable.Unity.EditorTools.Build.SimpleBuildSystem.Clean --allow_fail]
 debug Invoking [Improbable.Unity.EditorTools.Build.SimpleBuildSystem.Clean] via a Unity instance
 debug Found Unity via known path at 'C:\Program Files\Unity\Editor'
-debug In '', C:\Program Files\Unity\Editor\Unity.exe [-quit -batchmode -logfile C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\.invoke.log -projectPath C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity -nographics -executeMethod Improbable.Unity.EditorTools.Build.SimpleBuildSystem.Clean]
-debug --> Begin Logfile C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\.invoke.log
+debug In '', C:\Program Files\Unity\Editor\Unity.exe [-quit -batchmode -logfile C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\.invoke.log -projectPath C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity -nographics -executeMethod Improbable.Unity.EditorTools.Build.SimpleBuildSystem.Clean]
+debug --> Begin Logfile C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\.invoke.log
 debug 
-debug LICENSE SYSTEM [20171125 18:30:6] No start/stop license dates set
+debug LICENSE SYSTEM [20171127 17:5:39] No start/stop license dates set
 debug 
-debug LICENSE SYSTEM [20171125 18:30:6] Next license update check is after 2017-11-11T11:14:54
+debug LICENSE SYSTEM [20171127 17:5:39] Next license update check is after 2017-11-28T10:56:29
 debug 
 debug Built from '5.6/release' branch; Version is '5.6.0f3 (497a0f351392) revision 4815375'; Using compiler version '160040219'
-debug OS: 'Windows 10  (10.0.0) 64bit' Language: 'it' Physical Memory: 8077 MB
+debug OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 4023 MB
 debug BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 debug Initialize mono
 debug Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 debug Mono path[1] = 'C:/Program Files/Unity/Editor/Data/Mono/lib/mono/2.0'
 debug Mono path[2] = 'C:/Program Files/Unity/Editor/Data/UnityScript'
 debug Mono config path = 'C:/Program Files/Unity/Editor/Data/Mono/etc'
-debug Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56476
+debug Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56612
 debug 
 debug  COMMAND LINE ARGUMENTS:
 debug 
@@ -1454,18 +1446,18 @@ debug C:\Program Files\Unity\Editor\Unity.exe
 debug -quit
 debug -batchmode
 debug -logfile
-debug C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\.invoke.log
+debug C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\.invoke.log
 debug -projectPath
-debug C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity
+debug C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity
 debug -nographics
 debug -executeMethod
 debug Improbable.Unity.EditorTools.Build.SimpleBuildSystem.Clean
-debug Successfully changed project path to: C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity
-debug C:/Users/Matteo Torraca/Desktop/Nuovo/SoftwareEngineeringProj/workers/unity
-debug Loading GUID <-> Path mappings...0.000065 seconds
-debug Loading Asset Database...0.007815 seconds
-debug Audio: FMOD Profiler initialized on port 54901
-debug AssetDatabase consistency checks...0.039581 seconds
+debug Successfully changed project path to: C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity
+debug C:/Users/gmasc/Desktop/SoftwareEngineeringProj/workers/unity
+debug Loading GUID <-> Path mappings...0.000127 seconds
+debug Loading Asset Database...0.014735 seconds
+debug Audio: FMOD Profiler initialized on port 54900
+debug AssetDatabase consistency checks...0.050070 seconds
 debug Initialize engine version: 5.6.0f3 (497a0f351392)
 debug Forcing GfxDevice: Null
 debug NullGfxDevice:
@@ -1476,7 +1468,7 @@ debug Begin MonoManager ReloadAssembly
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\UnityEngine.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\UnityEditor.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\Unity.Locator.dll (this message is harmless)
-debug Refreshing native plugins compatible for Editor in 7.45 ms, found 4 plugins.
+debug Refreshing native plugins compatible for Editor in 10.17 ms, found 4 plugins.
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\I18N.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\I18N.West.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\Unity.DataContract.dll (this message is harmless)
@@ -1487,7 +1479,6 @@ debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\Sy
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\System.Configuration.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\PackageManager\Unity\PackageManager\5.6.0\Unity.PackageManager.dll (this message is harmless)
 debug Initializing Unity.PackageManager (PackageManager) v5.6.0 for Unity v5.6.0f3
-debug Setting Unknown:MetroPlayer v5.6.0 for Unity v5.6.0f3 to C:\Program Files\Unity\Editor\Data\PlaybackEngines\iOSSupport
 debug Setting Standalone:StandaloneLinux v5.6.0 for Unity v5.6.0f3 to C:\Program Files\Unity\Editor\Data\PlaybackEngines\LinuxStandaloneSupport
 debug Setting Standalone:StandaloneOSXIntel v5.6.0 for Unity v5.6.0f3 to C:\Program Files\Unity\Editor\Data\PlaybackEngines\MacStandaloneSupport
 debug Setting Standalone:StandaloneWindows v5.6.0 for Unity v5.6.0f3 to C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport
@@ -1525,11 +1516,10 @@ debug   Editor/UnityEditor.VR.dll (Extension) GUID: 4ba2329b63d54f0187bcaa12486b
 debug   Runtime/UnityEngine.VR.dll (Extension) GUID: 6cdf1e5c78d14720aaadccd4C792df96
 debug   RuntimeEditor/UnityEngine.VR.dll (Extension) GUID: 307433eba81a469ab1e2084d52d1a5a2
 debug Registering custom unity dll's ...
-debug Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 debug Register platform support module: C:\Program Files\Unity\Editor\Data\PlaybackEngines\LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 debug Register platform support module: C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
 debug Register platform support module: C:\Program Files\Unity\Editor\Data\PlaybackEngines\MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-debug Registered in 0.002866 seconds.
+debug Registered in 0.002882 seconds.
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\PackageManager\Unity\PackageManager\5.6.0\Unity.PackageManager.dll (this message is harmless)
 debug Loading C:\Program Files\Unity\Editor\Data\PackageManager\Unity\PackageManager\5.6.0\Unity.PackageManager.dll into Unity Child Domain
 debug Non platform assembly: C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\Advertisements\Editor\UnityEditor.Advertisements.dll (this message is harmless)
@@ -1566,16 +1556,14 @@ debug Non platform assembly: C:\Program Files\Unity\Editor\Data\UnityExtensions\
 debug Loading C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\UnityVR\RuntimeEditor\UnityEngine.VR.dll into Unity Child Domain
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll (this message is harmless)
 debug Loading C:\Program Files\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll into Unity Child Domain
-debug Platform assembly: C:\Program Files\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll (this message is harmless)
-debug Loading C:\Program Files\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll into Unity Child Domain
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\PlaybackEngines\LinuxStandaloneSupport\UnityEditor.LinuxStandalone.Extensions.dll (this message is harmless)
 debug Loading C:\Program Files\Unity\Editor\Data\PlaybackEngines\LinuxStandaloneSupport\UnityEditor.LinuxStandalone.Extensions.dll into Unity Child Domain
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport\UnityEditor.WindowsStandalone.Extensions.dll (this message is harmless)
 debug Loading C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport\UnityEditor.WindowsStandalone.Extensions.dll into Unity Child Domain
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\PlaybackEngines\MacStandaloneSupport\UnityEditor.OSXStandalone.Extensions.dll (this message is harmless)
 debug Loading C:\Program Files\Unity\Editor\Data\PlaybackEngines\MacStandaloneSupport\UnityEditor.OSXStandalone.Extensions.dll into Unity Child Domain
-debug Refreshing native plugins compatible for Editor in 0.43 ms, found 4 plugins.
-debug Preloading 2 native plugins for Editor in 1.44 ms.
+debug Refreshing native plugins compatible for Editor in 0.63 ms, found 4 plugins.
+debug Preloading 2 native plugins for Editor in 2.09 ms.
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\Mono.Cecil.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\Unity.SerializationLogic.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\UnityScript.dll (this message is harmless)
@@ -1583,9 +1571,8 @@ debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\ICSharpCode.
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\System.Xml.Linq.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\System.Web.dll (this message is harmless)
 debug Non platform assembly: C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\UnityVR\Editor\UnityEditor.iOS.Extensions.Xcode.dll (this message is harmless)
-debug Platform assembly: C:\Program Files\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll (this message is harmless)
 debug Mono: successfully reloaded assembly
-debug - Completed reload, in  0.667 seconds
+debug - Completed reload, in  0.996 seconds
 debug Registering platform support modules:
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\System.Drawing.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\System.Data.dll (this message is harmless)
@@ -1594,15 +1581,10 @@ debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\Bo
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.Parser.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\UnityScript.Lang.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\Mono.Security.dll (this message is harmless)
-debug Registered platform support modules in: 0.1097706s.
+debug Registered platform support modules in: 0.1624225s.
 debug Native extension for OSXStandalone target not found
 debug Native extension for WindowsStandalone target not found
 debug Native extension for LinuxStandalone target not found
-debug Loading native library: iOSSupport\x86_64\UnityEditor.iOS.Native at C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\x86_64\UnityEditor.iOS.Native.dll
-debug [usbmuxd] Start listen thread
-debug [usbmuxd] Listen thread started
-debug [usbmuxd] Send listen message
-debug Native extension for iOS target not found
 debug Begin MonoManager ReloadAssembly
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\UnityEngine.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\UnityEditor.dll (this message is harmless)
@@ -1610,7 +1592,7 @@ debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\Unity.Locato
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\I18N.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\I18N.West.dll (this message is harmless)
 debug Registering custom user dll's ...
-debug Registered in 0.011707 seconds.
+debug Registered in 0.013983 seconds.
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\PackageManager\Unity\PackageManager\5.6.0\Unity.PackageManager.dll (this message is harmless)
 debug Loading C:\Program Files\Unity\Editor\Data\PackageManager\Unity\PackageManager\5.6.0\Unity.PackageManager.dll into Unity Child Domain
 debug Non platform assembly: C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\Advertisements\Editor\UnityEditor.Advertisements.dll (this message is harmless)
@@ -1647,21 +1629,17 @@ debug Non platform assembly: C:\Program Files\Unity\Editor\Data\UnityExtensions\
 debug Loading C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\UnityVR\RuntimeEditor\UnityEngine.VR.dll into Unity Child Domain
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll (this message is harmless)
 debug Loading C:\Program Files\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll into Unity Child Domain
-debug Platform assembly: C:\Program Files\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll (this message is harmless)
-debug Loading C:\Program Files\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll into Unity Child Domain
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\PlaybackEngines\LinuxStandaloneSupport\UnityEditor.LinuxStandalone.Extensions.dll (this message is harmless)
 debug Loading C:\Program Files\Unity\Editor\Data\PlaybackEngines\LinuxStandaloneSupport\UnityEditor.LinuxStandalone.Extensions.dll into Unity Child Domain
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport\UnityEditor.WindowsStandalone.Extensions.dll (this message is harmless)
 debug Loading C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport\UnityEditor.WindowsStandalone.Extensions.dll into Unity Child Domain
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\PlaybackEngines\MacStandaloneSupport\UnityEditor.OSXStandalone.Extensions.dll (this message is harmless)
 debug Loading C:\Program Files\Unity\Editor\Data\PlaybackEngines\MacStandaloneSupport\UnityEditor.OSXStandalone.Extensions.dll into Unity Child Domain
-debug Platform assembly: C:\Program Files\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll (this message is harmless)
-debug Loading C:\Program Files\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll into Unity Child Domain
-debug Platform assembly: C:\Program Files\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll (this message is harmless)
-debug Loading C:\Program Files\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll into Unity Child Domain
+debug Non platform assembly: C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\15.0\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll (this message is harmless)
+debug Loading C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\15.0\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll into Unity Child Domain
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\System.Core.dll (this message is harmless)
-debug Refreshing native plugins compatible for Editor in 0.42 ms, found 4 plugins.
-debug Preloading 2 native plugins for Editor in 0.23 ms.
+debug Refreshing native plugins compatible for Editor in 0.64 ms, found 4 plugins.
+debug Preloading 2 native plugins for Editor in 0.27 ms.
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\Mono.Cecil.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\Unity.SerializationLogic.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\Unity.DataContract.dll (this message is harmless)
@@ -1670,10 +1648,11 @@ debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\ICSharpCode.
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\System.Xml.Linq.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\Unity.IvyParser.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\System.Web.dll (this message is harmless)
+debug Non platform assembly: C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\UnityVR\Editor\UnityEditor.iOS.Extensions.Xcode.dll (this message is harmless)
+debug Non platform assembly: C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\15.0\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll (this message is harmless)
 debug Mono: successfully reloaded assembly
-debug - Completed reload, in  0.417 seconds
+debug - Completed reload, in  0.734 seconds
 debug Initializing Unity.PackageManager (PackageManager) v5.6.0 for Unity v5.6.0f3
-debug Setting Unknown:MetroPlayer v5.6.0 for Unity v5.6.0f3 to C:\Program Files\Unity\Editor\Data\PlaybackEngines\iOSSupport
 debug Setting Standalone:StandaloneLinux v5.6.0 for Unity v5.6.0f3 to C:\Program Files\Unity\Editor\Data\PlaybackEngines\LinuxStandaloneSupport
 debug Setting Standalone:StandaloneOSXIntel v5.6.0 for Unity v5.6.0f3 to C:\Program Files\Unity\Editor\Data\PlaybackEngines\MacStandaloneSupport
 debug Setting Standalone:StandaloneWindows v5.6.0 for Unity v5.6.0f3 to C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport
@@ -1718,7 +1697,7 @@ debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\Bo
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.Parser.dll (this message is harmless)
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\UnityScript.Lang.dll (this message is harmless)
-debug Registered platform support modules in: 0.0704173s.
+debug Registered platform support modules in: 0.1127865s.
 debug - Finished compile Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
 debug WeaveUnetFromEditor Temp/Assembly-CSharp-firstpass.dll
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\Unity.UNetWeaver.dll (this message is harmless)
@@ -1728,16 +1707,16 @@ debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\Mono.Cecil.P
 debug Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\Mono.Cecil.Mdb.dll (this message is harmless)
 debug Symbols will be read from Temp/Assembly-CSharp-firstpass.dll.mdb
 debug Script Module: Assembly-CSharp-firstpass.dll
-debug Pass: 0 took 25 milliseconds
-debug Pass: 1 took 7 milliseconds
+debug Pass: 0 took 38 milliseconds
+debug Pass: 1 took 10 milliseconds
 debug - starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 5
 debug - starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll, for buildtarget 5
 debug 
 debug -----Compiler Commandline Arguments:
 debug Filename: "C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\bin\mono.exe"
-debug Arguments: "C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.5\mcs.exe"  @Temp/UnityTempFile-e06e4ec543e87cd4c8f7726f22710aff
+debug Arguments: "C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.5\mcs.exe"  @Temp/UnityTempFile-8d5578a4ee69fd849a8f52e224dd8d29
 debug index: 77
-debug Responsefile: Temp/UnityTempFile-e06e4ec543e87cd4c8f7726f22710aff Contents: 
+debug Responsefile: Temp/UnityTempFile-8d5578a4ee69fd849a8f52e224dd8d29 Contents: 
 debug -debug
 debug -target:library
 debug -nowarn:0169
@@ -1754,8 +1733,6 @@ debug -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytic
 debug -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
 debug -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll"
 debug -r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
-debug -r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
-debug -r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
 debug -define:UNITY_5_3_OR_NEWER
 debug -define:UNITY_5_4_OR_NEWER
 debug -define:UNITY_5_5_OR_NEWER
@@ -1827,6 +1804,7 @@ debug -define:UNITY_EDITOR_64
 debug -define:UNITY_EDITOR_WIN
 debug -define:ENABLE_NATIVE_ARRAY_CHECKS
 debug -define:UNITY_TEAM_LICENSE
+debug -define:ENABLE_VSTU
 debug -define:CROSS_PLATFORM_INPUT
 debug Assets/Gamelogic/AlienEnemy/DeadBehaviourAlien.cs
 debug Assets/Gamelogic/AlienEnemy/MoveRandomly.cs
@@ -2799,22 +2777,41 @@ debug Script Module: Assembly-CSharp-Editor-firstpass.dll
 debug Pass: 0 took 0 milliseconds
 debug Pass: 1 took 0 milliseconds
 debug Reloading assemblies after script compilation.
-debug Validating Project structure ... 0.006908 seconds.
-debug Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.009590 seconds
-debug Updating Assets/Plugins/Improbable - GUID: 0ac5ba72a8755854281dd7c23be3855d...
-debug  done. [Time: 60.137749 ms] 
-debug Updating Assets/Plugins/Improbable/Sdk - GUID: 485db4f2408f5de43a746ac7419a11a7...
-debug  done. [Time: 21.793514 ms] 
-debug Updating Assets/Plugins/Improbable/Sdk/Dll - GUID: fecb9ab7180416a459a9a10d29cc4bcf...
-debug  done. [Time: 21.757166 ms] 
-debug Updating Assets/Plugins/Improbable/Sdk/Dll/Generated.Code.dll - GUID: 14d98b80ae17a314792f3ca696ece246...
-debug  done. [Time: 22.444372 ms] 
-debug Refreshing native plugins compatible for Editor in 0.43 ms, found 4 plugins.
-debug Preloading 2 native plugins for Editor in 0.17 ms.
+debug Validating Project structure ... 0.008466 seconds.
+debug Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.011335 seconds
+debug Updating Assets/Plugins/Improbable - GUID: 0dfcd25d16dcd1b49ab369687f7289f3...
+debug  done. [Time: 98.408096 ms] 
+debug Updating Assets/Plugins/Improbable/Sdk - GUID: 4b88192d687ef064aa5cd386d42e4afd...
+debug  done. [Time: 49.043880 ms] 
+debug Updating Assets/Plugins/Improbable/Sdk/Dll - GUID: b4549e57d9ee2a84db80ca65ac0876fc...
+debug  done. [Time: 47.733364 ms] 
+debug Updating Assets/Plugins/Improbable/Sdk/Dll/Generated.Code.dll - GUID: 248fcc068434d6644949165a0329f6bf...
+debug  done. [Time: 49.500347 ms] 
+debug UnauthorizedAccessException: Access to the path 'C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\Assets\Plugins\Improbable\Sdk\Dll\Generated.Code.dll' is denied.
+debug   at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean anonymous, FileOptions options) [0x000e5] in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.IO/FileStream.cs:259 
+debug   at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share) [0x00000] in <filename unknown>:0 
+debug   at (wrapper remoting-invoke-with-check) System.IO.FileStream:.ctor (string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+debug   at Mono.Reflection.Image.IsAssembly (System.String file) [0x00000] in <filename unknown>:0 
+debug   at SyntaxTree.VisualStudio.Unity.Bridge.ProjectSystem.UnitySolutionBuilder.IsAssembly (System.String asset) [0x00000] in <filename unknown>:0 
+debug   at SyntaxTree.VisualStudio.Unity.Bridge.AssemblyPostProcessor.IsAssemblyWithSymbols (System.String asset, System.String[] importedAssets) [0x00000] in <filename unknown>:0 
+debug   at SyntaxTree.VisualStudio.Unity.Bridge.AssemblyPostProcessor+<>c__DisplayClass5_0.<OnPostprocessAllAssets>b__0 (System.String a) [0x00000] in <filename unknown>:0 
+debug   at System.Linq.Enumerable+<CreateWhereIterator>c__Iterator1D`1[System.String].MoveNext () [0x00000] in <filename unknown>:0 
+debug   at SyntaxTree.VisualStudio.Unity.Bridge.AssemblyPostProcessor.OnPostprocessAllAssets (System.String[] importedAssets, System.String[] deletedAssets, System.String[] movedAssets, System.String[] movedFromPath) [0x00000] in <filename unknown>:0 
+debug   at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&)
+debug   at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d0] in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222 
+debug Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+debug   at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000eb] in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232 
+debug   at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115 
+debug   at UnityEditor.AssetPostprocessingInternal.PostprocessAllAssets (System.String[] importedAssets, System.String[] addedAssets, System.String[] deletedAssets, System.String[] movedAssets, System.String[] movedFromPathAssets) [0x00053] in C:\buildslave\unity\build\Editor\Mono\AssetPostprocessor.cs:27 
+debug  
+debug (Filename: /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.IO/FileStream.cs Line: 259)
 debug 
-debug ----- Total AssetImport time: 0.167745s, AssetImport time: 0.164294s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug Refreshing native plugins compatible for Editor in 0.69 ms, found 4 plugins.
+debug Preloading 2 native plugins for Editor in 0.22 ms.
 debug 
-debug Warming cache for 383 main assets: 0.004202 seconds elapsed
+debug ----- Total AssetImport time: 0.390538s, AssetImport time: 0.385298s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug 
+debug Warming cache for 417 main assets: 0.002725 seconds elapsed
 debug Initializing Unity extensions:
 debug  'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll'  GUID: 12fd8a0055b84bb59e84c9835a37e333
 debug  'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll'  GUID: 852e56802eb941638acbb491814497b0
@@ -2842,10 +2839,10 @@ debug  'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing
 debug  'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll'  GUID: 739bbd9f364b4268874f9fd86ab3beef
 debug Unloading 164 Unused Serialized files (Serialized files now loaded: 0)
 debug System memory in use before: 22.8 MB.
-debug System memory in use after: 22.7 MB.
+debug System memory in use after: 22.8 MB.
 debug 
 debug Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 642.
-debug Total: 4.823284 ms (FindLiveObjects: 0.093651 ms CreateObjectMapping: 0.018815 ms MarkObjects: 4.688152 ms  DeleteObjects: 0.021381 ms)
+debug Total: 6.773521 ms (FindLiveObjects: 0.112901 ms CreateObjectMapping: 0.027009 ms MarkObjects: 6.602278 ms  DeleteObjects: 0.029710 ms)
 debug 
 debug Scripts have compiler errors.
 debug  
@@ -2855,26 +2852,26 @@ debug
 debug Aborting batchmode due to failure:
 debug Scripts have compiler errors.
 debug 
-debug <-- End Logfile C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\workers\unity\.invoke.log
+debug <-- End Logfile C:\Users\gmasc\Desktop\SoftwareEngineeringProj\workers\unity\.invoke.log
 debug Suppressing Unity failure by request, error is:
   exit status 1
-info [1/3] < Clean All Unity workers and prefabs duration=9.4s category=success
+info [1/3] < Clean All Unity workers and prefabs duration=13.7s category=success
 info [2/3] > Clean Dependencies category=heading
-debug Found project root at C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj
-debug Running within a SpatialOS project, using the default input paths '[C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\schema C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\build\dependencies\schema\standard_library]'
-debug Running within a SpatialOS project, using the default input paths '[C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\schema C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\build\dependencies\schema\standard_library]'
-debug Running within a SpatialOS project, using the default input paths '[C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\schema C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\build\dependencies\schema\standard_library]'
+debug Found project root at C:\Users\gmasc\Desktop\SoftwareEngineeringProj
+debug Running within a SpatialOS project, using the default input paths '[C:\Users\gmasc\Desktop\SoftwareEngineeringProj\schema C:\Users\gmasc\Desktop\SoftwareEngineeringProj\build\dependencies\schema\standard_library]'
+debug Running within a SpatialOS project, using the default input paths '[C:\Users\gmasc\Desktop\SoftwareEngineeringProj\schema C:\Users\gmasc\Desktop\SoftwareEngineeringProj\build\dependencies\schema\standard_library]'
+debug Running within a SpatialOS project, using the default input paths '[C:\Users\gmasc\Desktop\SoftwareEngineeringProj\schema C:\Users\gmasc\Desktop\SoftwareEngineeringProj\build\dependencies\schema\standard_library]'
 debug Executing internal command: [worker_package clean]
-debug Found version '12.0.1' in file C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\spatialos.json
-info [2/3] < Clean Dependencies duration=< 1ms category=success
+debug Found version '12.0.1' in file C:\Users\gmasc\Desktop\SoftwareEngineeringProj\spatialos.json
+info [2/3] < Clean Dependencies duration=0.0s category=success
 info [3/3] > Clean Generated C# code category=heading
-debug Found project root at C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj
-debug Running within a SpatialOS project, using the default input paths '[C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\schema C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\build\dependencies\schema\standard_library]'
-debug Running within a SpatialOS project, using the default input paths '[C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\schema C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\build\dependencies\schema\standard_library]'
-debug Running within a SpatialOS project, using the default input paths '[C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\schema C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj\build\dependencies\schema\standard_library]'
+debug Found project root at C:\Users\gmasc\Desktop\SoftwareEngineeringProj
+debug Running within a SpatialOS project, using the default input paths '[C:\Users\gmasc\Desktop\SoftwareEngineeringProj\schema C:\Users\gmasc\Desktop\SoftwareEngineeringProj\build\dependencies\schema\standard_library]'
+debug Running within a SpatialOS project, using the default input paths '[C:\Users\gmasc\Desktop\SoftwareEngineeringProj\schema C:\Users\gmasc\Desktop\SoftwareEngineeringProj\build\dependencies\schema\standard_library]'
+debug Running within a SpatialOS project, using the default input paths '[C:\Users\gmasc\Desktop\SoftwareEngineeringProj\schema C:\Users\gmasc\Desktop\SoftwareEngineeringProj\build\dependencies\schema\standard_library]'
 debug Executing internal command: [process_schema clean .spatialos Assets/Plugins/Improbable/Sdk/Dll/Generated.Code.dll]
 info   Cleaning the following directories [.spatialos/schema_codegen_cache .spatialos Assets/Plugins/Improbable/Sdk/Dll/Generated.Code.dll].
-info [3/3] < Clean Generated C# code category=success duration=< 1ms
-info >>> Clean duration=9.4s category=neutral
-debug Found project root at C:\Users\Matteo Torraca\Desktop\Nuovo\SoftwareEngineeringProj
-info 'spatial.exe clean' succeeded duration=25.2s category=success
+info [3/3] < Clean Generated C# code duration=0.0s category=success
+info >>> Clean duration=13.8s category=neutral
+debug Found project root at C:\Users\gmasc\Desktop\SoftwareEngineeringProj
+info 'spatial.exe clean' succeeded duration=41.1s category=success
