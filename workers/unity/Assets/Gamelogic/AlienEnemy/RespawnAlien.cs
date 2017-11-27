@@ -7,6 +7,7 @@ using Improbable.Player;
 using Improbable.Unity;
 using Improbable.Unity.Visualizer;
 using UnityEngine;
+using System.Collections;
 using System.Collections.Generic;
 
 namespace Assets.Gamelogic.AlienEnemy
@@ -26,28 +27,24 @@ namespace Assets.Gamelogic.AlienEnemy
 			rigidbody = GetComponent<Rigidbody>();
 
 		}
-
+			
 		void FixedUpdate()
 		{
 
 			int actualHealth = HealthWriter.Data.currentHealth;
-			if (actualHealth <= 0) {
-					HealthWriter.Send (new Health.Update ().SetCurrentHealth (1000));
-					rigidbody.position = positionArray [Random.Range (0, 4)];
-					var pos = rigidbody.position;
-					//Debug.LogError ("respawn in position: " + pos.x + "," + pos.y + "," + pos.z);
-					var positionUpdate = new Position.Update ()
+			if (actualHealth == 1) {
+				rigidbody.position = positionArray [Random.Range (0, 4)];
+				var pos = rigidbody.position;
+				//Debug.LogError ("respawn in position: " + pos.x + "," + pos.y + "," + pos.z);
+				var positionUpdate = new Position.Update ()
 					.SetCoords (new Coordinates (pos.x, pos.y, pos.z));
-					PositionWriter.Send (positionUpdate);
-
+				PositionWriter.Send (positionUpdate);
+				HealthWriter.Send (new Health.Update ().SetCurrentHealth (1000));
 			}
 
 
 		
 		}
-
-
-
 
 
 	}

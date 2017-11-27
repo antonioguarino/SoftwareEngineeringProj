@@ -13,14 +13,14 @@ namespace Assets.Gamelogic.AlienEnemy
 	{
 		// Inject access to the entity's Health component
 		[Require] private Health.Reader HealthReader;
-		private Animator _animator;
+		private Animator animator;
 
 		public bool alreadyDead = false;
 
 		private void OnEnable()
 		{
 			
-			_animator = GetComponent<Animator> ();
+			animator = GetComponent<Animator> ();
 			alreadyDead = false;
 			// Register callback for when components change
 			HealthReader.CurrentHealthUpdated.Add(OnCurrentHealthUpdated);
@@ -39,10 +39,12 @@ namespace Assets.Gamelogic.AlienEnemy
 		{
 			if (!alreadyDead && currentHealth <= 0)
 			{
-				_animator.Play("dead");
+				animator.SetTrigger ("dead");
 				alreadyDead = true;
 
 			}
 		}
+
+
 	}
 }

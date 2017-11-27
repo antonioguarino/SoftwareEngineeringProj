@@ -31,11 +31,9 @@ public class Respawn : MonoBehaviour
 			int actualHealth = HealthWriter.Data.currentHealth;
 			if (actualHealth <= 0) {
 				HealthWriter.Send(new Health.Update().SetCurrentHealth(1000));
-				//Qui si deve modificare il valori di pos come cordinate di respawn e mandarle al server!
-				//quindi cambiare prima il rigidbody.position e pou usare queste cordinate per mandarle al server
 				rigidbody.position=positionArray[Random.Range(0,4)];
 				var pos = rigidbody.position;
-				Debug.LogError ("respawn in position: " + pos.x + "," + pos.y + "," + pos.z);
+				//Debug.LogError ("respawn in position: " + pos.x + "," + pos.y + "," + pos.z);
 				var positionUpdate = new Position.Update ()
 				.SetCoords (new Coordinates (pos.x, pos.y, pos.z));
 				PositionWriter.Send (positionUpdate);
