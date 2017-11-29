@@ -17,42 +17,29 @@ namespace Assets.Gamelogic.AlienEnemy
 		
 		[Require] private PlayerInput.Writer PlayerInputWriter;
 		[Require] private Health.Writer HealthWriter;
-
+		[Require] private PlayerRotation.Writer PlayerRotationWriter;
 		private void OnEnable()
 		{
 			// Change steering decisions every five seconds
 
 			InvokeRepeating("RandomizeSteering", 0, 5.0f);
-			InvokeRepeating("DeadR", 0, 0.5f);
+
 		}
 
 		private void OnDisable()
 		{
 			CancelInvoke("RandomizeSteering");
 		}
-			
-		private void DeadR(){
-			int newHealth = HealthWriter.Data.currentHealth;
-				if(newHealth==1){
-				var xAxis =0f;
-				var yAxis = 0f;
-
-				var update = new PlayerInput.Update();
-				update.SetJoystick(new Joystick(xAxis, yAxis));
-				PlayerInputWriter.Send(update);
-				}
-		}
 
 		private void RandomizeSteering()
 		{
-
-
 			var xAxis = Random.Range (-0.9f, 0.9f);
 			var yAxis = Random.Range (-0.9f, 0.9f);
 
 			var update = new PlayerInput.Update();
 			update.SetJoystick(new Joystick(xAxis, yAxis));
 			PlayerInputWriter.Send(update);
+			PlayerRotationWriter.Send(new PlayerRotation.Update().SetBearing( Random.Range(0f,360f)));
 
 		}
 

@@ -17,7 +17,7 @@ public class Respawn : MonoBehaviour
 {
 	[Require] private Position.Writer PositionWriter;
 	[Require] private Health.Writer HealthWriter;
-	private Vector3[] positionArray = new [] { new Vector3(-72.3f,0f,64.3f),new Vector3(73.7f,0f,82.9f),new Vector3(61.3f,0f,-91.1f), new Vector3(-41.7f,0f,-78.7f) };
+	private Vector3[] positionArray = new [] { new Vector3(-50f,0f,-50f),new Vector3(-50f,0f,50f),new Vector3(50f,0f,50f), new Vector3(50f,0f,-50f) };
 	private Rigidbody rigidbody;
 
 		void OnEnable()

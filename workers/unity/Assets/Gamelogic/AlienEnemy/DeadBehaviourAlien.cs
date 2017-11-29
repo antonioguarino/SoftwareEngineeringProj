@@ -40,6 +40,7 @@ namespace Assets.Gamelogic.AlienEnemy
 			if (!alreadyDead && currentHealth <= 0)
 			{
 				animator.SetTrigger ("dead");
+
 				alreadyDead = true;
 
 			}
