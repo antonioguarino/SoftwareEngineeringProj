@@ -12,6 +12,10 @@ public class ShieldActivator : MonoBehaviour {
 	[Require] private PlayerInput.Reader PlayerInputReader;
 	private MeshRenderer shieldRend;
 	private SphereCollider sphereColl;
+		[SerializeField]
+		private AudioClip[] ShieldAudioClips;
+		[SerializeField]
+		private AudioSource ShieldAudioSource;
 
 
 	private void Start () 
@@ -36,8 +40,10 @@ public class ShieldActivator : MonoBehaviour {
 
 	private void OnShield(Shield shield)
 	{
+			
 			shieldRend.enabled = true;
 			sphereColl.enabled = true;
+			ShieldAudioSource.PlayOneShot(ShieldAudioClips[Random.Range(0, ShieldAudioClips.Length)]);
 	}
 	
 

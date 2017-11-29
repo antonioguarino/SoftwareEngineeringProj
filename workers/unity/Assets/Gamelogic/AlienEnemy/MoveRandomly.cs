@@ -23,7 +23,7 @@ namespace Assets.Gamelogic.AlienEnemy
 			// Change steering decisions every five seconds
 
 			InvokeRepeating("RandomizeSteering", 0, 5.0f);
-			InvokeRepeating("RandomizeShooting", 0, 10.0f);
+			InvokeRepeating("RandomizeShooting", 0, 7.5f);
 
 		}
 

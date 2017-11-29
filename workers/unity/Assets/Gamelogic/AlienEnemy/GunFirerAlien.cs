@@ -11,16 +11,18 @@ public class GunFirerAlien : MonoBehaviour {
 		[Require] private PlayerInput.Reader PlayerInputReader;
 			
 		private Gun gun;
+		private Animator animator;
 
 		private void Start()
 			{
 
 			gun = gameObject.GetComponent<Gun>();
-				
+			animator = GetComponent<Animator> ();	
 			}
 
 		private void OnEnable()
 		{
+			
 			PlayerInputReader.FireTriggered.Add(OnFire);
 		}
 
@@ -36,6 +38,7 @@ public class GunFirerAlien : MonoBehaviour {
 			// Respond to Fire event
 			if (gun != null){
 				gun.Fire();
+				animator.SetTrigger ("shoot");
 				}
 
 		}

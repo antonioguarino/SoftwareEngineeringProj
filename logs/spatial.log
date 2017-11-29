@@ -1,8 +1,8 @@
-==========> Opened at 2017-11-29 19:48:05.237917 +0100 CET
+==========> Opened at 2017-11-29 23:04:22.378063 +0100 CET
 debug Executing [/Users/dp.alex/.improbable/bin/plugins/sdk/12.0.1/sdk plugin_export --log_level=warning]
 debug Current directory = /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj
 debug Found project root at /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj
-==========> Opened at 2017-11-29 19:48:05.480572 +0100 CET
+==========> Opened at 2017-11-29 23:04:24.080661 +0100 CET
 debug Executing [spatial build build-config UnityWorker]
 debug Current directory = /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj
 debug Found project root at /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj
@@ -11,15 +11,15 @@ debug Building worker assemblies.
 info Generating bridge settings for UnityWorker.
 info Generating managed worker configuration for UnityWorker.
 info 'spatial build build-config UnityWorker' succeeded duration=0.0s category=success
-==========> Opened at 2017-11-29 19:48:20.053694 +0100 CET
+==========> Opened at 2017-11-29 23:04:44.507885 +0100 CET
 debug Executing [/Users/dp.alex/.improbable/bin/plugins/sdk/12.0.1/sdk plugin_export --log_level=warning]
 debug Current directory = /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj/workers/unity
 debug Found project root at /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj
-==========> Opened at 2017-11-29 19:48:20.716302 +0100 CET
+==========> Opened at 2017-11-29 23:04:47.606441 +0100 CET
 debug Executing [/Users/dp.alex/.improbable/bin/plugins/sdk/12.0.1/sdk plugin_export --log_level=warning]
 debug Current directory = /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj
 debug Found project root at /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj
-==========> Opened at 2017-11-29 19:48:20.953566 +0100 CET
+==========> Opened at 2017-11-29 23:04:48.079096 +0100 CET
 debug Executing [spatial build build-config UnityWorker]
 debug Current directory = /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj
 debug Found project root at /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj
@@ -27,22 +27,22 @@ debug Found project root at /Users/dp.alex/Documents/GitHub/SoftwareEngineeringP
 debug Building worker assemblies.
 info Generating bridge settings for UnityWorker.
 info Generating managed worker configuration for UnityWorker.
-info 'spatial build build-config UnityWorker' succeeded category=success duration=< 1ms
-==========> Opened at 2017-11-29 19:48:36.059812 +0100 CET
+info 'spatial build build-config UnityWorker' succeeded duration=< 1ms category=success
+==========> Opened at 2017-11-29 23:05:10.252712 +0100 CET
 debug Executing [/Users/dp.alex/.improbable/bin/plugins/sdk/12.0.1/sdk plugin_export --log_level=warning]
 debug Current directory = /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj/workers/unity
 debug Found project root at /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj
-==========> Opened at 2017-11-29 19:48:48.561917 +0100 CET
+==========> Opened at 2017-11-29 23:05:30.303201 +0100 CET
 debug Executing [/Users/dp.alex/.improbable/bin/plugins/sdk/12.0.1/sdk plugin_export --log_level=warning]
 debug Current directory = /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj/workers/unity
 debug Found project root at /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj
-==========> Opened at 2017-11-29 19:48:48.97263 +0100 CET
+==========> Opened at 2017-11-29 23:05:30.856272 +0100 CET
 debug Executing [spatial worker_package unpack-to worker_sdk core-bundle-x86_64-macos /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj/workers/unity/Assets/Plugins/Improbable/CoreSdk/core-bundle-x86_64-macos]
 debug Current directory = /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj/workers/unity
 debug Found project root at /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj
 debug Found version '12.0.1' in file /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj/spatialos.json
 debug Skipping extraction of [/Users/dp.alex/.improbable/toolbelt/cache/worker_package/74c94ab26e7d775d7fdc77ea6ca8c46f369bae36/worker_sdk/12.0.1/core-bundle-x86_64-macos.zip] to /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj/workers/unity/Assets/Plugins/Improbable/CoreSdk/core-bundle-x86_64-macos. Nothing has changed.
-info 'spatial worker_package unpack-to worker_sdk core-bundle-x86_64-macos /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj/workers/unity/Assets/Plugins/Improbable/CoreSdk/core-bundle-x86_64-macos' succeeded category=success duration=< 1ms
+info 'spatial worker_package unpack-to worker_sdk core-bundle-x86_64-macos /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj/workers/unity/Assets/Plugins/Improbable/CoreSdk/core-bundle-x86_64-macos' succeeded duration=< 1ms category=success
 debug --> Begin Logfile /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj/workers/unity/.invoke.log
 debug Cannot connect to server socket err = No such file or directory
 debug Cannot connect to server request channel
@@ -62,10 +62,10 @@ debug debugger-agent: Unable to listen on 5
 debug [usbmuxd] Stop listen thread
 debug [usbmuxd] Error: 
 debug [usbmuxd] Listen thread exiting
-debug gs...0.000065 seconds
-debug Loading Asset Database...0.013354 seconds
+debug ...0.000066 seconds
+debug Loading Asset Database...0.015039 seconds
 debug Audio: FMOD Profiler initialized on port 54900
-debug AssetDatabase consistency checks...0.095232 seconds
+debug AssetDatabase consistency checks...0.095599 seconds
 debug Initialize engine version: 5.6.4p1 (e67c4b7007d5)
 debug Forcing GfxDevice: Null
 debug NullGfxDevice:
@@ -123,7 +123,7 @@ debug Register platform support module: /Applications/Unity/PlaybackEngines/WebG
 debug Register platform support module: /Applications/Unity/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 debug Register platform support module: /Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 debug Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-debug Registered in 0.001051 seconds.
+debug Registered in 0.002287 seconds.
 debug Platform assembly: /Applications/Unity/Unity.app/Contents/PackageManager/Unity/PackageManager/5.6.4/Unity.PackageManager.dll (this message is harmless)
 debug Loading /Applications/Unity/Unity.app/Contents/PackageManager/Unity/PackageManager/5.6.4/Unity.PackageManager.dll into Unity Child Domain
 debug Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll (this message is harmless)
@@ -170,8 +170,8 @@ debug Non platform assembly: /Applications/Unity/PlaybackEngines/WindowsStandalo
 debug Loading /Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll into Unity Child Domain
 debug Platform assembly: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll (this message is harmless)
 debug Loading /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll into Unity Child Domain
-debug Refreshing native plugins compatible for Editor in 8.74 ms, found 3 plugins.
-debug Preloading 1 native plugins for Editor in 6.01 ms.
+debug Refreshing native plugins compatible for Editor in 10.81 ms, found 3 plugins.
+debug Preloading 1 native plugins for Editor in 4.35 ms.
 debug Platform assembly: /Applications/Unity/Unity.app/Contents/Managed/Mono.Cecil.dll (this message is harmless)
 debug Platform assembly: /Applications/Unity/Unity.app/Contents/Managed/Unity.SerializationLogic.dll (this message is harmless)
 debug Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/UnityScript.dll (this message is harmless)
@@ -180,14 +180,14 @@ debug Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.
 debug Non platform assembly: /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.iOS.Extensions.Xcode.dll (this message is harmless)
 debug Non platform assembly: /Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll (this message is harmless)
 debug Mono: successfully reloaded assembly
-debug - Completed reload, in  0.895 seconds
+debug - Completed reload, in  1.017 seconds
 debug Registering platform support modules:
 debug Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/Boo.Lang.Compiler.dll (this message is harmless)
 debug Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/Boo.Lang.dll (this message is harmless)
 debug Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/Boo.Lang.Parser.dll (this message is harmless)
 debug Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/UnityScript.Lang.dll (this message is harmless)
 debug Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/Mono.Security.dll (this message is harmless)
-debug Registered platform support modules in: 0,144456s.
+debug Registered platform support modules in: 0,189513s.
 debug Native extension for OSXStandalone target not found
 debug Native extension for WindowsStandalone target not found
 debug Native extension for LinuxStandalone target not found
@@ -201,7 +201,7 @@ debug Platform assembly: /Applications/Unity/Unity.app/Contents/Managed/Unity.Lo
 debug Registering custom user dll's ...
 debug Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.Core.dll (this message is harmless)
 debug Platform assembly: /Applications/Unity/Unity.app/Contents/Managed/Unity.DataContract.dll (this message is harmless)
-debug Registered in 0.083251 seconds.
+debug Registered in 0.107347 seconds.
 debug Non platform assembly: /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj/workers/unity/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll (this message is harmless)
 debug Loading /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj/workers/unity/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll into Unity Child Domain
 debug Non platform assembly: /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj/workers/unity/Library/ScriptAssemblies/Assembly-CSharp.dll (this message is harmless)
@@ -280,8 +280,8 @@ debug Non platform assembly: /Users/dp.alex/Documents/GitHub/SoftwareEngineering
 debug Loading /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj/workers/unity/Assets/Plugins/Improbable/Sdk/Editor/Addons/Improbable.Unity.EditorAddon.SpatialConnect.dll into Unity Child Domain
 debug Non platform assembly: /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj/workers/unity/Assets/Plugins/Improbable/Sdk/Editor/Dll/Editor/Improbable.EditorDll.dll (this message is harmless)
 debug Loading /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj/workers/unity/Assets/Plugins/Improbable/Sdk/Editor/Dll/Editor/Improbable.EditorDll.dll into Unity Child Domain
-debug Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
-debug Preloading 1 native plugins for Editor in 0.40 ms.
+debug Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+debug Preloading 1 native plugins for Editor in 0.45 ms.
 debug Platform assembly: /Applications/Unity/Unity.app/Contents/Managed/Mono.Cecil.dll (this message is harmless)
 debug Platform assembly: /Applications/Unity/Unity.app/Contents/Managed/Unity.SerializationLogic.dll (this message is harmless)
 debug Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/UnityScript.dll (this message is harmless)
@@ -289,32 +289,32 @@ debug Platform assembly: /Applications/Unity/Unity.app/Contents/Managed/ICSharpC
 debug Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.Xml.Linq.dll (this message is harmless)
 debug Platform assembly: /Applications/Unity/Unity.app/Contents/Managed/Unity.IvyParser.dll (this message is harmless)
 debug Updating Assets/Plugins/Improbable/CoreSdk/core-bundle-x86_64-macos - GUID: 51feafd54c14a4e87bc204850e4ffc29...
-debug  done. [Time: 80.533363 ms] 
+debug  done. [Time: 83.962532 ms] 
 debug Unloading 277 Unused Serialized files (Serialized files now loaded: 0)
-debug System memory in use before: 188.2 MB.
+debug System memory in use before: 188.1 MB.
 debug System memory in use after: 188.2 MB.
 debug 
 debug Unloading 104 unused Assets to reduce memory usage. Loaded Objects now: 705.
-debug Total: 1.080416 ms (FindLiveObjects: 0.323272 ms CreateObjectMapping: 0.065770 ms MarkObjects: 0.531070 ms  DeleteObjects: 0.158615 ms)
+debug Total: 0.942292 ms (FindLiveObjects: 0.257237 ms CreateObjectMapping: 0.035164 ms MarkObjects: 0.502067 ms  DeleteObjects: 0.146100 ms)
 debug 
-debug Refreshing native plugins compatible for Editor in 16.76 ms, found 3 plugins.
+debug Refreshing native plugins compatible for Editor in 16.10 ms, found 3 plugins.
 debug Preloading 1 native plugins for Editor in 0.43 ms.
 debug 
-debug ----- Total AssetImport time: 0.300599s, AssetImport time: 0.159006s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.352420s, AssetImport time: 0.189413s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
 debug Updating Assets/Plugins/Improbable/CoreSdk/core-bundle-x86_64-macos - GUID: 51feafd54c14a4e87bc204850e4ffc29...
-debug  done. [Time: 3.557981 ms] 
+debug  done. [Time: 6.615560 ms] 
 debug Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
-debug Preloading 1 native plugins for Editor in 0.40 ms.
+debug Preloading 1 native plugins for Editor in 0.41 ms.
 debug 
-debug ----- Total AssetImport time: 0.085955s, AssetImport time: 0.049412s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.101121s, AssetImport time: 0.064986s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
 debug Updating Assets/Plugins/Improbable/CoreSdk/core-bundle-x86_64-macos - GUID: 51feafd54c14a4e87bc204850e4ffc29...
-debug  done. [Time: 2.805988 ms] 
-debug Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
-debug Preloading 1 native plugins for Editor in 0.43 ms.
+debug  done. [Time: 50.117676 ms] 
+debug Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+debug Preloading 1 native plugins for Editor in 0.39 ms.
 debug 
-debug ----- Total AssetImport time: 0.084595s, AssetImport time: 0.046364s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.132471s, AssetImport time: 0.096802s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
 debug Initializing Unity.PackageManager (PackageManager) v5.6.4 for Unity v5.6.4p1
 debug Setting Standalone:StandaloneOSXIntel v5.6.4 for Unity v5.6.4p1 to /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport
@@ -355,18 +355,18 @@ debug Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.
 debug Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/Boo.Lang.dll (this message is harmless)
 debug Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/Boo.Lang.Parser.dll (this message is harmless)
 debug Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/UnityScript.Lang.dll (this message is harmless)
-debug Registered platform support modules in: 0,08763s.
+debug Registered platform support modules in: 0,153711s.
 debug Updating Assets/Plugins/Improbable/CoreSdk/core-bundle-x86_64-macos/CoreSdkDll.bundle - GUID: 3ac4ea371777b48c2a9cc8a68103a04d...
-debug  done. [Time: 4.163333 ms] 
-debug Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+debug  done. [Time: 5.903381 ms] 
+debug Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
 debug Preloading 1 native plugins for Editor in 0.38 ms.
 debug 
-debug ----- Total AssetImport time: 0.088204s, AssetImport time: 0.051712s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.122406s, AssetImport time: 0.070377s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
 debug Refresh: detecting if any assets need to be imported or removed ... 
-debug Hashing assets ... 0.002 seconds
-debug   file open: 0.001 seconds (56 files)
-debug   file read: 0.000 seconds (0.513 MB)
+debug Hashing assets ... 0.010 seconds
+debug   file open: 0.002 seconds (56 files)
+debug   file read: 0.002 seconds (0.513 MB)
 debug   hash: 0.001 seconds
 debug ----- Compute hash(es) for 28 asset(s).
 debug ----- Asset named Assets/Plugins/Improbable/Editor/Generated/Components/improbable/SpatialOsEntityAclComponentEditor.cs is skipped as no actual change.
@@ -396,20 +396,20 @@ debug ----- Asset named Assets/Plugins/Improbable/Generated/Components/improbabl
 debug ----- Asset named Assets/Plugins/Improbable/Generated/Components/improbable/player/SpatialOsScoreComponent.cs is skipped as no actual change.
 debug ----- Asset named Assets/Plugins/Improbable/Sdk/Dll/Generated.Code.xml is skipped as no actual change.
 debug 
-debug Refresh: elapses 0.175860 seconds
+debug Refresh: elapses 0.222616 seconds
 debug Updating Assets/Plugins/Improbable/Sdk/Dll/Generated.Code.dll.mdb - GUID: 64c22465236054bca893b69d9c6c928a...
-debug  done. [Time: 136.893951 ms] 
+debug  done. [Time: 220.396332 ms] 
 debug Updating Assets/Plugins/Improbable/Sdk/Dll/Generated.Code.dll - GUID: 26120c91864cc4c42a814790144060cb...
 debug Filename: /Applications/Unity/Unity.app/Contents/MonoBleedingEdge/bin/mono
-debug Arguments: '/Applications/Unity/Unity.app/Contents/Tools/ScriptUpdater/AssemblyUpdater.exe'  --timestamp 636475816710348000  --api-version 5.6.4p1 --check-update-required -a '/Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj/workers/unity/Assets/Plugins/Improbable/Sdk/Dll/Generated.Code.dll' -s "/Applications/Unity/Unity.app/Contents/Managed,+/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity,+/Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj/workers/unity/Assets" '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/Editor/UnityEditor.Analytics.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Runtime/UnityEngine.HoloLens.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/Editor/UnityEditor.Purchasing.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Runtime/UnityEngine.VR.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll' '/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll' '/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll'
+debug Arguments: '/Applications/Unity/Unity.app/Contents/Tools/ScriptUpdater/AssemblyUpdater.exe'  --timestamp 636475934417045480  --api-version 5.6.4p1 --check-update-required -a '/Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj/workers/unity/Assets/Plugins/Improbable/Sdk/Dll/Generated.Code.dll' -s "/Applications/Unity/Unity.app/Contents/Managed,+/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity,+/Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj/workers/unity/Assets" '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/Editor/UnityEditor.Analytics.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Runtime/UnityEngine.HoloLens.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/Editor/UnityEditor.Purchasing.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Runtime/UnityEngine.VR.dll' '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll' '/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll' '/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll'
 debug index: -1
 debug 
-debug  done. [Time: 4192.235352 ms] 
+debug  done. [Time: 5799.577637 ms] 
 debug - starting compile Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll, for buildtarget 27
-debug Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
-debug Preloading 1 native plugins for Editor in 0.63 ms.
+debug Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+debug Preloading 1 native plugins for Editor in 0.48 ms.
 debug 
-debug ----- Total AssetImport time: 4.653030s, AssetImport time: 4.516270s, Asset hashing: 0.002594s [0.5 MB, 197.703842 mb/s]
+debug ----- Total AssetImport time: 6.362763s, AssetImport time: 6.179941s, Asset hashing: 0.014404s [0.5 MB, 35.602856 mb/s]
 debug 
 debug SpatialOS SDK: You are using an unsupported version of Unity. The currently supported versions are 5.5.3/5.6.0.
 debug UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
@@ -425,15 +425,15 @@ debug
 debug (Filename: Assets/Plugins/Improbable/Sdk/Src/Editor/Init/VersionCheck.cs Line: 15)
 debug 
 debug Mono: successfully reloaded assembly
-debug - Completed reload, in  6.773 seconds
-debug Validating Project structure ... 0.041059 seconds.
-debug Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.182132 seconds
-debug Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
-debug Preloading 1 native plugins for Editor in 0.65 ms.
+debug - Completed reload, in 10.590 seconds
+debug Validating Project structure ... 0.050513 seconds.
+debug Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.186056 seconds
+debug Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+debug Preloading 1 native plugins for Editor in 0.50 ms.
 debug 
-debug ----- Total AssetImport time: 0.140170s, AssetImport time: 0.000001s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.144227s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
-debug Warming cache for 977 main assets: 0.004414 seconds elapsed
+debug Warming cache for 977 main assets: 0.003884 seconds elapsed
 debug Initializing Unity extensions:
 debug  '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll'  GUID: 12fd8a0055b84bb59e84c9835a37e333
 debug  '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll'  GUID: 852e56802eb941638acbb491814497b0
@@ -463,7 +463,7 @@ debug System memory in use before: 202.0 MB.
 debug System memory in use after: 202.0 MB.
 debug 
 debug Unloading 121 unused Assets to reduce memory usage. Loaded Objects now: 746.
-debug Total: 1.266306 ms (FindLiveObjects: 0.100609 ms CreateObjectMapping: 0.026105 ms MarkObjects: 1.099222 ms  DeleteObjects: 0.039082 ms)
+debug Total: 1.905803 ms (FindLiveObjects: 0.141574 ms CreateObjectMapping: 0.069615 ms MarkObjects: 1.649491 ms  DeleteObjects: 0.043333 ms)
 debug 
 debug Building target "development" 
 debug UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
@@ -477,32 +477,32 @@ debug
 debug (Filename: C Line: 0)
 debug 
 debug Updating Assets/Plugins/Improbable/CoreSdk/core-bundle-x86_64-macos - GUID: 51feafd54c14a4e87bc204850e4ffc29...
-debug  done. [Time: 3.626033 ms] 
-debug Refreshing native plugins compatible for Editor in 4.32 ms, found 3 plugins.
-debug Preloading 1 native plugins for Editor in 0.47 ms.
+debug  done. [Time: 3.070859 ms] 
+debug Refreshing native plugins compatible for Editor in 4.16 ms, found 3 plugins.
+debug Preloading 1 native plugins for Editor in 0.46 ms.
 debug 
-debug ----- Total AssetImport time: 0.107780s, AssetImport time: 0.061361s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
-debug 
-debug Updating Assets/Plugins/Improbable/CoreSdk/core-bundle-x86_64-macos - GUID: 51feafd54c14a4e87bc204850e4ffc29...
-debug  done. [Time: 3.761189 ms] 
-debug Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
-debug Preloading 1 native plugins for Editor in 0.47 ms.
-debug 
-debug ----- Total AssetImport time: 0.101759s, AssetImport time: 0.053835s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.101482s, AssetImport time: 0.053360s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
 debug Updating Assets/Plugins/Improbable/CoreSdk/core-bundle-x86_64-macos - GUID: 51feafd54c14a4e87bc204850e4ffc29...
-debug  done. [Time: 3.294259 ms] 
+debug  done. [Time: 2.679559 ms] 
 debug Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+debug Preloading 1 native plugins for Editor in 0.40 ms.
+debug 
+debug ----- Total AssetImport time: 0.096228s, AssetImport time: 0.049773s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug 
+debug Updating Assets/Plugins/Improbable/CoreSdk/core-bundle-x86_64-macos - GUID: 51feafd54c14a4e87bc204850e4ffc29...
+debug  done. [Time: 3.258211 ms] 
+debug Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
 debug Preloading 1 native plugins for Editor in 0.39 ms.
 debug 
-debug ----- Total AssetImport time: 0.095923s, AssetImport time: 0.051186s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.090024s, AssetImport time: 0.049455s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
 debug Updating Assets/Plugins/Improbable/CoreSdk/core-bundle-x86_64-macos/CoreSdkDll.bundle - GUID: 3ac4ea371777b48c2a9cc8a68103a04d...
-debug  done. [Time: 5.041898 ms] 
-debug Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+debug  done. [Time: 3.378131 ms] 
+debug Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
 debug Preloading 1 native plugins for Editor in 0.39 ms.
 debug 
-debug ----- Total AssetImport time: 0.101909s, AssetImport time: 0.052442s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.099189s, AssetImport time: 0.050273s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
 debug Building target "deployment" 
 debug UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
@@ -516,30 +516,30 @@ debug
 debug (Filename: C Line: 0)
 debug 
 debug Updating Assets/Plugins/Improbable/CoreSdk/core-dynamic-x86_64-linux - GUID: 2e758787183174105b1f8d8e95a14891...
-debug  done. [Time: 8.401801 ms] 
+debug  done. [Time: 4.099431 ms] 
 debug Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
 debug Preloading 1 native plugins for Editor in 0.45 ms.
 debug 
-debug ----- Total AssetImport time: 0.096945s, AssetImport time: 0.057927s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.099034s, AssetImport time: 0.053213s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
 debug Updating Assets/Plugins/Improbable/CoreSdk/core-dynamic-x86_64-linux - GUID: 2e758787183174105b1f8d8e95a14891...
-debug  done. [Time: 3.876250 ms] 
-debug Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
-debug Preloading 1 native plugins for Editor in 0.40 ms.
+debug  done. [Time: 3.948716 ms] 
+debug Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+debug Preloading 1 native plugins for Editor in 0.39 ms.
 debug 
-debug ----- Total AssetImport time: 0.101553s, AssetImport time: 0.052439s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.101437s, AssetImport time: 0.051515s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
 debug 
-debug Hashing assets ... 0.025 seconds
+debug Hashing assets ... 0.028 seconds
 debug   file open: 0.000 seconds (2 files)
-debug   file read: 0.021 seconds (10.820 MB)
+debug   file read: 0.019 seconds (10.820 MB)
 debug   hash: 0.020 seconds
 debug Updating Assets/Plugins/Improbable/CoreSdk/core-dynamic-x86_64-linux/libCoreSdkDll.so - GUID: 00da43c897f8645e8a3f5588c234d712...
-debug  done. [Time: 3.309238 ms] 
-debug Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
-debug Preloading 1 native plugins for Editor in 0.41 ms.
+debug  done. [Time: 6.162774 ms] 
+debug Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
+debug Preloading 1 native plugins for Editor in 0.54 ms.
 debug 
-debug ----- Total AssetImport time: 0.116589s, AssetImport time: 0.049884s, Asset hashing: 0.025424s [10.8 MB, 425.571228 mb/s]
+debug ----- Total AssetImport time: 0.147117s, AssetImport time: 0.072696s, Asset hashing: 0.028079s [10.8 MB, 385.326813 mb/s]
 debug 
 debug Starting SpatialOS Build
 debug UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
@@ -551,22 +551,22 @@ debug Improbable.Unity.EditorTools.Build.SimpleBuildSystem:Build() (at C:\w\ee93
 debug  
 debug (Filename: C Line: 0)
 debug 
-debug Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.174237 seconds
-debug Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
-debug Preloading 1 native plugins for Editor in 0.58 ms.
+debug Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.184628 seconds
+debug Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+debug Preloading 1 native plugins for Editor in 0.64 ms.
 debug 
-debug ----- Total AssetImport time: 0.134223s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.146907s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
-debug Determining assets that need to be reimported for target platform ... 0.344517 seconds.
+debug Determining assets that need to be reimported for target platform ... 0.579403 seconds.
 debug 
-debug Hashing assets ... 0.980 seconds
-debug   file open: 0.021 seconds (884 files)
-debug   file read: 0.203 seconds (535.074 MB)
-debug   hash: 0.962 seconds
-debug Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
-debug Preloading 1 native plugins for Editor in 0.49 ms.
+debug Hashing assets ... 2.252 seconds
+debug   file open: 0.032 seconds (884 files)
+debug   file read: 2.005 seconds (535.074 MB)
+debug   hash: 1.009 seconds
+debug Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+debug Preloading 1 native plugins for Editor in 0.52 ms.
 debug 
-debug ----- Total AssetImport time: 1.327044s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 2.847371s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
 debug DisplayProgressbar: Building AssetBundle
 debug DisplayProgressbar: Building Asset Bundle
@@ -574,31 +574,31 @@ debug
 debug ***Player size statistics***
 debug Total compressed size 4.4 KB. Total uncompressed size 4.3 KB.
 debug 
-debug *** Completed 'Build.AssetBundle.WindowsStandaloneSupport' in 0 seconds (4 ms)
+debug *** Completed 'Build.AssetBundle.WindowsStandaloneSupport' in 0 seconds (2 ms)
 debug 
-debug Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.172252 seconds
-debug Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
-debug Preloading 1 native plugins for Editor in 0.64 ms.
+debug Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.266094 seconds
+debug Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+debug Preloading 1 native plugins for Editor in 0.58 ms.
 debug 
-debug ----- Total AssetImport time: 0.131695s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.209082s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
-debug Determining assets that need to be reimported for target platform ... 0.186730 seconds.
+debug Determining assets that need to be reimported for target platform ... 0.238659 seconds.
 debug 
-debug Hashing assets ... 0.981 seconds
-debug   file open: 0.021 seconds (884 files)
-debug   file read: 0.202 seconds (535.074 MB)
-debug   hash: 0.964 seconds
-debug Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
-debug Preloading 1 native plugins for Editor in 0.44 ms.
+debug Hashing assets ... 1.061 seconds
+debug   file open: 0.027 seconds (884 files)
+debug   file read: 0.287 seconds (535.074 MB)
+debug   hash: 1.011 seconds
+debug Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+debug Preloading 1 native plugins for Editor in 0.40 ms.
 debug 
-debug ----- Total AssetImport time: 1.170622s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 1.302312s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
 debug Unloading 480 Unused Serialized files (Serialized files now loaded: 0)
-debug System memory in use before: 234.8 MB.
-debug System memory in use after: 235.0 MB.
+debug System memory in use before: 234.6 MB.
+debug System memory in use after: 234.8 MB.
 debug 
 debug Unloading 487 unused Assets to reduce memory usage. Loaded Objects now: 2676.
-debug Total: 4.689939 ms (FindLiveObjects: 0.336447 ms CreateObjectMapping: 0.050282 ms MarkObjects: 4.179663 ms  DeleteObjects: 0.121648 ms)
+debug Total: 5.365355 ms (FindLiveObjects: 0.380028 ms CreateObjectMapping: 0.072961 ms MarkObjects: 4.792595 ms  DeleteObjects: 0.117609 ms)
 debug 
 debug 
 debug -------------------------------------------------------------------------------
@@ -627,14 +627,14 @@ debug
 debug ***Player size statistics***
 debug Total compressed size 4.4 KB. Total uncompressed size 4.3 KB.
 debug 
-debug *** Completed 'Build.AssetBundle.MacStandaloneSupport' in 0 seconds (5 ms)
+debug *** Completed 'Build.AssetBundle.MacStandaloneSupport' in 0 seconds (3 ms)
 debug 
 debug Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
 debug System memory in use before: 220.7 MB.
 debug System memory in use after: 220.9 MB.
 debug 
 debug Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2676.
-debug Total: 4.299795 ms (FindLiveObjects: 0.540321 ms CreateObjectMapping: 0.050185 ms MarkObjects: 3.682746 ms  DeleteObjects: 0.024437 ms)
+debug Total: 4.401334 ms (FindLiveObjects: 0.329042 ms CreateObjectMapping: 0.041092 ms MarkObjects: 4.005452 ms  DeleteObjects: 0.024024 ms)
 debug 
 debug 
 debug -------------------------------------------------------------------------------
@@ -657,22 +657,22 @@ debug Used Assets and files from the Resources folder, sorted by uncompressed si
 debug  0.2 kb	 5.1% Built-in AssetBundleManifest: AssetBundleManifest
 debug  0.1 kb	 2.4% AssetBundle Object
 debug -------------------------------------------------------------------------------
-debug Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.186769 seconds
-debug Refreshing native plugins compatible for Editor in 8.55 ms, found 3 plugins.
-debug Preloading 1 native plugins for Editor in 0.60 ms.
+debug Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.255647 seconds
+debug Refreshing native plugins compatible for Editor in 9.18 ms, found 3 plugins.
+debug Preloading 1 native plugins for Editor in 0.42 ms.
 debug 
-debug ----- Total AssetImport time: 0.153032s, AssetImport time: 0.000001s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.206852s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
-debug Determining assets that need to be reimported for target platform ... 0.306877 seconds.
+debug Determining assets that need to be reimported for target platform ... 0.593497 seconds.
 debug 
-debug Hashing assets ... 0.980 seconds
-debug   file open: 0.021 seconds (884 files)
-debug   file read: 0.202 seconds (535.074 MB)
-debug   hash: 0.962 seconds
-debug Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
-debug Preloading 1 native plugins for Editor in 0.41 ms.
+debug Hashing assets ... 1.207 seconds
+debug   file open: 0.032 seconds (884 files)
+debug   file read: 0.456 seconds (535.074 MB)
+debug   hash: 1.011 seconds
+debug Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+debug Preloading 1 native plugins for Editor in 0.44 ms.
 debug 
-debug ----- Total AssetImport time: 1.289606s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 1.803316s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
 debug DisplayProgressbar: Building AssetBundle
 debug DisplayProgressbar: Building Asset Bundle
@@ -682,29 +682,29 @@ debug Total compressed size 4.4 KB. Total uncompressed size 4.3 KB.
 debug 
 debug *** Completed 'Build.AssetBundle.LinuxStandaloneSupport' in 0 seconds (3 ms)
 debug 
-debug Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.173301 seconds
-debug Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
-debug Preloading 1 native plugins for Editor in 0.58 ms.
+debug Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.197784 seconds
+debug Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+debug Preloading 1 native plugins for Editor in 0.81 ms.
 debug 
-debug ----- Total AssetImport time: 0.132782s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.159123s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
-debug Determining assets that need to be reimported for target platform ... 0.187098 seconds.
+debug Determining assets that need to be reimported for target platform ... 0.242955 seconds.
 debug 
-debug Hashing assets ... 0.981 seconds
-debug   file open: 0.021 seconds (884 files)
-debug   file read: 0.203 seconds (535.074 MB)
-debug   hash: 0.964 seconds
-debug Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+debug Hashing assets ... 1.200 seconds
+debug   file open: 0.026 seconds (884 files)
+debug   file read: 0.517 seconds (535.074 MB)
+debug   hash: 1.014 seconds
+debug Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
 debug Preloading 1 native plugins for Editor in 0.40 ms.
 debug 
-debug ----- Total AssetImport time: 1.171088s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 1.445477s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
 debug Unloading 477 Unused Serialized files (Serialized files now loaded: 0)
 debug System memory in use before: 234.2 MB.
 debug System memory in use after: 234.4 MB.
 debug 
 debug Unloading 489 unused Assets to reduce memory usage. Loaded Objects now: 2676.
-debug Total: 6.222276 ms (FindLiveObjects: 0.856242 ms CreateObjectMapping: 0.148424 ms MarkObjects: 5.091740 ms  DeleteObjects: 0.121862 ms)
+debug Total: 5.590700 ms (FindLiveObjects: 0.383271 ms CreateObjectMapping: 0.144488 ms MarkObjects: 4.927884 ms  DeleteObjects: 0.133081 ms)
 debug 
 debug 
 debug -------------------------------------------------------------------------------
@@ -840,8 +840,8 @@ debug Platform assembly: /Applications/Unity/Unity.app/Contents/Managed/Mono.Cec
 debug Platform assembly: /Applications/Unity/Unity.app/Contents/Managed/Mono.Cecil.Mdb.dll (this message is harmless)
 debug Symbols will be read from Temp/Assembly-CSharp-firstpass.dll.mdb
 debug Script Module: Assembly-CSharp-firstpass.dll
-debug Pass: 0 took 33 milliseconds
-debug Pass: 1 took 8 milliseconds
+debug Pass: 0 took 41 milliseconds
+debug Pass: 1 took 12 milliseconds
 debug     Ignoring '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll' because we're compiling for Standalone:MacStandaloneSupport
 debug     Ignoring '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Standalone:MacStandaloneSupport
 debug     Ignoring '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll' because we're compiling for Standalone:MacStandaloneSupport
@@ -872,9 +872,9 @@ debug - starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for build
 debug 
 debug -----Compiler Commandline Arguments:
 debug Filename: /Applications/Unity/Unity.app/Contents/MonoBleedingEdge/bin/mono
-debug Arguments: '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.5/mcs.exe'  @Temp/UnityTempFile-c61a9b1c77c1440f8a0f511f17069033
+debug Arguments: '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.5/mcs.exe'  @Temp/UnityTempFile-c4f5e210a06d74c44b8924a88e747063
 debug index: 81
-debug Responsefile: Temp/UnityTempFile-c61a9b1c77c1440f8a0f511f17069033 Contents: 
+debug Responsefile: Temp/UnityTempFile-c4f5e210a06d74c44b8924a88e747063 Contents: 
 debug -debug
 debug -target:library
 debug -nowarn:0169
@@ -1025,8 +1025,8 @@ debug WeaveAssemblies unityPath= /Applications/Unity/Unity.app/Contents/Managed/
 debug WeaveAssemblies unetPath= /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
 debug Symbols will be read from Temp/Assembly-CSharp.dll.mdb
 debug Script Module: Assembly-CSharp.dll
-debug Pass: 0 took 8 milliseconds
-debug Pass: 1 took 2 milliseconds
+debug Pass: 0 took 9 milliseconds
+debug Pass: 1 took 4 milliseconds
 debug Assets/Gamelogic/AlienEnemy/MoveRandomly.cs(50,8): warning CS0219: The variable `update' is assigned but its value is never used
 debug  
 debug (Filename: Assets/Gamelogic/AlienEnemy/MoveRandomly.cs Line: 50)
@@ -1083,31 +1083,31 @@ debug [     35 MB ]- Packing 0 atlases.
 debug [     35 MB ]- Packing completed.
 debug [     35 MB ]- Update Sprites and Cleanup. 
 debug [     35 MB ]Opening scene 'Assets/UnityWorker.unity'
-debug Load scene 'Assets/UnityWorker.unity' time: 0.032395 ms 
+debug Load scene 'Assets/UnityWorker.unity' time: 0.039277 ms 
 debug Unloading 70 Unused Serialized files (Serialized files now loaded: 0)
-debug Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
-debug System memory in use before: 266.8 MB.
-debug System memory in use after: 268.1 MB.
+debug Launched and connected shader compiler UnityShaderCompiler after 0.38 seconds
+debug System memory in use before: 267.6 MB.
+debug System memory in use after: 268.8 MB.
 debug 
 debug Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 18229.
-debug Total: 31.313576 ms (FindLiveObjects: 2.694118 ms CreateObjectMapping: 1.515954 ms MarkObjects: 19.784519 ms  DeleteObjects: 7.316619 ms)
+debug Total: 34.117458 ms (FindLiveObjects: 3.271419 ms CreateObjectMapping: 1.140710 ms MarkObjects: 21.272348 ms  DeleteObjects: 8.431258 ms)
 debug 
-debug [00:00:01] Enlighten: Precompute started.
-debug [00:00:01] Enlighten: Finished 1 Layout Systems job (0.00s execute, 0.00s integrate, 0.01s wallclock)
-debug [PathTracer][LP] Issuing deduplication and tetrahedralization job. Combined: 80257199cfa681a16be5e09b3c2208f4, tetrahedralized probes: 00000000000000000000000000000000, non-tetrahedralized probes: 00000000000000000000000000000000, dependencies: 00000000000000000000000000000000
-debug [00:00:01] Enlighten: Finished 1 Tetrahedralize Probes job (0.00s execute, 0.00s integrate, 0.01s wallclock)
-debug [00:00:01] Enlighten: Precompute took 0.023949 seconds.
+debug [00:00:02] Enlighten: Precompute started.
+debug [00:00:02] Enlighten: Finished 1 Layout Systems job (0.00s execute, 0.00s integrate, 0.01s wallclock)
+debug [00:00:02] Enlighten: Finished 1 Tetrahedralize Probes job (0.00s execute, 0.00s integrate, 0.01s wallclock)
+debug [00:00:02] Enlighten: Precompute took 0.019633 seconds.
 debug Enlighten scene contents:   0 geometries.   0 instances.   0 systems.   0 probe groups.   0 cube maps. Scene is up-to-date.
-debug [00:00:01] Enlighten: Bake started.
-debug [PathTracer][LP] Integrating deduplicated and tetrahedralized probes for hash 80257199cfa681a16be5e09b3c2208f4.
+debug [00:00:02] Enlighten: Bake started.
+debug [PathTracer][LP] Issuing deduplication and tetrahedralization job. Combined: 80257199cfa681a16be5e09b3c2208f4, tetrahedralized probes: 00000000000000000000000000000000, non-tetrahedralized probes: 00000000000000000000000000000000, dependencies: 00000000000000000000000000000000
 debug Setting up 2 worker threads for Enlighten.
-debug   Thread -> id: 700004d37000 -> priority: 1 
-debug   Thread -> id: 7000051c0000 -> priority: 1 
+debug   Thread -> id: 700000ffb000 -> priority: 1 
+debug   Thread -> id: 700001484000 -> priority: 1 
+debug [PathTracer][LP] Integrating deduplicated and tetrahedralized probes for hash 80257199cfa681a16be5e09b3c2208f4.
 debug [PathTracer] Lightmap reset.
 debug [PathTracer][LP] Light probes reset.
 debug [PathTracer] building lightmap data asset.
-debug [00:00:01] Enlighten: Finished 1 Bake Runtime job (0.07s execute, 0.00s integrate, 0.08s wallclock)
-debug [00:00:01] Enlighten: Bake took 0.076899 seconds.
+debug [00:00:02] Enlighten: Finished 1 Bake Runtime job (0.22s execute, 0.00s integrate, 0.22s wallclock)
+debug [00:00:02] Enlighten: Bake took 0.218256 seconds.
 debug 
 debug 
 debug Mono dependencies included in the build
@@ -1130,29 +1130,29 @@ debug Dependency assembly - Assembly-CSharp-firstpass.dll
 debug Dependency assembly - Assembly-CSharp.dll
 debug 
 debug Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
-debug System memory in use before: 326.6 MB.
+debug System memory in use before: 327.1 MB.
 debug System memory in use after: 249.0 MB.
 debug 
 debug Unloading 7835 unused Assets to reduce memory usage. Loaded Objects now: 2691.
-debug Total: 35.723141 ms (FindLiveObjects: 1.469271 ms CreateObjectMapping: 0.738638 ms MarkObjects: 10.651054 ms  DeleteObjects: 22.862864 ms)
+debug Total: 44.349693 ms (FindLiveObjects: 1.914659 ms CreateObjectMapping: 0.695263 ms MarkObjects: 13.461912 ms  DeleteObjects: 28.275991 ms)
 debug 
 debug Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
 debug System memory in use before: 237.1 MB.
 debug System memory in use after: 237.3 MB.
 debug 
 debug Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2705.
-debug Total: 12.290354 ms (FindLiveObjects: 0.538952 ms CreateObjectMapping: 0.073033 ms MarkObjects: 11.658187 ms  DeleteObjects: 0.018280 ms)
+debug Total: 14.559760 ms (FindLiveObjects: 0.419318 ms CreateObjectMapping: 0.045474 ms MarkObjects: 14.071453 ms  DeleteObjects: 0.021732 ms)
 debug 
 debug Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-debug System memory in use before: 253.9 MB.
+debug System memory in use before: 254.0 MB.
 debug System memory in use after: 237.4 MB.
 debug 
 debug Unloading 114 unused Assets to reduce memory usage. Loaded Objects now: 2690.
-debug Total: 28.986071 ms (FindLiveObjects: 0.361607 ms CreateObjectMapping: 0.042323 ms MarkObjects: 10.681323 ms  DeleteObjects: 17.898918 ms)
+debug Total: 30.793730 ms (FindLiveObjects: 0.272856 ms CreateObjectMapping: 0.041193 ms MarkObjects: 11.512345 ms  DeleteObjects: 18.965733 ms)
 debug 
-debug Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-debug Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-debug Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+debug Launched and connected shader compiler UnityShaderCompiler after 0.27 seconds
+debug Launched and connected shader compiler UnityShaderCompiler after 0.15 seconds
+debug Launched and connected shader compiler UnityShaderCompiler after 0.16 seconds
 debug Compressed shader 'Standard' on metal from 2.77MB to 0.21MB
 debug Compressed shader 'Standard' on glcore from 2.47MB to 0.18MB
 debug 
@@ -1401,15 +1401,15 @@ debug System memory in use before: 254.4 MB.
 debug System memory in use after: 246.1 MB.
 debug 
 debug Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 2710.
-debug Total: 15.078801 ms (FindLiveObjects: 0.267660 ms CreateObjectMapping: 0.041298 ms MarkObjects: 11.005516 ms  DeleteObjects: 3.761576 ms)
+debug Total: 16.007116 ms (FindLiveObjects: 0.355178 ms CreateObjectMapping: 0.060863 ms MarkObjects: 12.331310 ms  DeleteObjects: 3.257713 ms)
 debug 
-debug Load scene 'Temp/__Backupscenes/0.backup' time: 0.090961 ms 
+debug Load scene 'Temp/__Backupscenes/0.backup' time: 0.053224 ms 
 debug Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
 debug System memory in use before: 239.9 MB.
 debug System memory in use after: 240.1 MB.
 debug 
 debug Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2700.
-debug Total: 13.100789 ms (FindLiveObjects: 0.326243 ms CreateObjectMapping: 0.040354 ms MarkObjects: 12.722777 ms  DeleteObjects: 0.009887 ms)
+debug Total: 13.412026 ms (FindLiveObjects: 0.290513 ms CreateObjectMapping: 0.040913 ms MarkObjects: 13.069913 ms  DeleteObjects: 0.009153 ms)
 debug 
 debug     Ignoring '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor:Editor
 debug     Ignoring '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll' because we're compiling for Editor:Editor
@@ -1425,7 +1425,7 @@ debug     Ignoring '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity
 debug     Ignoring '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Runtime/UnityEngine.VR.dll' because we're compiling for Editor:Editor
 debug - starting compile Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll, for buildtarget 27
 debug 
-debug *** Completed 'Build.Player.MacStandaloneSupport' in 14 seconds (14375 ms)
+debug *** Completed 'Build.Player.MacStandaloneSupport' in 20 seconds (20215 ms)
 debug 
 debug Built player WorkerType=UnityWorker;BuildTarget=StandaloneOSXIntel64;EmbedAssets=False;BuildOptions=None into /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj/workers/unity/build/worker/UnityWorker@Mac
 debug UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
@@ -1517,11 +1517,11 @@ debug
 debug (Filename: C Line: 0)
 debug 
 debug Updating ProjectSettings/ProjectSettings.asset - GUID: 00000000000000004000000000000000...
-debug  done. [Time: 3.238939 ms] 
-debug Refreshing native plugins compatible for Editor in 2.26 ms, found 3 plugins.
-debug Preloading 1 native plugins for Editor in 0.47 ms.
+debug  done. [Time: 5.433278 ms] 
+debug Refreshing native plugins compatible for Editor in 2.90 ms, found 3 plugins.
+debug Preloading 1 native plugins for Editor in 0.51 ms.
 debug 
-debug ----- Total AssetImport time: 0.129155s, AssetImport time: 0.049235s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.144939s, AssetImport time: 0.056344s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
 debug BuildPlayer: start building target 24
 debug     Ignoring '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll' because we're compiling for Standalone:LinuxStandaloneSupport
@@ -1563,8 +1563,8 @@ debug WeaveAssemblies unityPath= /Applications/Unity/Unity.app/Contents/Managed/
 debug WeaveAssemblies unetPath= /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
 debug Symbols will be read from Temp/Assembly-CSharp-firstpass.dll.mdb
 debug Script Module: Assembly-CSharp-firstpass.dll
-debug Pass: 0 took 29 milliseconds
-debug Pass: 1 took 5 milliseconds
+debug Pass: 0 took 48 milliseconds
+debug Pass: 1 took 6 milliseconds
 debug     Ignoring '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll' because we're compiling for Standalone:LinuxStandaloneSupport
 debug     Ignoring '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Standalone:LinuxStandaloneSupport
 debug     Ignoring '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll' because we're compiling for Standalone:LinuxStandaloneSupport
@@ -1595,9 +1595,9 @@ debug - starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for build
 debug 
 debug -----Compiler Commandline Arguments:
 debug Filename: /Applications/Unity/Unity.app/Contents/MonoBleedingEdge/bin/mono
-debug Arguments: '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.5/mcs.exe'  @Temp/UnityTempFile-e9dc1f049c9d24b8c9e13272ffe39e3f
+debug Arguments: '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.5/mcs.exe'  @Temp/UnityTempFile-199a3b650e38c4af8a097e6b2ab8a4df
 debug index: 81
-debug Responsefile: Temp/UnityTempFile-e9dc1f049c9d24b8c9e13272ffe39e3f Contents: 
+debug Responsefile: Temp/UnityTempFile-199a3b650e38c4af8a097e6b2ab8a4df Contents: 
 debug -debug
 debug -target:library
 debug -nowarn:0169
@@ -1748,8 +1748,8 @@ debug WeaveAssemblies unityPath= /Applications/Unity/Unity.app/Contents/Managed/
 debug WeaveAssemblies unetPath= /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
 debug Symbols will be read from Temp/Assembly-CSharp.dll.mdb
 debug Script Module: Assembly-CSharp.dll
-debug Pass: 0 took 8 milliseconds
-debug Pass: 1 took 2 milliseconds
+debug Pass: 0 took 10 milliseconds
+debug Pass: 1 took 4 milliseconds
 debug Assets/Gamelogic/AlienEnemy/MoveRandomly.cs(50,8): warning CS0219: The variable `update' is assigned but its value is never used
 debug  
 debug (Filename: Assets/Gamelogic/AlienEnemy/MoveRandomly.cs Line: 50)
@@ -1797,22 +1797,22 @@ debug     Ignoring 'Assets/Plugins/Improbable/Sdk/Editor/Addons/Improbable.Unity
 debug     Ignoring 'Assets/Plugins/Improbable/Sdk/Editor/Addons/Improbable.Unity.EditorAddon.SpatialUpload.dll' because we're compiling for Standalone:LinuxStandaloneSupport
 debug     Ignoring 'Assets/Plugins/Improbable/Sdk/Editor/Dll/Editor/Improbable.EditorDll.dll' because we're compiling for Standalone:LinuxStandaloneSupport
 debug DisplayProgressbar: Building Player
-debug Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.184436 seconds
-debug Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
-debug Preloading 1 native plugins for Editor in 0.87 ms.
+debug Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.183467 seconds
+debug Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+debug Preloading 1 native plugins for Editor in 0.58 ms.
 debug 
-debug ----- Total AssetImport time: 0.140151s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.132682s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
-debug Determining assets that need to be reimported for target platform ... 0.324979 seconds.
+debug Determining assets that need to be reimported for target platform ... 0.630534 seconds.
 debug 
-debug Hashing assets ... 1.024 seconds
-debug   file open: 0.024 seconds (884 files)
-debug   file read: 0.302 seconds (535.074 MB)
-debug   hash: 0.985 seconds
-debug Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
-debug Preloading 1 native plugins for Editor in 0.55 ms.
+debug Hashing assets ... 2.186 seconds
+debug   file open: 0.028 seconds (884 files)
+debug   file read: 1.924 seconds (535.074 MB)
+debug   hash: 0.999 seconds
+debug Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+debug Preloading 1 native plugins for Editor in 1.12 ms.
 debug 
-debug ----- Total AssetImport time: 1.421013s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 2.824572s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
 debug Packing sprites:
 debug [     56 MB ]- Collect Sprites to Pack 
@@ -1823,27 +1823,27 @@ debug [     58 MB ]- Packing 0 atlases.
 debug [     58 MB ]- Packing completed.
 debug [     58 MB ]- Update Sprites and Cleanup. 
 debug [     58 MB ]Opening scene 'Assets/UnityWorker.unity'
-debug Load scene 'Assets/UnityWorker.unity' time: 0.020823 ms 
+debug Load scene 'Assets/UnityWorker.unity' time: 0.017360 ms 
 debug Unloading 536 Unused Serialized files (Serialized files now loaded: 0)
 debug System memory in use before: 268.7 MB.
-debug System memory in use after: 269.8 MB.
+debug System memory in use after: 269.7 MB.
 debug 
 debug Unloading 499 unused Assets to reduce memory usage. Loaded Objects now: 18230.
-debug Total: 29.917385 ms (FindLiveObjects: 1.890176 ms CreateObjectMapping: 1.087371 ms MarkObjects: 18.116871 ms  DeleteObjects: 8.821311 ms)
+debug Total: 30.267494 ms (FindLiveObjects: 1.972355 ms CreateObjectMapping: 1.289980 ms MarkObjects: 18.877056 ms  DeleteObjects: 8.125772 ms)
 debug 
 debug [00:00:01] Enlighten: Precompute started.
 debug [00:00:01] Enlighten: Finished 1 Layout Systems job (0.00s execute, 0.00s integrate, 0.00s wallclock)
 debug [PathTracer][LP] Issuing deduplication and tetrahedralization job. Combined: 80257199cfa681a16be5e09b3c2208f4, tetrahedralized probes: 00000000000000000000000000000000, non-tetrahedralized probes: 00000000000000000000000000000000, dependencies: 00000000000000000000000000000000
 debug [00:00:01] Enlighten: Finished 1 Tetrahedralize Probes job (0.00s execute, 0.00s integrate, 0.01s wallclock)
-debug [00:00:01] Enlighten: Precompute took 0.011091 seconds.
+debug [00:00:01] Enlighten: Precompute took 0.011896 seconds.
 debug Enlighten scene contents:   0 geometries.   0 instances.   0 systems.   0 probe groups.   0 cube maps. Scene is up-to-date.
 debug [00:00:01] Enlighten: Bake started.
 debug [PathTracer][LP] Integrating deduplicated and tetrahedralized probes for hash 80257199cfa681a16be5e09b3c2208f4.
 debug [PathTracer] Lightmap reset.
 debug [PathTracer][LP] Light probes reset.
 debug [PathTracer] building lightmap data asset.
-debug [00:00:01] Enlighten: Finished 1 Bake Runtime job (0.03s execute, 0.00s integrate, 0.03s wallclock)
-debug [00:00:01] Enlighten: Bake took 0.032610 seconds.
+debug [00:00:01] Enlighten: Finished 1 Bake Runtime job (0.18s execute, 0.00s integrate, 0.18s wallclock)
+debug [00:00:01] Enlighten: Bake took 0.185203 seconds.
 debug 
 debug 
 debug Mono dependencies included in the build
@@ -1866,25 +1866,25 @@ debug Dependency assembly - Assembly-CSharp-firstpass.dll
 debug Dependency assembly - Assembly-CSharp.dll
 debug 
 debug Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
-debug System memory in use before: 324.1 MB.
-debug System memory in use after: 249.5 MB.
+debug System memory in use before: 324.4 MB.
+debug System memory in use after: 249.4 MB.
 debug 
 debug Unloading 7835 unused Assets to reduce memory usage. Loaded Objects now: 2691.
-debug Total: 32.842438 ms (FindLiveObjects: 1.208901 ms CreateObjectMapping: 0.649341 ms MarkObjects: 10.986498 ms  DeleteObjects: 19.996042 ms)
+debug Total: 34.875008 ms (FindLiveObjects: 1.507879 ms CreateObjectMapping: 0.748015 ms MarkObjects: 11.932514 ms  DeleteObjects: 20.685020 ms)
 debug 
 debug Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
 debug System memory in use before: 237.7 MB.
 debug System memory in use after: 237.9 MB.
 debug 
 debug Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2705.
-debug Total: 10.216110 ms (FindLiveObjects: 0.266571 ms CreateObjectMapping: 0.035499 ms MarkObjects: 9.902761 ms  DeleteObjects: 0.009058 ms)
+debug Total: 19.553783 ms (FindLiveObjects: 0.412952 ms CreateObjectMapping: 0.070699 ms MarkObjects: 19.052315 ms  DeleteObjects: 0.015996 ms)
 debug 
 debug Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
 debug System memory in use before: 254.5 MB.
 debug System memory in use after: 238.0 MB.
 debug 
 debug Unloading 114 unused Assets to reduce memory usage. Loaded Objects now: 2690.
-debug Total: 29.430717 ms (FindLiveObjects: 0.292525 ms CreateObjectMapping: 0.040758 ms MarkObjects: 10.713102 ms  DeleteObjects: 18.382677 ms)
+debug Total: 28.788290 ms (FindLiveObjects: 0.452100 ms CreateObjectMapping: 0.049478 ms MarkObjects: 9.933355 ms  DeleteObjects: 18.351135 ms)
 debug 
 debug Compressed shader 'Standard' on glcore from 2.47MB to 0.18MB
 debug Compressed shader 'Standard' on vulkan from 2.12MB to 0.57MB
@@ -2134,15 +2134,15 @@ debug System memory in use before: 257.3 MB.
 debug System memory in use after: 246.3 MB.
 debug 
 debug Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 2710.
-debug Total: 15.037869 ms (FindLiveObjects: 0.367515 ms CreateObjectMapping: 0.039729 ms MarkObjects: 10.654503 ms  DeleteObjects: 3.974323 ms)
+debug Total: 15.705126 ms (FindLiveObjects: 0.271365 ms CreateObjectMapping: 0.038165 ms MarkObjects: 11.254657 ms  DeleteObjects: 4.139432 ms)
 debug 
-debug Load scene 'Temp/__Backupscenes/0.backup' time: 0.052370 ms 
+debug Load scene 'Temp/__Backupscenes/0.backup' time: 0.052954 ms 
 debug Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
 debug System memory in use before: 240.2 MB.
-debug System memory in use after: 240.4 MB.
+debug System memory in use after: 240.3 MB.
 debug 
 debug Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2700.
-debug Total: 11.070360 ms (FindLiveObjects: 0.546993 ms CreateObjectMapping: 0.068588 ms MarkObjects: 10.444180 ms  DeleteObjects: 0.008630 ms)
+debug Total: 10.727925 ms (FindLiveObjects: 0.304717 ms CreateObjectMapping: 0.032144 ms MarkObjects: 10.375005 ms  DeleteObjects: 0.013331 ms)
 debug 
 debug     Ignoring '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor:Editor
 debug     Ignoring '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll' because we're compiling for Editor:Editor
@@ -2158,7 +2158,7 @@ debug     Ignoring '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity
 debug     Ignoring '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Runtime/UnityEngine.VR.dll' because we're compiling for Editor:Editor
 debug - starting compile Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll, for buildtarget 24
 debug 
-debug *** Completed 'Build.Player.LinuxStandaloneSupport' in 15 seconds (14946 ms)
+debug *** Completed 'Build.Player.LinuxStandaloneSupport' in 22 seconds (22007 ms)
 debug 
 debug Built player WorkerType=UnityWorker;BuildTarget=StandaloneLinux64;EmbedAssets=False;BuildOptions=EnableHeadlessMode into /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj/workers/unity/build/worker/UnityWorker@Linux
 debug UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
@@ -2190,22 +2190,22 @@ debug Improbable.Unity.EditorTools.Build.SimpleBuildSystem:Build() (at C:\w\ee93
 debug  
 debug (Filename: C Line: 0)
 debug 
-debug Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.177384 seconds
-debug Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
-debug Preloading 1 native plugins for Editor in 0.47 ms.
+debug Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.191633 seconds
+debug Refreshing native plugins compatible for Editor in 5.41 ms, found 3 plugins.
+debug Preloading 1 native plugins for Editor in 0.65 ms.
 debug 
-debug ----- Total AssetImport time: 0.132508s, AssetImport time: 0.000001s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.151087s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
-debug Determining assets that need to be reimported for target platform ... 0.316701 seconds.
+debug Determining assets that need to be reimported for target platform ... 0.750226 seconds.
 debug 
-debug Hashing assets ... 1.022 seconds
-debug   file open: 0.025 seconds (884 files)
-debug   file read: 0.294 seconds (535.074 MB)
-debug   hash: 0.998 seconds
-debug Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
-debug Preloading 1 native plugins for Editor in 0.50 ms.
+debug Hashing assets ... 3.579 seconds
+debug   file open: 0.034 seconds (884 files)
+debug   file read: 3.352 seconds (535.074 MB)
+debug   hash: 1.057 seconds
+debug Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+debug Preloading 1 native plugins for Editor in 0.49 ms.
 debug 
-debug ----- Total AssetImport time: 1.342172s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 4.335088s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
 debug     Ignoring '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor:Editor
 debug     Ignoring '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll' because we're compiling for Editor:Editor
@@ -2221,7 +2221,7 @@ debug     Ignoring '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity
 debug     Ignoring '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Runtime/UnityEngine.VR.dll' because we're compiling for Editor:Editor
 debug - starting compile Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll, for buildtarget 27
 debug 
-debug *** Completed 'Build.SwitchBuildTargetEmulation.PC, Mac & Linux Standalone.MacStandaloneSupport' in 2 seconds (1786 ms)
+debug *** Completed 'Build.SwitchBuildTargetEmulation.PC, Mac & Linux Standalone.MacStandaloneSupport' in 5 seconds (4854 ms)
 debug 
 debug Finished SpatialOS Build
 debug UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
@@ -2245,8 +2245,8 @@ debug WeaveAssemblies unityPath= /Applications/Unity/Unity.app/Contents/Managed/
 debug WeaveAssemblies unetPath= /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
 debug Symbols will be read from Temp/Assembly-CSharp-firstpass.dll.mdb
 debug Script Module: Assembly-CSharp-firstpass.dll
-debug Pass: 0 took 47 milliseconds
-debug Pass: 1 took 6 milliseconds
+debug Pass: 0 took 88 milliseconds
+debug Pass: 1 took 10 milliseconds
 debug     Ignoring '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor:Editor
 debug     Ignoring '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll' because we're compiling for Editor:Editor
 debug     Ignoring '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll' because we're compiling for Editor:Editor
@@ -2267,7 +2267,7 @@ debug WeaveAssemblies unityPath= /Applications/Unity/Unity.app/Contents/Managed/
 debug WeaveAssemblies unetPath= /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
 debug Symbols will be read from Temp/Assembly-CSharp-Editor-firstpass.dll.mdb
 debug Script Module: Assembly-CSharp-Editor-firstpass.dll
-debug Pass: 0 took 30 milliseconds
+debug Pass: 0 took 45 milliseconds
 debug Pass: 1 took 0 milliseconds
 debug     Ignoring '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor:Editor
 debug     Ignoring '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll' because we're compiling for Editor:Editor
@@ -2278,9 +2278,9 @@ debug     Ignoring '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity
 debug 
 debug -----Compiler Commandline Arguments:
 debug Filename: /Applications/Unity/Unity.app/Contents/MonoBleedingEdge/bin/mono
-debug Arguments: '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.5/mcs.exe'  @Temp/UnityTempFile-41234f75346c040b1b3452f9aebb186b
+debug Arguments: '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.5/mcs.exe'  @Temp/UnityTempFile-dc96432ddff7343ac9afbadee49c02b3
 debug index: 81
-debug Responsefile: Temp/UnityTempFile-41234f75346c040b1b3452f9aebb186b Contents: 
+debug Responsefile: Temp/UnityTempFile-dc96432ddff7343ac9afbadee49c02b3 Contents: 
 debug -debug
 debug -target:library
 debug -nowarn:0169
@@ -2459,7 +2459,7 @@ debug WeaveAssemblies unityPath= /Applications/Unity/Unity.app/Contents/Managed/
 debug WeaveAssemblies unetPath= /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
 debug Symbols will be read from Temp/Assembly-CSharp.dll.mdb
 debug Script Module: Assembly-CSharp.dll
-debug Pass: 0 took 7 milliseconds
+debug Pass: 0 took 8 milliseconds
 debug Pass: 1 took 2 milliseconds
 debug Assets/Gamelogic/AlienEnemy/RespawnAlien.cs(23,21): warning CS0108: `Assets.Gamelogic.AlienEnemy.RespawnAlien.rigidbody' hides inherited member `UnityEngine.Component.rigidbody'. Use the new keyword if hiding was intended
 debug  
@@ -2515,9 +2515,9 @@ debug - starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll, fo
 debug 
 debug -----Compiler Commandline Arguments:
 debug Filename: /Applications/Unity/Unity.app/Contents/MonoBleedingEdge/bin/mono
-debug Arguments: '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.5/mcs.exe'  @Temp/UnityTempFile-86bc1997bc8974929ba9a5138b2a6189
+debug Arguments: '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.5/mcs.exe'  @Temp/UnityTempFile-dce279e06facd4f98b85c9a9cdde94b6
 debug index: 81
-debug Responsefile: Temp/UnityTempFile-86bc1997bc8974929ba9a5138b2a6189 Contents: 
+debug Responsefile: Temp/UnityTempFile-dce279e06facd4f98b85c9a9cdde94b6 Contents: 
 debug -debug
 debug -target:library
 debug -nowarn:0169
@@ -2747,8 +2747,8 @@ debug Loading /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj/workers/un
 debug Non platform assembly: /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj/workers/unity/Assets/Plugins/Improbable/Sdk/Editor/Dll/Editor/Improbable.EditorDll.dll (this message is harmless)
 debug Loading /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj/workers/unity/Assets/Plugins/Improbable/Sdk/Editor/Dll/Editor/Improbable.EditorDll.dll into Unity Child Domain
 debug Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.Core.dll (this message is harmless)
-debug Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
-debug Preloading 1 native plugins for Editor in 0.44 ms.
+debug Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+debug Preloading 1 native plugins for Editor in 0.47 ms.
 debug Platform assembly: /Applications/Unity/Unity.app/Contents/Managed/Mono.Cecil.dll (this message is harmless)
 debug Platform assembly: /Applications/Unity/Unity.app/Contents/Managed/Unity.SerializationLogic.dll (this message is harmless)
 debug Platform assembly: /Applications/Unity/Unity.app/Contents/Managed/Unity.DataContract.dll (this message is harmless)
@@ -2757,25 +2757,25 @@ debug Platform assembly: /Applications/Unity/Unity.app/Contents/Managed/ICSharpC
 debug Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.Xml.Linq.dll (this message is harmless)
 debug Platform assembly: /Applications/Unity/Unity.app/Contents/Managed/Unity.IvyParser.dll (this message is harmless)
 debug Updating Assets/Plugins/Improbable/CoreSdk/core-bundle-x86_64-macos - GUID: 51feafd54c14a4e87bc204850e4ffc29...
-debug  done. [Time: 62.030376 ms] 
-debug Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
-debug Preloading 1 native plugins for Editor in 0.48 ms.
+debug  done. [Time: 73.303688 ms] 
+debug Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+debug Preloading 1 native plugins for Editor in 0.50 ms.
 debug 
-debug ----- Total AssetImport time: 0.163410s, AssetImport time: 0.118033s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
-debug 
-debug Updating Assets/Plugins/Improbable/CoreSdk/core-bundle-x86_64-macos - GUID: 51feafd54c14a4e87bc204850e4ffc29...
-debug  done. [Time: 3.062156 ms] 
-debug Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
-debug Preloading 1 native plugins for Editor in 0.41 ms.
-debug 
-debug ----- Total AssetImport time: 0.083618s, AssetImport time: 0.046040s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.190716s, AssetImport time: 0.138366s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
 debug Updating Assets/Plugins/Improbable/CoreSdk/core-bundle-x86_64-macos - GUID: 51feafd54c14a4e87bc204850e4ffc29...
-debug  done. [Time: 2.817573 ms] 
-debug Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
-debug Preloading 1 native plugins for Editor in 0.44 ms.
+debug  done. [Time: 3.189740 ms] 
+debug Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+debug Preloading 1 native plugins for Editor in 0.43 ms.
 debug 
-debug ----- Total AssetImport time: 0.084053s, AssetImport time: 0.046398s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.093128s, AssetImport time: 0.053284s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug 
+debug Updating Assets/Plugins/Improbable/CoreSdk/core-bundle-x86_64-macos - GUID: 51feafd54c14a4e87bc204850e4ffc29...
+debug  done. [Time: 4.169178 ms] 
+debug Refreshing native plugins compatible for Editor in 1.95 ms, found 3 plugins.
+debug Preloading 1 native plugins for Editor in 0.81 ms.
+debug 
+debug ----- Total AssetImport time: 0.112147s, AssetImport time: 0.067060s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
 debug Initializing Unity.PackageManager (PackageManager) v5.6.4 for Unity v5.6.4p1
 debug Setting Standalone:StandaloneOSXIntel v5.6.4 for Unity v5.6.4p1 to /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport
@@ -2816,19 +2816,19 @@ debug Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.
 debug Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/Boo.Lang.dll (this message is harmless)
 debug Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/Boo.Lang.Parser.dll (this message is harmless)
 debug Platform assembly: /Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/UnityScript.Lang.dll (this message is harmless)
-debug Registered platform support modules in: 0,091453s.
+debug Registered platform support modules in: 0,160045s.
 debug Updating Assets/Plugins/Improbable/CoreSdk/core-bundle-x86_64-macos/CoreSdkDll.bundle - GUID: 3ac4ea371777b48c2a9cc8a68103a04d...
-debug  done. [Time: 3.856243 ms] 
-debug Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
-debug Preloading 1 native plugins for Editor in 0.49 ms.
+debug  done. [Time: 7.856989 ms] 
+debug Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+debug Preloading 1 native plugins for Editor in 0.42 ms.
 debug 
-debug ----- Total AssetImport time: 0.097977s, AssetImport time: 0.052695s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.124773s, AssetImport time: 0.071438s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
-debug Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.179874 seconds
-debug Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
-debug Preloading 1 native plugins for Editor in 0.58 ms.
+debug Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.219065 seconds
+debug Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+debug Preloading 1 native plugins for Editor in 0.61 ms.
 debug 
-debug ----- Total AssetImport time: 0.139265s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.163268s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
 debug SpatialOS SDK: You are using an unsupported version of Unity. The currently supported versions are 5.5.3/5.6.0.
 debug UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
@@ -2844,10 +2844,10 @@ debug
 debug (Filename: Assets/Plugins/Improbable/Sdk/Src/Editor/Init/VersionCheck.cs Line: 15)
 debug 
 debug Mono: successfully reloaded assembly
-debug Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
-debug Preloading 1 native plugins for Editor in 0.49 ms.
+debug Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+debug Preloading 1 native plugins for Editor in 0.60 ms.
 debug 
-debug ----- Total AssetImport time: 0.114866s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.179144s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
 debug Skipping auto-patching in batchmode
 debug UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
@@ -2858,7 +2858,7 @@ debug Improbable.Unity.EditorTools.Build.ReloadAssemblies:OnScriptsReloaded() (a
 debug  
 debug (Filename: C Line: 0)
 debug 
-debug - Completed reload, in  2.932 seconds
+debug - Completed reload, in  4.247 seconds
 debug Modules already registered, not loading
 debug Native extension for OSXStandalone target not found
 debug Native extension for WindowsStandalone target not found
@@ -2866,32 +2866,32 @@ debug Native extension for LinuxStandalone target not found
 debug Native extension for WebGL target not found
 debug Native extension for iOS target not found
 debug Batchmode quit successfully invoked - shutting down!
-debug Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.163865 seconds
-debug Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
-debug Preloading 1 native plugins for Editor in 0.55 ms.
-debug 
-debug ----- Total AssetImport time: 0.125251s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
-debug 
-debug Updating ProjectSettings/ProjectSettings.asset - GUID: 00000000000000004000000000000000...
-debug  done. [Time: 4.308745 ms] 
-debug Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
-debug Preloading 1 native plugins for Editor in 0.41 ms.
-debug 
-debug ----- Total AssetImport time: 0.139463s, AssetImport time: 0.052661s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
-debug 
-debug Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.168371 seconds
-debug Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+debug Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.197622 seconds
+debug Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
 debug Preloading 1 native plugins for Editor in 0.56 ms.
 debug 
-debug ----- Total AssetImport time: 0.131791s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug ----- Total AssetImport time: 0.144085s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug 
+debug Updating ProjectSettings/ProjectSettings.asset - GUID: 00000000000000004000000000000000...
+debug  done. [Time: 6.662281 ms] 
+debug Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+debug Preloading 1 native plugins for Editor in 0.59 ms.
+debug 
+debug ----- Total AssetImport time: 0.157820s, AssetImport time: 0.073509s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+debug 
+debug Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.390266 seconds
+debug Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+debug Preloading 1 native plugins for Editor in 0.63 ms.
+debug 
+debug ----- Total AssetImport time: 0.288533s, AssetImport time: 0.000001s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 debug 
 debug Cleanup mono
 debug Exiting batchmode successfully now!
 debug <-- End Logfile /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj/workers/unity/.invoke.log
-info [2/2] < Build UnityWorker workers duration=1m:6s category=success
-info >>> Build duration=1m:9s category=neutral
-info 'spatial build' succeeded category=success duration=2m:38s
-==========> Opened at 2017-11-29 19:48:59.152878 +0100 CET
+info [2/2] < Build UnityWorker workers duration=1m:41s category=success
+info >>> Build duration=1m:44s category=neutral
+info 'spatial build' succeeded duration=4m:5s category=success
+==========> Opened at 2017-11-29 23:05:49.193831 +0100 CET
 debug Executing [spatial prepare-for-run]
 debug Current directory = /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj
 debug Found project root at /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj
@@ -2905,11 +2905,11 @@ debug Skipping extraction of [/Users/dp.alex/.improbable/toolbelt/cache/worker_p
 debug In '', /Users/dp.alex/.improbable/toolbelt/tools/12.0.1/schema_compiler-x86_64-macos/schema_compiler [--schema_path=/Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj/schema --schema_path=/Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj/build/dependencies/schema/standard_library --load_all_schema_on_schema_path]
 debug /Users/dp.alex/.improbable/toolbelt/tools/12.0.1/schema_compiler-x86_64-macos/schema_compiler: No outputs specified, validating schema only.
 info No changes detected, skipping code generation.
-info 'spatial prepare-for-run' succeeded duration=0.0s category=success
-==========> Opened at 2017-11-29 19:49:51.505601 +0100 CET
+info 'spatial prepare-for-run' succeeded duration=0.1s category=success
+==========> Opened at 2017-11-29 23:15:32.485235 +0100 CET
 debug Executing [spatial worker launch UnityClient default]
 debug Current directory = /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj
 debug Found project root at /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj
 debug Found project root at /Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj
 debug In '/Users/dp.alex/Documents/GitHub/SoftwareEngineeringProj/workers/unity', open [./build/worker/UnityClient@Mac/UnityClient@Mac.app --args +assemblyName local_assembly +workerType UnityClient +infraServicesUrl http://127.0.0.1:21000 +projectName your_project_name_here -logfile external-default-unityclient.log]
-info 'spatial worker launch UnityClient default' succeeded duration=0.3s category=success
+info 'spatial worker launch UnityClient default' succeeded category=success duration=0.5s

@@ -9,6 +9,10 @@ namespace Assets.Gamelogic.Player.Guns{
 		[SerializeField]
 		private GameObject BulletPrefab;
 
+		[SerializeField]
+		private AudioClip[] FireAudioClips;
+		[SerializeField]
+		private AudioSource FireAudioSource;
 
 		public int gunDamage = 1;                                           
 		public float fireRate = .100f;                                       
@@ -48,6 +52,7 @@ namespace Assets.Gamelogic.Player.Guns{
 				nextFire = Time.time + fireRate;
 				StartCoroutine (ShotEffect());
 
+				FireAudioSource.PlayOneShot(FireAudioClips[Random.Range(0, FireAudioClips.Length)]);
 				RaycastHit hit;
 				//Vector3 altezza = new Vector3 (0.6f, gunEnd.position.y, 0) ;
 				laserLine.SetPosition (0,gunEnd.position+dir);

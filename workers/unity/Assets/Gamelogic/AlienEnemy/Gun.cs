@@ -12,7 +12,6 @@ namespace Assets.Gamelogic.AlienEnemy
 		private Collider[] firerColliders;
 
 
-
 		void Start()
 		{
 			
@@ -25,9 +24,8 @@ namespace Assets.Gamelogic.AlienEnemy
 
 			if (BulletAlien != null)
 			{
-				
 				var bullet = Instantiate(BulletAlien, transform.position, transform.rotation) as GameObject;
-				var entityId = gameObject.EntityId();
+				var entityId = bullet.EntityId();
 				bullet.GetComponent<DestroyBullet>().firerEntityId = entityId;
 				bullet.GetComponent<BulletController> ().firerEntityId = entityId;
 				EnsureCannonBallWillNotCollideWithFirer(bullet);
