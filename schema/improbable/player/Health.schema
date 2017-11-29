@@ -2,7 +2,7 @@ package improbable.player;
 
 component Health {
     // Component ID. Must be unique within the project.
-    id = 1066;
+    id = 1006;
 
     int32 current_health = 1;
 }

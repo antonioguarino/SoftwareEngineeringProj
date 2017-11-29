@@ -15,7 +15,6 @@ namespace Assets.Gamelogic.Player
 		
 		// Inject access to the entity's Health component
 		[Require] private Health.Reader HealthReader;
-
 		/*
 		private void OnEnable()
 		{

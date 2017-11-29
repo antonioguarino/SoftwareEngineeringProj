@@ -1,4 +1,3 @@
-
 using Improbable.Player;
 using Improbable.Unity;
 using Improbable.Unity.Visualizer;
@@ -25,6 +24,7 @@ namespace Assets.Gamelogic.Player.Guns
 		private void Awake()
 		{
 			scoreCanvasUI= GameObject.Find("ScoreCanvas").GetComponent<Canvas>();
+			
 			if (scoreCanvasUI != null) {
 				totalPointsGUI = scoreCanvasUI.GetComponentInChildren<Text>();
 				scoreCanvasUI.enabled = false;
@@ -33,7 +33,8 @@ namespace Assets.Gamelogic.Player.Guns
 		}
 
 		private void OnEnable()
-		{
+		{	
+			
 			// Register callback for when components change
 			//ScoreReader.NumberOfPointsUpdated.Add(OnNumberOfPointsUpdated);
 			ScoreReader.ScoreUpdated.Add(OnNumberOfPointsUpdated);
