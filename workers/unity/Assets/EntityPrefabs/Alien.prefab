@@ -402,6 +402,8 @@ GameObject:
   - component: {fileID: 114786314890422240}
   - component: {fileID: 114565755918754336}
   - component: {fileID: 114397545322405476}
+  - component: {fileID: 114657304743956302}
+  - component: {fileID: 114163123934400102}
   m_Layer: 0
   m_Name: Alien
   m_TagString: Alien
@@ -1806,6 +1808,21 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114163123934400102
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1349042562253510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb37972d348c418cb8881b6546948ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BulletAlien: {fileID: 1515836690026664, guid: 53010aa0a8ee04d8faa21d647f072473,
+    type: 2}
+  BulletFireAudioClips: []
+  BulletFireAudioSource: {fileID: 0}
 --- !u!114 &114306050871215906
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1838,6 +1855,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f2629a05ae3d14dfa911708c57d49d8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114657304743956302
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1349042562253510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd00eba367a143f1a53bc8ac55eb723, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &114704591856624176

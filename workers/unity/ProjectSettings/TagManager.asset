@@ -9,6 +9,7 @@ TagManager:
   - Shield
   - GreenBar
   - Alien
+  - BulletAlien
   layers:
   - Default
   - TransparentFX
