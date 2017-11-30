@@ -12,9 +12,12 @@ namespace Assets.Gamelogic.EntityTemplates
 {
 	public class EntityTemplateFactory : MonoBehaviour
 	{
+		private Vector3[] positionArray;
+
 		public static Entity CreatePlayerCreatorTemplate()
 		{
 			var playerCreatorEntityTemplate = EntityBuilder.Begin()
+				//.AddPositionComponent(new Improbable.Coordinates( SimulationSettings.PlayerXPos[Random.Range(0,4)], SimulationSettings.PlayerSpawnHeight,  SimulationSettings.PlayerXPos[Random.Range(0,4)]).ToUnityVector(), CommonRequirementSets.PhysicsOnly)
 				.AddPositionComponent(Improbable.Coordinates.ZERO.ToUnityVector(), CommonRequirementSets.PhysicsOnly)
 				.AddMetadataComponent(entityType: SimulationSettings.PlayerCreatorPrefabName)
 				.SetPersistence(true)
@@ -29,7 +32,7 @@ namespace Assets.Gamelogic.EntityTemplates
 		public static Entity CreatePlayerTemplate(string clientId)
 		{
 			var playerTemplate = EntityBuilder.Begin()
-				.AddPositionComponent(new Improbable.Coordinates(0, SimulationSettings.PlayerSpawnHeight, 0).ToUnityVector(), CommonRequirementSets.PhysicsOnly)
+				.AddPositionComponent(new Improbable.Coordinates( SimulationSettings.PlayerXPos[Random.Range(0,4)], SimulationSettings.PlayerSpawnHeight,  SimulationSettings.PlayerXPos[Random.Range(0,4)]).ToUnityVector(), CommonRequirementSets.PhysicsOnly)
 				.AddMetadataComponent(entityType: SimulationSettings.PlayerPrefabName)
 				.SetPersistence(false)
 				.SetReadAcl(CommonRequirementSets.PhysicsOrVisual)
@@ -41,7 +44,7 @@ namespace Assets.Gamelogic.EntityTemplates
 				.AddComponent(new Health.Data(1000), CommonRequirementSets.PhysicsOnly)
 				.AddComponent(new Score.Data(0), CommonRequirementSets.PhysicsOnly)
 				.Build();
-
+			
 			return playerTemplate;
 		}
 

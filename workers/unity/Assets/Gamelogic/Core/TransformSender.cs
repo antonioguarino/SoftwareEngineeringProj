@@ -15,12 +15,20 @@ public class TransformSender : MonoBehaviour
     void Update()
     {
         var pos = transform.position;
-        var positionUpdate = new Position.Update()
-            .SetCoords(new Coordinates(pos.x, pos.y, pos.z));
-        PositionWriter.Send(positionUpdate);
 
-        var rotationUpdate = new Rotation.Update()
-            .SetRotation(MathUtils.ToNativeQuaternion(transform.rotation));
+		if (PositionNeedsUpdate(new Coordinates(pos.x,pos.y,pos.z))){
+        var positionUpdate = new Position.Update().SetCoords(new Coordinates(pos.x, pos.y, pos.z));
+        PositionWriter.Send(positionUpdate);
+		}
+		if(RotationNeedsUpdate(transform.rotation)){
+        var rotationUpdate = new Rotation.Update().SetRotation(MathUtils.ToNativeQuaternion(transform.rotation));
         RotationWriter.Send(rotationUpdate);
-    }
+		}
+	}
+	private bool PositionNeedsUpdate (Coordinates newCoords){
+		return !MathUtils.ApproximatelyEqual (newCoords, PositionWriter.Data.coords);
+	}
+			private bool RotationNeedsUpdate (UnityEngine.Quaternion newRotation){
+				return !MathUtils.ApproximatelyEqual (newRotation, RotationWriter.Data.rotation.ToUnityQuaternion());
+	}
 }

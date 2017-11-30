@@ -24,6 +24,7 @@ namespace Assets.Gamelogic.Player
             playerRigidBody = GetComponent<Rigidbody>();
             // Grab the camera from the Unity scene
             camera = Camera.main.transform;
+			camera.transform.position = playerRigidBody.transform.position - new Vector3 (0,11,-8);
         }
         private void Update()
         {

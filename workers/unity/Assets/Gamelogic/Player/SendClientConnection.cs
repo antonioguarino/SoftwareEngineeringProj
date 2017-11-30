@@ -6,6 +6,7 @@ using Improbable.Unity;
 using Improbable.Unity.Core;
 using Improbable.Unity.Visualizer;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 namespace Assets.Gamelogic.Player
@@ -15,13 +16,24 @@ namespace Assets.Gamelogic.Player
 	{
 		[Require]
 		private ClientAuthorityCheck.Writer ClientAuthorityCheckWriter;
-
+		private InputField splashInput;
+		private Text usernameText;
+		private string username;
 		private Coroutine heartbeatCoroutine;
 
 		private void OnEnable()
-		{
-			heartbeatCoroutine = StartCoroutine(TimerUtils.CallRepeatedly(SimulationSettings.HeartbeatSendingIntervalSecs, SendHeartbeat));
+		{	
+			splashInput = GameObject.FindObjectOfType<InputField> ();
+			username = splashInput.text;
+			Debug.LogError ("InputField" + username);
+
 			SceneManager.UnloadSceneAsync(BuildSettings.SplashScreenScene);
+
+			usernameText = GameObject.FindGameObjectWithTag ("UserText").GetComponent<Text> ();
+			usernameText.text = username;
+			Debug.LogError (usernameText.text);
+
+			heartbeatCoroutine = StartCoroutine(TimerUtils.CallRepeatedly(SimulationSettings.HeartbeatSendingIntervalSecs, SendHeartbeat));
 		}
 
 		private void OnDisable()

@@ -9,12 +9,12 @@ namespace Assets.Gamelogic.Player
     {
         [Require]
         private ClientAuthorityCheck.Writer ClientAuthorityCheckWriter;
-
         private Transform camera;
         private UnityEngine.Quaternion cameraRotation;
         private float cameraDistance;
         private float smoothing = 5f;
-        Vector3 offset;
+		private float[] camera_position;
+		Vector3 offset;
 
         private void OnEnable()
         {
@@ -22,7 +22,9 @@ namespace Assets.Gamelogic.Player
             camera = Camera.main.transform;
             // Set the camera as a child of the Player to easily ensure the camera follows the Player
             //camera.parent = transform;
-            offset = camera.position - transform.position;
+
+			offset = new Vector3(0,11,-8);
+			camera.position = transform.position + offset;
             // Set the camera rotation and zoom distance to some initial values
             cameraRotation = SimulationSettings.InitialThirdPersonCameraRotation;
             cameraDistance = SimulationSettings.InitialThirdPersonCameraDistance;

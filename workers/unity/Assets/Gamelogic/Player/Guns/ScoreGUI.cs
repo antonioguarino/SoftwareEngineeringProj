@@ -19,15 +19,15 @@ namespace Assets.Gamelogic.Player.Guns
 		[Require] private PlayerInput.Writer PlayerInputWriter;
 		[Require] private Score.Reader ScoreReader;
 
-		private Canvas scoreCanvasUI;
+		private GameObject scoreCanvasUI;
 		private Text totalPointsGUI;
 
 		private void Awake()
 		{
-			scoreCanvasUI= GameObject.Find("ScoreCanvas").GetComponent<Canvas>();
+			scoreCanvasUI= GameObject.Find("ScoreCanvas");
 			if (scoreCanvasUI != null) {
 				totalPointsGUI = scoreCanvasUI.GetComponentInChildren<Text>();
-				scoreCanvasUI.enabled = false;
+				scoreCanvasUI.SetActive(false);
 				updateGUI(0);
 			}
 		}
@@ -57,13 +57,13 @@ namespace Assets.Gamelogic.Player.Guns
 			if (scoreCanvasUI != null) {
 				if (score >= 0)
 				{
-					scoreCanvasUI.enabled = true;
+					scoreCanvasUI.SetActive(true);
 					totalPointsGUI.text = "Score: " + score.ToString();
 					Debug.LogError (score.ToString());
 				}
 				else
 				{
-					scoreCanvasUI.enabled = false;
+					scoreCanvasUI.SetActive(false);
 				}
 			}
 		}

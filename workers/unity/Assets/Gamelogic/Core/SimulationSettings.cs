@@ -3,10 +3,11 @@
 namespace Assets.Gamelogic.Core
 {
     public static class SimulationSettings
-    {
+	{			//positionArray = new [] { new Vector3(-50f,0f,-50f),new Vector3(-50f,0f,50f),new Vector3(50f,0f,50f), new Vector3(50f,0f,-50f) };
+		
         public static readonly float PlayerSpawnHeight = 0;
         public static readonly float PlayerAcceleration = 15;
-
+		public static readonly float[] PlayerXPos = {-50f,-50f,50f,50f };
         public static readonly string PlayerPrefabName = "Player";
         public static readonly string PlayerCreatorPrefabName = "PlayerCreator";
 		public static readonly string AlienPrefabName = "Alien";
