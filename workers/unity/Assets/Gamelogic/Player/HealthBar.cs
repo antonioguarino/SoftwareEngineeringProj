@@ -14,9 +14,21 @@ namespace Assets.Gamelogic.Player
 	{
 		
 		// Inject access to the entity's Health component
+		[Require] private PlayerInput.Writer PlayerInputWriter;
 		[Require] private Health.Reader HealthReader;
+		private GameObject scoreCanvasUI;
+		private Text health;
 
-		/*
+		private void Awake()
+		{
+			//scoreCanvasUI= GameObject.Find("ScoreCanvas");
+			//if (scoreCanvasUI != null) {
+			health = GameObject.FindGameObjectWithTag ("healthText").GetComponent<Text> ();
+			//	scoreCanvasUI.SetActive(false);
+				//updateGUI();
+			}
+
+
 		private void OnEnable()
 		{
 			// Register callback for when components change
@@ -32,25 +44,26 @@ namespace Assets.Gamelogic.Player
 		// Callback for whenever the CurrentHealth property of the Health component is updated
 		private void OnCurrentHealthUpdated(int currentHealth)
 		{
-
-			if(currentHealth >= 0 ){
+			
+			/*if(currentHealth >= 0 ){
 				float cur = currentHealth;
 				float tot = 1000;
 				float tmp =cur/tot;
 				transform.localScale = new Vector3 (tmp, 1, 1);
-			}
+			}*/
+			updateGUI ();
 
-		}*/
-		void Update()
-		{
-			
-
+		}
+		void updateGUI()
+		{	
 			float cur = HealthReader.Data.currentHealth;
-			if (cur >= 0) {
-				float tot = 1000;
-				float tmp =cur/tot;
-				transform.localScale = new Vector3 (tmp, 1, 1);
-			}
+			health.text = "Health: " + cur.ToString ();
+			//health.transform.localScale.Scale(new Vector3 (cur/1000, 1, 1));
+			/*if (cur >= 0) {
+				//float tot = 1000;
+				float tmp =cur/healthPoint;
+				health.transform.localScale = new Vector3 (tmp, 1, 1);
+			}*/
 
 		}
 
